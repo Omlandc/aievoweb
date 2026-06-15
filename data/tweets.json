@@ -1,5 +1,977 @@
 [
   {
+    "id": "3843ea9a",
+    "zh": {
+      "title": "我为何删了Nix对比文",
+      "content": "【Lobsters】I have known the author personally for quite a while, I am sad they had to go through this. Comments\n\n原文：https://coopi.neocities.org/posts/taking-down-nix-flakes-vs-guix\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "Removing my nix flakes vs guix post",
+      "content": "[Lobsters] I have known the author personally for quite a while, I am sad they had to go through this. Comments\n\nOriginal: https://coopi.neocities.org/posts/taking-down-nix-flakes-vs-guix\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "Lobsters",
+    "date": "2026-06-15",
+    "link": "https://coopi.neocities.org/posts/taking-down-nix-flakes-vs-guix",
+    "type": "short",
+    "created": "2026-06-15T13:16:41.054410+00:00"
+  },
+  {
+    "id": "ee849c52",
+    "zh": {
+      "title": "为一人而写",
+      "content": "【Lobsters】Comments\n\n原文：https://wizardzines.com/comics/write-for-one-person/\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "write for one person",
+      "content": "[Lobsters] Comments\n\nOriginal: https://wizardzines.com/comics/write-for-one-person/\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "Lobsters",
+    "date": "2026-06-14",
+    "link": "https://wizardzines.com/comics/write-for-one-person/",
+    "type": "short",
+    "created": "2026-06-15T13:16:41.054403+00:00"
+  },
+  {
+    "id": "9cc06430",
+    "zh": {
+      "title": "curl 极乐之夏",
+      "content": "【Lobsters】Comments\n\n原文：https://daniel.haxx.se/blog/2026/06/15/curl-summer-of-bliss/\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "curl summer of bliss",
+      "content": "[Lobsters] Comments\n\nOriginal: https://daniel.haxx.se/blog/2026/06/15/curl-summer-of-bliss/\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "Lobsters",
+    "date": "2026-06-15",
+    "link": "https://daniel.haxx.se/blog/2026/06/15/curl-summer-of-bliss/",
+    "type": "short",
+    "created": "2026-06-15T13:16:41.054383+00:00"
+  },
+  {
+    "id": "f91793b9",
+    "zh": {
+      "title": "兽医学首现通俗论文摘要",
+      "content": "【Phys.org】Taylor & Francis has announced the publication of the first Plain Language Summary of Publication (PLSP) in veterinary research, a milestone in making discoveries in animal health more accessible, engaging and impactful. This new initiative bridge...\n\n原文：https://phys.org/news/2026-06-plain-language-summary-veterinary-science.html\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "First Plain Language Summary of Publication in veterinary science",
+      "content": "[Phys.org] Taylor & Francis has announced the publication of the first Plain Language Summary of Publication (PLSP) in veterinary research, a milestone in making discoveries in animal health more accessible, engaging and impactful. This new initiative bridge...\n\nOriginal: https://phys.org/news/2026-06-plain-language-summary-veterinary-science.html\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "Phys.org",
+    "date": "2026-06-15",
+    "link": "https://phys.org/news/2026-06-plain-language-summary-veterinary-science.html",
+    "type": "long",
+    "created": "2026-06-15T13:16:01.907508+00:00"
+  },
+  {
+    "id": "0c606414",
+    "zh": {
+      "title": "不吃虫子？研究说你或会爱上",
+      "content": "【Phys.org】People who are hesitant to try insect-based foods may enjoy the experience more than they expect—and can become more open to expanding their diets in the future, according to research published by the American Psychological Association.\n\n原文：https://phys.org/news/2026-06-youd-bugs.html\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "Think you'd never eat bugs? Research says you might—and you may even like it",
+      "content": "[Phys.org] People who are hesitant to try insect-based foods may enjoy the experience more than they expect—and can become more open to expanding their diets in the future, according to research published by the American Psychological Association.\n\nOriginal: https://phys.org/news/2026-06-youd-bugs.html\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "Phys.org",
+    "date": "2026-06-15",
+    "link": "https://phys.org/news/2026-06-youd-bugs.html",
+    "type": "long",
+    "created": "2026-06-15T13:16:01.907502+00:00"
+  },
+  {
+    "id": "241abd09",
+    "zh": {
+      "title": "澳大利亚：降自杀需先降失业",
+      "content": "【Phys.org】More than 3,000 Australians die by suicide each year, yet one of the strongest known drivers of suicide risk—unemployment—remains largely overlooked in Australia's suicide prevention programs. Now, Adelaide University researchers are calling for a...\n\n原文：https://phys.org/news/2026-06-australia-tackle-unemployment-suicide.html\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "Australia must tackle unemployment to reduce suicide rates",
+      "content": "[Phys.org] More than 3,000 Australians die by suicide each year, yet one of the strongest known drivers of suicide risk—unemployment—remains largely overlooked in Australia's suicide prevention programs. Now, Adelaide University researchers are calling for a...\n\nOriginal: https://phys.org/news/2026-06-australia-tackle-unemployment-suicide.html\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "Phys.org",
+    "date": "2026-06-15",
+    "link": "https://phys.org/news/2026-06-australia-tackle-unemployment-suicide.html",
+    "type": "long",
+    "created": "2026-06-15T13:16:01.907480+00:00"
+  },
+  {
+    "id": "93df7c5e",
+    "zh": {
+      "title": "Preply人机融合重塑个性化学习",
+      "content": "【OpenAI Blog】Preply uses OpenAI to launch AI-generated lesson summaries, providing personalised feedback and language learning exercises.\n\n原文：https://openai.com/index/preply\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "How Preply combines AI and human tutors to personalize learning",
+      "content": "[OpenAI Blog] Preply uses OpenAI to launch AI-generated lesson summaries, providing personalised feedback and language learning exercises.\n\nOriginal: https://openai.com/index/preply\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "OpenAI Blog",
+    "date": "2026-06-15",
+    "link": "https://openai.com/index/preply",
+    "type": "short",
+    "created": "2026-06-15T13:15:35.140406+00:00"
+  },
+  {
+    "id": "c86a5999",
+    "zh": {
+      "title": "OpenAI学院新课聚焦未来职场",
+      "content": "【OpenAI Blog】OpenAI introduces three Academy courses that help people build practical AI skills, create repeatable workflows, and apply agents in everyday work.\n\n原文：https://openai.com/index/academy-courses-applying-ai-at-work\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "New OpenAI Academy courses for the next era of work",
+      "content": "[OpenAI Blog] OpenAI introduces three Academy courses that help people build practical AI skills, create repeatable workflows, and apply agents in everyday work.\n\nOriginal: https://openai.com/index/academy-courses-applying-ai-at-work\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "OpenAI Blog",
+    "date": "2026-06-15",
+    "link": "https://openai.com/index/academy-courses-applying-ai-at-work",
+    "type": "short",
+    "created": "2026-06-15T13:15:35.140398+00:00"
+  },
+  {
+    "id": "78b07756",
+    "zh": {
+      "title": "OpenAI合作伙伴网络上线",
+      "content": "【OpenAI Blog】OpenAI launches the Partner Network, investing $150M to help global partners accelerate enterprise AI adoption, deployment, and transformation.\n\n原文：https://openai.com/index/introducing-openai-partner-network\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "Introducing the OpenAI Partner Network",
+      "content": "[OpenAI Blog] OpenAI launches the Partner Network, investing $150M to help global partners accelerate enterprise AI adoption, deployment, and transformation.\n\nOriginal: https://openai.com/index/introducing-openai-partner-network\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "OpenAI Blog",
+    "date": "2026-06-15",
+    "link": "https://openai.com/index/introducing-openai-partner-network",
+    "type": "short",
+    "created": "2026-06-15T13:15:35.140380+00:00"
+  },
+  {
+    "id": "07b26cdf",
+    "zh": {
+      "title": "英国将禁止16岁以下使用社媒",
+      "content": "【Engadget】The UK is following Australia by banning young people under 16 from TikTok, Instagram and other social media platforms.\n\n原文：https://www.engadget.com/2194005/uk-will-ban-social-media-for-children-under-16/\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "UK will ban social media for children under 16",
+      "content": "[Engadget] The UK is following Australia by banning young people under 16 from TikTok, Instagram and other social media platforms.\n\nOriginal: https://www.engadget.com/2194005/uk-will-ban-social-media-for-children-under-16/\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "Engadget",
+    "date": "2026-06-15",
+    "link": "https://www.engadget.com/2194005/uk-will-ban-social-media-for-children-under-16/",
+    "type": "short",
+    "created": "2026-06-15T13:14:53.623013+00:00"
+  },
+  {
+    "id": "6ccb7549",
+    "zh": {
+      "title": "特朗普威胁对法葡萄酒征100%关税",
+      "content": "【Engadget】Ahead of the G7 conference in France, Donald Trump is once again threatening massive tariffs on France over its digital tax.\n\n原文：https://www.engadget.com/2194031/trump-threatens-to-smash-french-wine-industry-over-tech-tax/\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "Trump threatens 100 percent tariff on France's wine industry over its tech tax",
+      "content": "[Engadget] Ahead of the G7 conference in France, Donald Trump is once again threatening massive tariffs on France over its digital tax.\n\nOriginal: https://www.engadget.com/2194031/trump-threatens-to-smash-french-wine-industry-over-tech-tax/\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "Engadget",
+    "date": "2026-06-15",
+    "link": "https://www.engadget.com/2194031/trump-threatens-to-smash-french-wine-industry-over-tech-tax/",
+    "type": "short",
+    "created": "2026-06-15T13:14:53.623007+00:00"
+  },
+  {
+    "id": "af3961bc",
+    "zh": {
+      "title": "Fox 220亿美元收购Roku",
+      "content": "【Engadget】Fox is paying $22 billion for Roku, its streaming devices and its ecosystem.\n\n原文：https://www.engadget.com/2194058/fox-is-buying-roku-for-22-billion/\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "Fox is buying Roku for $22 billion",
+      "content": "[Engadget] Fox is paying $22 billion for Roku, its streaming devices and its ecosystem.\n\nOriginal: https://www.engadget.com/2194058/fox-is-buying-roku-for-22-billion/\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "Engadget",
+    "date": "2026-06-15",
+    "link": "https://www.engadget.com/2194058/fox-is-buying-roku-for-22-billion/",
+    "type": "short",
+    "created": "2026-06-15T13:14:53.622987+00:00"
+  },
+  {
+    "id": "f121830e",
+    "zh": {
+      "title": "世界杯近四成比赛恐高温作战",
+      "content": "【Wired】A new report warns that Miami, Kansas City, Philadelphia, Dallas, and Houston could be particularly hot places to play during the 2026 World Cup.\n\n原文：https://www.wired.com/story/2026-fifa-world-cup-dangerous-temperatures-heat/\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "1 in 4 World Cup Matches Could Be Played in Dangerous Temperatures",
+      "content": "[Wired] A new report warns that Miami, Kansas City, Philadelphia, Dallas, and Houston could be particularly hot places to play during the 2026 World Cup.\n\nOriginal: https://www.wired.com/story/2026-fifa-world-cup-dangerous-temperatures-heat/\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "Wired",
+    "date": "2026-06-15",
+    "link": "https://www.wired.com/story/2026-fifa-world-cup-dangerous-temperatures-heat/",
+    "type": "short",
+    "created": "2026-06-15T13:14:30.618158+00:00"
+  },
+  {
+    "id": "be7e9b64",
+    "zh": {
+      "title": "苹果为旧iPhone提速延寿",
+      "content": "【Wired】Even the aging iPhone 11 will feel a little more responsive soon, thanks to improvements in an unsung iOS feature.\n\n原文：https://www.wired.com/story/how-apple-is-making-your-older-iphone-run-faster-and-stay-alive-longer/\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "How Apple Is Making Your Older iPhone Run Faster and Stay Alive Longer",
+      "content": "[Wired] Even the aging iPhone 11 will feel a little more responsive soon, thanks to improvements in an unsung iOS feature.\n\nOriginal: https://www.wired.com/story/how-apple-is-making-your-older-iphone-run-faster-and-stay-alive-longer/\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "Wired",
+    "date": "2026-06-15",
+    "link": "https://www.wired.com/story/how-apple-is-making-your-older-iphone-run-faster-and-stay-alive-longer/",
+    "type": "short",
+    "created": "2026-06-15T13:14:30.618152+00:00"
+  },
+  {
+    "id": "be8a33db",
+    "zh": {
+      "title": "卡痛叶内战升级，MAHA选边站",
+      "content": "【Wired】Both kratom and one of its active components, 7-OH, have opioid-like effects and are widely available across the US. As health secretary RFK Jr. aims to get 7-OH banned, proponents of both are fighting.\n\n原文：https://www.wired.com/story/the-kratom-civil-war-is-heating-up-and-maha-has-picked-a-side/\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "The Kratom Civil War Is Heating Up, and MAHA Has Picked a Side",
+      "content": "[Wired] Both kratom and one of its active components, 7-OH, have opioid-like effects and are widely available across the US. As health secretary RFK Jr. aims to get 7-OH banned, proponents of both are fighting.\n\nOriginal: https://www.wired.com/story/the-kratom-civil-war-is-heating-up-and-maha-has-picked-a-side/\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "Wired",
+    "date": "2026-06-15",
+    "link": "https://www.wired.com/story/the-kratom-civil-war-is-heating-up-and-maha-has-picked-a-side/",
+    "type": "long",
+    "created": "2026-06-15T13:14:30.618133+00:00"
+  },
+  {
+    "id": "616d00e7",
+    "zh": {
+      "title": "地下菌丝网总长超太阳系",
+      "content": "【Ars Technica】Researchers have quantified the length and mass of arbuscular mycorrhizal fungal networks globally.\n\n原文：https://arstechnica.com/science/2026/06/threads-of-underground-fungal-networks-are-long-enough-to-reach-beyond-the-solar-system/\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "Threads of underground fungal networks are long enough to reach beyond the Solar System",
+      "content": "[Ars Technica] Researchers have quantified the length and mass of arbuscular mycorrhizal fungal networks globally.\n\nOriginal: https://arstechnica.com/science/2026/06/threads-of-underground-fungal-networks-are-long-enough-to-reach-beyond-the-solar-system/\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "Ars Technica",
+    "date": "2026-06-13",
+    "link": "https://arstechnica.com/science/2026/06/threads-of-underground-fungal-networks-are-long-enough-to-reach-beyond-the-solar-system/",
+    "type": "short",
+    "created": "2026-06-15T13:13:56.139013+00:00"
+  },
+  {
+    "id": "2cb992de",
+    "zh": {
+      "title": "Disclosure Day：动作有余，思考不足",
+      "content": "【Ars Technica】There's nothing new or surprising, but it's still an entertaining film from one of our greatest directors.\n\n原文：https://arstechnica.com/culture/2026/06/review-disclosure-day-is-big-on-action-light-on-ideas/\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "Review: Disclosure Day is big on action, light on ideas",
+      "content": "[Ars Technica] There's nothing new or surprising, but it's still an entertaining film from one of our greatest directors.\n\nOriginal: https://arstechnica.com/culture/2026/06/review-disclosure-day-is-big-on-action-light-on-ideas/\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "Ars Technica",
+    "date": "2026-06-13",
+    "link": "https://arstechnica.com/culture/2026/06/review-disclosure-day-is-big-on-action-light-on-ideas/",
+    "type": "short",
+    "created": "2026-06-15T13:13:56.139006+00:00"
+  },
+  {
+    "id": "4693376c",
+    "zh": {
+      "title": "中世纪飞僧真见过哈雷彗星？未必",
+      "content": "【Ars Technica】University of Leicester historian thinks Eilmer of Malmesbury saw two different comets: in 1018 and 1066\n\n原文：https://arstechnica.com/science/2026/06/did-a-medieval-flying-monk-spot-halleys-comet-twice-its-complicated/\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "Did a medieval flying monk spot Halley's comet, twice? It's complicated",
+      "content": "[Ars Technica] University of Leicester historian thinks Eilmer of Malmesbury saw two different comets: in 1018 and 1066\n\nOriginal: https://arstechnica.com/science/2026/06/did-a-medieval-flying-monk-spot-halleys-comet-twice-its-complicated/\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "Ars Technica",
+    "date": "2026-06-14",
+    "link": "https://arstechnica.com/science/2026/06/did-a-medieval-flying-monk-spot-halleys-comet-twice-its-complicated/",
+    "type": "short",
+    "created": "2026-06-15T13:13:56.138986+00:00"
+  },
+  {
+    "id": "bf35cbef",
+    "zh": {
+      "title": "Mastra对决LangChain：AI代理实战",
+      "content": "【freeCodeCamp】A week ago, I saw this tweet: I had just shipped SupportMesh, a multi-tenant AI support platform built on Mastra, so I had opinions from production. I liked the .dowhile() loop, the typed step schem\n\n原文：https://www.freecodecamp.org/news/mastra-vs-langchain-building-an-ai-agent-pipeline-and-analyzing-the-data/\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "Mastra vs LangChain: Building an AI Agent Pipeline and Analyzing the Data",
+      "content": "[freeCodeCamp] A week ago, I saw this tweet: I had just shipped SupportMesh, a multi-tenant AI support platform built on Mastra, so I had opinions from production. I liked the .dowhile() loop, the typed step schem\n\nOriginal: https://www.freecodecamp.org/news/mastra-vs-langchain-building-an-ai-agent-pipeline-and-analyzing-the-data/\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "freeCodeCamp",
+    "date": "2026-06-13",
+    "link": "https://www.freecodecamp.org/news/mastra-vs-langchain-building-an-ai-agent-pipeline-and-analyzing-the-data/",
+    "type": "long",
+    "created": "2026-06-15T13:13:06.186771+00:00"
+  },
+  {
+    "id": "9efd2562",
+    "zh": {
+      "title": "本地私有语音合成：QVAC实战",
+      "content": "【freeCodeCamp】When I was putting the final touches on QuizRope, an educational mobile app I built that uses LLMs for real-time tutoring and homework assistance, I knew the next logical step was voice. Reading text\n\n原文：https://www.freecodecamp.org/news/how-to-run-private-text-to-speech-on-your-own-hardware-using-qvac/\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "How to Run Private Text-to-Speech on Your Own Hardware Using QVAC",
+      "content": "[freeCodeCamp] When I was putting the final touches on QuizRope, an educational mobile app I built that uses LLMs for real-time tutoring and homework assistance, I knew the next logical step was voice. Reading text\n\nOriginal: https://www.freecodecamp.org/news/how-to-run-private-text-to-speech-on-your-own-hardware-using-qvac/\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "freeCodeCamp",
+    "date": "2026-06-14",
+    "link": "https://www.freecodecamp.org/news/how-to-run-private-text-to-speech-on-your-own-hardware-using-qvac/",
+    "type": "long",
+    "created": "2026-06-15T13:13:06.186765+00:00"
+  },
+  {
+    "id": "a65f6c87",
+    "zh": {
+      "title": "2026建站：比技术栈更重要的事",
+      "content": "【freeCodeCamp】For years, developers have debated which technology stack was best for building websites. Some preferred React. Others chose Vue, Angular, Svelte, or server-side frameworks such as Laravel and Django.\n\n原文：https://www.freecodecamp.org/news/building-a-website-what-matters-more-than-your-tech-stack/\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "Building a Website in 2026: What Matters More Than Your Tech Stack",
+      "content": "[freeCodeCamp] For years, developers have debated which technology stack was best for building websites. Some preferred React. Others chose Vue, Angular, Svelte, or server-side frameworks such as Laravel and Django.\n\nOriginal: https://www.freecodecamp.org/news/building-a-website-what-matters-more-than-your-tech-stack/\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "freeCodeCamp",
+    "date": "2026-06-14",
+    "link": "https://www.freecodecamp.org/news/building-a-website-what-matters-more-than-your-tech-stack/",
+    "type": "long",
+    "created": "2026-06-15T13:13:06.186745+00:00"
+  },
+  {
+    "id": "1d438681",
+    "zh": {
+      "title": "[EN] Origin Part 15: The Wall Behind the Vocabulary",
+      "content": "【Dev.to】The gate said pass. The system got worse anyway. Part 14 ended with a build order: gate first, then substrate, then composer. I'd already started picking out which polysemous concepts in the bank needed splitting. Then I ran the trace one more tim...\n\n原文：https://dev.to/jtil4201/origin-part-15-the-wall-behind-the-vocabulary-88l\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "Origin Part 15: The Wall Behind the Vocabulary",
+      "content": "[Dev.to] The gate said pass. The system got worse anyway. Part 14 ended with a build order: gate first, then substrate, then composer. I'd already started picking out which polysemous concepts in the bank needed splitting. Then I ran the trace one more tim...\n\nOriginal: https://dev.to/jtil4201/origin-part-15-the-wall-behind-the-vocabulary-88l\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "Dev.to",
+    "date": "2026-06-15",
+    "link": "https://dev.to/jtil4201/origin-part-15-the-wall-behind-the-vocabulary-88l",
+    "type": "long",
+    "created": "2026-06-15T13:12:39.989067+00:00"
+  },
+  {
+    "id": "5ebfac4d",
+    "zh": {
+      "title": "[EN] TeslaMate: A Technical Review of Self-Hosted Tesla Data Logging Done Right",
+      "content": "【Dev.to】What It Is and the Problem It Solves   TeslaMate is a self-hosted data logging system for Tesla vehicles. At its core, it solves a specific problem: Tesla owners want continuous, granular visibility into their vehicle's performance, energy consump...\n\n原文：https://dev.to/alya_mahalini_f05d9953cfa/teslamate-a-technical-review-of-self-hosted-tesla-data-logging-done-right-5375\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "TeslaMate: A Technical Review of Self-Hosted Tesla Data Logging Done Right",
+      "content": "[Dev.to] What It Is and the Problem It Solves   TeslaMate is a self-hosted data logging system for Tesla vehicles. At its core, it solves a specific problem: Tesla owners want continuous, granular visibility into their vehicle's performance, energy consump...\n\nOriginal: https://dev.to/alya_mahalini_f05d9953cfa/teslamate-a-technical-review-of-self-hosted-tesla-data-logging-done-right-5375\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "Dev.to",
+    "date": "2026-06-15",
+    "link": "https://dev.to/alya_mahalini_f05d9953cfa/teslamate-a-technical-review-of-self-hosted-tesla-data-logging-done-right-5375",
+    "type": "long",
+    "created": "2026-06-15T13:12:39.989060+00:00"
+  },
+  {
+    "id": "99ae63cb",
+    "zh": {
+      "title": "[EN] The 5.5% Tax of OpenRouter — and Why I Built an Alternative",
+      "content": "【Dev.to】9 of the world's top 10 open-source LLMs are now Chinese. After GLM-5.2 landed, the only non-Chinese model still in the top 10 is Llama. If your gateway taxes every call by 5.5%, you are paying that tax to route to models you could reach for free....\n\n原文：https://dev.to/shijing/the-55-tax-of-openrouter-and-why-i-built-an-alternative-1dh8\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "The 5.5% Tax of OpenRouter — and Why I Built an Alternative",
+      "content": "[Dev.to] 9 of the world's top 10 open-source LLMs are now Chinese. After GLM-5.2 landed, the only non-Chinese model still in the top 10 is Llama. If your gateway taxes every call by 5.5%, you are paying that tax to route to models you could reach for free....\n\nOriginal: https://dev.to/shijing/the-55-tax-of-openrouter-and-why-i-built-an-alternative-1dh8\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "Dev.to",
+    "date": "2026-06-15",
+    "link": "https://dev.to/shijing/the-55-tax-of-openrouter-and-why-i-built-an-alternative-1dh8",
+    "type": "long",
+    "created": "2026-06-15T13:12:39.989039+00:00"
+  },
+  {
+    "id": "43ee90d3",
+    "zh": {
+      "title": "设计系统如何拥抱AI",
+      "content": "【Smashing】Practical guide on how to reduce drifts, minimize mistakes, maintain context, and improve the quality of AI-generated prototypes. Brought to you by Design Patterns For AI Interfaces, **friendly video course on UX** and design patterns by Vitaly.\n\n原文：https://smashingmagazine.com/2026/06/how-make-design-system-ai-ready/\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "How To Make Your Design System AI-Ready",
+      "content": "[Smashing] Practical guide on how to reduce drifts, minimize mistakes, maintain context, and improve the quality of AI-generated prototypes. Brought to you by Design Patterns For AI Interfaces, **friendly video course on UX** and design patterns by Vitaly.\n\nOriginal: https://smashingmagazine.com/2026/06/how-make-design-system-ai-ready/\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "Smashing",
+    "date": "2026-06-15",
+    "link": "https://smashingmagazine.com/2026/06/how-make-design-system-ai-ready/",
+    "type": "long",
+    "created": "2026-06-15T13:10:10.896975+00:00"
+  },
+  {
+    "id": "23f016f3",
+    "zh": {
+      "title": "认知包容赋能UX研究",
+      "content": "【Smashing】Findings from an exploratory user research study highlighting the unique insights and practical UX recommendations shared by participants with cognitive disabilities.\n\n原文：https://smashingmagazine.com/2026/06/benefits-cognitive-inclusion-ux-research/\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "The Benefits Of Cognitive Inclusion In UX Research",
+      "content": "[Smashing] Findings from an exploratory user research study highlighting the unique insights and practical UX recommendations shared by participants with cognitive disabilities.\n\nOriginal: https://smashingmagazine.com/2026/06/benefits-cognitive-inclusion-ux-research/\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "Smashing",
+    "date": "2026-06-15",
+    "link": "https://smashingmagazine.com/2026/06/benefits-cognitive-inclusion-ux-research/",
+    "type": "long",
+    "created": "2026-06-15T13:10:10.896969+00:00"
+  },
+  {
+    "id": "19e67c0d",
+    "zh": {
+      "title": "人形机器人重塑人类社会",
+      "content": "【Smashing】We have officially moved past the era of humanoid robots as mere public relations stunts. As they become increasingly lifelike, society may soon face profound social, psychological, and ethical challenges. What happens when the boundary between hu...\n\n原文：https://smashingmagazine.com/2026/06/impact-humanoid-robots-humanity/\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "The Impact Of Humanoid Robots On Humanity",
+      "content": "[Smashing] We have officially moved past the era of humanoid robots as mere public relations stunts. As they become increasingly lifelike, society may soon face profound social, psychological, and ethical challenges. What happens when the boundary between hu...\n\nOriginal: https://smashingmagazine.com/2026/06/impact-humanoid-robots-humanity/\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "Smashing",
+    "date": "2026-06-15",
+    "link": "https://smashingmagazine.com/2026/06/impact-humanoid-robots-humanity/",
+    "type": "long",
+    "created": "2026-06-15T13:10:10.896950+00:00"
+  },
+  {
+    "id": "e1a94433",
+    "zh": {
+      "title": "荣耀Magic V6折叠三冠王",
+      "content": "【The Verge】On paper, the Honor Magic V6 sounds like a tremendous leap forward for foldable phones: It's the thinnest one yet, with the biggest battery, and the best water-resistance ever. In practice, only the bigger battery feels like a meaningful improveme...\n\n原文：https://www.theverge.com/tech/948919/honor-magic-v6-foldable-review\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "Honor’s Magic V6 sets three foldable firsts",
+      "content": "[The Verge] On paper, the Honor Magic V6 sounds like a tremendous leap forward for foldable phones: It's the thinnest one yet, with the biggest battery, and the best water-resistance ever. In practice, only the bigger battery feels like a meaningful improveme...\n\nOriginal: https://www.theverge.com/tech/948919/honor-magic-v6-foldable-review\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "The Verge",
+    "date": "2026-06-15",
+    "link": "https://www.theverge.com/tech/948919/honor-magic-v6-foldable-review",
+    "type": "long",
+    "created": "2026-06-15T13:09:55.777612+00:00"
+  },
+  {
+    "id": "a5c8e4ed",
+    "zh": {
+      "title": "数码老兵出行装备揭秘",
+      "content": "【The Verge】Through more than two decades of travel for both work and leisure, my packing list has evolved from a random assortment of gadgets and accessories thrown together at the last minute into a refined checklist of gear honed by trial and error. The ri...\n\n原文：https://www.theverge.com/gadgets/947310/gadget-veteran-travel-gear\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "All the gear a 20-year gadget blogging veteran packs when traveling",
+      "content": "[The Verge] Through more than two decades of travel for both work and leisure, my packing list has evolved from a random assortment of gadgets and accessories thrown together at the last minute into a refined checklist of gear honed by trial and error. The ri...\n\nOriginal: https://www.theverge.com/gadgets/947310/gadget-veteran-travel-gear\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "The Verge",
+    "date": "2026-06-15",
+    "link": "https://www.theverge.com/gadgets/947310/gadget-veteran-travel-gear",
+    "type": "long",
+    "created": "2026-06-15T13:09:55.777581+00:00"
+  },
+  {
+    "id": "c0f3416c",
+    "zh": {
+      "title": "Fox收购Roku",
+      "content": "【The Verge】Fox has announced that it's acquiring Roku outright, in a deal that values the streaming company at $22 billion. Once the deal is complete, Fox content will be promoted more heavily than before on Roku streamers and smart TVs. The deal will see Fo...\n\n原文：https://www.theverge.com/business/949727/fox-roku-acquisition-22-billion\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "Fox is buying Roku",
+      "content": "[The Verge] Fox has announced that it's acquiring Roku outright, in a deal that values the streaming company at $22 billion. Once the deal is complete, Fox content will be promoted more heavily than before on Roku streamers and smart TVs. The deal will see Fo...\n\nOriginal: https://www.theverge.com/business/949727/fox-roku-acquisition-22-billion\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "The Verge",
+    "date": "2026-06-15",
+    "link": "https://www.theverge.com/business/949727/fox-roku-acquisition-22-billion",
+    "type": "long",
+    "created": "2026-06-15T13:09:55.777563+00:00"
+  },
+  {
+    "id": "89d572b2",
+    "zh": {
+      "title": "CSS工具箱打造难忘体验",
+      "content": "【CSS-Tricks】There are many ways to create memorable experiences. Sometimes it's as simple as a form that completes smoothly. But here I'm interested in sharing techniques I reach for when I want a site to feel alive and be remembered.  Creating Memorable Web ...\n\n原文：https://css-tricks.com/creating-memorable-web-experiences-a-modern-css-toolkit/\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "Creating Memorable Web Experiences: A Modern CSS Toolkit",
+      "content": "[CSS-Tricks] There are many ways to create memorable experiences. Sometimes it's as simple as a form that completes smoothly. But here I'm interested in sharing techniques I reach for when I want a site to feel alive and be remembered.  Creating Memorable Web ...\n\nOriginal: https://css-tricks.com/creating-memorable-web-experiences-a-modern-css-toolkit/\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "CSS-Tricks",
+    "date": "2026-06-10",
+    "link": "https://css-tricks.com/creating-memorable-web-experiences-a-modern-css-toolkit/",
+    "type": "long",
+    "created": "2026-06-15T13:08:23.763076+00:00"
+  },
+  {
+    "id": "96cfd21c",
+    "zh": {
+      "title": "导航标签不必写\"导航\"",
+      "content": "【CSS-Tricks】One of those nuances to keep in your back pocket when writing for screen readers.  There’s no need to include ‘navigation’ in your navigation labels originally handwritten and published with love on CSS-Tricks. You should really get the newsletter...\n\n原文：https://css-tricks.com/navigation-in-your-navigation-labels/\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "There’s no need to include ‘navigation’ in your navigation labels",
+      "content": "[CSS-Tricks] One of those nuances to keep in your back pocket when writing for screen readers.  There’s no need to include ‘navigation’ in your navigation labels originally handwritten and published with love on CSS-Tricks. You should really get the newsletter...\n\nOriginal: https://css-tricks.com/navigation-in-your-navigation-labels/\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "CSS-Tricks",
+    "date": "2026-06-12",
+    "link": "https://css-tricks.com/navigation-in-your-navigation-labels/",
+    "type": "long",
+    "created": "2026-06-15T13:08:23.763069+00:00"
+  },
+  {
+    "id": "2392b1f3",
+    "zh": {
+      "title": "3D过渡为何不工作",
+      "content": "【CSS-Tricks】Why isn't my 3D view transition working?! Sunkanmi tackles this frustration and offers an elegant fix for it.  Why Isn’t My 3D View Transition Working? originally handwritten and published with love on CSS-Tricks. You should really get the newslet...\n\n原文：https://css-tricks.com/why-isnt-my-3d-view-transition-working/\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "Why Isn’t My 3D View Transition Working?",
+      "content": "[CSS-Tricks] Why isn't my 3D view transition working?! Sunkanmi tackles this frustration and offers an elegant fix for it.  Why Isn’t My 3D View Transition Working? originally handwritten and published with love on CSS-Tricks. You should really get the newslet...\n\nOriginal: https://css-tricks.com/why-isnt-my-3d-view-transition-working/\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "CSS-Tricks",
+    "date": "2026-06-12",
+    "link": "https://css-tricks.com/why-isnt-my-3d-view-transition-working/",
+    "type": "long",
+    "created": "2026-06-15T13:08:23.763049+00:00"
+  },
+  {
+    "id": "0e0e6730",
+    "zh": {
+      "title": "[EN] Wobo 2.0",
+      "content": "【Product Hunt】Tinder for jobs: swipe right and AI applies for you                                   Discussion             |             Link\n\n原文：https://www.producthunt.com/products/wobo-ai\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "Wobo 2.0",
+      "content": "[Product Hunt] Tinder for jobs: swipe right and AI applies for you                                   Discussion             |             Link\n\nOriginal: https://www.producthunt.com/products/wobo-ai\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "Product Hunt",
+    "date": "2026-06-15",
+    "link": "https://www.producthunt.com/products/wobo-ai",
+    "type": "short",
+    "created": "2026-06-15T13:07:51.251468+00:00"
+  },
+  {
+    "id": "578be15a",
+    "zh": {
+      "title": "[EN] Reignat",
+      "content": "【Product Hunt】Privacy-friendly web analytics platform built for makers                                   Discussion             |             Link\n\n原文：https://www.producthunt.com/products/reignat\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "Reignat",
+      "content": "[Product Hunt] Privacy-friendly web analytics platform built for makers                                   Discussion             |             Link\n\nOriginal: https://www.producthunt.com/products/reignat\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "Product Hunt",
+    "date": "2026-06-15",
+    "link": "https://www.producthunt.com/products/reignat",
+    "type": "short",
+    "created": "2026-06-15T13:07:51.251459+00:00"
+  },
+  {
+    "id": "d04326a6",
+    "zh": {
+      "title": "[EN] Novu Connect",
+      "content": "【Product Hunt】Ship agents where your users already work                                   Discussion             |             Link\n\n原文：https://www.producthunt.com/products/novu\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "Novu Connect",
+      "content": "[Product Hunt] Ship agents where your users already work                                   Discussion             |             Link\n\nOriginal: https://www.producthunt.com/products/novu\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "Product Hunt",
+    "date": "2026-06-15",
+    "link": "https://www.producthunt.com/products/novu",
+    "type": "short",
+    "created": "2026-06-15T13:07:51.251432+00:00"
+  },
+  {
+    "id": "251cddb4",
+    "zh": {
+      "title": "密钥扫描大规模降噪实践",
+      "content": "【GitHub Blog】Alerts are more trustworthy and actionable when noise is reduced. See how we improved the verification step with context-aware LLM reasoning. The post Making secret scanning more trustworthy: Reducing false positives at scale appeared first on The...\n\n原文：https://github.blog/security/making-secret-scanning-more-trustworthy-reducing-false-positives-at-scale/\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "Making secret scanning more trustworthy: Reducing false positives at scale",
+      "content": "[GitHub Blog] Alerts are more trustworthy and actionable when noise is reduced. See how we improved the verification step with context-aware LLM reasoning. The post Making secret scanning more trustworthy: Reducing false positives at scale appeared first on The...\n\nOriginal: https://github.blog/security/making-secret-scanning-more-trustworthy-reducing-false-positives-at-scale/\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "GitHub Blog",
+    "date": "2026-06-11",
+    "link": "https://github.blog/security/making-secret-scanning-more-trustworthy-reducing-false-positives-at-scale/",
+    "type": "long",
+    "created": "2026-06-15T13:05:49.300478+00:00"
+  },
+  {
+    "id": "d2d29fb9",
+    "zh": {
+      "title": "GitHub 5月可用性报告",
+      "content": "【GitHub Blog】In May, we experienced nine incidents that resulted in degraded performance across GitHub services. The post GitHub availability report: May 2026 appeared first on The GitHub Blog.\n\n原文：https://github.blog/news-insights/company-news/github-availability-report-may-2026/\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "GitHub availability report: May 2026",
+      "content": "[GitHub Blog] In May, we experienced nine incidents that resulted in degraded performance across GitHub services. The post GitHub availability report: May 2026 appeared first on The GitHub Blog.\n\nOriginal: https://github.blog/news-insights/company-news/github-availability-report-may-2026/\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "GitHub Blog",
+    "date": "2026-06-11",
+    "link": "https://github.blog/news-insights/company-news/github-availability-report-may-2026/",
+    "type": "long",
+    "created": "2026-06-15T13:05:49.300471+00:00"
+  },
+  {
+    "id": "59c8460d",
+    "zh": {
+      "title": "Copilot CLI 委托策略升级",
+      "content": "【GitHub Blog】Better orchestration, fewer handoffs, faster progress, without a single new knob. The post How we made GitHub Copilot CLI more selective about delegation appeared first on The GitHub Blog.\n\n原文：https://github.blog/ai-and-ml/how-we-made-github-copilot-cli-more-selective-about-delegation/\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "How we made GitHub Copilot CLI more selective about delegation",
+      "content": "[GitHub Blog] Better orchestration, fewer handoffs, faster progress, without a single new knob. The post How we made GitHub Copilot CLI more selective about delegation appeared first on The GitHub Blog.\n\nOriginal: https://github.blog/ai-and-ml/how-we-made-github-copilot-cli-more-selective-about-delegation/\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "GitHub Blog",
+    "date": "2026-06-12",
+    "link": "https://github.blog/ai-and-ml/how-we-made-github-copilot-cli-more-selective-about-delegation/",
+    "type": "long",
+    "created": "2026-06-15T13:05:49.300452+00:00"
+  },
+  {
+    "id": "73046bdd",
+    "zh": {
+      "title": "AI裁员潮渐成火药桶",
+      "content": "【TechCrunch】What makes this combustible: at the very moment that tens of thousands of workers are being shown the door, a small cohort of AI insiders is becoming wealthy on a scale that's hard to comprehend.\n\n原文：https://techcrunch.com/2026/06/15/the-ai-layoff-wave-is-becoming-a-powder-keg/\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "The AI layoff wave is becoming a powder keg",
+      "content": "[TechCrunch] What makes this combustible: at the very moment that tens of thousands of workers are being shown the door, a small cohort of AI insiders is becoming wealthy on a scale that's hard to comprehend.\n\nOriginal: https://techcrunch.com/2026/06/15/the-ai-layoff-wave-is-becoming-a-powder-keg/\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "TechCrunch",
+    "date": "2026-06-15",
+    "link": "https://techcrunch.com/2026/06/15/the-ai-layoff-wave-is-becoming-a-powder-keg/",
+    "type": "long",
+    "created": "2026-06-15T13:05:03.687926+00:00"
+  },
+  {
+    "id": "e6921912",
+    "zh": {
+      "title": "卫星首次实现自主寻物",
+      "content": "【TechCrunch】In April, for the first time ever, an Earth observation satellite found what it was looking for, all on its own.\n\n原文：https://techcrunch.com/2026/06/15/a-satellite-just-learned-to-find-things-on-its-own-heres-what-that-means/\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "A satellite just learned to find things on its own — here’s what that means",
+      "content": "[TechCrunch] In April, for the first time ever, an Earth observation satellite found what it was looking for, all on its own.\n\nOriginal: https://techcrunch.com/2026/06/15/a-satellite-just-learned-to-find-things-on-its-own-heres-what-that-means/\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "TechCrunch",
+    "date": "2026-06-15",
+    "link": "https://techcrunch.com/2026/06/15/a-satellite-just-learned-to-find-things-on-its-own-heres-what-that-means/",
+    "type": "short",
+    "created": "2026-06-15T13:05:03.687919+00:00"
+  },
+  {
+    "id": "ac3c0c44",
+    "zh": {
+      "title": "为AI员工发身份，NewCore融资6600万",
+      "content": "【TechCrunch】NewCore argues the next challenge in enterprise security will be managing AI agents, not people.\n\n原文：https://techcrunch.com/2026/06/15/ai-agents-are-becoming-employees-newcore-emerges-with-66m-to-give-them-identities/\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "As AI agents become employees, NewCore emerges with $66M to give them identities",
+      "content": "[TechCrunch] NewCore argues the next challenge in enterprise security will be managing AI agents, not people.\n\nOriginal: https://techcrunch.com/2026/06/15/ai-agents-are-becoming-employees-newcore-emerges-with-66m-to-give-them-identities/\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "TechCrunch",
+    "date": "2026-06-15",
+    "link": "https://techcrunch.com/2026/06/15/ai-agents-are-becoming-employees-newcore-emerges-with-66m-to-give-them-identities/",
+    "type": "short",
+    "created": "2026-06-15T13:05:03.687889+00:00"
+  },
+  {
+    "id": "29482672",
+    "zh": {
+      "title": "限时 15.49 万元起，华为乾崑智驾 ADS Pro 上车全新深蓝 S07 增程版",
+      "content": "【爱范儿】华为乾崑智驾的平价之选。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。\n\n原文：https://www.ifanr.com/1668957?utm_source=rss&utm_medium=rss&utm_campaign=\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "From 154,900 Yuan for a Limited Time: Huawei Qiankun ADS Pro Lands on the All-New Deepal S07 Extended-Range",
+      "content": "[爱范儿] 华为乾崑智驾的平价之选。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。\n\nOriginal: https://www.ifanr.com/1668957?utm_source=rss&utm_medium=rss&utm_campaign=\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "爱范儿",
+    "date": "2026-06-15",
+    "link": "https://www.ifanr.com/1668957?utm_source=rss&utm_medium=rss&utm_campaign=",
+    "type": "short",
+    "created": "2026-06-15T13:04:05.712333+00:00"
+  },
+  {
+    "id": "53a463e1",
+    "zh": {
+      "title": "昊铂 S600 上市：20 万级 SUV 的竞争，开始进入「少做选择题」阶段",
+      "content": "【爱范儿】昊铂需要一个爆款。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。\n\n原文：https://www.ifanr.com/1668976?utm_source=rss&utm_medium=rss&utm_campaign=\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "Hyper S600 Debuts: The 200K SUV Race Enters the Era of Fewer Trade-Offs",
+      "content": "[爱范儿] 昊铂需要一个爆款。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。\n\nOriginal: https://www.ifanr.com/1668976?utm_source=rss&utm_medium=rss&utm_campaign=\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "爱范儿",
+    "date": "2026-06-15",
+    "link": "https://www.ifanr.com/1668976?utm_source=rss&utm_medium=rss&utm_campaign=",
+    "type": "short",
+    "created": "2026-06-15T13:04:05.712326+00:00"
+  },
+  {
+    "id": "a317fbd6",
+    "zh": {
+      "title": "头部应用撑起天际线之后，鸿蒙还需要什么？",
+      "content": "【爱范儿】小团队，能干大事，是鸿蒙在 AI 时代的新标签。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。\n\n原文：https://www.ifanr.com/1668873?utm_source=rss&utm_medium=rss&utm_campaign=\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "With the Top Apps on Board, What’s Still Missing for HarmonyOS?",
+      "content": "[爱范儿] 小团队，能干大事，是鸿蒙在 AI 时代的新标签。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。\n\nOriginal: https://www.ifanr.com/1668873?utm_source=rss&utm_medium=rss&utm_campaign=\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "爱范儿",
+    "date": "2026-06-15",
+    "link": "https://www.ifanr.com/1668873?utm_source=rss&utm_medium=rss&utm_campaign=",
+    "type": "short",
+    "created": "2026-06-15T13:04:05.712306+00:00"
+  },
+  {
+    "id": "bd381b87",
+    "zh": {
+      "title": "硬氪首发 | 海洋具身智能公司「世航智能」拿下创纪录10亿融资，朱啸虎押注",
+      "content": "【36氪】作者 | 邱晓芬   编辑 | 袁斯来   硬氪获悉，海洋具身智能公司「世航智能」完成A轮融资，融资金额超过10亿元，这也是目前全球海洋机器人领域规模最大的单轮融资。本轮融资由两家芯片公司「摩尔线程」和「昆仑芯」的产业投资方上河动量基金、新加坡国有投资平台Vertex Growth ���上市公司大洋电机等资方出资。   另外，金沙江创投也在本轮追加投资，这已是其创始人朱啸虎第五轮投资「世航智能」，祥峰中国、华映资本、长石资本等老股东亦全部超额跟投。   「世航智能」创始人兼CEO陈晓博为...\n\n原文：https://36kr.com/p/3853011900142848?f=rss\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "[CN] 硬氪首发 | 海洋具身智能公司「世航智能」拿下创纪录10亿融资，朱啸虎押注",
+      "content": "[36氪] 作者 | 邱晓芬   编辑 | 袁斯来   硬氪获悉，海洋具身智能公司「世航智能」完成A轮融资，融资金额超过10亿元，这也是目前全球海洋机器人领域规模最大的单轮融资。本轮融资由两家芯片公司「摩尔线程」和「昆仑芯」的产业投资方上河动量基金、新加坡国有投资平台Vertex Growth ���上市公司大洋电机等资方出资。   另外，金沙江创投也在本轮追加投资，这已是其创始人朱啸虎第五轮投资「世航智能」，祥峰中国、华映资本、长石资本等老股东亦全部超额跟投。   「世航智能」创始人兼CEO陈晓博为...\n\nOriginal: https://36kr.com/p/3853011900142848?f=rss\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "36氪",
+    "date": "2026-06-15",
+    "link": "https://36kr.com/p/3853011900142848?f=rss",
+    "type": "long",
+    "created": "2026-06-15T13:03:11.028080+00:00"
+  },
+  {
+    "id": "49d5e861",
+    "zh": {
+      "title": "硬氪专访 | 智源研究院院长王仲远：VLA不会死，但世界模型是未来",
+      "content": "【36氪】作者 | 邱晓芬   编辑 | 袁斯来   过去几个月，“世界模型”（World Model）从学术黑话迅速膨胀成AI和机器人行业里的关键词。   行业的目光转向背后是切实的焦虑。   一方面，经过了过去两年的野蛮生长，具身智能暴露了当前AI在物理世界中的短板——机器人能识别物体，却不懂“推杯子会掉”；能听懂指令，却无法预判“拧瓶盖需要多大的力”。世界模型正是试图补上这个短板，让机器人学会物理世界的规律、因果。   也就是说，世界模型与具身智能的关系，本质上是“大脑”与“身体”的关系。  ...\n\n原文：https://36kr.com/p/3853016586359817?f=rss\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "[CN] 硬氪专访 | 智源研究院院长王仲远：VLA不会死，但世界模型是未来",
+      "content": "[36氪] 作者 | 邱晓芬   编辑 | 袁斯来   过去几个月，“世界模型”（World Model）从学术黑话迅速膨胀成AI和机器人行业里的关键词。   行业的目光转向背后是切实的焦虑。   一方面，经过了过去两年的野蛮生长，具身智能暴露了当前AI在物理世界中的短板——机器人能识别物体，却不懂“推杯子会掉”；能听懂指令，却无法预判“拧瓶盖需要多大的力”。世界模型正是试图补上这个短板，让机器人学会物理世界的规律、因果。   也就是说，世界模型与具身智能的关系，本质上是“大脑”与“身体”的关系。  ...\n\nOriginal: https://36kr.com/p/3853016586359817?f=rss\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "36氪",
+    "date": "2026-06-15",
+    "link": "https://36kr.com/p/3853016586359817?f=rss",
+    "type": "long",
+    "created": "2026-06-15T13:03:11.028071+00:00"
+  },
+  {
+    "id": "3e694358",
+    "zh": {
+      "title": "从一个想法到一个产品，年轻开发者把生活观察写进代码",
+      "content": "【36氪】6月14日，HarmonyOS创新赛·极客赛道决赛在HDC华为开发者大会（HDC 2026）落下帷幕。    此前，20支入围队伍从众多参赛作品中脱颖而出，在36小时极限编码中抢先使用HarmonyOS 7，围绕AI、3D空间化、用户体验等方向展开比拼。随着最终获奖名单揭晓，比赛的结果已经落定，但比奖项本身更值得被看见的，是这些作品背后一批年轻开发者正在关注什么，又试图用代码回答什么。   翻开参赛作品的名单，我们意外地发现，这其中很多的开发者都还是在校学生，没有成熟公司的资源，没有完整的...\n\n原文：https://36kr.com/p/3854243718550528?f=rss\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "[CN] 从一个想法到一个产品，年轻开发者把生活观察写进代码",
+      "content": "[36氪] 6月14日，HarmonyOS创新赛·极客赛道决赛在HDC华为开发者大会（HDC 2026）落下帷幕。    此前，20支入围队伍从众多参赛作品中脱颖而出，在36小时极限编码中抢先使用HarmonyOS 7，围绕AI、3D空间化、用户体验等方向展开比拼。随着最终获奖名单揭晓，比赛的结果已经落定，但比奖项本身更值得被看见的，是这些作品背后一批年轻开发者正在关注什么，又试图用代码回答什么。   翻开参赛作品的名单，我们意外地发现，这其中很多的开发者都还是在校学生，没有成熟公司的资源，没有完整的...\n\nOriginal: https://36kr.com/p/3854243718550528?f=rss\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "36氪",
+    "date": "2026-06-15",
+    "link": "https://36kr.com/p/3854243718550528?f=rss",
+    "type": "long",
+    "created": "2026-06-15T13:03:11.028041+00:00"
+  },
+  {
+    "id": "664c501e",
+    "zh": {
+      "title": "从 BANG!CASE 到 AI Display：我为什么想给 AI 在桌面留一个位置",
+      "content": "【少数派】过去几年，我一直在深圳做硬件产品，也在少数派参与过几次消费电子产品的共创。如果你关注过少数派之前的一些硬件项目，可能见过BANG!CASE。它最早来自我的一个产品创意，后来在少数派团队的推进下变成了真 ...查看全文\n\n原文：https://sspai.com/post/110984\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "From BANG!CASE to AI Display: Why I Want to Make Room for AI on My Desktop",
+      "content": "[少数派] 过去几年，我一直在深圳做硬件产品，也在少数派参与过几次消费电子产品的共创。如果你关注过少数派之前的一些硬件项目，可能见过BANG!CASE。它最早来自我的一个产品创意，后来在少数派团队的推进下变成了真 ...查看全文\n\nOriginal: https://sspai.com/post/110984\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "少数派",
+    "date": "2026-06-15",
+    "link": "https://sspai.com/post/110984",
+    "type": "short",
+    "created": "2026-06-15T13:01:09.606748+00:00"
+  },
+  {
+    "id": "c431da2f",
+    "zh": {
+      "title": "具透 | 思考、打磨、加速：iPadOS 27 首个开发者测试版中值得关注的新内容",
+      "content": "【少数派】除了可以自定义的 Liquid Glass 透明度，iPadOS 27 还有这 12 项细节变化。查看全文\n\n原文：https://sspai.com/post/111003\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "Think, Polish, Accelerate: What's New in iPadOS 27 Developer Beta 1",
+      "content": "[少数派] 除了可以自定义的 Liquid Glass 透明度，iPadOS 27 还有这 12 项细节变化。查看全文\n\nOriginal: https://sspai.com/post/111003\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "少数派",
+    "date": "2026-06-15",
+    "link": "https://sspai.com/post/111003",
+    "type": "short",
+    "created": "2026-06-15T13:01:09.606742+00:00"
+  },
+  {
+    "id": "1423b904",
+    "zh": {
+      "title": "派评 | 近期值得关注的 App",
+      "content": "【少数派】>下载少数派2.0客户端、关注少数派公众号，解锁全新阅读体验📰>实用、好用的正版软件，少数派为你呈现🚀查看全文\n\n原文：https://sspai.com/post/111068\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "Apps Worth Watching This Week",
+      "content": "[少数派] >下载少数派2.0客户端、关注少数派公众号，解锁全新阅读体验📰>实用、好用的正版软件，少数派为你呈现🚀查看全文\n\nOriginal: https://sspai.com/post/111068\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "少数派",
+    "date": "2026-06-15",
+    "link": "https://sspai.com/post/111068",
+    "type": "short",
+    "created": "2026-06-15T13:01:09.606721+00:00"
+  },
+  {
+    "id": "5f00ce43",
+    "zh": {
+      "title": "科技爱好者周刊（第 398 期）：Token 费用难以负担",
+      "content": "【阮一峰】这里记录每周值得分享的科技内容，周五发布。...\n\n原文：http://www.ruanyifeng.com/blog/2026/05/weekly-issue-398.html\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "Tech Weekly #398: Token Costs Are Too High",
+      "content": "[阮一峰] 这里记录每周值得分享的科技内容，周五发布。...\n\nOriginal: http://www.ruanyifeng.com/blog/2026/05/weekly-issue-398.html\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "阮一峰",
+    "date": "2026-06-15",
+    "link": "http://www.ruanyifeng.com/blog/2026/05/weekly-issue-398.html",
+    "type": "short",
+    "created": "2026-06-15T13:00:42.411063+00:00"
+  },
+  {
+    "id": "6e5c8130",
+    "zh": {
+      "title": "科技爱好者周刊（第 399 期）：中国 AI 大厂访问记",
+      "content": "【阮一峰】这里记录每周值得分享的科技内容，周五发布。...\n\n原文：http://www.ruanyifeng.com/blog/2026/06/weekly-issue-399.html\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "Tech Weekly #399: Inside China's AI Giants",
+      "content": "[阮一峰] 这里记录每周值得分享的科技内容，周五发布。...\n\nOriginal: http://www.ruanyifeng.com/blog/2026/06/weekly-issue-399.html\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "阮一峰",
+    "date": "2026-06-15",
+    "link": "http://www.ruanyifeng.com/blog/2026/06/weekly-issue-399.html",
+    "type": "short",
+    "created": "2026-06-15T13:00:42.411056+00:00"
+  },
+  {
+    "id": "c31c5c07",
+    "zh": {
+      "title": "科技爱好者周刊（第 400 期）：rsync 的争论",
+      "content": "【阮一峰】这里记录每周值得分享的科技内容，周五发布。（[通知] 下周端午假期，周刊休息。）...\n\n原文：http://www.ruanyifeng.com/blog/2026/06/weekly-issue-400.html\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "Tech Weekly #400: The rsync Debate",
+      "content": "[阮一峰] 这里记录每周值得分享的科技内容，周五发布。（[通知] 下周端午假期，周刊休息。）...\n\nOriginal: http://www.ruanyifeng.com/blog/2026/06/weekly-issue-400.html\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "阮一峰",
+    "date": "2026-06-15",
+    "link": "http://www.ruanyifeng.com/blog/2026/06/weekly-issue-400.html",
+    "type": "short",
+    "created": "2026-06-15T13:00:42.411031+00:00"
+  },
+  {
     "id": "cfd63768",
     "zh": {
       "title": "智邮流",
@@ -826,232 +1798,5 @@
     "link": "https://36kr.com/p/3854243718550528?f=rss",
     "type": "long",
     "created": "2026-06-15T10:56:22.990467+00:00"
-  },
-  {
-    "id": "2dc4546a",
-    "zh": {
-      "title": "从 BANG!CASE 到 AI Display：我为什么想给 AI 在桌面留一个位置",
-      "content": "【少数派】过去几年，我一直在深圳做硬件产品，也在少数派参与过几次消费电子产品的共创。如果你关注过少数派之前的一些硬件项目，可能见过BANG!CASE。它最早来自我的一个产品创意，后来在少数派团队的推进下变成了真 ...查看全文\n\n原文：https://sspai.com/post/110984\n\n#科技新闻",
-      "category": "#科技新闻"
-    },
-    "en": {
-      "title": "From bang! case to AI Display: Why I want to give AI a spot on the desktop",
-      "content": "[少数派] In the past few years, I have been doing hardware products in Shenzhen, and I have participated in the co-creation of consumer electronics several times in the minority. If you've been following a few hardware projects before, you've probably seen bang! Case. It first came from one of my product ideas and then became a reality with the help of a minority team... Read more\n\nOriginal: https://sspai.com/post/110984\n\n#Tech News",
-      "category": "#Tech News"
-    },
-    "source": "少数派",
-    "date": "2026-06-15",
-    "link": "https://sspai.com/post/110984",
-    "type": "short",
-    "created": "2026-06-15T10:56:17.882866+00:00"
-  },
-  {
-    "id": "6749dcdb",
-    "zh": {
-      "title": "具透 | 思考、打磨、加速：iPadOS 27 首个开发者测试版中值得关注的新内容",
-      "content": "【少数派】除了可以自定义的 Liquid Glass 透明度，iPadOS 27 还有这 12 项细节变化。查看全文\n\n原文：https://sspai.com/post/111003\n\n#科技新闻",
-      "category": "#科技新闻"
-    },
-    "en": {
-      "title": "Thoughtful | Thinking, Shaping, Accelerating: What's New in the First Developer Beta of iPadOS 27",
-      "content": "[少数派] In addition to the customizable Liquid Glass transparency, iPadOS 27 also has these 12 changes in detail. Read more\n\nOriginal: https://sspai.com/post/111003\n\n#Tech News",
-      "category": "#Tech News"
-    },
-    "source": "少数派",
-    "date": "2026-06-15",
-    "link": "https://sspai.com/post/111003",
-    "type": "short",
-    "created": "2026-06-15T10:56:15.282714+00:00"
-  },
-  {
-    "id": "7321bd5c",
-    "zh": {
-      "title": "派评 | 近期值得关注的 App",
-      "content": "【少数派】>下载少数派2.0客户端、关注少数派公众号，解锁全新阅读体验📰>实用、好用的正版软件，少数派为你呈现🚀查看全文\n\n原文：https://sspai.com/post/111068\n\n#科技新闻",
-      "category": "#科技新闻"
-    },
-    "en": {
-      "title": "Reviews | Recent Apps to Watch",
-      "content": "[少数派] > Download the Minority 2.0 client, follow the Minority Official Account, and unlock the new reading experience📰 > Useful, easy-to-use genuine software, presented by the Minority🚀 View full text\n\nOriginal: https://sspai.com/post/111068\n\n#Tech News",
-      "category": "#Tech News"
-    },
-    "source": "少数派",
-    "date": "2026-06-15",
-    "link": "https://sspai.com/post/111068",
-    "type": "short",
-    "created": "2026-06-15T10:56:13.190102+00:00"
-  },
-  {
-    "id": "2d82afbd",
-    "zh": {
-      "title": "科技爱好者周刊（第 398 期）：Token 费用难以负担",
-      "content": "【阮一峰】这里记录每周值得分享的科技内容，周五发布。...\n\n原文：http://www.ruanyifeng.com/blog/2026/05/weekly-issue-398.html\n\n#科技新闻",
-      "category": "#科技新闻"
-    },
-    "en": {
-      "title": "Tech Enthusiasts Weekly (Issue 398): Unaffordable Token Costs",
-      "content": "[阮一峰] This is where the weekly tech content worth sharing is recorded and released on Friday....\n\nOriginal: http://www.ruanyifeng.com/blog/2026/05/weekly-issue-398.html\n\n#Tech News",
-      "category": "#Tech News"
-    },
-    "source": "阮一峰",
-    "date": "2026-06-15",
-    "link": "http://www.ruanyifeng.com/blog/2026/05/weekly-issue-398.html",
-    "type": "short",
-    "created": "2026-06-15T10:56:09.859716+00:00"
-  },
-  {
-    "id": "675de73e",
-    "zh": {
-      "title": "科技爱好者周刊（第 399 期）：中国 AI 大厂访问记",
-      "content": "【阮一峰】这里记录每周值得分享的科技内容，周五发布。...\n\n原文：http://www.ruanyifeng.com/blog/2026/06/weekly-issue-399.html\n\n#科技新闻",
-      "category": "#科技新闻"
-    },
-    "en": {
-      "title": "Tech Enthusiasts Weekly (Issue 399): A Visit to China's Big AI Factory",
-      "content": "[阮一峰] This is where the weekly tech content worth sharing is recorded and released on Friday....\n\nOriginal: http://www.ruanyifeng.com/blog/2026/06/weekly-issue-399.html\n\n#Tech News",
-      "category": "#Tech News"
-    },
-    "source": "阮一峰",
-    "date": "2026-06-15",
-    "link": "http://www.ruanyifeng.com/blog/2026/06/weekly-issue-399.html",
-    "type": "short",
-    "created": "2026-06-15T10:56:04.416898+00:00"
-  },
-  {
-    "id": "7b84a266",
-    "zh": {
-      "title": "科技爱好者周刊（第 400 期）：rsync 的争论",
-      "content": "【阮一峰】这里记录每周值得分享的科技内容，周五发布。（[通知] 下周端午假期，周刊休息。）...\n\n原文：http://www.ruanyifeng.com/blog/2026/06/weekly-issue-400.html\n\n#科技新闻",
-      "category": "#科技新闻"
-    },
-    "en": {
-      "title": "Tech Enthusiasts Weekly (Issue 400): rsync's Controversy",
-      "content": "[阮一峰] This is where the weekly science and technology content worth sharing is documented and released on Friday. ([Notice] Next week noon holiday, the weekly magazine is closed.)...\n\nOriginal: http://www.ruanyifeng.com/blog/2026/06/weekly-issue-400.html\n\n#Tech News",
-      "category": "#Tech News"
-    },
-    "source": "阮一峰",
-    "date": "2026-06-15",
-    "link": "http://www.ruanyifeng.com/blog/2026/06/weekly-issue-400.html",
-    "type": "short",
-    "created": "2026-06-15T10:56:02.490372+00:00"
-  },
-  {
-    "id": "de1683a9",
-    "zh": {
-      "title": "OpenAI 砸15亿建伙伴网络",
-      "content": "OpenAI 宣布推出合作伙伴网络，投入1.5亿美元帮助全球企业加速AI落地。这不是简单的渠道分销，而是深度绑定——从战略咨询到部署落地，OpenAI试图用生态联盟的方式抢占B端市场。对创业公司来说，能进这个网络等于拿到AI赛道的VIP门票。",
-      "category": "#AI工具"
-    },
-    "en": {
-      "title": "OpenAI Launches $150M Partner Network",
-      "content": "OpenAI just announced its Partner Network, investing $150M to help global enterprises accelerate AI adoption. This isn't just channel distribution—it's deep strategic partnerships covering consulting through deployment. For startups, getting into this network is like getting a VIP pass to the AI enterprise race.",
-      "category": "#AI Tools"
-    },
-    "link": "https://openai.com/index/introducing-openai-partner-network",
-    "source": "OpenAI Blog",
-    "date": "2026-06-15",
-    "type": "long"
-  },
-  {
-    "id": "200e3f72",
-    "zh": {
-      "title": "英国16岁以下禁社交媒体",
-      "content": "英国紧随澳大利亚，宣布禁止16岁以下青少年使用TikTok、Instagram等社交平台。这是全球监管收紧的最新信号——算法对青少年心理的影响，已经从学术讨论变成政策红线。但执行层面如何验证年龄？技术反制与绕过手段的猫鼠游戏，可能比禁令本身更值得关注。",
-      "category": "#科技新闻"
-    },
-    "en": {
-      "title": "UK Bans Social Media for Under-16s",
-      "content": "The UK is following Australia's lead, banning under-16s from TikTok, Instagram, and other social platforms. This is the latest signal of global regulatory tightening—algorithmic impact on teen mental health has moved from academic debate to policy red lines. But the real challenge is age verification tech. The cat-and-mouse game between enforcement and circumvention may be more interesting than the ban itself.",
-      "category": "#Tech News"
-    },
-    "link": "https://www.engadget.com/2194005/uk-will-ban-social-media-for-children-under-16/",
-    "source": "Engadget",
-    "date": "2026-06-15",
-    "type": "long"
-  },
-  {
-    "id": "73100323",
-    "zh": {
-      "title": "Mastra vs LangChain 实战对比",
-      "content": "从生产环境实战角度对比两大AI Agent框架：Mastra的.dowhile()循环和类型化步骤设计在复杂流程中更优雅，但LangChain的生态和成熟度仍是优势。作者基于真实项目SupportMesh的踩坑经验，给出了选型建议——不是简单的哪个更好，而是看团队规模和场景复杂度。",
-      "category": "#AI研究"
-    },
-    "en": {
-      "title": "Mastra vs LangChain: Production Showdown",
-      "content": "A hands-on comparison from real production experience: Mastra's .dowhile() loops and typed step schemas shine in complex workflows, but LangChain's ecosystem and maturity remain strong advantages. The author, who built the multi-tenant SupportMesh platform on Mastra, gives practical advice—it's not about which is better, but which fits your team size and complexity needs.",
-      "category": "#AI Research"
-    },
-    "link": "https://www.freecodecamp.org/news/mastra-vs-langchain-building-an-ai-agent-pipeline-and-analyzing-the-data/",
-    "source": "freeCodeCamp",
-    "date": "2026-06-13",
-    "type": "long"
-  },
-  {
-    "id": "fd4e81af",
-    "zh": {
-      "title": "Anthropic Mythos 疑遭中方访问",
-      "content": "据Semafor报道，白宫对Anthropic模型Mythos实施出口限制，部分原因竟是担心已被中国相关组织获取。如果属实，这意味着顶尖AI模型的安全边界正在瓦解——模型权重一旦被复制，传统的硬件制裁几乎失效。AI安全冷战的味道越来越浓了。",
-      "category": "#AI研究"
-    },
-    "en": {
-      "title": "Anthropic's Mythos May Have Been Accessed by China",
-      "content": "According to Semafor, White House export restrictions on Anthropic's Mythos were partly driven by fears that a China-linked group had already accessed it. If true, this means the security boundaries of top-tier AI models are collapsing—once model weights are copied, hardware sanctions become almost irrelevant. The AI security cold war is getting real.",
-      "category": "#AI Research"
-    },
-    "link": "https://www.theverge.com/ai-artificial-intelligence/949644/china-white-house-anthropic-mythos",
-    "source": "The Verge",
-    "date": "2026-06-15",
-    "type": "long"
-  },
-  {
-    "id": "6a3122f8",
-    "zh": {
-      "title": "苹果让旧iPhone再焕新生",
-      "content": "苹果通过iOS底层优化，让iPhone 11等老机型也能更流畅、更持久。这不仅是技术优化，更是一种产品策略——延长设备生命周期，既讨好环保主义者，又减缓用户换机周期。当安卓阵营还在堆硬件，苹果已经开始在软件层面重新定义'性能'。",
-      "category": "#硬件新品"
-    },
-    "en": {
-      "title": "Apple Is Making Old iPhones Feel New Again",
-      "content": "Apple is breathing new life into aging iPhones through iOS-level optimizations, making even the iPhone 11 feel snappier and last longer. This isn't just technical wizardry—it's a product strategy that extends device lifecycles, pleasing environmental advocates while slowing upgrade cycles. While Android keeps chasing hardware specs, Apple is redefining 'performance' through software.",
-      "category": "#Hardware"
-    },
-    "link": "https://www.wired.com/story/how-apple-is-making-your-older-iphone-run-faster-and-stay-alive-longer/",
-    "source": "Wired",
-    "date": "2026-06-15",
-    "type": "short"
-  },
-  {
-    "id": "c6843daf",
-    "zh": {
-      "title": "红队AI基准测试加入伦理约束",
-      "content": "Red Team AI Benchmark v1.9.0 在MIT许可证下首次明确要求授权使用。这个改动很有深意：当安全测试工具本身可能被滥用时，开源社区的自我监管比法律约束更前置。这是AI安全工具从'能力展示'转向'负责任发布'的标志性事件。",
-      "category": "#AI研究"
-    },
-    "en": {
-      "title": "Red Team AI Benchmark Adds Ethics Policy",
-      "content": "Red Team AI Benchmark v1.9.0 now explicitly requires authorized use under its MIT license. This is significant: when security testing tools themselves can be weaponized, open-source community self-regulation becomes more proactive than legal constraints. It's a landmark moment for AI safety tools transitioning from 'capability demos' to 'responsible releases.'",
-      "category": "#AI Research"
-    },
-    "link": "https://dev.to/toxy4ny/red-team-ai-benchmark-v190-why-we-added-an-ethical-use-policy-to-an-open-source-tool-1gkf",
-    "source": "Dev.to",
-    "date": "2026-06-15",
-    "type": "long"
-  },
-  {
-    "id": "56f6dd71",
-    "zh": {
-      "title": "2026建站：技术栈不重要",
-      "content": "作者从实战角度提出：比起纠结React还是Vue，2026年建站更该关注内容策略、性能预算和用户体验。框架会过时，但好的内容架构和加载速度不会。这个观点有点反直觉——在AI辅助编程的时代，选择技术栈的决策权重正在下降。",
-      "category": "#前端开发"
-    },
-    "en": {
-      "title": "Building Websites in 2026: Stack Matters Less",
-      "content": "From the trenches: in 2026, content strategy, performance budgets, and UX matter more than whether you pick React or Vue. Frameworks come and go, but solid content architecture and loading speed don't. It's a counter-intuitive take—in an era of AI-assisted coding, the weight of tech stack decisions is actually decreasing.",
-      "category": "#Frontend"
-    },
-    "link": "https://www.freecodecamp.org/news/building-a-website-what-matters-more-than-your-tech-stack/",
-    "source": "freeCodeCamp",
-    "date": "2026-06-14",
-    "type": "short"
   }
 ]
