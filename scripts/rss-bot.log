@@ -1,0 +1,48 @@
+[2026-06-15 11:48:46] 开始 RSS 抓取...
+Traceback (most recent call last):
+  File "/root/.openclaw/workspace/clawdocs/projects/玩转ai进化网/scripts/rss-bot.py", line 109, in <module>
+    main()
+  File "/root/.openclaw/workspace/clawdocs/projects/玩转ai进化网/scripts/rss-bot.py", line 105, in main
+    save_tweets(tweets, "data/tweets.json")
+  File "/root/.openclaw/workspace/clawdocs/projects/玩转ai进化网/scripts/rss-bot.py", line 87, in save_tweets
+    existing_ids = {t["id"] for t in existing}
+                    ~^^^^^^
+TypeError: string indices must be integers, not 'str'
+[2026-06-15 11:48:46] ❌ RSS Bot 执行失败
+[2026-06-15 11:48:52] 开始 RSS 抓取...
+Traceback (most recent call last):
+  File "/root/.openclaw/workspace/clawdocs/projects/玩转ai进化网/scripts/rss-bot.py", line 109, in <module>
+    main()
+  File "/root/.openclaw/workspace/clawdocs/projects/玩转ai进化网/scripts/rss-bot.py", line 105, in main
+    save_tweets(tweets, "data/tweets.json")
+  File "/root/.openclaw/workspace/clawdocs/projects/玩转ai进化网/scripts/rss-bot.py", line 87, in save_tweets
+    existing_ids = {t["id"] for t in existing}
+                    ~^^^^^^
+TypeError: string indices must be integers, not 'str'
+[2026-06-15 11:48:53] ❌ RSS Bot 执行失败
+[2026-06-15 11:48:57] 开始 RSS 抓取...
+Traceback (most recent call last):
+  File "/root/.openclaw/workspace/clawdocs/projects/玩转ai进化网/scripts/rss-bot.py", line 109, in <module>
+    main()
+  File "/root/.openclaw/workspace/clawdocs/projects/玩转ai进化网/scripts/rss-bot.py", line 105, in main
+    save_tweets(tweets, "data/tweets.json")
+  File "/root/.openclaw/workspace/clawdocs/projects/玩转ai进化网/scripts/rss-bot.py", line 87, in save_tweets
+    existing_ids = {t["id"] for t in existing}
+                    ~^^^^^^
+TypeError: string indices must be integers, not 'str'
+[2026-06-15 11:48:57] ❌ RSS Bot 执行失败
+[2026-06-15 11:49:51] 开始 RSS 抓取...
+Traceback (most recent call last):
+  File "/root/.openclaw/workspace/clawdocs/projects/玩转ai进化网/scripts/rss-bot.py", line 109, in <module>
+    main()
+  File "/root/.openclaw/workspace/clawdocs/projects/玩转ai进化网/scripts/rss-bot.py", line 105, in main
+    save_tweets(tweets, "data/tweets.json")
+  File "/root/.openclaw/workspace/clawdocs/projects/玩转ai进化网/scripts/rss-bot.py", line 87, in save_tweets
+    existing_ids = {t["id"] for t in existing}
+                    ~^^^^^^
+TypeError: string indices must be integers, not 'str'
+[2026-06-15 11:49:52] ❌ RSS Bot 执行失败 (exit: 1)
+[2026-06-15 11:50:30] 开始 RSS 抓取...
+[RSS Bot] 新增 3 条，总计 3 条
+[RSS Bot] 2026-06-15 11:50 执行完成
+[2026-06-15 11:50:30] ℹ️ 无新推文，跳过部署
