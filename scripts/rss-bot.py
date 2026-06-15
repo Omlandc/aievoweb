@@ -3,21 +3,28 @@ import hashlib
 import re
 import os
 import sys
+import random
 from datetime import datetime, timezone
 from urllib.request import urlopen, Request
 from xml.etree import ElementTree as ET
 
-# 脚本所在目录
+# 脚本目录
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_DIR = os.path.dirname(SCRIPT_DIR)
-DATA_FILE = os.path.join(PROJECT_DIR, "data", "tweets.json")
+DATA_DIR = os.path.join(PROJECT_DIR, "data")
 
+# 双语 RSS 源配置
 RSS_SOURCES = [
     {"key": "ruanyifeng", "url": "http://www.ruanyifeng.com/blog/atom.xml", "name": "阮一峰", "lang": "zh", "type": "atom"},
     {"key": "sspai", "url": "https://sspai.com/feed", "name": "少数派", "lang": "zh", "type": "rss"},
+    {"key": "hackernews", "url": "https://news.ycombinator.com/rss", "name": "Hacker News", "lang": "en", "type": "rss"},
+    {"key": "githubblog", "url": "https://github.blog/feed/", "name": "GitHub Blog", "lang": "en", "type": "atom"},
 ]
 
-CATEGORIES = ["#AI工具", "#前端开发", "#产品设计", "#科技新闻", "#创业干货", "#效率工具", "#开源项目"]
+CATEGORIES = {
+    "zh": ["#AI工具", "#前端开发", "#产品设计", "#科技新闻", "#创业干货", "#效率工具", "#开源项目"],
+    "en": ["#AI Tools", "#Frontend", "#Product Design", "#Tech News", "#Startup", "#Productivity", "#Open Source"]
+}
 
 def fetch_xml(url, timeout=10):
     try:
@@ -58,7 +65,7 @@ def parse_atom(xml_text):
             content = entry.find('atom:content', ns)
             updated = entry.find('atom:updated', ns)
             
-            title_text = title.text if title is not None and title.text else "无标题"
+            title_text = title.text if title is not None and title.text else "No Title"
             link_href = link.get('href') if link is not None else ""
             desc = summary.text if summary is not None and summary.text else ""
             if not desc and content is not None and content.text:
@@ -85,7 +92,7 @@ def parse_rss(xml_text):
             desc = item.find('description')
             pub_date = item.find('pubDate')
             
-            title_text = title.text if title is not None and title.text else "无标题"
+            title_text = title.text if title is not None and title.text else "No Title"
             link_text = link.text if link is not None and link.text else ""
             desc_text = desc.text if desc is not None and desc.text else ""
             date_str = pub_date.text if pub_date is not None else datetime.now(timezone.utc).isoformat()
@@ -110,43 +117,137 @@ def extract_summary(text, max_len=280):
         return truncated[:last_period+1]
     return truncated + "..."
 
-def generate_tweet_from_item(item, source_name, category, tweet_type="short"):
+def simple_translate(text, is_title=False):
+    """简单翻译：保留英文关键词，只做基础替换"""
+    if not text:
+        return text
+    # 如果是中文内容，添加英文前缀
+    if any('\u4e00' <= c <= '\u9fff' for c in text):
+        return f"[Translated] {text[:50]}..." if is_title else text
+    return text
+
+def generate_tweet_bilingual(item, source_name, source_lang, tweet_type="short"):
+    """生成双语推文"""
     title = item.get('title', '')
     desc = item.get('description', '')
     link = item.get('link', '')
     
     content = desc if desc else title
     
-    if tweet_type == "short":
-        body = extract_summary(content, 200)
-        tweet = f"【{source_name}】{body}"
-        if len(tweet) > 280:
-            tweet = tweet[:277] + "..."
-    else:
-        body = extract_summary(content, 400)
-        tweet = f"【{source_name} | 深度】{body}\n\n原文：{link}"
-    
-    if category:
-        tweet += f"\n\n{category}"
-    
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     item_id = hashlib.md5(f"{source_name}-{title}-{today}".encode()).hexdigest()[:8]
     
+    # 中文内容
+    if source_lang == "zh":
+        zh_body = extract_summary(content, 200) if tweet_type == "short" else extract_summary(content, 400)
+        zh_tweet = f"【{source_name}】{zh_body}"
+        if len(zh_tweet) > 280:
+            zh_tweet = zh_tweet[:277] + "..."
+        
+        # 英文翻译（简单版）
+        en_title = f"[CN] {title[:40]}" if title else "No Title"
+        en_tweet = f"[{source_name}] {extract_summary(content, 250)}\n\n(Original: Chinese)"
+        
+        zh_cat = random.choice(CATEGORIES["zh"])
+        en_cat = random.choice(CATEGORIES["en"])
+    else:
+        # 英文源
+        en_body = extract_summary(content, 200) if tweet_type == "short" else extract_summary(content, 400)
+        en_tweet = f"[{source_name}] {en_body}"
+        if len(en_tweet) > 280:
+            en_tweet = en_tweet[:277] + "..."
+        
+        # 中文翻译（简单版）
+        zh_title = f"[EN] {title[:40]}" if title else "无标题"
+        zh_tweet = f"【{source_name}】{extract_summary(content, 250)}\n\n（原文：英文）"
+        
+        zh_cat = random.choice(CATEGORIES["zh"])
+        en_cat = random.choice(CATEGORIES["en"])
+    
+    if tweet_type == "long":
+        if source_lang == "zh":
+            zh_tweet += f"\n\n原文：{link}"
+            en_tweet += f"\n\nOriginal: {link}"
+        else:
+            en_tweet += f"\n\nOriginal: {link}"
+            zh_tweet += f"\n\n原文：{link}"
+    
+    zh_tweet += f"\n\n{zh_cat}"
+    en_tweet += f"\n\n{en_cat}"
+    
     return {
         "id": item_id,
-        "title": title[:60],
-        "content": tweet,
-        "link": link,
+        "zh": {
+            "title": title[:60] if source_lang == "zh" else zh_title,
+            "content": zh_tweet,
+            "category": zh_cat
+        },
+        "en": {
+            "title": title[:60] if source_lang == "en" else en_title,
+            "content": en_tweet,
+            "category": en_cat
+        },
         "source": source_name,
-        "category": category,
-        "lang": "zh" if source_name in ["阮一峰", "少数派", "机器之心"] else "en",
-        "type": tweet_type,
         "date": today,
+        "link": link,
+        "type": tweet_type,
         "created": datetime.now(timezone.utc).isoformat()
     }
 
+def get_month_file(date_str):
+    """获取按月归档的文件路径"""
+    month = date_str[:7]  # 2026-06
+    return os.path.join(DATA_DIR, f"{month}.json")
+
+def get_current_month_file():
+    """获取当前月份的文件路径"""
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    return get_month_file(today)
+
+def load_month_data(filepath):
+    """加载某月的数据"""
+    try:
+        with open(filepath, "r", encoding="utf-8") as f:
+            data = json.load(f)
+            if isinstance(data, dict) and "tweets" in data:
+                return data["tweets"]
+            elif isinstance(data, list):
+                return data
+            return []
+    except (FileNotFoundError, json.JSONDecodeError):
+        return []
+
+def save_month_data(tweets, filepath):
+    """保存某月的数据"""
+    os.makedirs(os.path.dirname(filepath), exist_ok=True)
+    with open(filepath, "w", encoding="utf-8") as f:
+        json.dump({"tweets": tweets}, f, ensure_ascii=False, indent=2)
+
+def update_index():
+    """更新索引文件（只存标题、日期、文件名，极小）"""
+    index = {"months": [], "total": 0}
+    
+    for filename in sorted(os.listdir(DATA_DIR), reverse=True):
+        if filename.endswith('.json') and filename != 'index.json':
+            month = filename.replace('.json', '')
+            filepath = os.path.join(DATA_DIR, filename)
+            tweets = load_month_data(filepath)
+            
+            index["months"].append({
+                "month": month,
+                "count": len(tweets),
+                "latest": tweets[0]["date"] if tweets else month
+            })
+            index["total"] += len(tweets)
+    
+    index_path = os.path.join(DATA_DIR, "index.json")
+    with open(index_path, "w", encoding="utf-8") as f:
+        json.dump(index, f, ensure_ascii=False, indent=2)
+    
+    print(f"[Index] 已更新：{len(index['months'])} 个月份，共 {index['total']} 条推文")
+    return index
+
 def fetch_all_sources():
-    import random
     tweets = []
     
     for source in RSS_SOURCES:
@@ -165,66 +266,77 @@ def fetch_all_sources():
             continue
         
         for item in items[:1]:
-            category = random.choice(CATEGORIES) if CATEGORIES else "#科技"
             tweet_type = random.choice(["short", "long"])
-            tweet = generate_tweet_from_item(item, source['name'], category, tweet_type)
+            tweet = generate_tweet_bilingual(item, source['name'], source['lang'], tweet_type)
             tweets.append(tweet)
-            print(f"[RSS] ✓ {source['name']}: {tweet['title'][:40]}...")
+            print(f"[RSS] ✓ {source['name']}: {tweet['zh']['title'][:40] if tweet['zh']['title'] else tweet['en']['title'][:40]}...")
     
     return tweets
 
-def save_tweets(tweets, filepath=DATA_FILE):
-    os.makedirs(os.path.dirname(filepath), exist_ok=True)
-    
-    try:
-        with open(filepath, "r", encoding="utf-8") as f:
-            data = json.load(f)
-            if isinstance(data, dict) and "tweets" in data:
-                existing = data["tweets"]
-            elif isinstance(data, list):
-                existing = data
-            else:
-                existing = []
-    except (FileNotFoundError, json.JSONDecodeError):
-        existing = []
-    
-    existing_ids = {t["id"] for t in existing}
-    new_tweets = [t for t in tweets if t["id"] not in existing_ids]
-    
-    all_tweets = new_tweets + existing
-    all_tweets.sort(key=lambda x: x.get("created", ""), reverse=True)
-    all_tweets = all_tweets[:200]
-    
-    with open(filepath, "w", encoding="utf-8") as f:
-        json.dump({"tweets": all_tweets}, f, ensure_ascii=False, indent=2)
-    
-    print(f"[RSS Bot] 新增 {len(new_tweets)} 条，总计 {len(all_tweets)} 条")
-    return all_tweets
-
 def main():
     print(f"[RSS Bot] {datetime.now().strftime('%Y-%m-%d %H:%M')} 开始抓取...")
+    
+    # 1. 抓取新推文
     tweets = fetch_all_sources()
-    if tweets:
-        save_tweets(tweets)
-        print(f"[RSS Bot] {datetime.now().strftime('%Y-%m-%d %H:%M')} 完成")
-    else:
+    
+    if not tweets:
         print(f"[RSS Bot] 未获取到任何内容，使用备用内容")
-        # 生成备用内容
-        import random
         today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-        backup = [{
+        tweets = [{
             "id": hashlib.md5(f"backup-{today}".encode()).hexdigest()[:8],
-            "title": "RSS 源暂时不可用",
-            "content": f"【系统提示】今日 RSS 抓取遇到问题，但网站仍在自动进化中。我们已记录了这个问题，将在下次运行时尝试修复。#系统状态\n\n时间：{today}",
-            "link": "https://aigo.homes",
+            "zh": {
+                "title": "RSS 源暂时不可用",
+                "content": f"【系统提示】今日 RSS 抓取遇到问题，但网站仍在自动进化中。#系统状态\n\n时间：{today}",
+                "category": "#系统状态"
+            },
+            "en": {
+                "title": "RSS Sources Temporarily Unavailable",
+                "content": f"[System Notice] RSS fetching encountered issues today, but the site is still evolving. #SystemStatus\n\nTime: {today}",
+                "category": "#System Status"
+            },
             "source": "系统",
-            "category": "#系统状态",
-            "lang": "zh",
-            "type": "short",
             "date": today,
+            "link": "https://aigo.homes",
+            "type": "short",
             "created": datetime.now(timezone.utc).isoformat()
         }]
-        save_tweets(backup)
+    
+    # 2. 加载当月已有数据
+    month_file = get_current_month_file()
+    existing = load_month_data(month_file)
+    
+    # 3. 去重合并
+    existing_ids = {t["id"] for t in existing}
+    new_tweets = [t for t in tweets if t["id"] not in existing_ids]
+    all_tweets = new_tweets + existing
+    all_tweets.sort(key=lambda x: x.get("created", ""), reverse=True)
+    
+    # 4. 保存当月数据
+    save_month_data(all_tweets, month_file)
+    
+    # 5. 更新索引
+    update_index()
+    
+    # 6. 同时更新旧的统一文件（兼容旧版前端）
+    legacy_file = os.path.join(DATA_DIR, "tweets.json")
+    # 合并最近2个月的数据到 legacy 文件
+    recent_tweets = []
+    for filename in sorted(os.listdir(DATA_DIR), reverse=True):
+        if filename.endswith('.json') and filename not in ['index.json', 'tweets.json']:
+            filepath = os.path.join(DATA_DIR, filename)
+            month_data = load_month_data(filepath)
+            recent_tweets.extend(month_data)
+            if len(recent_tweets) >= 100:
+                break
+    
+    recent_tweets.sort(key=lambda x: x.get("created", ""), reverse=True)
+    recent_tweets = recent_tweets[:100]
+    
+    with open(legacy_file, "w", encoding="utf-8") as f:
+        json.dump({"tweets": recent_tweets}, f, ensure_ascii=False, indent=2)
+    
+    print(f"[RSS Bot] 新增 {len(new_tweets)} 条，本月总计 {len(all_tweets)} 条")
+    print(f"[RSS Bot] {datetime.now().strftime('%Y-%m-%d %H:%M')} 完成")
 
 if __name__ == "__main__":
     main()
