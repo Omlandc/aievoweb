@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>最新推文 - 玩转AI进化网</title>
+  <meta name="description" content="玩转AI进化网的最新推文更新，短内容展示与筛选。">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://example.com/tweets.html">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="alternate" hreflang="zh" href="https://example.com/tweets.html">
+  <link rel="alternate" hreflang="en" href="https://example.com/en/tweets.html">
+  <link rel="alternate" hreflang="x-default" href="https://example.com/tweets.html">
+</head>
+<body>
+  <nav class="navbar" role="navigation" aria-label="Main">
+    <div class="nav-inner">
+      <a href="index.html" class="logo" data-i18n="siteName">玩转AI进化网</a>
+      <div class="nav-links" id="nav-links">
+        <a href="index.html" data-i18n="nav.home">首页</a>
+        <a href="tweets.html" class="active" data-i18n="nav.tweets">推文</a>
+        <a href="submit.html" data-i18n="nav.submit">提交需求</a>
+        <a href="requests.html" data-i18n="nav.requests">需求广场</a>
+        <a href="faq.html" data-i18n="nav.faq">常见问题</a>
+      </div>
+      <button id="lang-switch" data-i18n="langSwitch">English</button>
+    </div>
+  </nav>
+
+  <section class="features" aria-label="Tweets">
+    <h2 class="section-title" data-i18n="tweets.title">最新推文</h2>
+    <p class="section-subtitle">AI 自动生成的短内容更新。按时间排序。</p>
+
+    <div class="filter-tabs">
+      <button class="filter-tab active" data-filter="all">全部</button>
+      <button class="filter-tab" data-filter="short">短内容</button>
+      <button class="filter-tab" data-filter="long">长内容</button>
+    </div>
+
+    <div id="tweets-list">
+      <div class="card" data-type="short">
+        <div class="card-header">
+          <span class="card-title">🚀 网站已支持自动多语言切换</span>
+          <span class="card-meta">2026-06-15</span>
+        </div>
+        <div class="card-body">现在网站会根据你的浏览器语言自动切换中文或英文，也可以手动切换。后续会支持更多语言。</div>
+      </div>
+      <div class="card" data-type="short">
+        <div class="card-header">
+          <span class="card-title">🎨 新的需求提交页面已上线</span>
+          <span class="card-meta">2026-06-14</span>
+        </div>
+        <div class="card-body">新版需求提交页面支持验证码、参考链接和引导提示。不知道怎么写需求？访问 aibibi.vip 获取模板。</div>
+      </div>
+      <div class="card" data-type="long">
+        <div class="card-header">
+          <span class="card-title">📖 AI 建站完整指南：从需求到部署</span>
+          <span class="card-meta">2026-06-13</span>
+        </div>
+        <div class="card-body">详细介绍如何使用纯前端技术搭建一个可部署、SEO友好、可自动进化的网站。包含技术选型、部署方案、SEO优化和变现路径。</div>
+      </div>
+      <div class="card" data-type="short">
+        <div class="card-header">
+          <span class="card-title">🔒 验证码功能已上线</span>
+          <span class="card-meta">2026-06-12</span>
+        </div>
+        <div class="card-body">为了防止飞书多维表格被刷爆，需求提交现在需要验证码。不会影响正常用户体验。</div>
+      </div>
+      <div class="card" data-type="long">
+        <div class="card-header">
+          <span class="card-title">💡 为什么 AI 网站需要"进化"而不是"重构"</span>
+          <span class="card-meta">2026-06-10</span>
+        </div>
+        <div class="card-body">传统网站开发是瀑布式，AI 进化式开发是增量式。每一次需求提交都是一次小的进化，积累起来就是质变。这种模式更适合快速试错和持续迭代。</div>
+      </div>
+    </div>
+  </section>
+
+  <div class="ad-slot" aria-label="Advertisement">广告位预留 - Google AdSense</div>
+
+  <footer class="footer" role="contentinfo">
+    <p data-i18n="footer.slogan">AI进化网站，你进化想法。</p>
+    <p data-i18n="footer.contact">联系邮箱：ctguxby@proton.me</p>
+    <p><a href="privacy.html">隐私政策</a> · <a href="about.html">关于我们</a> · <a href="faq.html">常见问题</a></p>
+    <p style="font-size:0.8rem; margin-top:1rem; color:var(--text-muted);" data-i18n="disclaimer">本网站仅供演示和参考，不构成医疗、法律或财务建议。</p>
+  </footer>
+
+  <script src="js/i18n-data.js"></script>
+  <script src="js/i18n.js"></script>
+  <script>
+    document.querySelectorAll('.filter-tab').forEach(tab => {
+      tab.addEventListener('click', () => {
+        document.querySelectorAll('.filter-tab').forEach(t => t.classList.remove('active'));
+        tab.classList.add('active');
+        const filter = tab.getAttribute('data-filter');
+        document.querySelectorAll('#tweets-list .card').forEach(card => {
+          card.style.display = (filter === 'all' || card.getAttribute('data-type') === filter) ? 'block' : 'none';
+        });
+      });
+    });
+  </script>
+</body>
+</html>

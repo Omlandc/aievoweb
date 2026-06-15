@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>需求广场 - 玩转AI进化网</title>
+  <meta name="description" content="网友提交的AI进化需求，自动审核后展示。">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://example.com/requests.html">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="alternate" hreflang="zh" href="https://example.com/requests.html">
+  <link rel="alternate" hreflang="en" href="https://example.com/en/requests.html">
+  <link rel="alternate" hreflang="x-default" href="https://example.com/requests.html">
+</head>
+<body>
+  <nav class="navbar" role="navigation" aria-label="Main">
+    <div class="nav-inner">
+      <a href="index.html" class="logo" data-i18n="siteName">玩转AI进化网</a>
+      <div class="nav-links" id="nav-links">
+        <a href="index.html" data-i18n="nav.home">首页</a>
+        <a href="tweets.html" data-i18n="nav.tweets">推文</a>
+        <a href="submit.html" data-i18n="nav.submit">提交需求</a>
+        <a href="requests.html" class="active" data-i18n="nav.requests">需求广场</a>
+        <a href="faq.html" data-i18n="nav.faq">常见问题</a>
+      </div>
+      <button id="lang-switch" data-i18n="langSwitch">English</button>
+    </div>
+  </nav>
+
+  <section class="features" aria-label="Community Requests">
+    <h2 class="section-title" data-i18n="requests.title">网友需求广场</h2>
+    <p class="section-subtitle" data-i18n="requests.subtitle">用户提交的各类需求，经AI自动审核后展示。</p>
+
+    <div class="filter-tabs">
+      <button class="filter-tab active" data-filter="all">全部</button>
+      <button class="filter-tab" data-filter="approved">已通过</button>
+      <button class="filter-tab" data-filter="pending">审核中</button>
+      <button class="filter-tab" data-filter="done">已完成</button>
+    </div>
+
+    <div id="requests-list">
+      <div class="card" data-status="approved">
+        <div class="card-header">
+          <span class="card-title">💡 添加深色模式 / 主题切换</span>
+          <span class="card-meta" style="color:#22c55e;">✅ 已通过</span>
+        </div>
+        <div class="card-body">希望网站支持深色模式切换，让用户可以自定义主题颜色。参考 GitHub 的 dark mode 设计。</div>
+      </div>
+      <div class="card" data-status="pending">
+        <div class="card-header">
+          <span class="card-title">📊 增加网站流量统计面板</span>
+          <span class="card-meta" style="color:#f59e0b;">⏳ 审核中</span>
+        </div>
+        <div class="card-body">展示网站实时访问量、热门页面和来源分析。参考 Google Analytics 仪表板。</div>
+      </div>
+      <div class="card" data-status="done">
+        <div class="card-header">
+          <span class="card-title">🌐 中英双语切换</span>
+          <span class="card-meta" style="color:#0ea5e9;">✅ 已完成</span>
+        </div>
+        <div class="card-body">网站已支持中文和英文自动切换，后续将支持更多语言。</div>
+      </div>
+      <div class="card" data-status="approved">
+        <div class="card-header">
+          <span class="card-title">🔔 添加 RSS 订阅功能</span>
+          <span class="card-meta" style="color:#22c55e;">✅ 已通过</span>
+        </div>
+        <div class="card-body">希望能通过 RSS 订阅网站的推文更新，方便使用 RSS 阅读器的用户。</div>
+      </div>
+      <div class="card" data-status="pending">
+        <div class="card-header">
+          <span class="card-title">🎮 增加一个 AI 塔罗牌占卜工具</span>
+          <span class="card-meta" style="color:#f59e0b;">⏳ 审核中</span>
+        </div>
+        <div class="card-body">做一个单页塔罗牌抽取工具，结合易经六十四卦做联动解读。参考 aibibi.vip 的占卜功能。</div>
+      </div>
+      <div class="card" data-status="done">
+        <div class="card-header">
+          <span class="card-title">📝 需求提交表单 + 验证码</span>
+          <span class="card-meta" style="color:#0ea5e9;">✅ 已完成</span>
+        </div>
+        <div class="card-body">新版表单支持邮箱、需求描述、参考链接和验证码验证，防止恶意提交。</div>
+      </div>
+    </div>
+  </section>
+
+  <div class="ad-slot" aria-label="Advertisement">广告位预留 - Google AdSense</div>
+
+  <footer class="footer" role="contentinfo">
+    <p data-i18n="footer.slogan">AI进化网站，你进化想法。</p>
+    <p data-i18n="footer.contact">联系邮箱：ctguxby@proton.me</p>
+    <p><a href="privacy.html">隐私政策</a> · <a href="about.html">关于我们</a> · <a href="faq.html">常见问题</a></p>
+    <p style="font-size:0.8rem; margin-top:1rem; color:var(--text-muted);" data-i18n="disclaimer">本网站仅供演示和参考，不构成医疗、法律或财务建议。</p>
+  </footer>
+
+  <script src="js/i18n-data.js"></script>
+  <script src="js/i18n.js"></script>
+  <script>
+    document.querySelectorAll('.filter-tab').forEach(tab => {
+      tab.addEventListener('click', () => {
+        document.querySelectorAll('.filter-tab').forEach(t => t.classList.remove('active'));
+        tab.classList.add('active');
+        const filter = tab.getAttribute('data-filter');
+        document.querySelectorAll('#requests-list .card').forEach(card => {
+          card.style.display = (filter === 'all' || card.getAttribute('data-status') === filter) ? 'block' : 'none';
+        });
+      });
+    });
+  </script>
+</body>
+</html>
