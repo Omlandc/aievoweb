@@ -1,5 +1,77 @@
 [
   {
+    "id": "cfd63768",
+    "zh": {
+      "title": "智邮流",
+      "content": "【Product Hunt】Like Claude Design for Email Newsletters                                   Discussion             |             Link\n\n原文：https://www.producthunt.com/products/emailflow-ai-b2b-lead-generation\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "EmailFlow.AI",
+      "content": "[Product Hunt] Like Claude Design for Email Newsletters                                   Discussion             |             Link\n\nOriginal: https://www.producthunt.com/products/emailflow-ai-b2b-lead-generation\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "Product Hunt",
+    "date": "2026-06-15",
+    "link": "https://www.producthunt.com/products/emailflow-ai-b2b-lead-generation",
+    "type": "short",
+    "created": "2026-06-15T11:36:08.638325+00:00"
+  },
+  {
+    "id": "6bf02c72",
+    "zh": {
+      "title": "锡纸鸽",
+      "content": "【Product Hunt】See the aircraft flying over you on a retro radar scope                                   Discussion             |             Link\n\n原文：https://www.producthunt.com/products/tinfoil-pigeons\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "Tinfoil Pigeons",
+      "content": "[Product Hunt] See the aircraft flying over you on a retro radar scope                                   Discussion             |             Link\n\nOriginal: https://www.producthunt.com/products/tinfoil-pigeons\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "Product Hunt",
+    "date": "2026-06-15",
+    "link": "https://www.producthunt.com/products/tinfoil-pigeons",
+    "type": "short",
+    "created": "2026-06-15T11:36:08.638315+00:00"
+  },
+  {
+    "id": "248f6ee7",
+    "zh": {
+      "title": "刻码",
+      "content": "【Product Hunt】Claude Code + Codex agents in your notch                                   Discussion             |             Link\n\n原文：https://www.producthunt.com/products/notchcode\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "Notchcode",
+      "content": "[Product Hunt] Claude Code + Codex agents in your notch                                   Discussion             |             Link\n\nOriginal: https://www.producthunt.com/products/notchcode\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "Product Hunt",
+    "date": "2026-06-15",
+    "link": "https://www.producthunt.com/products/notchcode",
+    "type": "short",
+    "created": "2026-06-15T11:36:08.638295+00:00"
+  },
+  {
+    "id": "e4bcb7af",
+    "zh": {
+      "title": "超级马里奥卡带拍出300万美元",
+      "content": "【Engadget】Mamma mia!\n\n原文：https://www.engadget.com/2193909/a-rare-sticker-sealed-copy-of-super-mario-bros-just-sold-for-3-million/\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "A rare sticker-sealed copy of Super Mario Bros. just sold for $3 million",
+      "content": "[Engadget] Mamma mia!\n\nOriginal: https://www.engadget.com/2193909/a-rare-sticker-sealed-copy-of-super-mario-bros-just-sold-for-3-million/\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "Engadget",
+    "date": "2026-06-14",
+    "link": "https://www.engadget.com/2193909/a-rare-sticker-sealed-copy-of-super-mario-bros-just-sold-for-3-million/",
+    "type": "short",
+    "created": "2026-06-15T11:35:50.305769+00:00"
+  },
+  {
     "id": "b5492da1",
     "zh": {
       "title": "解构数据目录",

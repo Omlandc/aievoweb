@@ -8,11 +8,13 @@ from html import unescape
 import re
 import os
 import socket
-import urllib.request
-import urllib.parse
+import subprocess
 
 # 设置全局超时
 socket.setdefaulttimeout(15)
+
+KIMI_PATH = "/root/.local/share/uv/tools/kimi-cli/bin/kimi"
+KIMI_TIMEOUT = 120  # 每源120秒
 
 # RSS 源配置
 RSS_SOURCES = {
@@ -47,36 +49,50 @@ def clean_text(text, max_len=300):
         text = text[:max_len-3] + "..."
     return text
 
-def extract_summary(entry):
-    """从 RSS entry 提取摘要"""
-    summary = entry.get('summary', entry.get('description', ''))
-    return clean_text(summary, 250)
-
-def translate_text(text, source_lang, target_lang):
-    """使用 MyMemory API 翻译"""
-    if not text or len(text.strip()) < 3:
-        return text
+def translate_titles_with_kimi(titles, source_lang):
+    """使用 Kimi CLI 批量翻译标题（每源调用一次）"""
+    if not titles:
+        return []
+    
+    if source_lang == 'zh':
+        prompt = f"将以下 {len(titles)} 个中文科技标题翻译成英文（简洁自然，像原生标题）。\n\n"
+        for i, t in enumerate(titles, 1):
+            prompt += f"{i}. {t}\n"
+        prompt += f"\n只输出英文翻译，每行一个，不要编号和解释："
+    else:
+        prompt = f"将以下 {len(titles)} 个英文科技标题翻译成中文（精炼有力，15字以内，像科技媒体编辑写的）。\n\n"
+        for i, t in enumerate(titles, 1):
+            prompt += f"{i}. {t}\n"
+        prompt += f"\n只输出中文翻译，每行一个，不要编号和解释："
     
     try:
-        encoded_text = urllib.parse.quote(text)
-        url = f"https://api.mymemory.translated.net/get?q={encoded_text}&langpair={source_lang}|{target_lang}"
-        
-        req = urllib.request.Request(
-            url,
-            headers={'User-Agent': 'Mozilla/5.0 (RSSBot/1.0)'}
+        result = subprocess.run(
+            [KIMI_PATH, '--quiet', '--prompt', prompt],
+            capture_output=True, text=True, timeout=KIMI_TIMEOUT
         )
         
-        with urllib.request.urlopen(req, timeout=10) as response:
-            data = json.loads(response.read().decode('utf-8'))
-            
-            if data.get('responseStatus') == 200:
-                return data['responseData']['translatedText']
-            else:
-                print(f"[Translate] API error: {data.get('responseDetails', 'unknown')}")
-                return None
+        if result.returncode != 0:
+            print(f"[Kimi] Error: {result.stderr[:200]}")
+            return [None] * len(titles)
+        
+        # 解析输出：每行一个翻译
+        lines = [l.strip() for l in result.stdout.strip().split('\n') if l.strip()]
+        
+        # 去掉可能的 "To resume this session" 行
+        lines = [l for l in lines if not l.startswith('To resume')]
+        
+        # 如果行数不够，用None填充
+        while len(lines) < len(titles):
+            lines.append(None)
+        
+        return lines[:len(titles)]
+        
+    except subprocess.TimeoutExpired:
+        print(f"[Kimi] Timeout after {KIMI_TIMEOUT}s")
+        return [None] * len(titles)
     except Exception as e:
-        print(f"[Translate] Error: {e}")
-        return None
+        print(f"[Kimi] Error: {e}")
+        return [None] * len(titles)
 
 def fetch_rss(source_id, config):
     try:
@@ -90,17 +106,21 @@ def fetch_rss(source_id, config):
             print(f"[RSS] ⚠️ {config['name']} 无条目")
             return []
         
-        items = []
-        for entry in feed.entries[:3]:
+        entries = feed.entries[:3]
+        
+        # 提取标题和摘要
+        titles = []
+        summaries = []
+        links = []
+        dates = []
+        
+        for entry in entries:
             title = clean_text(entry.get('title', ''), 100)
-            summary = extract_summary(entry)
+            summary = clean_text(entry.get('summary', entry.get('description', '')), 250)
             link = entry.get('link', '')
             
             if not title or not link:
                 continue
-            
-            id_str = f"{source_id}-{title}-{entry.get('published', '')}"
-            item_id = hashlib.md5(id_str.encode()).hexdigest()[:8]
             
             published = entry.get('published', entry.get('updated', ''))
             if not published:
@@ -112,61 +132,50 @@ def fetch_rss(source_id, config):
                 except:
                     published = datetime.now(timezone.utc).strftime("%Y-%m-%d")
             
-            source_lang = config['lang']
+            titles.append(title)
+            summaries.append(summary)
+            links.append(link)
+            dates.append(published)
+        
+        if not titles:
+            return []
+        
+        # 批量翻译标题（每源 1 次 Kimi 调用）
+        source_lang = config['lang']
+        print(f"[Kimi] 翻译 {config['name']} 的 {len(titles)} 个标题...")
+        translated_titles = translate_titles_with_kimi(titles, source_lang)
+        
+        # 构建条目
+        items = []
+        for i in range(len(titles)):
+            id_str = f"{source_id}-{titles[i]}-{dates[i]}"
+            item_id = hashlib.md5(id_str.encode()).hexdigest()[:8]
             
-            # 构建双语内容
             if source_lang == 'zh':
                 # 中文源：中文是原文，英文是翻译
-                zh_title = title
-                zh_content = summary
-                
-                # 翻译标题
-                en_title = translate_text(title, 'zh-CN', 'en')
-                if not en_title:
-                    en_title = f"[CN] {title}"
-                
-                # 翻译摘要
-                en_content = translate_text(summary, 'zh-CN', 'en')
-                if not en_content:
-                    en_content = f"[Original: Chinese]\n\n{summary[:200]}"
-                
-                zh_category = "#科技新闻"
-                en_category = "#Tech News"
-                
+                zh_title = titles[i]
+                en_title = translated_titles[i] if translated_titles[i] else f"[CN] {titles[i]}"
             else:
                 # 英文源：英文是原文，中文是翻译
-                en_title = title
-                en_content = summary
-                
-                # 翻译标题
-                zh_title = translate_text(title, 'en', 'zh-CN')
-                if not zh_title:
-                    zh_title = f"[EN] {title}"
-                
-                # 翻译摘要
-                zh_content = translate_text(summary, 'en', 'zh-CN')
-                if not zh_content:
-                    zh_content = f"[原文为英文]\n\n{summary[:200]}"
-                
-                zh_category = "#科技新闻"
-                en_category = "#Tech News"
+                en_title = titles[i]
+                zh_title = translated_titles[i] if translated_titles[i] else f"[EN] {titles[i]}"
             
             items.append({
                 "id": item_id,
                 "zh": {
                     "title": zh_title,
-                    "content": f"【{config['name']}】{zh_content}\n\n原文：{link}\n\n{zh_category}",
-                    "category": zh_category
+                    "content": f"【{config['name']}】{summaries[i]}\n\n原文：{links[i]}\n\n#科技新闻",
+                    "category": "#科技新闻"
                 },
                 "en": {
                     "title": en_title,
-                    "content": f"[{config['name']}] {en_content}\n\nOriginal: {link}\n\n{en_category}",
-                    "category": en_category
+                    "content": f"[{config['name']}] {summaries[i]}\n\nOriginal: {links[i]}\n\n#Tech News",
+                    "category": "#Tech News"
                 },
                 "source": config['name'],
-                "date": published,
-                "link": link,
-                "type": "short" if len(summary) < 150 else "long",
+                "date": dates[i],
+                "link": links[i],
+                "type": "short" if len(summaries[i]) < 150 else "long",
                 "created": datetime.now(timezone.utc).isoformat()
             })
         
@@ -204,7 +213,7 @@ def save_tweets(tweets, filepath="data/tweets.json"):
     return all_items
 
 def main():
-    print(f"[RSS Bot] 开始执行: {datetime.now().strftime('%Y-%m-%d %H:%M')}")
+    print(f"[RSS Bot] 开始执行 (Kimi标题翻译): {datetime.now().strftime('%Y-%m-%d %H:%M')}")
     print(f"[RSS Bot] 共 {len(RSS_SOURCES)} 个 RSS 源")
     
     all_items = []
