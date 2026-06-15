@@ -18,7 +18,7 @@
     .game-canvas {
       border: 2px solid var(--primary);
       border-radius: var(--radius);
-      background: #1a1a2e;
+      background: #f1f5f9;
       display: block;
       margin: 1rem auto;
     }
@@ -30,6 +30,7 @@
       background: var(--surface);
       border-radius: var(--radius);
       margin-bottom: 1rem;
+      border: 1px solid var(--border);
     }
     .score {
       font-size: 1.25rem;
@@ -37,10 +38,11 @@
       color: var(--primary);
     }
     .controls-panel {
-      background: var(--bg-light);
+      background: var(--surface);
       border-radius: var(--radius);
       padding: 1rem;
       margin-top: 1rem;
+      border: 1px solid var(--border);
     }
     .controls-panel h3 {
       margin-bottom: 0.5rem;
@@ -74,11 +76,13 @@
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      background: rgba(0,0,0,0.9);
-      color: #fff;
+      background: rgba(255,255,255,0.95);
+      color: var(--text);
       padding: 2rem;
       border-radius: var(--radius);
       text-align: center;
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow);
     }
     .game-over h2 {
       color: #ef4444;
@@ -232,11 +236,11 @@
 
     function draw() {
       // 清空画布
-      ctx.fillStyle = '#1a1a2e';
+      ctx.fillStyle = '#f8fafc';
       ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-      // 绘制网格（可选，增加视觉效果）
-      ctx.strokeStyle = '#16213e';
+      // 绘制网格
+      ctx.strokeStyle = '#e2e8f0';
       ctx.lineWidth = 0.5;
       for (let i = 0; i <= TILE_COUNT; i++) {
         ctx.beginPath();
@@ -268,13 +272,13 @@
       snake.forEach((segment, index) => {
         if (index === 0) {
           // 蛇头
-          ctx.fillStyle = '#0f3460';
-          ctx.strokeStyle = '#e94560';
+          ctx.fillStyle = '#6366f1';
+          ctx.strokeStyle = '#4f46e5';
           ctx.lineWidth = 2;
         } else {
           // 蛇身
-          ctx.fillStyle = '#0f3460';
-          ctx.strokeStyle = '#533483';
+          ctx.fillStyle = '#818cf8';
+          ctx.strokeStyle = '#6366f1';
           ctx.lineWidth = 1;
         }
 
@@ -374,9 +378,9 @@
       if (!gameRunning) return;
       gamePaused = !gamePaused;
       if (gamePaused) {
-        ctx.fillStyle = 'rgba(0, 0, 0, 0.7)';
+        ctx.fillStyle = 'rgba(255, 255, 255, 0.8)';
         ctx.fillRect(0, 0, canvas.width, canvas.height);
-        ctx.fillStyle = '#fff';
+        ctx.fillStyle = '#1e293b';
         ctx.font = '24px Arial';
         ctx.textAlign = 'center';
         ctx.fillText('已暂停', canvas.width / 2, canvas.height / 2);

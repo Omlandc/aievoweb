@@ -2,7 +2,7 @@ const i18n = {
   en: {
     siteName: "Play AI Evolution",
     tagline: "An AI-Powered Website That Evolves with Your Ideas",
-    nav: { home: "Home", tweets: "Tweets", submit: "Submit Request", requests: "Auto Requests", faq: "FAQ" },
+    nav: { home: "Home", tweets: "Tweets", explore: "Explore", games: "Games", submit: "Submit Request", requests: "Auto Requests", faq: "FAQ" },,
     hero: {
       title: "An AI Website That Evolves Itself",
       subtitle: "Submit your ideas. Watch AI build and evolve the site in real time.",
@@ -42,7 +42,7 @@ const i18n = {
   zh: {
     siteName: "玩转AI进化网",
     tagline: "一个会随着你的想法自动进化的AI网站",
-    nav: { home: "首页", tweets: "推文", submit: "提交需求", requests: "需求广场", faq: "常见问题" },
+    nav: { home: "首页", tweets: "推文", explore: "探索", games: "游戏", submit: "提交需求", requests: "需求广场", faq: "常见问题" },,
     hero: {
       title: "一个会自我进化的AI网站",
       subtitle: "提交你的需求，看AI实时构建和进化这个网站。",
