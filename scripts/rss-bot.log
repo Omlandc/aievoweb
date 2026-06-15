@@ -42,7 +42,3 @@ Traceback (most recent call last):
                     ~^^^^^^
 TypeError: string indices must be integers, not 'str'
 [2026-06-15 11:49:52] ❌ RSS Bot 执行失败 (exit: 1)
-[2026-06-15 11:50:30] 开始 RSS 抓取...
-[RSS Bot] 新增 3 条，总计 3 条
-[RSS Bot] 2026-06-15 11:50 执行完成
-[2026-06-15 11:50:30] ℹ️ 无新推文，跳过部署

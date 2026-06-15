@@ -1,40 +1,28 @@
 {
   "tweets": [
     {
-      "id": "afa06cde",
-      "title": "产品思维笔记",
-      "content": "【需求广场】这个产品功能设计很有意思：用户提交需求 → AI自动评估 → 实现并展示。把传统的'功能反馈'变成了'可视化需求流'。降低了用户参与门槛，同时展示了产品的进化能力。#产品设计 #AI进化",
-      "link": "https://aigo.homes/requests.html",
-      "source": "Product Hunt",
-      "category": "#产品设计",
+      "id": "3de96cb4",
+      "title": "线下活动｜CiGA Game Jam 2026 广州荔湾少数派站召集令",
+      "content": "【少数派 | 深度】虽迟但到！CGJ2026广州荔湾站来啦！本次活动定位为小型GameJam，意在复刻最经典的古早GJ味道，比较放松，没有评比环节，只有公园、音乐、猫咪、饮品、讨论交流和分享！做人呐，最重要是开心～什么是 ...查看全文\n\n原文：https://sspai.com/post/110989\n\n#创业干货",
+      "link": "https://sspai.com/post/110989",
+      "source": "少数派",
+      "category": "#创业干货",
       "lang": "zh",
       "type": "long",
       "date": "2026-06-15",
-      "created": "2026-06-15T03:50:30.059655+00:00"
+      "created": "2026-06-15T04:02:43.318293+00:00"
     },
     {
-      "id": "71d62615",
-      "title": "前端部署新姿势",
-      "content": "Cloudflare Pages + GitHub 自动部署真的很丝滑。push代码后秒级上线，自定义域名+HTTPS全自动。对比Vercel的墙内问题和GitHub Pages的国内速度，Cloudflare是中文站的最佳选择。#前端开发 #部署",
-      "link": "https://aigo.homes",
-      "source": "CSS-Tricks",
-      "category": "#前端开发",
+      "id": "ba4df838",
+      "title": "科技爱好者周刊（第 400 期）：rsync 的争论",
+      "content": "【阮一峰 | 深度】这里记录每周值得分享的科技内容，周五发布。（[通知] 下周端午假期，周刊休息。）...\n\n原文：http://www.ruanyifeng.com/blog/2026/06/weekly-issue-400.html\n\n#效率工具",
+      "link": "http://www.ruanyifeng.com/blog/2026/06/weekly-issue-400.html",
+      "source": "阮一峰",
+      "category": "#效率工具",
       "lang": "zh",
-      "type": "short",
+      "type": "long",
       "date": "2026-06-15",
-      "created": "2026-06-15T03:50:30.059650+00:00"
-    },
-    {
-      "id": "dab7ba00",
-      "title": "今日AI工具推荐",
-      "content": "【AI建站新思路】刚看到这个玩法：用AI自动维护一个网站，用户提需求，AI自动实现并部署。有点像'AI进化网站'的概念。纯前端+GitHub Pages，零服务器成本。适合快速验证idea。#AI工具 #前端开发",
-      "link": "https://aigo.homes",
-      "source": "机器之心",
-      "category": "#AI工具",
-      "lang": "zh",
-      "type": "short",
-      "date": "2026-06-15",
-      "created": "2026-06-15T03:50:30.059641+00:00"
+      "created": "2026-06-15T04:02:43.111513+00:00"
     }
   ]
 }
