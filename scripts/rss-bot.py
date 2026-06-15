@@ -8,6 +8,8 @@ from html import unescape
 import re
 import os
 import socket
+import urllib.request
+import urllib.parse
 
 # 设置全局超时
 socket.setdefaulttimeout(15)
@@ -45,6 +47,37 @@ def clean_text(text, max_len=300):
         text = text[:max_len-3] + "..."
     return text
 
+def extract_summary(entry):
+    """从 RSS entry 提取摘要"""
+    summary = entry.get('summary', entry.get('description', ''))
+    return clean_text(summary, 250)
+
+def translate_text(text, source_lang, target_lang):
+    """使用 MyMemory API 翻译"""
+    if not text or len(text.strip()) < 3:
+        return text
+    
+    try:
+        encoded_text = urllib.parse.quote(text)
+        url = f"https://api.mymemory.translated.net/get?q={encoded_text}&langpair={source_lang}|{target_lang}"
+        
+        req = urllib.request.Request(
+            url,
+            headers={'User-Agent': 'Mozilla/5.0 (RSSBot/1.0)'}
+        )
+        
+        with urllib.request.urlopen(req, timeout=10) as response:
+            data = json.loads(response.read().decode('utf-8'))
+            
+            if data.get('responseStatus') == 200:
+                return data['responseData']['translatedText']
+            else:
+                print(f"[Translate] API error: {data.get('responseDetails', 'unknown')}")
+                return None
+    except Exception as e:
+        print(f"[Translate] Error: {e}")
+        return None
+
 def fetch_rss(source_id, config):
     try:
         print(f"[RSS] 抓取: {config['name']} ...")
@@ -60,7 +93,7 @@ def fetch_rss(source_id, config):
         items = []
         for entry in feed.entries[:3]:
             title = clean_text(entry.get('title', ''), 100)
-            summary = clean_text(entry.get('summary', entry.get('description', '')), 300)
+            summary = extract_summary(entry)
             link = entry.get('link', '')
             
             if not title or not link:
@@ -79,16 +112,62 @@ def fetch_rss(source_id, config):
                 except:
                     published = datetime.now(timezone.utc).strftime("%Y-%m-%d")
             
+            source_lang = config['lang']
+            
+            # 构建双语内容
+            if source_lang == 'zh':
+                # 中文源：中文是原文，英文是翻译
+                zh_title = title
+                zh_content = summary
+                
+                # 翻译标题
+                en_title = translate_text(title, 'zh-CN', 'en')
+                if not en_title:
+                    en_title = f"[CN] {title}"
+                
+                # 翻译摘要
+                en_content = translate_text(summary, 'zh-CN', 'en')
+                if not en_content:
+                    en_content = f"[Original: Chinese]\n\n{summary[:200]}"
+                
+                zh_category = "#科技新闻"
+                en_category = "#Tech News"
+                
+            else:
+                # 英文源：英文是原文，中文是翻译
+                en_title = title
+                en_content = summary
+                
+                # 翻译标题
+                zh_title = translate_text(title, 'en', 'zh-CN')
+                if not zh_title:
+                    zh_title = f"[EN] {title}"
+                
+                # 翻译摘要
+                zh_content = translate_text(summary, 'en', 'zh-CN')
+                if not zh_content:
+                    zh_content = f"[原文为英文]\n\n{summary[:200]}"
+                
+                zh_category = "#科技新闻"
+                en_category = "#Tech News"
+            
             items.append({
                 "id": item_id,
-                "title": title,
-                "summary": summary,
-                "link": link,
+                "zh": {
+                    "title": zh_title,
+                    "content": f"【{config['name']}】{zh_content}\n\n原文：{link}\n\n{zh_category}",
+                    "category": zh_category
+                },
+                "en": {
+                    "title": en_title,
+                    "content": f"[{config['name']}] {en_content}\n\nOriginal: {link}\n\n{en_category}",
+                    "category": en_category
+                },
                 "source": config['name'],
-                "lang": config['lang'],
                 "date": published,
-                "fetched_at": datetime.now(timezone.utc).isoformat(),
-                "weight": config.get('weight', 1.0)
+                "link": link,
+                "type": "short" if len(summary) < 150 else "long",
+                "created": datetime.now(timezone.utc).isoformat()
             })
         
         print(f"[RSS] ✅ {config['name']} 获取 {len(items)} 条")
@@ -97,7 +176,7 @@ def fetch_rss(source_id, config):
         print(f"[RSS] ❌ {config['name']} 失败: {e}")
         return []
 
-def save_raw(items, filepath="data/raw-rss.json"):
+def save_tweets(tweets, filepath="data/tweets.json"):
     script_dir = os.path.dirname(os.path.abspath(__file__))
     project_dir = os.path.dirname(script_dir)
     filepath = os.path.join(project_dir, filepath)
@@ -112,31 +191,30 @@ def save_raw(items, filepath="data/raw-rss.json"):
         existing = []
     
     existing_ids = {item["id"] for item in existing}
-    new_items = [item for item in items if item["id"] not in existing_ids]
+    new_items = [item for item in tweets if item["id"] not in existing_ids]
     
     all_items = new_items + existing
-    all_items.sort(key=lambda x: x.get("fetched_at", ""), reverse=True)
-    all_items = all_items[:200]
+    all_items.sort(key=lambda x: x.get("created", ""), reverse=True)
+    all_items = all_items[:100]
     
     with open(filepath, "w", encoding="utf-8") as f:
         json.dump(all_items, f, ensure_ascii=False, indent=2)
     
-    print(f"[RSS Bot] 新增 {len(new_items)} 条原始数据，总计 {len(all_items)} 条")
+    print(f"[RSS Bot] 新增 {len(new_items)} 条，总计 {len(all_items)} 条")
     return all_items
 
 def main():
-    print(f"[RSS Bot] 开始抓取原始数据: {datetime.now().strftime('%Y-%m-%d %H:%M')}")
+    print(f"[RSS Bot] 开始执行: {datetime.now().strftime('%Y-%m-%d %H:%M')}")
     print(f"[RSS Bot] 共 {len(RSS_SOURCES)} 个 RSS 源")
     
     all_items = []
     for source_id, config in RSS_SOURCES.items():
         items = fetch_rss(source_id, config)
         all_items.extend(items)
-        time.sleep(0.5)
+        time.sleep(1)
     
-    save_raw(all_items, "data/raw-rss.json")
-    print(f"[RSS Bot] 完成: 共 {len(all_items)} 条原始数据待处理")
-    print("[RSS Bot] 提示: 运行 'python3 scripts/process-content.py' 生成高质量双语内容")
+    save_tweets(all_items, "data/tweets.json")
+    print(f"[RSS Bot] 完成: 共 {len(all_items)} 条推文")
 
 if __name__ == "__main__":
     main()

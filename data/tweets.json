@@ -1,5 +1,869 @@
 [
   {
+    "id": "b5492da1",
+    "zh": {
+      "title": "解构数据目录",
+      "content": "【Lobsters】评论\n\n原文：https://www.rntz.net/post/my-thesis.html\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "Deconstructing Datalog",
+      "content": "[Lobsters] Comments\n\nOriginal: https://www.rntz.net/post/my-thesis.html\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "Lobsters",
+    "date": "2026-06-14",
+    "link": "https://www.rntz.net/post/my-thesis.html",
+    "type": "short",
+    "created": "2026-06-15T10:59:07.404916+00:00"
+  },
+  {
+    "id": "560f59ef",
+    "zh": {
+      "title": "为一个人写作",
+      "content": "【Lobsters】评论\n\n原文：https://wizardzines.com/comics/write-for-one-person/\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "write for one person",
+      "content": "[Lobsters] Comments\n\nOriginal: https://wizardzines.com/comics/write-for-one-person/\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "Lobsters",
+    "date": "2026-06-14",
+    "link": "https://wizardzines.com/comics/write-for-one-person/",
+    "type": "short",
+    "created": "2026-06-15T10:59:06.101851+00:00"
+  },
+  {
+    "id": "8439c2ad",
+    "zh": {
+      "title": "cURL SUMMER OF BLISS",
+      "content": "【Lobsters】评论\n\n原文：https://daniel.haxx.se/blog/2026/06/15/curl-summer-of-bliss/\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "curl summer of bliss",
+      "content": "[Lobsters] Comments\n\nOriginal: https://daniel.haxx.se/blog/2026/06/15/curl-summer-of-bliss/\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "Lobsters",
+    "date": "2026-06-15",
+    "link": "https://daniel.haxx.se/blog/2026/06/15/curl-summer-of-bliss/",
+    "type": "short",
+    "created": "2026-06-15T10:59:04.631907+00:00"
+  },
+  {
+    "id": "55bf76c1",
+    "zh": {
+      "title": "有些蜜蜂无法逃避不断上升的热量，它们的小房子让危机变得更加困难",
+      "content": "【Phys.org】根据澳大利亚的一项新研究，在植物茎中筑巢的蜜蜂物种似乎因气候变化导致气温升高而面临最大的短期风险，而在地下筑巢的蜜蜂物种则能够更好地逃避极端高温……\n\n原文：https://phys.org/news/2026-06-bees-tiny-homes-crisis-harder.html\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "Some bees cannot escape rising heat, and their tiny homes make crisis even harder",
+      "content": "[Phys.org] Bee species that nest in plant stems appear to be at the greatest short-term risk from increasing temperatures due to climate change, while those that nest in the ground are better able to evade extreme heat, according to new research from Austral...\n\nOriginal: https://phys.org/news/2026-06-bees-tiny-homes-crisis-harder.html\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "Phys.org",
+    "date": "2026-06-15",
+    "link": "https://phys.org/news/2026-06-bees-tiny-homes-crisis-harder.html",
+    "type": "long",
+    "created": "2026-06-15T10:59:00.643060+00:00"
+  },
+  {
+    "id": "cc29f464",
+    "zh": {
+      "title": "随着霜冻风化向上移动，气候变化重塑了西班牙的落石风险",
+      "content": "【Phys.org】新的研究表明，气候变化正在改变西班牙各地岩石最有可能破裂的地点和时间，这表明变暖的温度正在重新分配导致山区景观崩溃的关键过程。\n\n原文：https://phys.org/news/2026-06-climate-reshapes-spain-rockfall-frost.html\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "Climate change reshapes Spain's rockfall risk as frost weathering moves uphill",
+      "content": "[Phys.org] Climate change is altering where and when rocks are most likely to fracture across Spain, according to new research that suggests warming temperatures are redistributing a key process responsible for breaking down mountain landscapes.\n\nOriginal: https://phys.org/news/2026-06-climate-reshapes-spain-rockfall-frost.html\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "Phys.org",
+    "date": "2026-06-15",
+    "link": "https://phys.org/news/2026-06-climate-reshapes-spain-rockfall-frost.html",
+    "type": "long",
+    "created": "2026-06-15T10:58:58.970172+00:00"
+  },
+  {
+    "id": "44f762dc",
+    "zh": {
+      "title": "准1D材料可解锁超出标准极限的电荷波电控",
+      "content": "【Phys.org】控制带负电粒子（即电子）运动的能力是所有现代电子设备功能的核心。这种控制通常使用栅极来实现，栅极是一个电极，通过它施加的电场......\n\n原文：https://phys.org/news/2026-06-quasi-1d-material-electric-standard.html\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "Quasi-1D material unlocks electric control of charge waves beyond standard limits",
+      "content": "[Phys.org] The ability to control the movement of negatively charged particles (i.e., electrons) is central to the functioning of all modern electronic devices. This control is typically attained using a gate, an electrode via which an applied electric field...\n\nOriginal: https://phys.org/news/2026-06-quasi-1d-material-electric-standard.html\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "Phys.org",
+    "date": "2026-06-15",
+    "link": "https://phys.org/news/2026-06-quasi-1d-material-electric-standard.html",
+    "type": "long",
+    "created": "2026-06-15T10:58:56.965497+00:00"
+  },
+  {
+    "id": "cb35cf11",
+    "zh": {
+      "title": "Preply如何结合人工智能和人类导师来个性化学习",
+      "content": "【OpenAI Blog】Preply使用OpenAI启动人工智能生成的课程摘要，提供个性化的反馈和语言学习练习。\n\n原文：https://openai.com/index/preply\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "How Preply combines AI and human tutors to personalize learning",
+      "content": "[OpenAI Blog] Preply uses OpenAI to launch AI-generated lesson summaries, providing personalised feedback and language learning exercises.\n\nOriginal: https://openai.com/index/preply\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "OpenAI Blog",
+    "date": "2026-06-15",
+    "link": "https://openai.com/index/preply",
+    "type": "short",
+    "created": "2026-06-15T10:58:53.092020+00:00"
+  },
+  {
+    "id": "4805d0a6",
+    "zh": {
+      "title": "面向下一个工作时代的全新OpenAI学院课程",
+      "content": "【OpenAI Blog】OpenAI推出了三门学院课程，帮助人们培养实用的人工智能技能，创建可重复的工作流程，并在日常工作中应用代理。\n\n原文：https://openai.com/index/academy-courses-applying-ai-at-work\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "New OpenAI Academy courses for the next era of work",
+      "content": "[OpenAI Blog] OpenAI introduces three Academy courses that help people build practical AI skills, create repeatable workflows, and apply agents in everyday work.\n\nOriginal: https://openai.com/index/academy-courses-applying-ai-at-work\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "OpenAI Blog",
+    "date": "2026-06-15",
+    "link": "https://openai.com/index/academy-courses-applying-ai-at-work",
+    "type": "short",
+    "created": "2026-06-15T10:58:51.162812+00:00"
+  },
+  {
+    "id": "20acc90a",
+    "zh": {
+      "title": "美国宇航局的X-59在首次安静的超音速飞行之前达到了速度和高度的里程碑",
+      "content": "【Engadget】这架飞机将很快准备好飞越美国社区。\n\n原文：https://www.engadget.com/2193925/nasa-x-59-reaches-speed-and-altitude-milestones-ahead-of-first-quiet-supersonic-flights/\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "NASA's X-59 reaches speed and altitude milestones ahead of first quiet supersonic flights",
+      "content": "[Engadget] The plane will soon be ready to fly over US communities.\n\nOriginal: https://www.engadget.com/2193925/nasa-x-59-reaches-speed-and-altitude-milestones-ahead-of-first-quiet-supersonic-flights/\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "Engadget",
+    "date": "2026-06-14",
+    "link": "https://www.engadget.com/2193925/nasa-x-59-reaches-speed-and-altitude-milestones-ahead-of-first-quiet-supersonic-flights/",
+    "type": "short",
+    "created": "2026-06-15T10:58:29.727934+00:00"
+  },
+  {
+    "id": "0bb71c7c",
+    "zh": {
+      "title": "特朗普威胁要对法国葡萄酒行业的科技税征收100 ％的关税",
+      "content": "【Engadget】在法国举行的七国集团会议之前，唐纳德·特朗普再次威胁要对法国的数字税征收高额关税。\n\n原文：https://www.engadget.com/2194031/trump-threatens-to-smash-french-wine-industry-over-tech-tax/\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "Trump threatens 100 percent tariff on France's wine industry over its tech tax",
+      "content": "[Engadget] Ahead of the G7 conference in France, Donald Trump is once again threatening massive tariffs on France over its digital tax.\n\nOriginal: https://www.engadget.com/2194031/trump-threatens-to-smash-french-wine-industry-over-tech-tax/\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "Engadget",
+    "date": "2026-06-15",
+    "link": "https://www.engadget.com/2194031/trump-threatens-to-smash-french-wine-industry-over-tech-tax/",
+    "type": "short",
+    "created": "2026-06-15T10:58:26.403177+00:00"
+  },
+  {
+    "id": "500cdfae",
+    "zh": {
+      "title": "一场针对同性恋粉丝的加密诈骗。然后他的X Feed充斥着“MAGA宣传”",
+      "content": "【Wired】最近几个月，黑客试图从拥有大量粉丝的色情明星那里勒索钱财，在某些情况下，他们的订阅源中充斥着亲MAGA和加密内容。\n\n原文：https://www.wired.com/story/a-gay-onlyfans-star-got-hacked-then-his-x-account-started-spewing-maga-propaganda/\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "A Crypto Scam Targeted a Gay OnlyFans Star. Then His X Feed Was Flooded With ‘MAGA Propaganda’",
+      "content": "[Wired] In recent months hackers have attempted to extort money from porn stars with big followings, in some cases filling their feeds with pro-MAGA and crypto content.\n\nOriginal: https://www.wired.com/story/a-gay-onlyfans-star-got-hacked-then-his-x-account-started-spewing-maga-propaganda/\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "Wired",
+    "date": "2026-06-15",
+    "link": "https://www.wired.com/story/a-gay-onlyfans-star-got-hacked-then-his-x-account-started-spewing-maga-propaganda/",
+    "type": "long",
+    "created": "2026-06-15T10:58:23.173194+00:00"
+  },
+  {
+    "id": "1afa3dc9",
+    "zh": {
+      "title": "四分之一的世界杯比赛可能在危险的温度下进行",
+      "content": "【Wired】一份新的报告警告说，迈阿密、堪萨斯城、费城、达拉斯和休斯顿可能是2026年世界杯期间特别热门的比赛场所。\n\n原文：https://www.wired.com/story/2026-fifa-world-cup-dangerous-temperatures-heat/\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "1 in 4 World Cup Matches Could Be Played in Dangerous Temperatures",
+      "content": "[Wired] A new report warns that Miami, Kansas City, Philadelphia, Dallas, and Houston could be particularly hot places to play during the 2026 World Cup.\n\nOriginal: https://www.wired.com/story/2026-fifa-world-cup-dangerous-temperatures-heat/\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "Wired",
+    "date": "2026-06-15",
+    "link": "https://www.wired.com/story/2026-fifa-world-cup-dangerous-temperatures-heat/",
+    "type": "short",
+    "created": "2026-06-15T10:58:21.501136+00:00"
+  },
+  {
+    "id": "1eb6783c",
+    "zh": {
+      "title": "地下真菌网络的线程足够长，可以延伸到太阳系之外",
+      "content": "【Ars Technica】研究人员已经量化了全球丛枝菌根真菌网络的长度和质量。\n\n原文：https://arstechnica.com/science/2026/06/threads-of-underground-fungal-networks-are-long-enough-to-reach-beyond-the-solar-system/\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "Threads of underground fungal networks are long enough to reach beyond the Solar System",
+      "content": "[Ars Technica] Researchers have quantified the length and mass of arbuscular mycorrhizal fungal networks globally.\n\nOriginal: https://arstechnica.com/science/2026/06/threads-of-underground-fungal-networks-are-long-enough-to-reach-beyond-the-solar-system/\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "Ars Technica",
+    "date": "2026-06-13",
+    "link": "https://arstechnica.com/science/2026/06/threads-of-underground-fungal-networks-are-long-enough-to-reach-beyond-the-solar-system/",
+    "type": "short",
+    "created": "2026-06-15T10:58:15.195752+00:00"
+  },
+  {
+    "id": "36dbee67",
+    "zh": {
+      "title": "回顾：披露日对行动非常重要，对创意有所启发",
+      "content": "【Ars Technica】没有什么新鲜或令人惊讶的，但它仍然是我们最伟大的导演之一的娱乐电影。\n\n原文：https://arstechnica.com/culture/2026/06/review-disclosure-day-is-big-on-action-light-on-ideas/\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "Review: Disclosure Day is big on action, light on ideas",
+      "content": "[Ars Technica] There's nothing new or surprising, but it's still an entertaining film from one of our greatest directors.\n\nOriginal: https://arstechnica.com/culture/2026/06/review-disclosure-day-is-big-on-action-light-on-ideas/\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "Ars Technica",
+    "date": "2026-06-13",
+    "link": "https://arstechnica.com/culture/2026/06/review-disclosure-day-is-big-on-action-light-on-ideas/",
+    "type": "short",
+    "created": "2026-06-15T10:58:12.639181+00:00"
+  },
+  {
+    "id": "fcec6528",
+    "zh": {
+      "title": "中世纪飞僧有没有两次看到哈雷彗星？很复杂",
+      "content": "【Ars Technica】莱斯特大学的历史学家认为马姆斯伯里的艾尔默看到了两颗不同的彗星： 1018年和1066年\n\n原文：https://arstechnica.com/science/2026/06/did-a-medieval-flying-monk-spot-halleys-comet-twice-its-complicated/\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "Did a medieval flying monk spot Halley's comet, twice? It's complicated",
+      "content": "[Ars Technica] University of Leicester historian thinks Eilmer of Malmesbury saw two different comets: in 1018 and 1066\n\nOriginal: https://arstechnica.com/science/2026/06/did-a-medieval-flying-monk-spot-halleys-comet-twice-its-complicated/\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "Ars Technica",
+    "date": "2026-06-14",
+    "link": "https://arstechnica.com/science/2026/06/did-a-medieval-flying-monk-spot-halleys-comet-twice-its-complicated/",
+    "type": "short",
+    "created": "2026-06-15T10:58:11.030727+00:00"
+  },
+  {
+    "id": "a54968de",
+    "zh": {
+      "title": "如何使用QVAC在自己的硬件上运行私有文本转语音",
+      "content": "【freeCodeCamp】当我对QuizRope进行最后的修改时，我知道下一个合乎逻辑的步骤是语音。QuizRope是我构建的教育移动应用程序，使用LLM进行实时辅导和家庭作业辅助。阅读文本\n\n原文：https://www.freecodecamp.org/news/how-to-run-private-text-to-speech-on-your-own-hardware-using-qvac/\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "How to Run Private Text-to-Speech on Your Own Hardware Using QVAC",
+      "content": "[freeCodeCamp] When I was putting the final touches on QuizRope, an educational mobile app I built that uses LLMs for real-time tutoring and homework assistance, I knew the next logical step was voice. Reading text\n\nOriginal: https://www.freecodecamp.org/news/how-to-run-private-text-to-speech-on-your-own-hardware-using-qvac/\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "freeCodeCamp",
+    "date": "2026-06-14",
+    "link": "https://www.freecodecamp.org/news/how-to-run-private-text-to-speech-on-your-own-hardware-using-qvac/",
+    "type": "long",
+    "created": "2026-06-15T10:58:05.185690+00:00"
+  },
+  {
+    "id": "eb969a74",
+    "zh": {
+      "title": "软件工程第一年：适应剖析",
+      "content": "【Dev.to】进入软件世界的第一年......当时，迷失在代码行中，学习新技术的甜蜜焦虑，以及“我走在正确的道路上吗？”这个问题一直在我的脑海中旋转。今天回想起来，我看到了……\n\n原文：https://dev.to/merbayerp/first-years-in-software-engineering-the-anatomy-of-adaptation-1oo5\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "First Years in Software Engineering: The Anatomy of Adaptation",
+      "content": "[Dev.to] The first years stepping into the world of software... Back then, getting lost in lines of code, the sweet anxiety of learning a new technology, and the question \"Am I on the right path?\" constantly revolved in my mind. Looking back today, I see m...\n\nOriginal: https://dev.to/merbayerp/first-years-in-software-engineering-the-anatomy-of-adaptation-1oo5\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "Dev.to",
+    "date": "2026-06-15",
+    "link": "https://dev.to/merbayerp/first-years-in-software-engineering-the-anatomy-of-adaptation-1oo5",
+    "type": "long",
+    "created": "2026-06-15T10:57:59.110951+00:00"
+  },
+  {
+    "id": "615d6acc",
+    "zh": {
+      "title": "2026年的DevOps值得学习吗？为印度新手提供诚实的答案",
+      "content": "【Dev.to】关键要点是的， DevOps值得在2026年学习，但前提是您使用正确的堆栈，而不仅仅是理论。在印度，新生实际上可以从₹ 4–8 LPA开始， 2–3年内可以实现₹ 12–20 LPA。250,000多个活跃的DevOps工作...\n\n原文：https://dev.to/nixace_tech_62afe633b44ad203/is-devops-worth-learning-in-2026-an-honest-answer-for-indian-freshers-dcm\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "Is DevOps Worth Learning in 2026? An Honest Answer for Indian Freshers",
+      "content": "[Dev.to] Key Takeaways Yes, DevOps is worth learning in 2026 but only if you approach it with the right stack, not just theory. Freshers can realistically start at ₹4–8 LPA in India, with ₹12–20 LPA achievable within 2–3 years. 250,000+ active DevOps job o...\n\nOriginal: https://dev.to/nixace_tech_62afe633b44ad203/is-devops-worth-learning-in-2026-an-honest-answer-for-indian-freshers-dcm\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "Dev.to",
+    "date": "2026-06-15",
+    "link": "https://dev.to/nixace_tech_62afe633b44ad203/is-devops-worth-learning-in-2026-an-honest-answer-for-indian-freshers-dcm",
+    "type": "long",
+    "created": "2026-06-15T10:57:57.294855+00:00"
+  },
+  {
+    "id": "b3557971",
+    "zh": {
+      "title": "人工智能应用程序安全吗？开发人员在生产前应将哪些内容构建到AI系统中",
+      "content": "【Dev.to】人工智能安全正在成为软件架构问题。多年来，开发人员了解到，当架构干净时，良好的系统更容易测试、更改和安全。清晰的界限很重要。依赖关系很重要。信任边界很重要。Lo...\n\n原文：https://dev.to/alexcybersmith/are-ai-apps-safe-what-developers-should-build-into-ai-systems-before-production-1654\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "Are AI Apps Safe? What Developers Should Build Into AI Systems Before Production",
+      "content": "[Dev.to] AI safety is becoming a software architecture problem. For years, developers learned that good systems are easier to test, change, and secure when the architecture is clean. Clear boundaries matter. Dependencies matter. Trust boundaries matter. Lo...\n\nOriginal: https://dev.to/alexcybersmith/are-ai-apps-safe-what-developers-should-build-into-ai-systems-before-production-1654\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "Dev.to",
+    "date": "2026-06-15",
+    "link": "https://dev.to/alexcybersmith/are-ai-apps-safe-what-developers-should-build-into-ai-systems-before-production-1654",
+    "type": "long",
+    "created": "2026-06-15T10:57:55.724271+00:00"
+  },
+  {
+    "id": "015ce1ec",
+    "zh": {
+      "title": "如何使您的设计系统具备AI-Ready功能",
+      "content": "【Smashing】关于如何减少漂移、最大限度地减少错误、维护上下文和提高人工智能生成原型质量的实用指南。由Design Patterns For AI Interfaces为您带来， * *关于用户体验的友好视频课程* *和Vitaly的设计模式。\n\n原文：https://smashingmagazine.com/2026/06/how-make-design-system-ai-ready/\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "How To Make Your Design System AI-Ready",
+      "content": "[Smashing] Practical guide on how to reduce drifts, minimize mistakes, maintain context, and improve the quality of AI-generated prototypes. Brought to you by Design Patterns For AI Interfaces, **friendly video course on UX** and design patterns by Vitaly.\n\nOriginal: https://smashingmagazine.com/2026/06/how-make-design-system-ai-ready/\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "Smashing",
+    "date": "2026-06-15",
+    "link": "https://smashingmagazine.com/2026/06/how-make-design-system-ai-ready/",
+    "type": "long",
+    "created": "2026-06-15T10:57:50.588210+00:00"
+  },
+  {
+    "id": "e85914ad",
+    "zh": {
+      "title": "认知包容性在用户体验研究中的优势",
+      "content": "【Smashing】一项探索性用户研究结果，突出了认知障碍参与者分享的独特见解和实用的用户体验建议。\n\n原文：https://smashingmagazine.com/2026/06/benefits-cognitive-inclusion-ux-research/\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "The Benefits Of Cognitive Inclusion In UX Research",
+      "content": "[Smashing] Findings from an exploratory user research study highlighting the unique insights and practical UX recommendations shared by participants with cognitive disabilities.\n\nOriginal: https://smashingmagazine.com/2026/06/benefits-cognitive-inclusion-ux-research/\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "Smashing",
+    "date": "2026-06-15",
+    "link": "https://smashingmagazine.com/2026/06/benefits-cognitive-inclusion-ux-research/",
+    "type": "long",
+    "created": "2026-06-15T10:57:48.877872+00:00"
+  },
+  {
+    "id": "e71af34c",
+    "zh": {
+      "title": "人形机器人对人类的影响",
+      "content": "【Smashing】我们已经正式超越了人形机器人的时代，成为了纯粹的公关特技。随着他们变得越来越栩栩如生，社会可能很快就会面临深刻的社会、心理和道德挑战。当hu之间的界限……\n\n原文：https://smashingmagazine.com/2026/06/impact-humanoid-robots-humanity/\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "The Impact Of Humanoid Robots On Humanity",
+      "content": "[Smashing] We have officially moved past the era of humanoid robots as mere public relations stunts. As they become increasingly lifelike, society may soon face profound social, psychological, and ethical challenges. What happens when the boundary between hu...\n\nOriginal: https://smashingmagazine.com/2026/06/impact-humanoid-robots-humanity/\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "Smashing",
+    "date": "2026-06-15",
+    "link": "https://smashingmagazine.com/2026/06/impact-humanoid-robots-humanity/",
+    "type": "long",
+    "created": "2026-06-15T10:57:46.610468+00:00"
+  },
+  {
+    "id": "cb69c16b",
+    "zh": {
+      "title": "联邦调查局建造了一个小镇来模拟网络攻击",
+      "content": "【The Verge】去年，联邦调查局在阿拉巴马州亨茨维尔开设了一个网络靶场，用于模拟网络攻击。把它想象成著名的霍根小巷（ Hogan's Alley ） ，但对于现代数字犯罪培训来说。这是一个巨大的22,000平方英尺的整个城镇的复制品， COM...\n\n原文：https://www.theverge.com/tech/949648/fbi-fake-town-cyberattacks-kinetic-cyber-range\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "The FBI built a small town to simulate cyberattacks",
+      "content": "[The Verge] Last year, the FBI opened a Cyber Range in Huntsville, Alabama, for simulating cyberattacks. Think of it sort of like the famous Hogan's Alley, but for modern digital crime training. It's a massive 22,000-square-foot replica of an entire town, com...\n\nOriginal: https://www.theverge.com/tech/949648/fbi-fake-town-cyberattacks-kinetic-cyber-range\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "The Verge",
+    "date": "2026-06-15",
+    "link": "https://www.theverge.com/tech/949648/fbi-fake-town-cyberattacks-kinetic-cyber-range",
+    "type": "long",
+    "created": "2026-06-15T10:57:40.677287+00:00"
+  },
+  {
+    "id": "3778cdbe",
+    "zh": {
+      "title": "英国政府宣布禁止16岁以下儿童使用社交媒体",
+      "content": "【The Verge】英国首相基尔·斯塔默（ Keir Starmer ）宣布，英国是跟随澳大利亚对16岁以下儿童实施全面社交媒体禁令的最新国家。这项禁令可能从明年初开始生效，除此之外，还将采取更广泛的措施……\n\n原文：https://www.theverge.com/policy/949679/uk-under-16-social-media-ban-announcement\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "Under-16 social media ban announced by UK government",
+      "content": "[The Verge] The UK is the latest country to follow Australia in implementing a total social media ban for children under 16, Prime Minister Keir Starmer has announced. The ban, which could take effect from early next year, will be joined by wider measures tha...\n\nOriginal: https://www.theverge.com/policy/949679/uk-under-16-social-media-ban-announcement\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "The Verge",
+    "date": "2026-06-15",
+    "link": "https://www.theverge.com/policy/949679/uk-under-16-social-media-ban-announcement",
+    "type": "long",
+    "created": "2026-06-15T10:57:33.143151+00:00"
+  },
+  {
+    "id": "c93223bd",
+    "zh": {
+      "title": "打造难忘的网络体验：现代CSS工具包",
+      "content": "【CSS-Tricks】有很多方法可以创造难忘的体验。有时候，它就像一个顺利完成的表格一样简单。但在这里，我有兴趣分享当我想让一个网站感到活力并被人们记住时，我所接触到的技巧。正在创建令人难忘的网站...\n\n原文：https://css-tricks.com/creating-memorable-web-experiences-a-modern-css-toolkit/\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "Creating Memorable Web Experiences: A Modern CSS Toolkit",
+      "content": "[CSS-Tricks] There are many ways to create memorable experiences. Sometimes it's as simple as a form that completes smoothly. But here I'm interested in sharing techniques I reach for when I want a site to feel alive and be remembered.  Creating Memorable Web ...\n\nOriginal: https://css-tricks.com/creating-memorable-web-experiences-a-modern-css-toolkit/\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "CSS-Tricks",
+    "date": "2026-06-10",
+    "link": "https://css-tricks.com/creating-memorable-web-experiences-a-modern-css-toolkit/",
+    "type": "long",
+    "created": "2026-06-15T10:57:26.873789+00:00"
+  },
+  {
+    "id": "378c4d00",
+    "zh": {
+      "title": "无需在导航标签中添加“导航”",
+      "content": "【CSS-Tricks】在为屏幕阅读器写作时，这些细微差别之一应该放在你的后口袋里。您无需在最初在CSS-Tricks上手写和发布的导航标签中添加“导航”。你真的应该收到时事通讯……\n\n原文：https://css-tricks.com/navigation-in-your-navigation-labels/\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "There’s no need to include ‘navigation’ in your navigation labels",
+      "content": "[CSS-Tricks] One of those nuances to keep in your back pocket when writing for screen readers.  There’s no need to include ‘navigation’ in your navigation labels originally handwritten and published with love on CSS-Tricks. You should really get the newsletter...\n\nOriginal: https://css-tricks.com/navigation-in-your-navigation-labels/\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "CSS-Tricks",
+    "date": "2026-06-12",
+    "link": "https://css-tricks.com/navigation-in-your-navigation-labels/",
+    "type": "long",
+    "created": "2026-06-15T10:57:25.247432+00:00"
+  },
+  {
+    "id": "f8199cea",
+    "zh": {
+      "title": "为什么我的3D视图转换不起作用？",
+      "content": "【CSS-Tricks】为什么我的3D视图转换不起作用？ ！ Sunkanmi解决了这种挫折感，并为其提供了一个优雅的解决方案。为什么我的3D视图转换不起作用？最初是手写的，并在CSS技巧上发布。你真的应该收到时事通讯……\n\n原文：https://css-tricks.com/why-isnt-my-3d-view-transition-working/\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "Why Isn’t My 3D View Transition Working?",
+      "content": "[CSS-Tricks] Why isn't my 3D view transition working?! Sunkanmi tackles this frustration and offers an elegant fix for it.  Why Isn’t My 3D View Transition Working? originally handwritten and published with love on CSS-Tricks. You should really get the newslet...\n\nOriginal: https://css-tricks.com/why-isnt-my-3d-view-transition-working/\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "CSS-Tricks",
+    "date": "2026-06-12",
+    "link": "https://css-tricks.com/why-isnt-my-3d-view-transition-working/",
+    "type": "long",
+    "created": "2026-06-15T10:57:23.297099+00:00"
+  },
+  {
+    "id": "4c398cab",
+    "zh": {
+      "title": "快速访问",
+      "content": "【Product Hunt】适用于macOS的Proton Pass的本机快速访问和SSH代理讨论|链接\n\n原文：https://www.producthunt.com/products/pass-quick-access\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "Pass Quick Access",
+      "content": "[Product Hunt] Native quick access and SSH agent for Proton Pass for macOS                                   Discussion             |             Link\n\nOriginal: https://www.producthunt.com/products/pass-quick-access\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "Product Hunt",
+    "date": "2026-06-15",
+    "link": "https://www.producthunt.com/products/pass-quick-access",
+    "type": "short",
+    "created": "2026-06-15T10:57:18.574504+00:00"
+  },
+  {
+    "id": "32d9e7e1",
+    "zh": {
+      "title": "PandaProbe云",
+      "content": "【Product Hunt】代理工程，完全托管。讨论|链接\n\n原文：https://www.producthunt.com/products/pandaprobe-cloud\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "PandaProbe Cloud",
+      "content": "[Product Hunt] agent engineering, fully managed.                                   Discussion             |             Link\n\nOriginal: https://www.producthunt.com/products/pandaprobe-cloud\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "Product Hunt",
+    "date": "2026-06-15",
+    "link": "https://www.producthunt.com/products/pandaprobe-cloud",
+    "type": "short",
+    "created": "2026-06-15T10:57:16.984170+00:00"
+  },
+  {
+    "id": "e3d7a01c",
+    "zh": {
+      "title": "Synopsule",
+      "content": "【Product Hunt】在设备上私有AI会议记录讨论|链接\n\n原文：https://www.producthunt.com/products/synopsule\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "Synopsule",
+      "content": "[Product Hunt] On device private AI meeting transcripts                                   Discussion             |             Link\n\nOriginal: https://www.producthunt.com/products/synopsule\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "Product Hunt",
+    "date": "2026-06-15",
+    "link": "https://www.producthunt.com/products/synopsule",
+    "type": "short",
+    "created": "2026-06-15T10:57:15.632811+00:00"
+  },
+  {
+    "id": "73158279",
+    "zh": {
+      "title": "让秘密扫描更值得信赖：大规模减少误报",
+      "content": "【GitHub Blog】当噪音降低时，警报更值得信赖和可操作。了解我们如何通过情境感知LLM推理改进验证步骤。《Making secret scanning more trustworthy: Reducing false positives at scale》一文首次出现在...\n\n原文：https://github.blog/security/making-secret-scanning-more-trustworthy-reducing-false-positives-at-scale/\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "Making secret scanning more trustworthy: Reducing false positives at scale",
+      "content": "[GitHub Blog] Alerts are more trustworthy and actionable when noise is reduced. See how we improved the verification step with context-aware LLM reasoning. The post Making secret scanning more trustworthy: Reducing false positives at scale appeared first on The...\n\nOriginal: https://github.blog/security/making-secret-scanning-more-trustworthy-reducing-false-positives-at-scale/\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "GitHub Blog",
+    "date": "2026-06-11",
+    "link": "https://github.blog/security/making-secret-scanning-more-trustworthy-reducing-false-positives-at-scale/",
+    "type": "long",
+    "created": "2026-06-15T10:57:12.127415+00:00"
+  },
+  {
+    "id": "d4e76556",
+    "zh": {
+      "title": "GitHub可用性报告： 2026年5月",
+      "content": "【GitHub Blog】5月份，我们经历了9次事件，导致GitHub服务的性能下降。文章GitHub可用性报告： 2026年5月首次出现在GitHub博客上。\n\n原文：https://github.blog/news-insights/company-news/github-availability-report-may-2026/\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "GitHub availability report: May 2026",
+      "content": "[GitHub Blog] In May, we experienced nine incidents that resulted in degraded performance across GitHub services. The post GitHub availability report: May 2026 appeared first on The GitHub Blog.\n\nOriginal: https://github.blog/news-insights/company-news/github-availability-report-may-2026/\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "GitHub Blog",
+    "date": "2026-06-11",
+    "link": "https://github.blog/news-insights/company-news/github-availability-report-may-2026/",
+    "type": "long",
+    "created": "2026-06-15T10:57:10.597179+00:00"
+  },
+  {
+    "id": "d8f3f6be",
+    "zh": {
+      "title": "我们如何使GitHub Copilot CLI对委派更具选择性",
+      "content": "【GitHub Blog】更好的协调，更少的交接，更快的进度，没有一个新的旋钮。我们如何使GitHub Copilot CLI对委派更具选择性的帖子首先出现在GitHub博客上。\n\n原文：https://github.blog/ai-and-ml/how-we-made-github-copilot-cli-more-selective-about-delegation/\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "How we made GitHub Copilot CLI more selective about delegation",
+      "content": "[GitHub Blog] Better orchestration, fewer handoffs, faster progress, without a single new knob. The post How we made GitHub Copilot CLI more selective about delegation appeared first on The GitHub Blog.\n\nOriginal: https://github.blog/ai-and-ml/how-we-made-github-copilot-cli-more-selective-about-delegation/\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "GitHub Blog",
+    "date": "2026-06-12",
+    "link": "https://github.blog/ai-and-ml/how-we-made-github-copilot-cli-more-selective-about-delegation/",
+    "type": "long",
+    "created": "2026-06-15T10:57:07.773394+00:00"
+  },
+  {
+    "id": "4178911b",
+    "zh": {
+      "title": "据报道，初创公司首席执行官查理·贾维斯（ Charlie Javice ）正在争取特朗普的赦",
+      "content": "【TechCrunch】摩根大通对这些都不满意。\n\n原文：https://techcrunch.com/2026/06/14/startup-ceo-charlie-javice-is-reportedly-angling-for-a-trump-pardon/\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "Startup CEO Charlie Javice is reportedly angling for a Trump pardon",
+      "content": "[TechCrunch] JPMorgan can't be pleased by any of this.\n\nOriginal: https://techcrunch.com/2026/06/14/startup-ceo-charlie-javice-is-reportedly-angling-for-a-trump-pardon/\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "TechCrunch",
+    "date": "2026-06-14",
+    "link": "https://techcrunch.com/2026/06/14/startup-ceo-charlie-javice-is-reportedly-angling-for-a-trump-pardon/",
+    "type": "short",
+    "created": "2026-06-15T10:57:03.971848+00:00"
+  },
+  {
+    "id": "c3e3092c",
+    "zh": {
+      "title": "Orbio筹集了2100万美元（ $ 2100万） ，用于一线员工的自动招聘和入职",
+      "content": "【TechCrunch】Orbio宣布由Dawn Capital领投的$ 2100万A轮融资。\n\n原文：https://techcrunch.com/2026/06/14/orbio-raises-21-million-to-automate-hiring-and-onboarding-for-frontline-workers/\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "Orbio raises $21 million to automate hiring and onboarding for frontline workers",
+      "content": "[TechCrunch] Orbio announces $21 Million Series A in round led by Dawn Capital.\n\nOriginal: https://techcrunch.com/2026/06/14/orbio-raises-21-million-to-automate-hiring-and-onboarding-for-frontline-workers/\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "TechCrunch",
+    "date": "2026-06-15",
+    "link": "https://techcrunch.com/2026/06/14/orbio-raises-21-million-to-automate-hiring-and-onboarding-for-frontline-workers/",
+    "type": "short",
+    "created": "2026-06-15T10:57:02.382917+00:00"
+  },
+  {
+    "id": "c37e8ec4",
+    "zh": {
+      "title": "AI裁员浪潮正在变成火药桶",
+      "content": "【TechCrunch】是什么让这种情况变得可燃：就在成千上万的工人被带到门口的那一刻，一小群人工智能内部人士正在变得富有，其规模之大令人难以理解。\n\n原文：https://techcrunch.com/2026/06/15/the-ai-layoff-wave-is-becoming-a-powder-keg/\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "The AI layoff wave is becoming a powder keg",
+      "content": "[TechCrunch] What makes this combustible: at the very moment that tens of thousands of workers are being shown the door, a small cohort of AI insiders is becoming wealthy on a scale that's hard to comprehend.\n\nOriginal: https://techcrunch.com/2026/06/15/the-ai-layoff-wave-is-becoming-a-powder-keg/\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "TechCrunch",
+    "date": "2026-06-15",
+    "link": "https://techcrunch.com/2026/06/15/the-ai-layoff-wave-is-becoming-a-powder-keg/",
+    "type": "long",
+    "created": "2026-06-15T10:57:00.378355+00:00"
+  },
+  {
+    "id": "85bdc395",
+    "zh": {
+      "title": "限时 15.49 万元起，华为乾崑智驾 ADS Pro 上车全新深蓝 S07 增程版",
+      "content": "【爱范儿】华为乾崑智驾的平价之选。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。\n\n原文：https://www.ifanr.com/1668957?utm_source=rss&utm_medium=rss&utm_campaign=\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "For a limited time, starting from RMB 154,900, Huawei Dry Kun drove ads Pro to the new Dark Blue S07 Extended Range Edition",
+      "content": "[爱范儿] Huawei's affordable choice for dry and smart driving. # Welcome to follow Ai Fan 'er's official WeChat public number: Ai Fan 'er (WeChat: ifanr), more exciting content will be provided to you as soon as possible.\n\nOriginal: https://www.ifanr.com/1668957?utm_source=rss&utm_medium=rss&utm_campaign=\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "爱范儿",
+    "date": "2026-06-15",
+    "link": "https://www.ifanr.com/1668957?utm_source=rss&utm_medium=rss&utm_campaign=",
+    "type": "short",
+    "created": "2026-06-15T10:56:39.555787+00:00"
+  },
+  {
+    "id": "9b8ff290",
+    "zh": {
+      "title": "昊铂 S600 上市：20 万级 SUV 的竞争，开始进入「少做选择题」阶段",
+      "content": "【爱范儿】昊铂需要一个爆款。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。\n\n原文：https://www.ifanr.com/1668976?utm_source=rss&utm_medium=rss&utm_campaign=\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "Launch of the Hao Platinum S600: Competition for 200,000-class SUVs, starting to enter the \"less choice\" stage",
+      "content": "[爱范儿] Hao Platinum needs a hit. # Welcome to follow Ai Fan 'er's official WeChat public number: Ai Fan 'er (WeChat: ifanr), more exciting content will be provided to you as soon as possible.\n\nOriginal: https://www.ifanr.com/1668976?utm_source=rss&utm_medium=rss&utm_campaign=\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "爱范儿",
+    "date": "2026-06-15",
+    "link": "https://www.ifanr.com/1668976?utm_source=rss&utm_medium=rss&utm_campaign=",
+    "type": "short",
+    "created": "2026-06-15T10:56:36.759669+00:00"
+  },
+  {
+    "id": "4fb68e03",
+    "zh": {
+      "title": "头部应用撑起天际线之后，鸿蒙还需要什么？",
+      "content": "【爱范儿】小团队，能干大事，是鸿蒙在 AI 时代的新标签。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。\n\n原文：https://www.ifanr.com/1668873?utm_source=rss&utm_medium=rss&utm_campaign=\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "What else does Hongmeng need after the head application supports the skyline?",
+      "content": "[爱范儿] A small team, capable of doing big things, is Hongmeng's new label in the AI era. # Welcome to follow Ai Fan 'er's official WeChat public number: Ai Fan 'er (WeChat: ifanr), more exciting content will be provided to you as soon as possible.\n\nOriginal: https://www.ifanr.com/1668873?utm_source=rss&utm_medium=rss&utm_campaign=\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "爱范儿",
+    "date": "2026-06-15",
+    "link": "https://www.ifanr.com/1668873?utm_source=rss&utm_medium=rss&utm_campaign=",
+    "type": "short",
+    "created": "2026-06-15T10:56:34.869143+00:00"
+  },
+  {
+    "id": "88a6a64e",
+    "zh": {
+      "title": "硬氪首发 | 海洋具身智能公司「世航智能」拿下创纪录10亿融资，朱啸虎押注",
+      "content": "【36氪】作者 | 邱晓芬   编辑 | 袁斯来   硬氪获悉，海洋具身智能公司「世航智能」完成A轮融资，融资金额超过10亿元，这也是目前全球海洋机器人领域规模最大的单轮融资。本轮融资由两家芯片公司「摩尔线程」和「昆仑芯」的产业投资方上河动量基金、新加坡国有投资平台Vertex Growth 、上市公司大洋电机等资方出资。   另外，金沙江创投也在本轮追加投资，这已是其创始人朱啸虎第五轮投资「世航智能」，祥峰中国、华映资本、长石资本等老股东亦全部超额跟投。   「世航智能」创始人兼CEO陈晓博为19...\n\n原文：https://36kr.com/p/3853011900142848?f=rss\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "Hard Krypton Initiation | Shihang Intelligence, a marine equipment and body intelligence company, won a record 1 billion financing, Zhu Xiaohu bet",
+      "content": "[36氪] Author | Qiu Xiaofen Editor | Yuan Silai Hard Krypton learned that the marine body intelligence company \"Shihang Intelligent\" completed a round of financing, with a financing amount of more than 1 billion yuan, which is also the largest single round of financing in the global marine robot field. This round of financing was funded by two chip companies, Moore Thread and Kunlun Core's industrial investor Shanghe Momentum Fund, Singapore's state-owned investment platform Vertex Growth, and listed company Dayang Electric. In addition, Jinshajiang Venture Capital also invested in this round, which is the fifth round of investment \"Shihang Intelligence\" by its founder Zhu Xiaohu, and all the old shareholders such as Xiangfeng China, Huaying Capital, and Changshi Capital have also exceeded their investment. Chen Xiaobo, founder and CEO of Shihang Intelligent, is 19...\n\nOriginal: https://36kr.com/p/3853011900142848?f=rss\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "36氪",
+    "date": "2026-06-15",
+    "link": "https://36kr.com/p/3853011900142848?f=rss",
+    "type": "long",
+    "created": "2026-06-15T10:56:29.351201+00:00"
+  },
+  {
+    "id": "03f455d2",
+    "zh": {
+      "title": "硬氪专访 | 智源研究院院长王仲远：VLA不会死，但世界模型是未来",
+      "content": "【36氪】作者 | 邱晓芬   编辑 | 袁斯来   过去几个月，“世界模型”（World Model）从学术黑话迅速膨胀成AI和机器人行业里的关键词。   行业的目光转向背后是切实的焦虑。   一方面，经过了过去两年的野蛮生长，具身智能暴露了当前AI在物理世界中的短板——机器人能识别物体，却不懂“推杯子会掉”；能听懂指令，却无法预判“拧瓶盖需要多大的力”。世界模型正是试图补上这个短板，让机器人学会物理世界的规律、因果。   也就是说，世界模型与具身智能的关系，本质上是“大脑”与“身体”的关系。  ...\n\n原文：https://36kr.com/p/3853016586359817?f=rss\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "Interview with Hard Krypton | Wang Zhongyuan, Dean of Zhiyuan Research Institute: VLA will not die, but the world model is the future",
+      "content": "[36氪] The author | Qiu Xiaofen | Yuan Silai In the past few months, the \"World Model\" has rapidly expanded from an academic cliche to a keyword in the AI and robotics industry. Behind the industry's gaze is tangible anxiety. On the one hand, after the brutal growth of the past two years, physical intelligence has exposed the current shortcomings of AI in the physical world - robots can recognize objects, but they do not understand \"pushing the cup will fall\"; they can understand the instructions, but they cannot predict \"how much force is needed to screw the bottle cap\". The world model is trying to make up for this shortcoming, so that robots can learn the laws, causes and effects of the physical world. In other words, the relationship between the world model and the body's intelligence is essentially the relationship between the \"brain\" and the \"body\"....\n\nOriginal: https://36kr.com/p/3853016586359817?f=rss\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "36氪",
+    "date": "2026-06-15",
+    "link": "https://36kr.com/p/3853016586359817?f=rss",
+    "type": "long",
+    "created": "2026-06-15T10:56:25.779698+00:00"
+  },
+  {
+    "id": "418f9981",
+    "zh": {
+      "title": "从一个想法到一个产品，年轻开发者把生活观察写进代码",
+      "content": "【36氪】6月14日，HarmonyOS创新赛·极客赛道决赛在HDC华为开发者大会（HDC 2026）落下帷幕。    此前，20支入围队伍从众多参赛作品中脱颖而出，在36小时极限编码中抢先使用HarmonyOS 7，围绕AI、3D空间化、用户体验等方向展开比拼。随着最终获奖名单揭晓，比赛的结果已经落定，但比奖项本身更值得被看见的，是这些作品背后一批年轻开发者正在关注什么，又试图用代码回答什么。   翻开参赛作品的名单，我们意外地发现，这其中很多的开发者都还是在校学生，没有成熟公司的资源，没有完整的...\n\n原文：https://36kr.com/p/3854243718550528?f=rss\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "From an idea to a product, young developers write life observations into code",
+      "content": "[36氪] On June 14, the HarmonyOS Innovation Competition · Geek Track Final concluded at the HDC Huawei Developer Conference (HDC 2026). Previously, the 20 finalists stood out from the many entries and used HarmonyOS 7 in the 36-hour limit coding to compete in AI, 3D spatialization, user experience and other directions. With the final winners announced, the results of the competition have been settled, but what is more worth seeing than the awards themselves is what a group of young developers behind these works are paying attention to and trying to answer with code. Opening the list of entries, we unexpectedly found that many of the developers are still students, there are no mature company resources, there is no complete...\n\nOriginal: https://36kr.com/p/3854243718550528?f=rss\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "36氪",
+    "date": "2026-06-15",
+    "link": "https://36kr.com/p/3854243718550528?f=rss",
+    "type": "long",
+    "created": "2026-06-15T10:56:22.990467+00:00"
+  },
+  {
+    "id": "2dc4546a",
+    "zh": {
+      "title": "从 BANG!CASE 到 AI Display：我为什么想给 AI 在桌面留一个位置",
+      "content": "【少数派】过去几年，我一直在深圳做硬件产品，也在少数派参与过几次消费电子产品的共创。如果你关注过少数派之前的一些硬件项目，可能见过BANG!CASE。它最早来自我的一个产品创意，后来在少数派团队的推进下变成了真 ...查看全文\n\n原文：https://sspai.com/post/110984\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "From bang! case to AI Display: Why I want to give AI a spot on the desktop",
+      "content": "[少数派] In the past few years, I have been doing hardware products in Shenzhen, and I have participated in the co-creation of consumer electronics several times in the minority. If you've been following a few hardware projects before, you've probably seen bang! Case. It first came from one of my product ideas and then became a reality with the help of a minority team... Read more\n\nOriginal: https://sspai.com/post/110984\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "少数派",
+    "date": "2026-06-15",
+    "link": "https://sspai.com/post/110984",
+    "type": "short",
+    "created": "2026-06-15T10:56:17.882866+00:00"
+  },
+  {
+    "id": "6749dcdb",
+    "zh": {
+      "title": "具透 | 思考、打磨、加速：iPadOS 27 首个开发者测试版中值得关注的新内容",
+      "content": "【少数派】除了可以自定义的 Liquid Glass 透明度，iPadOS 27 还有这 12 项细节变化。查看全文\n\n原文：https://sspai.com/post/111003\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "Thoughtful | Thinking, Shaping, Accelerating: What's New in the First Developer Beta of iPadOS 27",
+      "content": "[少数派] In addition to the customizable Liquid Glass transparency, iPadOS 27 also has these 12 changes in detail. Read more\n\nOriginal: https://sspai.com/post/111003\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "少数派",
+    "date": "2026-06-15",
+    "link": "https://sspai.com/post/111003",
+    "type": "short",
+    "created": "2026-06-15T10:56:15.282714+00:00"
+  },
+  {
+    "id": "7321bd5c",
+    "zh": {
+      "title": "派评 | 近期值得关注的 App",
+      "content": "【少数派】>下载少数派2.0客户端、关注少数派公众号，解锁全新阅读体验📰>实用、好用的正版软件，少数派为你呈现🚀查看全文\n\n原文：https://sspai.com/post/111068\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "Reviews | Recent Apps to Watch",
+      "content": "[少数派] > Download the Minority 2.0 client, follow the Minority Official Account, and unlock the new reading experience📰 > Useful, easy-to-use genuine software, presented by the Minority🚀 View full text\n\nOriginal: https://sspai.com/post/111068\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "少数派",
+    "date": "2026-06-15",
+    "link": "https://sspai.com/post/111068",
+    "type": "short",
+    "created": "2026-06-15T10:56:13.190102+00:00"
+  },
+  {
+    "id": "2d82afbd",
+    "zh": {
+      "title": "科技爱好者周刊（第 398 期）：Token 费用难以负担",
+      "content": "【阮一峰】这里记录每周值得分享的科技内容，周五发布。...\n\n原文：http://www.ruanyifeng.com/blog/2026/05/weekly-issue-398.html\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "Tech Enthusiasts Weekly (Issue 398): Unaffordable Token Costs",
+      "content": "[阮一峰] This is where the weekly tech content worth sharing is recorded and released on Friday....\n\nOriginal: http://www.ruanyifeng.com/blog/2026/05/weekly-issue-398.html\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "阮一峰",
+    "date": "2026-06-15",
+    "link": "http://www.ruanyifeng.com/blog/2026/05/weekly-issue-398.html",
+    "type": "short",
+    "created": "2026-06-15T10:56:09.859716+00:00"
+  },
+  {
+    "id": "675de73e",
+    "zh": {
+      "title": "科技爱好者周刊（第 399 期）：中国 AI 大厂访问记",
+      "content": "【阮一峰】这里记录每周值得分享的科技内容，周五发布。...\n\n原文：http://www.ruanyifeng.com/blog/2026/06/weekly-issue-399.html\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "Tech Enthusiasts Weekly (Issue 399): A Visit to China's Big AI Factory",
+      "content": "[阮一峰] This is where the weekly tech content worth sharing is recorded and released on Friday....\n\nOriginal: http://www.ruanyifeng.com/blog/2026/06/weekly-issue-399.html\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "阮一峰",
+    "date": "2026-06-15",
+    "link": "http://www.ruanyifeng.com/blog/2026/06/weekly-issue-399.html",
+    "type": "short",
+    "created": "2026-06-15T10:56:04.416898+00:00"
+  },
+  {
+    "id": "7b84a266",
+    "zh": {
+      "title": "科技爱好者周刊（第 400 期）：rsync 的争论",
+      "content": "【阮一峰】这里记录每周值得分享的科技内容，周五发布。（[通知] 下周端午假期，周刊休息。）...\n\n原文：http://www.ruanyifeng.com/blog/2026/06/weekly-issue-400.html\n\n#科技新闻",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "Tech Enthusiasts Weekly (Issue 400): rsync's Controversy",
+      "content": "[阮一峰] This is where the weekly science and technology content worth sharing is documented and released on Friday. ([Notice] Next week noon holiday, the weekly magazine is closed.)...\n\nOriginal: http://www.ruanyifeng.com/blog/2026/06/weekly-issue-400.html\n\n#Tech News",
+      "category": "#Tech News"
+    },
+    "source": "阮一峰",
+    "date": "2026-06-15",
+    "link": "http://www.ruanyifeng.com/blog/2026/06/weekly-issue-400.html",
+    "type": "short",
+    "created": "2026-06-15T10:56:02.490372+00:00"
+  },
+  {
     "id": "de1683a9",
     "zh": {
       "title": "OpenAI 砸15亿建伙伴网络",
