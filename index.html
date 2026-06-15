@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title data-i18n="siteName">玩转AI进化网</title>
-  <meta name="description" data-i18n="tagline" content="一个会随着你的想法自动进化的AI网站">
-  <meta name="keywords" content="AI,人工智能,网站进化,自动建站,AI工具,智能体">
+  <meta name="description" data-i18n="tagline" content="聚合全平台AI资讯，24小时实时更新">
+  <meta name="keywords" content="AI,人工智能,AI资讯,AI新闻,科技快讯">
   <meta name="author" content="Play AI Evolution">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://aigo.homes/">
@@ -33,59 +33,32 @@
     </div>
   </nav>
 
-  <header class="hero" role="banner">
-    <h1 data-i18n="hero.title">一个会<span>自我进化</span>的AI网站</h1>
-    <p data-i18n="hero.subtitle">提交你的需求，看AI实时构建和进化这个网站。</p>
-    <div class="hero-btns">
-      <a href="submit.html" class="btn btn-primary" data-i18n="hero.ctaPrimary">提交你的需求</a>
-      <a href="requests.html" class="btn btn-secondary" data-i18n="hero.ctaSecondary">探索网友需求</a>
-    </div>
+  <header class="page-header" role="banner">
+    <h1 data-i18n="hero.title">24小时AI快讯</h1>
+    <p data-i18n="hero.subtitle">聚合全平台资讯，不错过全球AI革新的每一个时刻</p>
   </header>
 
-  <section class="features" aria-label="Features">
-    <h2 data-i18n="features.title">玩法介绍</h2>
-    <div class="feature-grid">
-      <div class="feature-card">
-        <div class="icon">📝</div>
-        <h3 data-i18n="features.step1.title">提交需求</h3>
-        <p data-i18n="features.step1.desc">描述你想要的功能。不知道怎么写？有引导提示帮你。</p>
-      </div>
-      <div class="feature-card">
-        <div class="icon">🤖</div>
-        <h3 data-i18n="features.step2.title">AI审核</h3>
-        <p data-i18n="features.step2.desc">AI智能体读取需求、验证可行性、规划实现方案。</p>
-      </div>
-      <div class="feature-card">
-        <div class="icon">🚀</div>
-        <h3 data-i18n="features.step3.title">实时进化</h3>
-        <p data-i18n="features.step3.desc">你的功能会出现在网站上。实时更新，持续进化。</p>
-      </div>
-    </div>
-  </section>
-
-  <section class="features" aria-label="Latest Tweets Preview">
-    <h2 class="section-title" data-i18n="tweets.title">最新推文</h2>
-    <p class="section-subtitle">AI 自动生成的短内容更新。</p>
+  <main class="timeline" id="timeline-container" aria-label="AI News Timeline">
     <div id="home-tweets-list">
-      <div class="loading" style="text-align:center; color:var(--text-muted); padding:2rem;">正在加载推文...</div>
+      <div class="loading">正在加载推文...</div>
     </div>
-    <div style="text-align:center; margin-top:1.5rem;">
-      <a href="tweets.html" class="btn btn-secondary">查看更多推文 →</a>
+    <div class="load-more" id="home-load-more" style="display:none;">
+      <button id="home-load-more-btn" onclick="loadHomeMore()">加载更多</button>
     </div>
-  </section>
+  </main>
 
-  <section class="features" aria-label="Community Requests Preview">
-    <h2 class="section-title" data-i18n="requests.title">网友需求广场</h2>
-    <p class="section-subtitle">近期通过 AI 审核的热门需求。</p>
+  <section class="section" aria-label="Community Requests Preview" style="border-top:1px solid var(--border); max-width:var(--max-width); margin:0 auto;">
+    <h2 style="text-align:center; font-size:1.5rem; font-weight:700; margin-bottom:0.5rem;" data-i18n="requests.title">网友需求广场</h2>
+    <p style="text-align:center; color:var(--text-muted); font-size:0.9rem; margin-bottom:1.5rem;">近期通过 AI 审核的热门需求。</p>
     <div id="home-requests-list">
-      <div class="loading" style="text-align:center; color:var(--text-muted); padding:2rem;">正在加载需求...</div>
+      <div class="loading">正在加载需求...</div>
     </div>
     <div style="text-align:center; margin-top:1.5rem;">
       <a href="requests.html" class="btn btn-secondary">查看全部需求 →</a>
     </div>
   </section>
 
-  <div class="ad-slot" aria-label="Advertisement">广告位预留 - Google AdSense</div>
+  <div class="ad-slot" aria-label="Advertisement" style="max-width:var(--max-width); margin:2rem auto;">广告位预留 - Google AdSense</div>
 
   <footer class="footer" role="contentinfo">
     <p data-i18n="footer.slogan">AI进化网站，你进化想法。</p>
@@ -100,6 +73,30 @@
   <script src="js/i18n.js"></script>
   <script src="js/mobile-nav.js"></script>
   <script>
+    // 生成配色占位图
+    function generateThumb(title, id) {
+      const colors = ['#e0e7ff','#dbeafe','#dcfce7','#fef3c7','#ffe4e6','#f3e8ff','#ccfbf1','#fecaca'];
+      let hash = 0;
+      const str = id || title || 'x';
+      for (let i = 0; i < str.length; i++) hash = str.charCodeAt(i) + ((hash << 5) - hash);
+      const color = colors[Math.abs(hash) % colors.length];
+      const letter = (title || '?').charAt(0).toUpperCase();
+      return `<div class="timeline-thumb" style="background:${color}; font-weight:700; font-size:1.5rem; color:var(--text-muted);">${letter}</div>`;
+    }
+
+    // 提取时分
+    function extractTime(isoString) {
+      if (!isoString) return '';
+      try {
+        const d = new Date(isoString);
+        const h = String(d.getHours()).padStart(2, '0');
+        const m = String(d.getMinutes()).padStart(2, '0');
+        return `${h}:${m}`;
+      } catch (e) {
+        return '';
+      }
+    }
+
     async function loadHomeTweets() {
       const container = document.getElementById('home-tweets-list');
       if (!container) return;
@@ -111,18 +108,23 @@
         if (tweet.en) return 'en';
         return 'zh';
       }
-      function renderHomeTweet(tweet) {
+      function renderHomeTweet(tweet, index) {
         const lang = getDisplayLang(tweet);
         const content = tweet[lang];
-        const date = tweet.date || (tweet.created && tweet.created.split('T')[0]) || '';
-        const source = tweet.source ? ` · ${tweet.source}` : '';
+        const time = extractTime(tweet.created);
+        const date = tweet.date || '';
+        const source = tweet.source || '';
+        const title = content?.title || '无标题';
+        const summary = content?.content?.slice(0, 200) || '';
+        const more = (content?.content?.length || 0) > 200 ? '...' : '';
         return `
-          <div class="card" style="margin-bottom:1rem;">
-            <div class="card-header">
-              <span class="card-title">${content?.title || '无标题'}</span>
-              <span class="card-meta">${date}${source}</span>
+          <div class="timeline-item">
+            ${generateThumb(title, tweet.id || String(index))}
+            <div class="timeline-main">
+              <div class="timeline-title"><a href="tweets.html">${title}</a></div>
+              <div class="timeline-summary">${summary}${more}</div>
+              <div class="timeline-source">${time} · ${source || 'AI生成'}</div>
             </div>
-            <div class="card-body">${content?.content?.slice(0, 200) || ''}${content?.content?.length > 200 ? '...' : ''}</div>
           </div>
         `;
       }
@@ -144,14 +146,14 @@
           tweets = data.tweets || data || [];
         }
         if (tweets.length === 0) {
-          container.innerHTML = '<div style="text-align:center; color:var(--text-muted); padding:2rem;">暂无推文，RSS Bot 每天 21:00 自动更新。</div>';
+          container.innerHTML = '<div class="loading">暂无推文，RSS Bot 每天 21:00 自动更新。</div>';
           return;
         }
-        const latest = tweets.slice(0, 3);
-        container.innerHTML = latest.map(renderHomeTweet).join('');
+        const latest = tweets.slice(0, 6);
+        container.innerHTML = latest.map((t, i) => renderHomeTweet(t, i)).join('');
       } catch (err) {
         console.error('首页推文加载失败:', err);
-        container.innerHTML = '<div style="text-align:center; color:var(--text-muted); padding:2rem;">加载失败，请刷新重试</div>';
+        container.innerHTML = '<div class="loading">加载失败，请刷新重试</div>';
       }
     }
 
@@ -159,11 +161,11 @@
       const container = document.getElementById('home-requests-list');
       if (!container) return;
       try {
-        const response = await fetch('https://api.github.com/repos/Omlandc/aievoweb/issues?labels=user-request&state=all&sort=created&direction=desc&per_page=5');
+        const response = await fetch('https://api.github.com/repos/Omlandc/aievoweb/issues?labels=user-request&state=all&sort=created&direction=desc&per_page=3');
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
         const issues = await response.json();
         if (issues.length === 0) {
-          container.innerHTML = '<div style="text-align:center; color:var(--text-muted); padding:2rem;">暂无需求，<a href="submit.html">提交第一个</a>？</div>';
+          container.innerHTML = '<div class="loading">暂无需求，<a href="submit.html">提交第一个</a>？</div>';
           return;
         }
         function getStatus(issue) {
@@ -173,18 +175,18 @@
           return '审核中';
         }
         const html = issues.map(issue => `
-          <div class="card" style="margin-bottom:1rem;">
-            <div class="card-header">
-              <span class="card-title">${issue.title || '无标题'}</span>
-              <span class="card-meta" style="color:var(--text-muted);">${getStatus(issue)}</span>
+          <div class="timeline-item">
+            <div class="timeline-main" style="width:100%;">
+              <div class="timeline-title"><a href="requests.html">${issue.title || '无标题'}</a></div>
+              <div class="timeline-summary">${(issue.body || '').replace(/\n/g, ' ').slice(0, 150)}${(issue.body || '').length > 150 ? '...' : ''}</div>
+              <div class="timeline-source">${getStatus(issue)}</div>
             </div>
-            <div class="card-body">${(issue.body || '').replace(/\n/g, ' ').slice(0, 150)}${(issue.body || '').length > 150 ? '...' : ''}</div>
           </div>
         `).join('');
         container.innerHTML = html;
       } catch (err) {
         console.error('首页需求加载失败:', err);
-        container.innerHTML = '<div style="text-align:center; color:var(--text-muted); padding:2rem;">加载失败，请<a href="requests.html">前往需求广场</a>查看。</div>';
+        container.innerHTML = '<div class="loading">加载失败，请<a href="requests.html">前往需求广场</a>查看。</div>';
       }
     }
 
