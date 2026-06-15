@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -11,17 +12,6 @@
   <link rel="alternate" hreflang="zh" href="https://aigo.homes/requests.html">
   <link rel="alternate" hreflang="en" href="https://aigo.homes/en/requests.html">
   <link rel="alternate" hreflang="x-default" href="https://aigo.homes/requests.html">
-  <style>
-    .requests-list { max-width: 800px; margin: 0 auto; }
-    .status-badge { display: inline-block; padding: 0.2rem 0.6rem; border-radius: 100px; font-size: 0.75rem; font-weight: 600; }
-    .status-pending { background: #fef3c7; color: #d97706; }
-    .status-approved { background: #dcfce7; color: #16a34a; }
-    .status-done { background: #dbeafe; color: #2563eb; }
-    .status-rejected { background: #fee2e2; color: #dc2626; }
-    .empty { text-align: center; padding: 3rem; color: var(--text-muted); }
-    .loading { text-align: center; padding: 3rem; color: var(--text-muted); }
-    .error { text-align: center; padding: 3rem; color: #dc2626; }
-  </style>
 </head>
 <body>
   <nav class="navbar" role="navigation" aria-label="Main">
@@ -36,22 +26,23 @@
         <a href="faq.html" data-i18n="nav.faq">常见问题</a>
       </div>
       <button id="lang-switch" data-i18n="langSwitch">English</button>
+      <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="菜单">☰</button>
     </div>
   </nav>
 
   <section class="features" aria-label="Community Requests">
     <h2 class="section-title" data-i18n="requests.title">网友需求广场</h2>
-    <p class="section-subtitle" data-i18n="requests.subtitle">用户提交的需求，实时从 GitHub Issues 拉取。</p>
+    <p class="section-subtitle" data-i18n="requests.subtitle">用户提交的各类需求，经AI自动审核后展示。</p>
 
     <div class="filter-tabs">
       <button class="filter-tab active" data-filter="all">全部</button>
-      <button class="filter-tab" data-filter="pending-review">审核中</button>
+      <button class="filter-tab" data-filter="pending">审核中</button>
       <button class="filter-tab" data-filter="approved">已通过</button>
       <button class="filter-tab" data-filter="done">已完成</button>
     </div>
 
-    <div class="requests-list" id="requests-list">
-      <div class="loading">正在加载需求...</div>
+    <div id="requests-list">
+      <div class="loading" style="text-align:center; color:var(--text-muted); padding:2rem;">正在加载需求...</div>
     </div>
   </section>
 
@@ -67,52 +58,73 @@
   <script src="js/i18n.js"></script>
   <script src="js/mobile-nav.js"></script>
   <script>
-    const GITHUB_API = 'https://api.github.com/repos/Omlandc/aievoweb/issues';
-    let allRequests = [];
-
-    function getStatusInfo(issue) {
-      const labels = (issue.labels || []).map(l => l.name);
-      if (labels.includes('done')) return { status: 'done', text: '已完成', class: 'status-done' };
-      if (labels.includes('approved')) return { status: 'approved', text: '已通过', class: 'status-approved' };
-      if (labels.includes('rejected')) return { status: 'rejected', text: '已拒绝', class: 'status-rejected' };
-      return { status: 'pending-review', text: '审核中', class: 'status-pending' };
-    }
-
-    function renderRequest(issue) {
-      const info = getStatusInfo(issue);
-      const title = issue.title || '无标题';
-      const body = (issue.body || '').replace(/\n/g, ' ').slice(0, 200);
-      const date = issue.created_at ? issue.created_at.split('T')[0] : '';
-      const labels = (issue.labels || []).map(l => l.name).filter(n => n !== 'user-request').join(', ');
-      // 不暴露提交者，不链接到 GitHub Issue 页面
-      return '<div class="card" data-status="' + info.status + '"><div class="card-header"><span class="card-title">' + title + '</span><span class="status-badge ' + info.class + '">' + info.text + '</span></div><div class="card-body">' + body + (body.length >= 200 ? '...' : '') + '</div><div class="card-body" style="margin-top:0.5rem; font-size:0.8rem; color:var(--text-muted);">' + date + ' · ' + (labels || '暂无标签') + '</div></div>';
-    }
-
     async function loadRequests() {
       const container = document.getElementById('requests-list');
+      if (!container) return;
+
       try {
-        const response = await fetch(GITHUB_API + '?labels=user-request&state=all&sort=created&direction=desc&per_page=50');
+        const response = await fetch('https://api.github.com/repos/Omlandc/aievoweb/issues?labels=user-request&state=all&sort=created&direction=desc&per_page=50');
         if (!response.ok) throw new Error('HTTP ' + response.status);
         const issues = await response.json();
-        allRequests = issues;
-        if (issues.length === 0) { container.innerHTML = '<div class="empty">暂无需求，<a href="submit.html">提交第一个</a>？</div>'; return; }
-        container.innerHTML = issues.map(renderRequest).join('');
+
+        if (issues.length === 0) {
+          container.innerHTML = '<div style="text-align:center; color:var(--text-muted); padding:2rem;">暂无需求，<a href="submit.html">提交第一个</a>？</div>';
+          return;
+        }
+
+        function getStatus(issue) {
+          const labels = (issue.labels || []).map(l => l.name);
+          if (labels.includes('done')) return { text: '✅ 已完成', color: '#0ea5e9' };
+          if (labels.includes('approved')) return { text: '✅ 已通过', color: '#22c55e' };
+          return { text: '⏳ 审核中', color: '#f59e0b' };
+        }
+
+        function formatDate(dateStr) {
+          if (!dateStr) return '';
+          const d = new Date(dateStr);
+          return d.toLocaleDateString('zh-CN');
+        }
+
+        const html = issues.map(issue => {
+          const status = getStatus(issue);
+          const labels = (issue.labels || []).filter(l => l.name !== 'user-request').map(l => '<span style="display:inline-block; padding:0.15rem 0.5rem; border-radius:9999px; font-size:0.75rem; background:' + (l.color ? '#' + l.color : '#f1f5f9') + '; color:#475569; margin-right:0.25rem;">' + l.name + '</span>').join('');
+          const date = formatDate(issue.created_at);
+
+          return '<div class="card" data-status="' + (issue.labels || []).map(l => l.name).join(' ') + '">' +
+            '<div class="card-header">' +
+            '<span class="card-title">' + (issue.title || '无标题') + '</span>' +
+            '<span class="card-meta" style="color:' + status.color + ';">' + status.text + '</span>' +
+            '</div>' +
+            '<div class="card-body">' + (issue.body || '').replace(/\n/g, ' ').slice(0, 300) + ((issue.body || '').length > 300 ? '...' : '') + '</div>' +
+            '<div style="padding:0.75rem 1.25rem; border-top:1px solid var(--border); display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:0.5rem;">' +
+            '<div>' + labels + '</div>' +
+            '<span style="font-size:0.75rem; color:var(--text-muted);">' + date + '</span>' +
+            '</div>' +
+            '</div>';
+        }).join('');
+
+        container.innerHTML = html;
+
+        document.querySelectorAll('.filter-tab').forEach(tab => {
+          tab.addEventListener('click', () => {
+            document.querySelectorAll('.filter-tab').forEach(t => t.classList.remove('active'));
+            tab.classList.add('active');
+            const filter = tab.getAttribute('data-filter');
+            document.querySelectorAll('#requests-list .card').forEach(card => {
+              const status = card.getAttribute('data-status');
+              const show = filter === 'all' ||
+                (filter === 'pending' && status.includes('pending-review')) ||
+                (filter === 'approved' && status.includes('approved')) ||
+                (filter === 'done' && status.includes('done'));
+              card.style.display = show ? 'block' : 'none';
+            });
+          });
+        });
       } catch (err) {
-        console.error('加载失败:', err);
-        container.innerHTML = '<div class="error">加载失败，请刷新重试。<br>原因：' + err.message + '</div>';
+        console.error('需求加载失败:', err);
+        container.innerHTML = '<div style="text-align:center; color:var(--text-muted); padding:2rem;">加载失败，请刷新重试。</div>';
       }
     }
-
-    document.querySelectorAll('.filter-tab').forEach(tab => {
-      tab.addEventListener('click', () => {
-        document.querySelectorAll('.filter-tab').forEach(t => t.classList.remove('active'));
-        tab.classList.add('active');
-        const filter = tab.getAttribute('data-filter');
-        document.querySelectorAll('#requests-list .card').forEach(card => {
-          card.style.display = (filter === 'all' || card.getAttribute('data-status') === filter) ? 'block' : 'none';
-        });
-      });
-    });
 
     loadRequests();
   </script>
