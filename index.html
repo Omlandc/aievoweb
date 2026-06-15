@@ -110,21 +110,28 @@
         return 'zh';
       }
       function renderHomeTweet(tweet, index) {
-        const lang = getDisplayLang(tweet);
-        const content = tweet[lang];
         const time = extractTime(tweet.created);
         const date = tweet.date || '';
         const source = tweet.source || '';
-        const title = content?.title || '无标题';
-        const summary = content?.content?.slice(0, 200) || '';
-        const more = (content?.content?.length || 0) > 200 ? '...' : '';
+        let title, content;
+        if (tweet.zh && tweet.zh.title) {
+          const lang = getDisplayLang(tweet);
+          const data = tweet[lang] || tweet.zh;
+          title = data.title || '无标题';
+          content = data.content || '';
+        } else {
+          title = tweet.title || '无标题';
+          content = tweet.content || '';
+        }
+        const summary = content.slice(0, 200);
+        const more = content.length > 200 ? '...' : '';
         return `
           <div class="timeline-item">
             ${generateThumb(title, tweet.id || String(index))}
             <div class="timeline-main">
               <div class="timeline-title"><a href="tweets.html">${title}</a></div>
               <div class="timeline-summary">${summary}${more}</div>
-              <div class="timeline-source">${time} · ${source || 'AI生成'}</div>
+              <div class="timeline-source">${time} · ${source || 'AI生成'} ${tweet.category || ''}</div>
             </div>
           </div>
         `;
