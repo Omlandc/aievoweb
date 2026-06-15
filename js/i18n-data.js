@@ -2,8 +2,8 @@ const i18n = {
   en: {
     siteName: "Play AI Evolution",
     tagline: "An AI-Powered Website That Evolves with Your Ideas",
-    nav: { home: "Home", tweets: "Tweets", explore: "Explore", games: "Games", submit: "Submit Request", requests: "Auto Requests", faq: "FAQ" },
-    hero: {
+    nav: { home: "Home", tweets: "Tweets", explore: "Explore", games: "Games", nav: "Nav", submit: "Submit Request", requests: "Auto Requests", faq: "FAQ" },
+    nav: { title: "Curated Nav", subtitle: "AI tools, dev resources, design inspiration—discover them all." },
       title: "An AI Website That Evolves Itself",
       subtitle: "Submit your ideas. Watch AI build and evolve the site in real time.",
       ctaPrimary: "Submit Your Idea",
@@ -27,7 +27,7 @@ const i18n = {
       referencePlaceholder: "https://example.com/something-cool",
       verifyLabel: "Verification Code",
       verifyPlaceholder: "Enter code from image",
-      hint: "Need help writing prompts? Visit aibibi.vip for guided templates.",
+      hint: "Need help writing prompts? Visit 参考示例 for guided templates.",
       submitBtn: "Submit Request",
       successMsg: "Submitted! Your request is now in the queue for AI review."
     },
@@ -42,8 +42,8 @@ const i18n = {
   zh: {
     siteName: "玩转AI进化网",
     tagline: "一个会随着你的想法自动进化的AI网站",
-    nav: { home: "首页", tweets: "推文", explore: "探索", games: "游戏", submit: "提交需求", requests: "需求广场", faq: "常见问题" },
-    hero: {
+    nav: { home: "首页", tweets: "推文", explore: "探索", games: "游戏", nav: "导航", submit: "提交需求", requests: "需求广场", faq: "常见问题" },
+    nav: { title: "精选网站导航", subtitle: "AI工具、开发资源、设计灵感，一站式发现。" },
       title: "一个会自我进化的AI网站",
       subtitle: "提交你的需求，看AI实时构建和进化这个网站。",
       ctaPrimary: "提交你的需求",
@@ -67,7 +67,7 @@ const i18n = {
       referencePlaceholder: "https://example.com/something-cool",
       verifyLabel: "验证码",
       verifyPlaceholder: "输入图片中的验证码",
-      hint: "不知道怎么写复杂的提示词？前往 aibibi.vip 获取引导模板。",
+      hint: "不知道怎么写复杂的提示词？前往 参考示例 获取引导模板。",
       submitBtn: "提交需求",
       successMsg: "已提交！你的需求已进入AI审核队列。"
     },
