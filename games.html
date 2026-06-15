@@ -1,0 +1,154 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>游戏大厅 - 玩转AI进化网</title>
+  <meta name="description" content="AI自动生成的网页小游戏合集，每天更新新游戏。">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://aigo.homes/games.html">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="alternate" hreflang="zh" href="https://aigo.homes/games.html">
+  <link rel="alternate" hreflang="en" href="https://aigo.homes/en/games.html">
+  <link rel="alternate" hreflang="x-default" href="https://aigo.homes/games.html">
+  <style>
+    .game-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+    .game-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.5rem;
+      transition: all 0.3s ease;
+      cursor: pointer;
+      text-decoration: none;
+      color: var(--text);
+    }
+    .game-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+      border-color: var(--primary);
+    }
+    .game-icon {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+    .game-title {
+      font-size: 1.25rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+    .game-desc {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
+    .game-meta {
+      margin-top: 1rem;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      display: flex;
+      gap: 1rem;
+    }
+    .new-badge {
+      display: inline-block;
+      background: var(--accent-2);
+      color: #fff;
+      padding: 0.15rem 0.5rem;
+      border-radius: 0.25rem;
+      font-size: 0.75rem;
+      font-weight: 600;
+    }
+    .controls-info {
+      background: var(--bg-light);
+      border-radius: var(--radius);
+      padding: 1rem;
+      margin-top: 1rem;
+      font-size: 0.85rem;
+    }
+    .controls-info kbd {
+      display: inline-block;
+      padding: 0.2rem 0.4rem;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 0.25rem;
+      font-family: monospace;
+      font-size: 0.8rem;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar" role="navigation" aria-label="Main">
+    <div class="nav-inner">
+      <a href="index.html" class="logo" data-i18n="siteName">玩转AI进化网</a>
+      <div class="nav-links" id="nav-links">
+        <a href="index.html" data-i18n="nav.home">首页</a>
+        <a href="tweets.html" data-i18n="nav.tweets">推文</a>
+        <a href="explore.html" data-i18n="nav.explore">探索</a>
+        <a href="games.html" class="active" data-i18n="nav.games">游戏</a>
+        <a href="submit.html" data-i18n="nav.submit">提交需求</a>
+        <a href="requests.html" data-i18n="nav.requests">需求广场</a>
+        <a href="faq.html" data-i18n="nav.faq">常见问题</a>
+      </div>
+      <button id="lang-switch" data-i18n="langSwitch">English</button>
+      <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="菜单">☰</button>
+    </div>
+  </nav>
+
+  <section class="features" aria-label="Game Lobby">
+    <h2 class="section-title">🎮 游戏大厅</h2>
+    <p class="section-subtitle">AI 生成的网页小游戏，无需下载，打开即玩。每天更新一款新游戏！</p>
+
+    <div class="game-grid">
+      <a href="games/snake.html" class="game-card">
+        <div class="game-icon">🐍</div>
+        <div class="game-title">贪吃蛇 <span class="new-badge">NEW</span></div>
+        <div class="game-desc">经典贪吃蛇游戏，控制蛇吃食物变长，不要撞墙或撞到自己。</div>
+        <div class="controls-info">
+          <strong>操作说明：</strong>
+          <kbd>↑</kbd> <kbd>↓</kbd> <kbd>←</kbd> <kbd>→</kbd> 方向键控制移动
+        </div>
+        <div class="game-meta">
+          <span>🕐 2026-06-15</span>
+          <span>⚡ 即时游玩</span>
+        </div>
+      </a>
+
+      <div class="game-card" style="opacity:0.6;">
+        <div class="game-icon">🧱</div>
+        <div class="game-title">打砖块</div>
+        <div class="game-desc">控制挡板反弹小球，击碎所有砖块即可过关。即将上线。</div>
+        <div class="game-meta">
+          <span>🕐 即将推出</span>
+        </div>
+      </div>
+
+      <div class="game-card" style="opacity:0.6;">
+        <div class="game-icon">🎯</div>
+        <div class="game-title">Flappy Bird</div>
+        <div class="game-desc">点击屏幕让小鸟飞翔，避开管道。经典虐心游戏。</div>
+        <div class="game-meta">
+          <span>🕐 即将推出</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="ad-slot" aria-label="Advertisement">广告位预留 - Google AdSense</div>
+
+  <footer class="footer" role="contentinfo">
+    <p data-i18n="footer.slogan">AI进化网站，你进化想法。</p>
+    <p><a href="privacy.html">隐私政策</a> · <a href="about.html">关于我们</a> · <a href="faq.html">常见问题</a></p>
+    <p style="font-size:0.8rem; margin-top:1rem; color:var(--text-muted);" data-i18n="disclaimer">本网站仅供演示和参考，不构成医疗、法律或财务建议。</p>
+  </footer>
+
+  <script src="js/i18n-data.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/mobile-nav.js"></script>
+</body>
+</html>
