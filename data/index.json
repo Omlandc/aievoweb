@@ -2,14 +2,9 @@
   "months": [
     {
       "month": "tweets",
-      "count": 0,
+      "count": 40,
       "latest": "tweets"
-    },
-    {
-      "month": "2026-06",
-      "count": 2,
-      "latest": "2026-06-15"
     }
   ],
-  "total": 2
+  "total": 40
 }
