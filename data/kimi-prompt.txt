@@ -1,0 +1,113 @@
+请为以下 RSS 内容生成高质量的双语（中文+英文）摘要推文。
+
+要求：
+1. 每条内容生成:
+   - 中文标题（精炼有力，15字以内）
+   - 中文摘要（80-150字，包含核心观点）
+   - 英文标题（准确翻译）
+   - 英文摘要（自然流畅，不是直译）
+   - 分类标签（#AI工具 #前端开发 #产品设计 #科技新闻 #创业干货 #效率工具 #开源项目 #AI研究 #硬件新品）
+   - 原文链接
+
+2. 风格要求:
+   - 中文：像科技媒体编辑写的，有观点有洞察
+   - 英文：native speaker 水平，专业但易读
+   - 不是机器翻译，而是重新组织表达
+
+3. 输出格式（严格JSON）:
+[
+  {
+    "id": "原始ID",
+    "zh": {"title": "...", "content": "...", "category": "#标签"},
+    "en": {"title": "...", "content": "...", "category": "#Tag"},
+    "link": "原文链接",
+    "source": "来源",
+    "date": "日期",
+    "type": "long/short"
+  }
+]
+
+待处理内容：
+
+---
+ID: b5492da1
+来源: Lobsters (en)
+标题: Deconstructing Datalog
+摘要: Comments
+链接: https://www.rntz.net/post/my-thesis.html
+日期: 2026-06-14
+
+---
+ID: 560f59ef
+来源: Lobsters (en)
+标题: write for one person
+摘要: Comments
+链接: https://wizardzines.com/comics/write-for-one-person/
+日期: 2026-06-14
+
+---
+ID: 8439c2ad
+来源: Lobsters (en)
+标题: curl summer of bliss
+摘要: Comments
+链接: https://daniel.haxx.se/blog/2026/06/15/curl-summer-of-bliss/
+日期: 2026-06-15
+
+---
+ID: 55bf76c1
+来源: Phys.org (en)
+标题: Some bees cannot escape rising heat, and their tiny homes make crisis even harder
+摘要: Bee species that nest in plant stems appear to be at the greatest short-term risk from increasing temperatures due to climate change, while those that nest in the ground are better able to evade extreme heat, according to new research from Australian evolutionary ecologists.
+链接: https://phys.org/news/2026-06-bees-tiny-homes-crisis-harder.html
+日期: 2026-06-15
+
+---
+ID: cc29f464
+来源: Phys.org (en)
+标题: Climate change reshapes Spain's rockfall risk as frost weathering moves uphill
+摘要: Climate change is altering where and when rocks are most likely to fracture across Spain, according to new research that suggests warming temperatures are redistributing a key process responsible for breaking down mountain landscapes.
+链接: https://phys.org/news/2026-06-climate-reshapes-spain-rockfall-frost.html
+日期: 2026-06-15
+
+---
+ID: 44f762dc
+来源: Phys.org (en)
+标题: Quasi-1D material unlocks electric control of charge waves beyond standard limits
+摘要: The ability to control the movement of negatively charged particles (i.e., electrons) is central to the functioning of all modern electronic devices. This control is typically attained using a gate, an electrode via which an applied electric field alters a material's electrical properties.
+链接: https://phys.org/news/2026-06-quasi-1d-material-electric-standard.html
+日期: 2026-06-15
+
+---
+ID: cb35cf11
+来源: OpenAI Blog (en)
+标题: How Preply combines AI and human tutors to personalize learning
+摘要: Preply uses OpenAI to launch AI-generated lesson summaries, providing personalised feedback and language learning exercises.
+链接: https://openai.com/index/preply
+日期: 2026-06-15
+
+---
+ID: 4805d0a6
+来源: OpenAI Blog (en)
+标题: New OpenAI Academy courses for the next era of work
+摘要: OpenAI introduces three Academy courses that help people build practical AI skills, create repeatable workflows, and apply agents in everyday work.
+链接: https://openai.com/index/academy-courses-applying-ai-at-work
+日期: 2026-06-15
+
+---
+ID: de1683a9
+来源: OpenAI Blog (en)
+标题: Introducing the OpenAI Partner Network
+摘要: OpenAI launches the Partner Network, investing $150M to help global partners accelerate enterprise AI adoption, deployment, and transformation.
+链接: https://openai.com/index/introducing-openai-partner-network
+日期: 2026-06-15
+
+---
+ID: e4bcb7af
+来源: Engadget (en)
+标题: A rare sticker-sealed copy of Super Mario Bros. just sold for $3 million
+摘要: Mamma mia!
+链接: https://www.engadget.com/2193909/a-rare-sticker-sealed-copy-of-super-mario-bros-just-sold-for-3-million/
+日期: 2026-06-14
+
+
+请输出完整JSON数组，不要省略任何字段。
