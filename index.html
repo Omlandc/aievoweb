@@ -95,19 +95,8 @@
   <section class="features" aria-label="Latest Tweets Preview">
     <h2 class="section-title" data-i18n="tweets.title">最新推文</h2>
     <p class="section-subtitle">AI 自动生成的短内容更新。</p>
-    <div class="card">
-      <div class="card-header">
-        <span class="card-title">🚀 网站已支持自动多语言切换</span>
-        <span class="card-meta">2026-06-15</span>
-      </div>
-      <div class="card-body">现在网站会根据你的浏览器语言自动切换中文或英文，也可以手动切换。后续会支持更多语言。</div>
-    </div>
-    <div class="card">
-      <div class="card-header">
-        <span class="card-title">🎨 新的需求提交页面已上线</span>
-        <span class="card-meta">2026-06-14</span>
-      </div>
-      <div class="card-body">新版需求提交页面支持验证码、参考链接和引导提示。不知道怎么写需求？访问 aibibi.vip 获取模板。</div>
+    <div id="home-tweets-list">
+      <div class="loading" style="text-align:center; color:var(--text-muted); padding:2rem;">正在加载推文...</div>
     </div>
     <div style="text-align:center; margin-top:1.5rem;">
       <a href="tweets.html" class="btn btn-secondary">查看更多推文 →</a>
@@ -149,5 +138,76 @@
 
   <script src="js/i18n-data.js"></script>
   <script src="js/i18n.js"></script>
+  <script src="js/mobile-nav.js"></script>
+  <script>
+    // 首页动态加载最新推文
+    async function loadHomeTweets() {
+      const container = document.getElementById('home-tweets-list');
+      if (!container) return;
+
+      const currentLang = localStorage.getItem('siteLang') || 'zh';
+
+      function getDisplayLang(tweet) {
+        if (currentLang === 'zh' && tweet.zh) return 'zh';
+        if (currentLang === 'en' && tweet.en) return 'en';
+        if (tweet.zh) return 'zh';
+        if (tweet.en) return 'en';
+        return 'zh';
+      }
+
+      function renderHomeTweet(tweet) {
+        const lang = getDisplayLang(tweet);
+        const content = tweet[lang];
+        const date = tweet.date || (tweet.created && tweet.created.split('T')[0]) || '';
+        const source = tweet.source ? ` · ${tweet.source}` : '';
+
+        return `
+          <div class="card" style="margin-bottom:1rem;">
+            <div class="card-header">
+              <span class="card-title">${content?.title || '无标题'}</span>
+              <span class="card-meta">${date}${source}</span>
+            </div>
+            <div class="card-body">${content?.content?.slice(0, 200) || ''}${content?.content?.length > 200 ? '...' : ''}</div>
+          </div>
+        `;
+      }
+
+      try {
+        // 先尝试加载 index.json 获取最新月份
+        let tweets = [];
+        try {
+          const idxRes = await fetch('data/index.json?t=' + Date.now());
+          const idx = await idxRes.json();
+          const months = (idx.months || []).filter(m => m.month !== 'tweets');
+          if (months.length > 0) {
+            const latest = months[0].month;
+            const res = await fetch(`data/${latest}.json?t=${Date.now()}`);
+            const data = await res.json();
+            tweets = data.tweets || data || [];
+          }
+        } catch (e) {
+          // 回退到 tweets.json
+          const res = await fetch('data/tweets.json?t=' + Date.now());
+          const data = await res.json();
+          tweets = data.tweets || data || [];
+        }
+
+        if (tweets.length === 0) {
+          container.innerHTML = '<div style="text-align:center; color:var(--text-muted); padding:2rem;">暂无推文，RSS Bot 每天 21:00 自动更新。</div>';
+          return;
+        }
+
+        // 只显示最新 3 条
+        const latest = tweets.slice(0, 3);
+        container.innerHTML = latest.map(renderHomeTweet).join('');
+
+      } catch (err) {
+        console.error('首页推文加载失败:', err);
+        container.innerHTML = '<div style="text-align:center; color:var(--text-muted); padding:2rem;">加载失败，请刷新重试</div>';
+      }
+    }
+
+    loadHomeTweets();
+  </script>
 </body>
 </html>
