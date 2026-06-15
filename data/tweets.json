@@ -1,5 +1,195 @@
 [
   {
+    "id": "b5492da1",
+    "zh": {
+      "title": "解构数据目录",
+      "content": "【Lobsters】解构数据目录 #创业干货"
+    },
+    "en": {
+      "title": "Deconstructing Datalog",
+      "content": "[Lobsters] Deconstructing Datalog #创业干货"
+    },
+    "link": "https://www.rntz.net/post/my-thesis.html",
+    "source": "Lobsters",
+    "category": "#创业干货",
+    "lang": "en",
+    "type": "short",
+    "date": "2026-06-14",
+    "created": "2026-06-15T10:12:37.632993+00:00",
+    "weight": 1.1
+  },
+  {
+    "id": "73100323",
+    "zh": {
+      "title": "Mastra与LangChain ：构建AI Agent管道并分析数据",
+      "content": "【freeCodeCamp】Mastra与LangChain ：构建AI Agent管道并分析数据 — A week ago, I saw this tweet: I had just shipped SupportMesh, a multi-tenant AI support platform built on Mastra, so I had opinions from production. I liked the .dowhile() loop, the typed step schem #产品设计"
+    },
+    "en": {
+      "title": "Mastra vs LangChain: Building an AI Agent Pipeline and Analyzing the Data",
+      "content": "[freeCodeCamp] Mastra vs LangChain: Building an AI Agent Pipeline and Analyzing the Data — A week ago, I saw this tweet: I had just shipped SupportMesh, a multi-tenant AI support platform built on Mastra, so I had opinions from production. I liked the .dowhile() loop, the typed step schem #产品设计"
+    },
+    "link": "https://www.freecodecamp.org/news/mastra-vs-langchain-building-an-ai-agent-pipeline-and-analyzing-the-data/",
+    "source": "freeCodeCamp",
+    "category": "#产品设计",
+    "lang": "en",
+    "type": "long",
+    "date": "2026-06-13",
+    "created": "2026-06-15T10:11:35.378913+00:00",
+    "weight": 1.1
+  },
+  {
+    "id": "6dce0f39",
+    "zh": {
+      "title": "复活死插件：如何使无服务器s3-sync插件复活",
+      "content": "【Dev.to】复活死插件：如何使无服务器s3-sync插件复活 — If you've been using the Serverless Framework to deploy static assets to S3, you've probably used serverless-s3-sync. It was the go-to plugin for syncing local directories to S3 buckets. Simple con... #AI研究"
+    },
+    "en": {
+      "title": "Reviving a Dead Plugin: How I Bring Back To Life the serverless-s3-sync plugin",
+      "content": "[Dev.to] Reviving a Dead Plugin: How I Bring Back To Life the serverless-s3-sync plugin — If you've been using the Serverless Framework to deploy static assets to S3, you've probably used serverless-s3-sync. It was the go-to plugin for syncing local directories to S3 buckets. Simple con... #AI研究"
+    },
+    "link": "https://dev.to/olek3/reviving-a-dead-plugin-how-i-bring-back-to-life-the-serverless-s3-sync-plugin-1lgn",
+    "source": "Dev.to",
+    "category": "#AI研究",
+    "lang": "en",
+    "type": "long",
+    "date": "2026-06-15",
+    "created": "2026-06-15T10:11:29.418913+00:00",
+    "weight": 1.1
+  },
+  {
+    "id": "ad095f95",
+    "zh": {
+      "title": "AI在3周前编写了我的登陆页面。我不知道里面有什么。",
+      "content": "【Dev.to】AI在3周前编写了我的登陆页面。我不知道里面有什么。 — Three weeks ago I asked Claude to build a landing page.  It took about a minute. The output was clean, structured, looked exactly right. I deployed it, sent the link to someone, moved on Yesterday ... #AI工具"
+    },
+    "en": {
+      "title": "AI Wrote My Landing Page 3 Weeks Ago. I Have No Idea What's In It.",
+      "content": "[Dev.to] AI Wrote My Landing Page 3 Weeks Ago. I Have No Idea What's In It. — Three weeks ago I asked Claude to build a landing page.  It took about a minute. The output was clean, structured, looked exactly right. I deployed it, sent the link to someone, moved on Yesterday ... #AI工具"
+    },
+    "link": "https://dev.to/backrun/ai-wrote-my-landing-page-3-weeks-ago-i-have-no-idea-whats-in-it-3eai",
+    "source": "Dev.to",
+    "category": "#AI工具",
+    "lang": "en",
+    "type": "long",
+    "date": "2026-06-15",
+    "created": "2026-06-15T10:11:28.345833+00:00",
+    "weight": 1.1
+  },
+  {
+    "id": "086d17e8",
+    "zh": {
+      "title": "Wobo 2.0",
+      "content": "【Product Hunt】Wobo 2.0 — Tinder for jobs: swipe right and AI applies for you                                   Discussion             |             Link #前端开发"
+    },
+    "en": {
+      "title": "Wobo 2.0",
+      "content": "[Product Hunt] Wobo 2.0 — Tinder for jobs: swipe right and AI applies for you                                   Discussion             |             Link #前端开发"
+    },
+    "link": "https://www.producthunt.com/products/wobo-ai",
+    "source": "Product Hunt",
+    "category": "#前端开发",
+    "lang": "en",
+    "type": "long",
+    "date": "2026-06-15",
+    "created": "2026-06-15T10:10:59.647239+00:00",
+    "weight": 1.2
+  },
+  {
+    "id": "a4b1b70b",
+    "zh": {
+      "title": "Dropmatico",
+      "content": "【Product Hunt】Dropmatico — Drop. Pick. Done.                                   Discussion             |             Link #硬件新品"
+    },
+    "en": {
+      "title": "Dropmatico",
+      "content": "[Product Hunt] Dropmatico — Drop. Pick. Done.                                   Discussion             |             Link #硬件新品"
+    },
+    "link": "https://www.producthunt.com/products/dropmatico",
+    "source": "Product Hunt",
+    "category": "#硬件新品",
+    "lang": "en",
+    "type": "long",
+    "date": "2026-06-15",
+    "created": "2026-06-15T10:10:58.627157+00:00",
+    "weight": 1.2
+  },
+  {
+    "id": "f56204bc",
+    "zh": {
+      "title": "继电器",
+      "content": "【Product Hunt】继电器 — Paste a site & get an AI receptionist that learns from calls                                   Discussion             |             Link #开源项目"
+    },
+    "en": {
+      "title": "Relay",
+      "content": "[Product Hunt] Relay — Paste a site & get an AI receptionist that learns from calls                                   Discussion             |             Link #开源项目"
+    },
+    "link": "https://www.producthunt.com/products/relay-20",
+    "source": "Product Hunt",
+    "category": "#开源项目",
+    "lang": "en",
+    "type": "long",
+    "date": "2026-06-15",
+    "created": "2026-06-15T10:10:56.525777+00:00",
+    "weight": 1.2
+  },
+  {
+    "id": "9b8ff290",
+    "zh": {
+      "title": "昊铂 S600 上市：20 万级 SUV 的竞争，开始进入「少做选择题」阶段",
+      "content": "【爱范儿】昊铂 S600 上市：20 万级 SUV 的竞争，开始进入「少做选择题」阶段 — 昊铂需要一个爆款。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。 #创业干货"
+    },
+    "en": {
+      "title": "Launch of the Hao Platinum S600: Competition for 200,000-class SUVs, starting to enter the \"less choice\" stage",
+      "content": "[爱范儿] Launch of the Hao Platinum S600: Competition for 200,000-class SUVs, starting to enter the \"less choice\" stage — 昊铂需要一个爆款。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。 #创业干货"
+    },
+    "link": "https://www.ifanr.com/1668976?utm_source=rss&utm_medium=rss&utm_campaign=",
+    "source": "爱范儿",
+    "category": "#创业干货",
+    "lang": "zh",
+    "type": "short",
+    "date": "2026-06-15",
+    "created": "2026-06-15T10:10:24.352260+00:00",
+    "weight": 1.0
+  },
+  {
+    "id": "418f9981",
+    "zh": {
+      "title": "从一个想法到一个产品，年轻开发者把生活观察写进代码",
+      "content": "【36氪】从一个想法到一个产品，年轻开发者把生活观察写进代码 — 6月14日，HarmonyOS创新赛·极客赛道决赛在HDC华为开发者大会（HDC 2026）落下帷幕。    此前，20支入围队伍从众多参赛作品中脱颖而出，在36小时极限编码中抢先使用HarmonyOS 7，围绕AI、3D空间化、用户体验等方向展开比拼。随着最终获奖名单揭晓，比赛的结果已经落定，但比奖项本身更值得被看见的，是这些作品背后一批年轻开发者正在关注什么，又试图用代码回答什么。   ... #产品设计"
+    },
+    "en": {
+      "title": "From an idea to a product, young developers write life observations into code",
+      "content": "[36氪] From an idea to a product, young developers write life observations into code — 6月14日，HarmonyOS创新赛·极客赛道决赛在HDC华为开发者大会（HDC 2026）落下帷幕。    此前，20支入围队伍从众多参赛作品中脱颖而出，在36小时极限编码中抢先使用HarmonyOS 7，围绕AI、3D空间化、用户体验等方向展开比拼。随着最终获奖名单揭晓，比赛的结果已经落定，但比奖项本身更值得被看见的，是这些作品背后一批年轻开发者正在关注什么，又试图用代码回答什么。   ... #产品设计"
+    },
+    "link": "https://36kr.com/p/3854243718550528?f=rss",
+    "source": "36氪",
+    "category": "#产品设计",
+    "lang": "zh",
+    "type": "long",
+    "date": "2026-06-15",
+    "created": "2026-06-15T10:10:19.550567+00:00",
+    "weight": 1.3
+  },
+  {
+    "id": "2d82afbd",
+    "zh": {
+      "title": "科技爱好者周刊（第 398 期）：Token 费用难以负担",
+      "content": "【阮一峰】科技爱好者周刊（第 398 期）：Token 费用难以负担 — 这里记录每周值得分享的科技内容，周五发布。... #科技新闻"
+    },
+    "en": {
+      "title": "Tech Enthusiasts Weekly (Issue 398): Unaffordable Token Costs",
+      "content": "[阮一峰] Tech Enthusiasts Weekly (Issue 398): Unaffordable Token Costs — 这里记录每周值得分享的科技内容，周五发布。... #科技新闻"
+    },
+    "link": "http://www.ruanyifeng.com/blog/2026/05/weekly-issue-398.html",
+    "source": "阮一峰",
+    "category": "#科技新闻",
+    "lang": "zh",
+    "type": "short",
+    "date": "2026-06-15",
+    "created": "2026-06-15T10:10:08.128416+00:00",
+    "weight": 1.2
+  },
+  {
     "id": "4aada534",
     "title": "🔍 搜索精选: AI tools new release",
     "content": "【搜索总结】今日搜索 'AI tools new release' 发现多篇值得关注的文章。具体内容已整合到网站，点击查看完整摘要。 AI工具",
