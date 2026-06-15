@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>探索 - 玩转AI进化网</title>
+  <meta name="description" content="探索最新实现的功能和实验性工具，全部由AI进化自动生成。">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://aigo.homes/explore.html">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="alternate" hreflang="zh" href="https://aigo.homes/explore.html">
+  <link rel="alternate" hreflang="en" href="https://aigo.homes/en/explore.html">
+  <link rel="alternate" hreflang="x-default" href="https://aigo.homes/explore.html">
+  <style>
+    .explore-hero { text-align: center; padding: 3rem 1.5rem 2rem; }
+    .explore-hero h1 { font-size: 2.2rem; font-weight: 800; margin-bottom: 0.5rem; }
+    .explore-hero p { color: var(--text-muted); font-size: 1.1rem; max-width: 500px; margin: 0 auto; }
+    .explore-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; max-width: var(--max-width); margin: 0 auto; padding: 2rem 1.5rem; }
+    .explore-card {
+      background: var(--bg); border: 1px solid var(--border); border-radius: var(--radius);
+      padding: 1.5rem; transition: all 0.3s ease; position: relative; overflow: hidden;
+    }
+    .explore-card:hover { transform: translateY(-4px); box-shadow: var(--shadow); border-color: var(--primary); }
+    .explore-card .badge {
+      position: absolute; top: 1rem; right: 1rem;
+      padding: 0.2rem 0.6rem; border-radius: 100px; font-size: 0.7rem; font-weight: 600;
+    }
+    .badge-new { background: #22c55e22; color: #22c55e; }
+    .badge-beta { background: #f59e0b22; color: #f59e0b; }
+    .badge-stable { background: #0ea5e922; color: #0ea5e9; }
+    .explore-card .icon { font-size: 2rem; margin-bottom: 0.75rem; }
+    .explore-card h3 { font-size: 1.15rem; font-weight: 700; margin-bottom: 0.5rem; }
+    .explore-card .desc { color: var(--text-muted); font-size: 0.9rem; line-height: 1.6; margin-bottom: 1rem; }
+    .explore-card .meta { display: flex; justify-content: space-between; align-items: center; font-size: 0.8rem; color: var(--text-muted); }
+    .explore-card .meta .date { font-family: monospace; }
+    .explore-card .actions { margin-top: 1rem; display: flex; gap: 0.5rem; }
+    .explore-card .actions a { font-size: 0.85rem; padding: 0.4rem 0.8rem; border-radius: 0.5rem; }
+    .explore-card .actions a.primary { background: var(--primary); color: #fff; }
+    .explore-card .actions a.secondary { background: var(--surface); color: var(--text); border: 1px solid var(--border); }
+    .empty-explore { text-align: center; padding: 4rem 1.5rem; color: var(--text-muted); }
+  </style>
+</head>
+<body>
+  <nav class="navbar" role="navigation" aria-label="Main">
+    <div class="nav-inner">
+      <a href="index.html" class="logo" data-i18n="siteName">玩转AI进化网</a>
+      <div class="nav-links" id="nav-links">
+        <a href="index.html" data-i18n="nav.home">首页</a>
+        <a href="tweets.html" data-i18n="nav.tweets">推文</a>
+        <a href="explore.html" data-i18n="nav.explore">探索</a>
+        <a href="explore.html" class="active" data-i18n="nav.explore">探索</a>
+        <a href="submit.html" data-i18n="nav.submit">提交需求</a>
+        <a href="requests.html" data-i18n="nav.requests">需求广场</a>
+        <a href="faq.html" data-i18n="nav.faq">常见问题</a>
+      </div>
+      <button id="lang-switch" data-i18n="langSwitch">English</button>
+    </div>
+  </nav>
+
+  <div class="explore-hero">
+    <h1>🔮 探索新功能</h1>
+    <p>由 AI 自动实现的需求功能，全部实时部署、持续进化。</p>
+  </div>
+
+  <section class="explore-grid" id="explore-list" aria-label="Features">
+    <!-- 动态加载 -->
+  </section>
+
+  <div class="ad-slot" aria-label="Advertisement">广告位预留 - Google AdSense</div>
+
+  <footer class="footer" role="contentinfo">
+    <p data-i18n="footer.slogan">AI进化网站，你进化想法。</p>
+    <p data-i18n="footer.contact">联系邮箱：ctguxby@proton.me</p>
+    <p><a href="privacy.html">隐私政策</a> · <a href="about.html">关于我们</a> · <a href="faq.html">常见问题</a></p>
+    <p style="font-size:0.8rem; margin-top:1rem; color:var(--text-muted);" data-i18n="disclaimer">本网站仅供演示和参考，不构成医疗、法律或财务建议。</p>
+  </footer>
+
+  <script src="js/i18n-data.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/mobile-nav.js"></script>
+  <script>
+    const EXPLORE_DATA = [
+      {
+        id: "bilingual",
+        icon: "🌐",
+        title: "中英双语切换",
+        titleEn: "Bilingual Support",
+        desc: "网站已支持中文和英文自动切换，每条推文同时显示双语内容，点击 EN/中 即可切换。",
+        descEn: "Full bilingual support with per-tweet language switching. Click EN/中 to toggle.",
+        badge: "stable",
+        badgeText: "稳定",
+        date: "2026-06-15",
+        link: "tweets.html",
+        source: "用户提交 #1"
+      },
+      {
+        id: "rss-bot",
+        icon: "📡",
+        title: "RSS 自动推送",
+        titleEn: "RSS Auto Feed",
+        desc: "每天 21:00 自动抓取 17 个 RSS 源，生成双语推文并自动部署。支持按月归档、分页加载。",
+        descEn: "Auto-fetches from 17 RSS sources daily at 21:00, generates bilingual tweets with monthly archiving.",
+        badge: "stable",
+        badgeText: "稳定",
+        date: "2026-06-15",
+        link: "tweets.html",
+        source: "系统进化"
+      },
+      {
+        id: "request-system",
+        icon: "📝",
+        title: "需求提交系统",
+        titleEn: "Request System",
+        desc: "用户可通过表单提交需求，经 Cloudflare Worker 写入 GitHub Issues，自动进入审核队列。",
+        descEn: "Users submit requests via form, processed through Cloudflare Worker to GitHub Issues queue.",
+        badge: "stable",
+        badgeText: "稳定",
+        date: "2026-06-15",
+        link: "submit.html",
+        source: "用户提交 #2"
+      },
+      {
+        id: "request-board",
+        icon: "📋",
+        title: "需求广场",
+        titleEn: "Request Board",
+        desc: "实时展示所有用户提交的需求，按状态筛选（审核中/已通过/已完成），直接从 GitHub API 拉取。",
+        descEn: "Real-time display of all user requests, filterable by status, pulling directly from GitHub API.",
+        badge: "stable",
+        badgeText: "稳定",
+        date: "2026-06-15",
+        link: "requests.html",
+        source: "系统进化"
+      },
+      {
+        id: "mobile-nav",
+        icon: "📱",
+        title: "移动端汉堡菜单",
+        titleEn: "Mobile Hamburger Menu",
+        desc: "所有页面已支持移动端响应式导航，自动折叠为汉堡菜单，点击展开全部链接。",
+        descEn: "Responsive mobile navigation with hamburger menu on all pages.",
+        badge: "stable",
+        badgeText: "稳定",
+        date: "2026-06-15",
+        link: "index.html",
+        source: "用户提交 #3"
+      },
+      {
+        id: "cloudflare-deploy",
+        icon: "🚀",
+        title: "Cloudflare Pages 部署",
+        titleEn: "Cloudflare Pages Deploy",
+        desc: "连接 GitHub 仓库，push 代码后 Cloudflare 自动部署，全球 CDN 加速。",
+        descEn: "Connected to GitHub repo with auto-deployment via Cloudflare Pages global CDN.",
+        badge: "stable",
+        badgeText: "稳定",
+        date: "2026-06-15",
+        link: "https://aigo.homes",
+        source: "系统进化"
+      }
+    ];
+
+    const currentLang = localStorage.getItem('siteLang') || 'zh';
+    const isZh = currentLang === 'zh';
+    const container = document.getElementById('explore-list');
+
+    const badgeClass = { new: 'badge-new', beta: 'badge-beta', stable: 'badge-stable' };
+
+    container.innerHTML = EXPLORE_DATA.map(item => `
+      <div class="explore-card">
+        <span class="badge ${badgeClass[item.badge] || 'badge-beta'}">${isZh ? item.badgeText : item.badge.toUpperCase()}</span>
+        <div class="icon">${item.icon}</div>
+        <h3>${isZh ? item.title : item.titleEn}</h3>
+        <div class="desc">${isZh ? item.desc : item.descEn}</div>
+        <div class="meta">
+          <span class="date">${item.date}</span>
+          <span>${isZh ? item.source : item.source}</span>
+        </div>
+        <div class="actions">
+          <a href="${item.link}" class="primary">${isZh ? '立即体验' : 'Try It'}</a>
+          <a href="requests.html" class="secondary">${isZh ? '相关需求' : 'Related'}</a>
+        </div>
+      </div>
+    `).join('');
+  </script>
+</body>
+</html>
