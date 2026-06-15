@@ -213,11 +213,22 @@ def select_best_tweets(all_tweets, max_count=30):
 
 def save_tweets(tweets, filepath="data/tweets.json"):
     """保存到JSON文件"""
+    # 使用绝对路径，确保保存到正确位置
+    import os
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    project_dir = os.path.dirname(script_dir)
+    filepath = os.path.join(project_dir, filepath)
+    
     os.makedirs(os.path.dirname(filepath), exist_ok=True)
     
     try:
         with open(filepath, "r", encoding="utf-8") as f:
             existing = json.load(f)
+        # 兼容旧格式 {"tweets": [...]}
+        if isinstance(existing, dict) and "tweets" in existing:
+            existing = existing["tweets"]
+        elif not isinstance(existing, list):
+            existing = []
     except (FileNotFoundError, json.JSONDecodeError):
         existing = []
     
