@@ -140,6 +140,11 @@
             tweets = data.tweets || data || [];
           }
         } catch (e) {
+          // index.json 不存在或解析失败，使用 tweets.json
+        }
+        
+        // 如果上面没加载到数据，直接加载 tweets.json
+        if (tweets.length === 0) {
           const res = await fetch('data/tweets.json?t=' + Date.now());
           const data = await res.json();
           tweets = data.tweets || data || [];
