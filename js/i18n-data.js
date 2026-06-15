@@ -27,7 +27,7 @@ const i18n = {
       referencePlaceholder: "https://example.com/something-cool",
       verifyLabel: "Verification Code",
       verifyPlaceholder: "Enter code from image",
-      hint: "Need help writing prompts? Visit aibibi.vip for guided templates.",
+      hint: "Need help writing prompts? Check the approved requests in the Request Board for examples.",
       submitBtn: "Submit Request",
       successMsg: "Submitted! Your request is now in the queue for AI review."
     },
@@ -35,7 +35,7 @@ const i18n = {
     faq: { title: "FAQ" },
     privacy: { title: "Privacy Policy" },
     about: { title: "About Us" },
-    footer: { slogan: "AI evolves the web. You evolve the ideas.", contact: "Contact: ctguxby@proton.me" },
+    footer: { slogan: "AI evolves the web. You evolve the ideas.", contact: "" },,
     disclaimer: "This site is for demonstration and reference only. Not medical, legal, or financial advice.",
     langSwitch: "中文"
   },
@@ -67,7 +67,7 @@ const i18n = {
       referencePlaceholder: "https://example.com/something-cool",
       verifyLabel: "验证码",
       verifyPlaceholder: "输入图片中的验证码",
-      hint: "不知道怎么写复杂的提示词？前往 aibibi.vip 获取引导模板。",
+      hint: "不知道怎么写需求？参考需求广场里已通过的需求示例。",
       submitBtn: "提交需求",
       successMsg: "已提交！你的需求已进入AI审核队列。"
     },
@@ -75,7 +75,7 @@ const i18n = {
     faq: { title: "常见问题" },
     privacy: { title: "隐私政策" },
     about: { title: "关于我们" },
-    footer: { slogan: "AI进化网站，你进化想法。", contact: "联系邮箱：ctguxby@proton.me" },
+    footer: { slogan: "AI进化网站，你进化想法。", contact: "" },,
     disclaimer: "本网站仅供演示和参考，不构成医疗、法律或财务建议。",
     langSwitch: "English"
   }
