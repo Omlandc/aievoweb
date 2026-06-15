@@ -1,585 +1,121 @@
 [
   {
-    "id": "b5492da1",
+    "id": "de1683a9",
     "zh": {
-      "title": "解构数据目录",
-      "content": "【Lobsters】解构数据目录 #创业干货"
+      "title": "OpenAI 砸15亿建伙伴网络",
+      "content": "OpenAI 宣布推出合作伙伴网络，投入1.5亿美元帮助全球企业加速AI落地。这不是简单的渠道分销，而是深度绑定——从战略咨询到部署落地，OpenAI试图用生态联盟的方式抢占B端市场。对创业公司来说，能进这个网络等于拿到AI赛道的VIP门票。",
+      "category": "#AI工具"
     },
     "en": {
-      "title": "Deconstructing Datalog",
-      "content": "[Lobsters] Deconstructing Datalog #创业干货"
+      "title": "OpenAI Launches $150M Partner Network",
+      "content": "OpenAI just announced its Partner Network, investing $150M to help global enterprises accelerate AI adoption. This isn't just channel distribution—it's deep strategic partnerships covering consulting through deployment. For startups, getting into this network is like getting a VIP pass to the AI enterprise race.",
+      "category": "#AI Tools"
     },
-    "link": "https://www.rntz.net/post/my-thesis.html",
-    "source": "Lobsters",
-    "category": "#创业干货",
-    "lang": "en",
-    "type": "short",
-    "date": "2026-06-14",
-    "created": "2026-06-15T10:12:37.632993+00:00",
-    "weight": 1.1
+    "link": "https://openai.com/index/introducing-openai-partner-network",
+    "source": "OpenAI Blog",
+    "date": "2026-06-15",
+    "type": "long"
+  },
+  {
+    "id": "200e3f72",
+    "zh": {
+      "title": "英国16岁以下禁社交媒体",
+      "content": "英国紧随澳大利亚，宣布禁止16岁以下青少年使用TikTok、Instagram等社交平台。这是全球监管收紧的最新信号——算法对青少年心理的影响，已经从学术讨论变成政策红线。但执行层面如何验证年龄？技术反制与绕过手段的猫鼠游戏，可能比禁令本身更值得关注。",
+      "category": "#科技新闻"
+    },
+    "en": {
+      "title": "UK Bans Social Media for Under-16s",
+      "content": "The UK is following Australia's lead, banning under-16s from TikTok, Instagram, and other social platforms. This is the latest signal of global regulatory tightening—algorithmic impact on teen mental health has moved from academic debate to policy red lines. But the real challenge is age verification tech. The cat-and-mouse game between enforcement and circumvention may be more interesting than the ban itself.",
+      "category": "#Tech News"
+    },
+    "link": "https://www.engadget.com/2194005/uk-will-ban-social-media-for-children-under-16/",
+    "source": "Engadget",
+    "date": "2026-06-15",
+    "type": "long"
   },
   {
     "id": "73100323",
     "zh": {
-      "title": "Mastra与LangChain ：构建AI Agent管道并分析数据",
-      "content": "【freeCodeCamp】Mastra与LangChain ：构建AI Agent管道并分析数据 — A week ago, I saw this tweet: I had just shipped SupportMesh, a multi-tenant AI support platform built on Mastra, so I had opinions from production. I liked the .dowhile() loop, the typed step schem #产品设计"
+      "title": "Mastra vs LangChain 实战对比",
+      "content": "从生产环境实战角度对比两大AI Agent框架：Mastra的.dowhile()循环和类型化步骤设计在复杂流程中更优雅，但LangChain的生态和成熟度仍是优势。作者基于真实项目SupportMesh的踩坑经验，给出了选型建议——不是简单的哪个更好，而是看团队规模和场景复杂度。",
+      "category": "#AI研究"
     },
     "en": {
-      "title": "Mastra vs LangChain: Building an AI Agent Pipeline and Analyzing the Data",
-      "content": "[freeCodeCamp] Mastra vs LangChain: Building an AI Agent Pipeline and Analyzing the Data — A week ago, I saw this tweet: I had just shipped SupportMesh, a multi-tenant AI support platform built on Mastra, so I had opinions from production. I liked the .dowhile() loop, the typed step schem #产品设计"
+      "title": "Mastra vs LangChain: Production Showdown",
+      "content": "A hands-on comparison from real production experience: Mastra's .dowhile() loops and typed step schemas shine in complex workflows, but LangChain's ecosystem and maturity remain strong advantages. The author, who built the multi-tenant SupportMesh platform on Mastra, gives practical advice—it's not about which is better, but which fits your team size and complexity needs.",
+      "category": "#AI Research"
     },
     "link": "https://www.freecodecamp.org/news/mastra-vs-langchain-building-an-ai-agent-pipeline-and-analyzing-the-data/",
     "source": "freeCodeCamp",
-    "category": "#产品设计",
-    "lang": "en",
-    "type": "long",
     "date": "2026-06-13",
-    "created": "2026-06-15T10:11:35.378913+00:00",
-    "weight": 1.1
-  },
-  {
-    "id": "6dce0f39",
-    "zh": {
-      "title": "复活死插件：如何使无服务器s3-sync插件复活",
-      "content": "【Dev.to】复活死插件：如何使无服务器s3-sync插件复活 — If you've been using the Serverless Framework to deploy static assets to S3, you've probably used serverless-s3-sync. It was the go-to plugin for syncing local directories to S3 buckets. Simple con... #AI研究"
-    },
-    "en": {
-      "title": "Reviving a Dead Plugin: How I Bring Back To Life the serverless-s3-sync plugin",
-      "content": "[Dev.to] Reviving a Dead Plugin: How I Bring Back To Life the serverless-s3-sync plugin — If you've been using the Serverless Framework to deploy static assets to S3, you've probably used serverless-s3-sync. It was the go-to plugin for syncing local directories to S3 buckets. Simple con... #AI研究"
-    },
-    "link": "https://dev.to/olek3/reviving-a-dead-plugin-how-i-bring-back-to-life-the-serverless-s3-sync-plugin-1lgn",
-    "source": "Dev.to",
-    "category": "#AI研究",
-    "lang": "en",
-    "type": "long",
-    "date": "2026-06-15",
-    "created": "2026-06-15T10:11:29.418913+00:00",
-    "weight": 1.1
-  },
-  {
-    "id": "ad095f95",
-    "zh": {
-      "title": "AI在3周前编写了我的登陆页面。我不知道里面有什么。",
-      "content": "【Dev.to】AI在3周前编写了我的登陆页面。我不知道里面有什么。 — Three weeks ago I asked Claude to build a landing page.  It took about a minute. The output was clean, structured, looked exactly right. I deployed it, sent the link to someone, moved on Yesterday ... #AI工具"
-    },
-    "en": {
-      "title": "AI Wrote My Landing Page 3 Weeks Ago. I Have No Idea What's In It.",
-      "content": "[Dev.to] AI Wrote My Landing Page 3 Weeks Ago. I Have No Idea What's In It. — Three weeks ago I asked Claude to build a landing page.  It took about a minute. The output was clean, structured, looked exactly right. I deployed it, sent the link to someone, moved on Yesterday ... #AI工具"
-    },
-    "link": "https://dev.to/backrun/ai-wrote-my-landing-page-3-weeks-ago-i-have-no-idea-whats-in-it-3eai",
-    "source": "Dev.to",
-    "category": "#AI工具",
-    "lang": "en",
-    "type": "long",
-    "date": "2026-06-15",
-    "created": "2026-06-15T10:11:28.345833+00:00",
-    "weight": 1.1
-  },
-  {
-    "id": "086d17e8",
-    "zh": {
-      "title": "Wobo 2.0",
-      "content": "【Product Hunt】Wobo 2.0 — Tinder for jobs: swipe right and AI applies for you                                   Discussion             |             Link #前端开发"
-    },
-    "en": {
-      "title": "Wobo 2.0",
-      "content": "[Product Hunt] Wobo 2.0 — Tinder for jobs: swipe right and AI applies for you                                   Discussion             |             Link #前端开发"
-    },
-    "link": "https://www.producthunt.com/products/wobo-ai",
-    "source": "Product Hunt",
-    "category": "#前端开发",
-    "lang": "en",
-    "type": "long",
-    "date": "2026-06-15",
-    "created": "2026-06-15T10:10:59.647239+00:00",
-    "weight": 1.2
-  },
-  {
-    "id": "a4b1b70b",
-    "zh": {
-      "title": "Dropmatico",
-      "content": "【Product Hunt】Dropmatico — Drop. Pick. Done.                                   Discussion             |             Link #硬件新品"
-    },
-    "en": {
-      "title": "Dropmatico",
-      "content": "[Product Hunt] Dropmatico — Drop. Pick. Done.                                   Discussion             |             Link #硬件新品"
-    },
-    "link": "https://www.producthunt.com/products/dropmatico",
-    "source": "Product Hunt",
-    "category": "#硬件新品",
-    "lang": "en",
-    "type": "long",
-    "date": "2026-06-15",
-    "created": "2026-06-15T10:10:58.627157+00:00",
-    "weight": 1.2
-  },
-  {
-    "id": "f56204bc",
-    "zh": {
-      "title": "继电器",
-      "content": "【Product Hunt】继电器 — Paste a site & get an AI receptionist that learns from calls                                   Discussion             |             Link #开源项目"
-    },
-    "en": {
-      "title": "Relay",
-      "content": "[Product Hunt] Relay — Paste a site & get an AI receptionist that learns from calls                                   Discussion             |             Link #开源项目"
-    },
-    "link": "https://www.producthunt.com/products/relay-20",
-    "source": "Product Hunt",
-    "category": "#开源项目",
-    "lang": "en",
-    "type": "long",
-    "date": "2026-06-15",
-    "created": "2026-06-15T10:10:56.525777+00:00",
-    "weight": 1.2
-  },
-  {
-    "id": "9b8ff290",
-    "zh": {
-      "title": "昊铂 S600 上市：20 万级 SUV 的竞争，开始进入「少做选择题」阶段",
-      "content": "【爱范儿】昊铂 S600 上市：20 万级 SUV 的竞争，开始进入「少做选择题」阶段 — 昊铂需要一个爆款。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。 #创业干货"
-    },
-    "en": {
-      "title": "Launch of the Hao Platinum S600: Competition for 200,000-class SUVs, starting to enter the \"less choice\" stage",
-      "content": "[爱范儿] Launch of the Hao Platinum S600: Competition for 200,000-class SUVs, starting to enter the \"less choice\" stage — 昊铂需要一个爆款。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。 #创业干货"
-    },
-    "link": "https://www.ifanr.com/1668976?utm_source=rss&utm_medium=rss&utm_campaign=",
-    "source": "爱范儿",
-    "category": "#创业干货",
-    "lang": "zh",
-    "type": "short",
-    "date": "2026-06-15",
-    "created": "2026-06-15T10:10:24.352260+00:00",
-    "weight": 1.0
-  },
-  {
-    "id": "418f9981",
-    "zh": {
-      "title": "从一个想法到一个产品，年轻开发者把生活观察写进代码",
-      "content": "【36氪】从一个想法到一个产品，年轻开发者把生活观察写进代码 — 6月14日，HarmonyOS创新赛·极客赛道决赛在HDC华为开发者大会（HDC 2026）落下帷幕。    此前，20支入围队伍从众多参赛作品中脱颖而出，在36小时极限编码中抢先使用HarmonyOS 7，围绕AI、3D空间化、用户体验等方向展开比拼。随着最终获奖名单揭晓，比赛的结果已经落定，但比奖项本身更值得被看见的，是这些作品背后一批年轻开发者正在关注什么，又试图用代码回答什么。   ... #产品设计"
-    },
-    "en": {
-      "title": "From an idea to a product, young developers write life observations into code",
-      "content": "[36氪] From an idea to a product, young developers write life observations into code — 6月14日，HarmonyOS创新赛·极客赛道决赛在HDC华为开发者大会（HDC 2026）落下帷幕。    此前，20支入围队伍从众多参赛作品中脱颖而出，在36小时极限编码中抢先使用HarmonyOS 7，围绕AI、3D空间化、用户体验等方向展开比拼。随着最终获奖名单揭晓，比赛的结果已经落定，但比奖项本身更值得被看见的，是这些作品背后一批年轻开发者正在关注什么，又试图用代码回答什么。   ... #产品设计"
-    },
-    "link": "https://36kr.com/p/3854243718550528?f=rss",
-    "source": "36氪",
-    "category": "#产品设计",
-    "lang": "zh",
-    "type": "long",
-    "date": "2026-06-15",
-    "created": "2026-06-15T10:10:19.550567+00:00",
-    "weight": 1.3
-  },
-  {
-    "id": "2d82afbd",
-    "zh": {
-      "title": "科技爱好者周刊（第 398 期）：Token 费用难以负担",
-      "content": "【阮一峰】科技爱好者周刊（第 398 期）：Token 费用难以负担 — 这里记录每周值得分享的科技内容，周五发布。... #科技新闻"
-    },
-    "en": {
-      "title": "Tech Enthusiasts Weekly (Issue 398): Unaffordable Token Costs",
-      "content": "[阮一峰] Tech Enthusiasts Weekly (Issue 398): Unaffordable Token Costs — 这里记录每周值得分享的科技内容，周五发布。... #科技新闻"
-    },
-    "link": "http://www.ruanyifeng.com/blog/2026/05/weekly-issue-398.html",
-    "source": "阮一峰",
-    "category": "#科技新闻",
-    "lang": "zh",
-    "type": "short",
-    "date": "2026-06-15",
-    "created": "2026-06-15T10:10:08.128416+00:00",
-    "weight": 1.2
-  },
-  {
-    "id": "4aada534",
-    "title": "🔍 搜索精选: AI tools new release",
-    "content": "【搜索总结】今日搜索 'AI tools new release' 发现多篇值得关注的文章。具体内容已整合到网站，点击查看完整摘要。 AI工具",
-    "link": "https://aigo.homes",
-    "source": "搜索聚合",
-    "category": "#AI工具",
-    "lang": "en",
-    "type": "long",
-    "date": "2026-06-15",
-    "created": "2026-06-15T09:37:40.175853+00:00",
-    "weight": 1.5,
-    "is_search": true
-  },
-  {
-    "id": "63b8c122",
-    "title": "🔍 搜索精选: 前端技术趋势 2026",
-    "content": "【搜索总结】今日搜索 '前端技术趋势 2026' 发现多篇值得关注的文章。具体内容已整合到网站，点击查看完整摘要。 前端开发",
-    "link": "https://aigo.homes",
-    "source": "搜索聚合",
-    "category": "#前端开发",
-    "lang": "zh",
-    "type": "long",
-    "date": "2026-06-15",
-    "created": "2026-06-15T09:37:40.175846+00:00",
-    "weight": 1.5,
-    "is_search": true
-  },
-  {
-    "id": "a1b2cc67",
-    "title": "🔍 搜索精选: AI 最新动态 2026",
-    "content": "【搜索总结】今日搜索 'AI 最新动态 2026' 发现多篇值得关注的文章。具体内容已整合到网站，点击查看完整摘要。 AI研究",
-    "link": "https://aigo.homes",
-    "source": "搜索聚合",
-    "category": "#AI研究",
-    "lang": "zh",
-    "type": "long",
-    "date": "2026-06-15",
-    "created": "2026-06-15T09:37:40.175823+00:00",
-    "weight": 1.5,
-    "is_search": true
-  },
-  {
-    "id": "560f59ef",
-    "title": "write for one person",
-    "content": "【Lobsters】write for one person #AI工具",
-    "link": "https://wizardzines.com/comics/write-for-one-person/",
-    "source": "Lobsters",
-    "category": "#AI工具",
-    "lang": "en",
-    "type": "short",
-    "date": "2026-06-14",
-    "created": "2026-06-15T09:37:39.175556+00:00",
-    "weight": 1.1
-  },
-  {
-    "id": "8439c2ad",
-    "title": "curl summer of bliss",
-    "content": "【Lobsters】curl summer of bliss #创业干货",
-    "link": "https://daniel.haxx.se/blog/2026/06/15/curl-summer-of-bliss/",
-    "source": "Lobsters",
-    "category": "#创业干货",
-    "lang": "en",
-    "type": "short",
-    "date": "2026-06-15",
-    "created": "2026-06-15T09:37:39.175488+00:00",
-    "weight": 1.1
-  },
-  {
-    "id": "cb35cf11",
-    "title": "How Preply combines AI and human tutors to personalize learning",
-    "content": "【OpenAI Blog】How Preply combines AI and human tutors to personalize learning — Preply uses OpenAI to launch AI-generated lesson summaries, providing personalised feedback and language learning exercises. #科技新闻",
-    "link": "https://openai.com/index/preply",
-    "source": "OpenAI Blog",
-    "category": "#科技新闻",
-    "lang": "en",
-    "type": "long",
-    "date": "2026-06-15",
-    "created": "2026-06-15T09:37:35.566550+00:00",
-    "weight": 1.4
-  },
-  {
-    "id": "4805d0a6",
-    "title": "New OpenAI Academy courses for the next era of work",
-    "content": "【OpenAI Blog】New OpenAI Academy courses for the next era of work — OpenAI introduces three Academy courses that help people build practical AI skills, create repeatable workflows, and apply agents in everyday work. #产品设计",
-    "link": "https://openai.com/index/academy-courses-applying-ai-at-work",
-    "source": "OpenAI Blog",
-    "category": "#产品设计",
-    "lang": "en",
-    "type": "long",
-    "date": "2026-06-15",
-    "created": "2026-06-15T09:37:35.566499+00:00",
-    "weight": 1.4
-  },
-  {
-    "id": "de1683a9",
-    "title": "Introducing the OpenAI Partner Network",
-    "content": "【OpenAI Blog】Introducing the OpenAI Partner Network — OpenAI launches the Partner Network, investing $150M to help global partners accelerate enterprise AI adoption, deployment, and transformation. #科技新闻",
-    "link": "https://openai.com/index/introducing-openai-partner-network",
-    "source": "OpenAI Blog",
-    "category": "#科技新闻",
-    "lang": "en",
-    "type": "long",
-    "date": "2026-06-15",
-    "created": "2026-06-15T09:37:35.566436+00:00",
-    "weight": 1.4
-  },
-  {
-    "id": "a54968de",
-    "title": "How to Run Private Text-to-Speech on Your Own Hardware Using QVAC",
-    "content": "【freeCodeCamp】How to Run Private Text-to-Speech on Your Own Hardware Using QVAC — When I was putting the final touches on QuizRope, an educational mobile app I built that uses LLMs for real-time tutoring and homework assistance, I knew the next logical step was voice. Reading text #产品设计",
-    "link": "https://www.freecodecamp.org/news/how-to-run-private-text-to-speech-on-your-own-hardware-using-qvac/",
-    "source": "freeCodeCamp",
-    "category": "#产品设计",
-    "lang": "en",
-    "type": "long",
-    "date": "2026-06-14",
-    "created": "2026-06-15T09:36:09.567468+00:00",
-    "weight": 1.1
-  },
-  {
-    "id": "56f6dd71",
-    "title": "Building a Website in 2026: What Matters More Than Your Tech Stack",
-    "content": "【freeCodeCamp】Building a Website in 2026: What Matters More Than Your Tech Stack — For years, developers have debated which technology stack was best for building websites. Some preferred React. Others chose Vue, Angular, Svelte, or server-side frameworks such as Laravel and Django. #前端开发",
-    "link": "https://www.freecodecamp.org/news/building-a-website-what-matters-more-than-your-tech-stack/",
-    "source": "freeCodeCamp",
-    "category": "#前端开发",
-    "lang": "en",
-    "type": "long",
-    "date": "2026-06-14",
-    "created": "2026-06-15T09:36:09.567373+00:00",
-    "weight": 1.1
-  },
-  {
-    "id": "9b3796bc",
-    "title": "Turn on CMCD: make your CDN logs explain rebuffering",
-    "content": "【Dev.to】Turn on CMCD: make your CDN logs explain rebuffering — TL;DR    CMCD (Common Media Client Data, CTA-5004) lets your player attach its state (buffer length, bitrate, \"I just rebuffered\") to every segment request, so your CDN's own logs can explain QoE. ... #产品设计",
-    "link": "https://dev.to/masonwritescode/turn-on-cmcd-make-your-cdn-logs-explain-rebuffering-k8d",
-    "source": "Dev.to",
-    "category": "#产品设计",
-    "lang": "en",
-    "type": "long",
-    "date": "2026-06-15",
-    "created": "2026-06-15T09:36:07.380568+00:00",
-    "weight": 1.1
-  },
-  {
-    "id": "1257cb6a",
-    "title": "\"I Added a /yolo Button to My Local AI Assistant\"",
-    "content": "【Dev.to】\"I Added a /yolo Button to My Local AI Assistant\" — I like local AI assistants that ask before they do risky things.  I do not like approving the same task six times in a row.  That was the failure mode I kept hitting while working on CliGate. A nor... #AI研究",
-    "link": "https://dev.to/codekingai/i-added-a-yolo-button-to-my-local-ai-assistant-4klh",
-    "source": "Dev.to",
-    "category": "#AI研究",
-    "lang": "en",
-    "type": "long",
-    "date": "2026-06-15",
-    "created": "2026-06-15T09:36:07.380227+00:00",
-    "weight": 1.1
-  },
-  {
-    "id": "1203b5b8",
-    "title": "I Stopped Curating Games. I Built an AI Agent to Run My Portal Instead.",
-    "content": "【Dev.to】I Stopped Curating Games. I Built an AI Agent to Run My Portal Instead. — Picture this: You want to build a gaming portal. You need to find the games, playtest them, categorize them, write descriptions, extract thumbnails, and publish them. It is a massive bottleneck.  W... #AI工具",
-    "link": "https://dev.to/michal_bilinski_839d59856/i-stopped-curating-games-i-built-an-ai-agent-to-run-my-portal-instead-2aci",
-    "source": "Dev.to",
-    "category": "#AI工具",
-    "lang": "en",
-    "type": "long",
-    "date": "2026-06-15",
-    "created": "2026-06-15T09:36:07.380086+00:00",
-    "weight": 1.1
+    "type": "long"
   },
   {
     "id": "fd4e81af",
-    "title": "China may have accessed Mythos",
-    "content": "【The Verge】China may have accessed Mythos — According to a new report from Semafor, the White House's decision to impose export restrictions on Anthropic's Mythos was driven in part by fears that it had been accessed by a group linked to Chi... #开源项目",
+    "zh": {
+      "title": "Anthropic Mythos 疑遭中方访问",
+      "content": "据Semafor报道，白宫对Anthropic模型Mythos实施出口限制，部分原因竟是担心已被中国相关组织获取。如果属实，这意味着顶尖AI模型的安全边界正在瓦解——模型权重一旦被复制，传统的硬件制裁几乎失效。AI安全冷战的味道越来越浓了。",
+      "category": "#AI研究"
+    },
+    "en": {
+      "title": "Anthropic's Mythos May Have Been Accessed by China",
+      "content": "According to Semafor, White House export restrictions on Anthropic's Mythos were partly driven by fears that a China-linked group had already accessed it. If true, this means the security boundaries of top-tier AI models are collapsing—once model weights are copied, hardware sanctions become almost irrelevant. The AI security cold war is getting real.",
+      "category": "#AI Research"
+    },
     "link": "https://www.theverge.com/ai-artificial-intelligence/949644/china-white-house-anthropic-mythos",
     "source": "The Verge",
-    "category": "#开源项目",
-    "lang": "en",
-    "type": "long",
     "date": "2026-06-15",
-    "created": "2026-06-15T09:36:02.366701+00:00",
-    "weight": 1.2
+    "type": "long"
   },
   {
-    "id": "cb69c16b",
-    "title": "The FBI built a small town to simulate cyberattacks",
-    "content": "【The Verge】The FBI built a small town to simulate cyberattacks — Last year, the FBI opened a Cyber Range in Huntsville, Alabama, for simulating cyberattacks. Think of it sort of like the famous Hogan's Alley, but for modern digital crime training. It's a massive... #产品设计",
-    "link": "https://www.theverge.com/tech/949648/fbi-fake-town-cyberattacks-kinetic-cyber-range",
-    "source": "The Verge",
-    "category": "#产品设计",
-    "lang": "en",
-    "type": "long",
+    "id": "6a3122f8",
+    "zh": {
+      "title": "苹果让旧iPhone再焕新生",
+      "content": "苹果通过iOS底层优化，让iPhone 11等老机型也能更流畅、更持久。这不仅是技术优化，更是一种产品策略——延长设备生命周期，既讨好环保主义者，又减缓用户换机周期。当安卓阵营还在堆硬件，苹果已经开始在软件层面重新定义'性能'。",
+      "category": "#硬件新品"
+    },
+    "en": {
+      "title": "Apple Is Making Old iPhones Feel New Again",
+      "content": "Apple is breathing new life into aging iPhones through iOS-level optimizations, making even the iPhone 11 feel snappier and last longer. This isn't just technical wizardry—it's a product strategy that extends device lifecycles, pleasing environmental advocates while slowing upgrade cycles. While Android keeps chasing hardware specs, Apple is redefining 'performance' through software.",
+      "category": "#Hardware"
+    },
+    "link": "https://www.wired.com/story/how-apple-is-making-your-older-iphone-run-faster-and-stay-alive-longer/",
+    "source": "Wired",
     "date": "2026-06-15",
-    "created": "2026-06-15T09:36:02.366643+00:00",
-    "weight": 1.2
+    "type": "short"
   },
   {
-    "id": "3778cdbe",
-    "title": "Under-16 social media ban announced by UK government",
-    "content": "【The Verge】Under-16 social media ban announced by UK government — The UK is the latest country to follow Australia in implementing a total social media ban for children under 16, Prime Minister Keir Starmer has announced. The ban, which could take effect from ear... #AI研究",
-    "link": "https://www.theverge.com/policy/949679/uk-under-16-social-media-ban-announcement",
-    "source": "The Verge",
-    "category": "#AI研究",
-    "lang": "en",
-    "type": "long",
+    "id": "c6843daf",
+    "zh": {
+      "title": "红队AI基准测试加入伦理约束",
+      "content": "Red Team AI Benchmark v1.9.0 在MIT许可证下首次明确要求授权使用。这个改动很有深意：当安全测试工具本身可能被滥用时，开源社区的自我监管比法律约束更前置。这是AI安全工具从'能力展示'转向'负责任发布'的标志性事件。",
+      "category": "#AI研究"
+    },
+    "en": {
+      "title": "Red Team AI Benchmark Adds Ethics Policy",
+      "content": "Red Team AI Benchmark v1.9.0 now explicitly requires authorized use under its MIT license. This is significant: when security testing tools themselves can be weaponized, open-source community self-regulation becomes more proactive than legal constraints. It's a landmark moment for AI safety tools transitioning from 'capability demos' to 'responsible releases.'",
+      "category": "#AI Research"
+    },
+    "link": "https://dev.to/toxy4ny/red-team-ai-benchmark-v190-why-we-added-an-ethical-use-policy-to-an-open-source-tool-1gkf",
+    "source": "Dev.to",
     "date": "2026-06-15",
-    "created": "2026-06-15T09:36:02.366556+00:00",
-    "weight": 1.2
+    "type": "long"
   },
   {
-    "id": "4146e130",
-    "title": "Kickbacks.ai",
-    "content": "【Product Hunt】Kickbacks.ai — Get paid to wait for Claude Code to finish                                   Discussion             |             Link #AI工具",
-    "link": "https://www.producthunt.com/products/kickbacks-ai",
-    "source": "Product Hunt",
-    "category": "#AI工具",
-    "lang": "en",
-    "type": "long",
-    "date": "2026-06-15",
-    "created": "2026-06-15T09:35:50.644487+00:00",
-    "weight": 1.2
-  },
-  {
-    "id": "0be14d2b",
-    "title": "Ultramemory",
-    "content": "【Product Hunt】Ultramemory — Private AI memory for your Mac with no cloud or account                                   Discussion             |             Link #产品设计",
-    "link": "https://www.producthunt.com/products/ultramemory-remembers-everything",
-    "source": "Product Hunt",
-    "category": "#产品设计",
-    "lang": "en",
-    "type": "long",
-    "date": "2026-06-15",
-    "created": "2026-06-15T09:35:50.644439+00:00",
-    "weight": 1.2
-  },
-  {
-    "id": "a313024e",
-    "title": "Fonda",
-    "content": "【Product Hunt】Fonda — Your AI co-founder that remembers decisions + plans for you                                   Discussion             |             Link #AI工具",
-    "link": "https://www.producthunt.com/products/fonda",
-    "source": "Product Hunt",
-    "category": "#AI工具",
-    "lang": "en",
-    "type": "long",
-    "date": "2026-06-15",
-    "created": "2026-06-15T09:35:50.644380+00:00",
-    "weight": 1.2
-  },
-  {
-    "id": "73158279",
-    "title": "Making secret scanning more trustworthy: Reducing false positives at scale",
-    "content": "【GitHub Blog】Making secret scanning more trustworthy: Reducing false positives at scale — Alerts are more trustworthy and actionable when noise is reduced. See how we improved the verification step with context-aware LLM reasoning. The post Making secret scanning more trustworthy: Reduc... #AI研究",
-    "link": "https://github.blog/security/making-secret-scanning-more-trustworthy-reducing-false-positives-at-scale/",
-    "source": "GitHub Blog",
-    "category": "#AI研究",
-    "lang": "en",
-    "type": "long",
-    "date": "2026-06-11",
-    "created": "2026-06-15T09:35:48.814207+00:00",
-    "weight": 1.2
-  },
-  {
-    "id": "d4e76556",
-    "title": "GitHub availability report: May 2026",
-    "content": "【GitHub Blog】GitHub availability report: May 2026 — In May, we experienced nine incidents that resulted in degraded performance across GitHub services. The post GitHub availability report: May 2026 appeared first on The GitHub Blog. #开源项目",
-    "link": "https://github.blog/news-insights/company-news/github-availability-report-may-2026/",
-    "source": "GitHub Blog",
-    "category": "#开源项目",
-    "lang": "en",
-    "type": "long",
-    "date": "2026-06-11",
-    "created": "2026-06-15T09:35:48.814138+00:00",
-    "weight": 1.2
-  },
-  {
-    "id": "d8f3f6be",
-    "title": "How we made GitHub Copilot CLI more selective about delegation",
-    "content": "【GitHub Blog】How we made GitHub Copilot CLI more selective about delegation — Better orchestration, fewer handoffs, faster progress, without a single new knob. The post How we made GitHub Copilot CLI more selective about delegation appeared first on The GitHub Blog. #开源项目",
-    "link": "https://github.blog/ai-and-ml/how-we-made-github-copilot-cli-more-selective-about-delegation/",
-    "source": "GitHub Blog",
-    "category": "#开源项目",
-    "lang": "en",
-    "type": "long",
-    "date": "2026-06-12",
-    "created": "2026-06-15T09:35:48.814055+00:00",
-    "weight": 1.2
-  },
-  {
-    "id": "4178911b",
-    "title": "Startup CEO Charlie Javice is reportedly angling for a Trump pardon",
-    "content": "【TechCrunch】Startup CEO Charlie Javice is reportedly angling for a Trump pardon — JPMorgan can't be pleased by any of this. #开源项目",
-    "link": "https://techcrunch.com/2026/06/14/startup-ceo-charlie-javice-is-reportedly-angling-for-a-trump-pardon/",
-    "source": "TechCrunch",
-    "category": "#开源项目",
-    "lang": "en",
-    "type": "long",
+    "id": "56f6dd71",
+    "zh": {
+      "title": "2026建站：技术栈不重要",
+      "content": "作者从实战角度提出：比起纠结React还是Vue，2026年建站更该关注内容策略、性能预算和用户体验。框架会过时，但好的内容架构和加载速度不会。这个观点有点反直觉——在AI辅助编程的时代，选择技术栈的决策权重正在下降。",
+      "category": "#前端开发"
+    },
+    "en": {
+      "title": "Building Websites in 2026: Stack Matters Less",
+      "content": "From the trenches: in 2026, content strategy, performance budgets, and UX matter more than whether you pick React or Vue. Frameworks come and go, but solid content architecture and loading speed don't. It's a counter-intuitive take—in an era of AI-assisted coding, the weight of tech stack decisions is actually decreasing.",
+      "category": "#Frontend"
+    },
+    "link": "https://www.freecodecamp.org/news/building-a-website-what-matters-more-than-your-tech-stack/",
+    "source": "freeCodeCamp",
     "date": "2026-06-14",
-    "created": "2026-06-15T09:35:46.891895+00:00",
-    "weight": 1.3
-  },
-  {
-    "id": "c3e3092c",
-    "title": "Orbio raises $21 million to automate hiring and onboarding for frontline workers",
-    "content": "【TechCrunch】Orbio raises $21 million to automate hiring and onboarding for frontline workers — Orbio announces $21 Million Series A in round led by Dawn Capital. #前端开发",
-    "link": "https://techcrunch.com/2026/06/14/orbio-raises-21-million-to-automate-hiring-and-onboarding-for-frontline-workers/",
-    "source": "TechCrunch",
-    "category": "#前端开发",
-    "lang": "en",
-    "type": "long",
-    "date": "2026-06-15",
-    "created": "2026-06-15T09:35:46.891818+00:00",
-    "weight": 1.3
-  },
-  {
-    "id": "c37e8ec4",
-    "title": "The AI layoff wave is becoming a powder keg",
-    "content": "【TechCrunch】The AI layoff wave is becoming a powder keg — What makes this combustible: at the very moment that tens of thousands of workers are being shown the door, a small cohort of AI insiders is becoming wealthy on a scale that's hard to comprehend. #效率工具",
-    "link": "https://techcrunch.com/2026/06/15/the-ai-layoff-wave-is-becoming-a-powder-keg/",
-    "source": "TechCrunch",
-    "category": "#效率工具",
-    "lang": "en",
-    "type": "long",
-    "date": "2026-06-15",
-    "created": "2026-06-15T09:35:46.891738+00:00",
-    "weight": 1.3
-  },
-  {
-    "id": "16955d3a",
-    "title": "36氪首发 | EBike变速器供应商打破海外巨头垄断，获国泰、达晨参与新一轮数千万元融资",
-    "content": "【36氪】36氪首发 | EBike变速器供应商打破海外巨头垄断，获国泰、达晨参与新一轮数千万元融资 — 作者 | 张子怡   编辑 | 袁斯来   硬氪获悉，智能短出行核心零部件供应商洛梵狄智能科技（以下简称“洛梵狄”）已完成新一轮数千万元B+融资。本轮投资方包括国泰海通、达晨财智、以及广州黄埔科创母基金，老股东达晨财智在本轮中继续追加投资。   据悉，本轮融资资金将主要用于持续的研发投入、产能扩张、全球销售网络建设及日常运营流动资金。其中，研发重点将聚焦于下一代智能内变速器的深耕。   洛梵... #科技新闻",
-    "link": "https://36kr.com/p/3853252135654660?f=rss",
-    "source": "36氪",
-    "category": "#科技新闻",
-    "lang": "zh",
-    "type": "long",
-    "date": "2026-06-15",
-    "created": "2026-06-15T09:35:26.452125+00:00",
-    "weight": 1.3
-  },
-  {
-    "id": "88a6a64e",
-    "title": "硬氪首发 | 海洋具身智能公司「世航智能」拿下创纪录10亿融资，朱啸虎押注",
-    "content": "【36氪】硬氪首发 | 海洋具身智能公司「世航智能」拿下创纪录10亿融资，朱啸虎押注 — 作者 | 邱晓芬   编辑 | 袁斯来   硬氪获悉，海洋具身智能公司「世航智能」完成A轮融资，融资金额超过10亿元，这也是目前全球海洋机器人领域规模最大的单轮融资。本轮融资由两家芯片公司「摩尔线程」和「昆仑芯」的产业投资方上河动量基金、新加坡国有投资平台Vertex Growth 、上市公司大洋电机等资方出资。   另外，金沙江创投也在本轮追加投资，这已是其创始人朱啸虎第五轮投资「世航智能... #创业干货",
-    "link": "https://36kr.com/p/3853011900142848?f=rss",
-    "source": "36氪",
-    "category": "#创业干货",
-    "lang": "zh",
-    "type": "long",
-    "date": "2026-06-15",
-    "created": "2026-06-15T09:35:26.452045+00:00",
-    "weight": 1.3
-  },
-  {
-    "id": "03f455d2",
-    "title": "硬氪专访 | 智源研究院院长王仲远：VLA不会死，但世界模型是未来",
-    "content": "【36氪】硬氪专访 | 智源研究院院长王仲远：VLA不会死，但世界模型是未来 — 作者 | 邱晓芬   编辑 | 袁斯来   过去几个月，“世界模型”（World Model）从学术黑话迅速膨胀成AI和机器人行业里的关键词。   行业的目光转向背后是切实的焦虑。   一方面，经过了过去两年的野蛮生长，具身智能暴露了当前AI在物理世界中的短板——机器人能识别物体，却不懂“推杯子会掉”；能听懂指令，却无法预判“拧瓶盖需要多大的力”。世界模型正是试图补上这个短板，让机器人学会物... #AI研究",
-    "link": "https://36kr.com/p/3853016586359817?f=rss",
-    "source": "36氪",
-    "category": "#AI研究",
-    "lang": "zh",
-    "type": "long",
-    "date": "2026-06-15",
-    "created": "2026-06-15T09:35:26.451943+00:00",
-    "weight": 1.3
-  },
-  {
-    "id": "675de73e",
-    "title": "科技爱好者周刊（第 399 期）：中国 AI 大厂访问记",
-    "content": "【阮一峰】科技爱好者周刊（第 399 期）：中国 AI 大厂访问记 — 这里记录每周值得分享的科技内容，周五发布。... #科技新闻",
-    "link": "http://www.ruanyifeng.com/blog/2026/06/weekly-issue-399.html",
-    "source": "阮一峰",
-    "category": "#科技新闻",
-    "lang": "zh",
-    "type": "short",
-    "date": "2026-06-15",
-    "created": "2026-06-15T09:35:23.934176+00:00",
-    "weight": 1.2
-  },
-  {
-    "id": "7b84a266",
-    "title": "科技爱好者周刊（第 400 期）：rsync 的争论",
-    "content": "【阮一峰】科技爱好者周刊（第 400 期）：rsync 的争论 — 这里记录每周值得分享的科技内容，周五发布。（[通知] 下周端午假期，周刊休息。）... #科技新闻",
-    "link": "http://www.ruanyifeng.com/blog/2026/06/weekly-issue-400.html",
-    "source": "阮一峰",
-    "category": "#科技新闻",
-    "lang": "zh",
-    "type": "short",
-    "date": "2026-06-15",
-    "created": "2026-06-15T09:35:23.934100+00:00",
-    "weight": 1.2
+    "type": "short"
   }
 ]
