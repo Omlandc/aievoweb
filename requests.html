@@ -117,8 +117,7 @@
           <div class="req-labels">
             ${labels.map(l => `<span class="req-label">${l.name}</span>`).join('')}
           </div>
-          <div class="req-date">#${issue.number} · ${formatDate(issue.created_at)} · 提交者: ${issue.user.login}</div>
-          <div class="github-link"><a href="${issue.html_url}" target="_blank" rel="noopener">查看讨论与进度 →</a></div>
+          <div class="req-date">#${issue.number} · ${formatDate(issue.created_at)}</div>
         </div>
       `;
     }
