@@ -6,11 +6,11 @@
   <title>提交需求 - 玩转AI进化网</title>
   <meta name="description" content="提交你的想法，让AI帮你实现网站功能的自动进化。">
   <meta name="robots" content="index, follow">
-  <link rel="canonical" href="https://aigo.homes/submit.html">
+  <link rel="canonical" href="https://example.com/submit.html">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="alternate" hreflang="zh" href="https://aigo.homes/submit.html">
-  <link rel="alternate" hreflang="en" href="https://aigo.homes/en/submit.html">
-  <link rel="alternate" hreflang="x-default" href="https://aigo.homes/submit.html">
+  <link rel="alternate" hreflang="zh" href="https://example.com/submit.html">
+  <link rel="alternate" hreflang="en" href="https://example.com/en/submit.html">
+  <link rel="alternate" hreflang="x-default" href="https://example.com/submit.html">
 </head>
 <body>
   <nav class="navbar" role="navigation" aria-label="Main">
@@ -31,7 +31,7 @@
     <h2 class="section-title" data-i18n="submit.title">提交你的需求</h2>
     <p class="section-subtitle" data-i18n="submit.desc">你希望看到什么功能或内容？描述一下，AI会评估并自动实现。</p>
 
-    <form class="form" id="request-form">
+    <form class="form" id="request-form" action="https://example.com/api/submit" method="POST">
       <div class="form-group">
         <label for="email" data-i18n="submit.emailLabel">邮箱（必填）</label>
         <input type="email" id="email" name="email" required data-i18n="submit.emailPlaceholder" placeholder="your@email.com">
@@ -64,11 +64,7 @@
     <div id="success-msg" style="display:none; text-align:center; margin-top:2rem; padding:2rem; background:var(--bg-light); border-radius:var(--radius); border:1px solid var(--primary);">
       <div style="font-size:2rem; margin-bottom:0.5rem;">✅</div>
       <p style="font-weight:600;" data-i18n="submit.successMsg">已提交！你的需求已进入AI审核队列。</p>
-      <p style="font-size:0.9rem; color:var(--text-muted); margin-top:0.5rem;">审核通过后，你的需求会展示在需求广场页面。</p>
-      <div style="margin-top:1.5rem;">
-        <a href="requests.html" class="btn btn-primary">查看需求广场</a>
-        <a href="submit.html" class="btn btn-secondary" style="margin-left:0.5rem;">再提交一个</a>
-      </div>
+      <p style="font-size:0.9rem; color:var(--text-muted); margin-top:0.5rem;">审核通过后，你的需求会展示在"需求广场"页面。</p>
     </div>
   </section>
 
@@ -83,10 +79,7 @@
 
   <script src="js/i18n-data.js"></script>
   <script src="js/i18n.js"></script>
-  <script src="js/mobile-nav.js"></script>
   <script>
-    const WORKER_URL = 'https://aievoweb-api.ctguxby.workers.dev/';
-
     function refreshCode() {
       const chars = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789';
       let code = '';
@@ -95,48 +88,19 @@
     }
     refreshCode();
 
-    document.getElementById('request-form').addEventListener('submit', async function(e) {
+    document.getElementById('request-form').addEventListener('submit', function(e) {
       e.preventDefault();
       const entered = document.getElementById('verify').value.toUpperCase();
       const expected = document.getElementById('verify-img').textContent;
       if (entered !== expected) {
         alert('验证码错误，请重新输入');
         refreshCode();
-        document.getElementById('verify').value = '';
         return;
       }
-
-      const submitBtn = this.querySelector('button[type="submit"]');
-      const originalText = submitBtn.textContent;
-      submitBtn.disabled = true;
-      submitBtn.textContent = '提交中...';
-
-      try {
-        const response = await fetch(WORKER_URL, {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({
-            email: document.getElementById('email').value,
-            request: document.getElementById('request').value,
-            reference: document.getElementById('reference').value
-          })
-        });
-
-        const result = await response.json();
-
-        if (result.success) {
-          document.getElementById('request-form').style.display = 'none';
-          document.getElementById('success-msg').style.display = 'block';
-        } else {
-          alert('提交失败：' + (result.error || '未知错误'));
-          submitBtn.disabled = false;
-          submitBtn.textContent = originalText;
-        }
-      } catch (err) {
-        alert('网络错误，请稍后重试。错误：' + err.message);
-        submitBtn.disabled = false;
-        submitBtn.textContent = originalText;
-      }
+      // Here you would normally send to your Feishu Bitable API
+      // For now, show success message
+      document.getElementById('request-form').style.display = 'none';
+      document.getElementById('success-msg').style.display = 'block';
     });
   </script>
 </body>
