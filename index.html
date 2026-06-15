@@ -101,7 +101,7 @@
     async function loadHomeTweets() {
       const container = document.getElementById('home-tweets-list');
       if (!container) return;
-      const currentLang = localStorage.getItem('siteLang') || 'zh';
+      const currentLang = localStorage.getItem('lang') || 'zh';
       function getDisplayLang(tweet) {
         if (currentLang === 'zh' && tweet.zh) return 'zh';
         if (currentLang === 'en' && tweet.en) return 'en';

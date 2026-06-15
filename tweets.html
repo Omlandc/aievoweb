@@ -89,7 +89,7 @@
   <script src="js/mobile-nav.js"></script>
   <script>
     // 全局状态
-    let currentLang = localStorage.getItem('siteLang') || 'zh';
+    let currentLang = localStorage.getItem('lang') || 'zh';
     let allTweets = [];
     let displayedCount = 0;
     const PAGE_SIZE = 10;
@@ -285,7 +285,7 @@
     const originalSetLang = window.setLang || function() {};
     window.setLang = function(lang) {
       currentLang = lang;
-      localStorage.setItem('siteLang', lang);
+      localStorage.setItem('lang', lang);
       if (originalSetLang) originalSetLang(lang);
       location.reload();
     };
