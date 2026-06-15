@@ -87,6 +87,22 @@
   <script src="js/i18n.js"></script>
   <script src="js/mobile-nav.js"></script>
   <script>
+    // 邮箱脱敏函数
+    function maskEmail(email) {
+      if (!email || !email.includes('@')) return email;
+      const [local, domain] = email.split('@');
+      if (local.length <= 2) return '*'.repeat(local.length) + '@' + domain;
+      const first = local[0];
+      const last = local[local.length - 1];
+      const masked = '*'.repeat(Math.max(1, local.length - 2));
+      return first + masked + last + '@' + domain;
+    }
+
+    function maskEmailsInText(text) {
+      if (!text) return text;
+      return text.replace(/[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}/g, (match) => maskEmail(match));
+    }
+
     const GITHUB_API = 'https://api.github.com/repos/Omlandc/aievoweb/issues';
 
     function getStatusInfo(labels) {
@@ -104,9 +120,9 @@
 
     function renderRequest(issue) {
       const status = getStatusInfo(issue.labels);
-      const body = issue.body || '';
+      const body = maskEmailsInText(issue.body || '');
       // 提取需求描述（第一行或前200字）
-      const desc = body.split('\n')[0] || body.slice(0, 200);
+      const desc = maskEmailsInText(body.split('\n')[0] || body.slice(0, 200));
       const labels = issue.labels.filter(l => l.name !== 'user-request');
 
       return `

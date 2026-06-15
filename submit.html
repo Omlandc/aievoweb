@@ -84,6 +84,22 @@
   <script src="js/i18n.js"></script>
   <script src="js/mobile-nav.js"></script>
   <script>
+    // 邮箱脱敏函数
+    function maskEmail(email) {
+      if (!email || !email.includes('@')) return email;
+      const [local, domain] = email.split('@');
+      if (local.length <= 2) return '*'.repeat(local.length) + '@' + domain;
+      const first = local[0];
+      const last = local[local.length - 1];
+      const masked = '*'.repeat(Math.max(1, local.length - 2));
+      return first + masked + last + '@' + domain;
+    }
+
+    function maskEmailsInText(text) {
+      if (!text) return text;
+      return text.replace(/[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}/g, (match) => maskEmail(match));
+    }
+
     const WORKER_URL = 'https://aievoweb-api..workers.dev/';
 
     function refreshCode() {
@@ -124,12 +140,13 @@
         const result = await response.json();
 
         if (result.success) {
+          const maskedEmail = maskEmail(document.getElementById('email').value);
           document.getElementById('request-form').style.display = 'none';
           document.getElementById('success-msg').innerHTML = `
             <div style="font-size:2rem; margin-bottom:0.5rem;">✅</div>
             <p style="font-weight:600;">已提交！你的需求已进入AI审核队列。</p>
             <p style="font-size:0.9rem; color:var(--text-muted); margin-top:0.5rem;">
-              查看进度：<a href="${result.issueUrl}" target="_blank" rel="noopener">#${result.issueNumber}</a>
+              提交邮箱：${maskedEmail}
             </p>
           `;
           document.getElementById('success-msg').style.display = 'block';

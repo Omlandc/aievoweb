@@ -2,7 +2,7 @@ const i18n = {
   en: {
     siteName: "Play AI Evolution",
     tagline: "An AI-Powered Website That Evolves with Your Ideas",
-    nav: { home: "Home", tweets: "Tweets", explore: "Explore", games: "Games", submit: "Submit Request", requests: "Auto Requests", faq: "FAQ" },,
+    nav: { home: "Home", tweets: "Tweets", explore: "Explore", games: "Games", submit: "Submit Request", requests: "Auto Requests", faq: "FAQ" },
     hero: {
       title: "An AI Website That Evolves Itself",
       subtitle: "Submit your ideas. Watch AI build and evolve the site in real time.",
@@ -35,14 +35,14 @@ const i18n = {
     faq: { title: "FAQ" },
     privacy: { title: "Privacy Policy" },
     about: { title: "About Us" },
-    footer: { slogan: "AI evolves the web. You evolve the ideas.", contact: "Contact: ctguxby@proton.me" },
+    footer: { slogan: "AI evolves the web. You evolve the ideas.", contact: "" },,
     disclaimer: "This site is for demonstration and reference only. Not medical, legal, or financial advice.",
     langSwitch: "中文"
   },
   zh: {
     siteName: "玩转AI进化网",
     tagline: "一个会随着你的想法自动进化的AI网站",
-    nav: { home: "首页", tweets: "推文", explore: "探索", games: "游戏", submit: "提交需求", requests: "需求广场", faq: "常见问题" },,
+    nav: { home: "首页", tweets: "推文", explore: "探索", games: "游戏", submit: "提交需求", requests: "需求广场", faq: "常见问题" },
     hero: {
       title: "一个会自我进化的AI网站",
       subtitle: "提交你的需求，看AI实时构建和进化这个网站。",
@@ -75,7 +75,7 @@ const i18n = {
     faq: { title: "常见问题" },
     privacy: { title: "隐私政策" },
     about: { title: "关于我们" },
-    footer: { slogan: "AI进化网站，你进化想法。", contact: "联系邮箱：ctguxby@proton.me" },
+    footer: { slogan: "AI进化网站，你进化想法。", contact: "" },,
     disclaimer: "本网站仅供演示和参考，不构成医疗、法律或财务建议。",
     langSwitch: "English"
   }
