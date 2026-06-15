@@ -4,23 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>最新推文 - 玩转AI进化网</title>
-  <meta name="description" content="AI自动筛选的科技、产品、设计短内容，中英双语支持。">
+  <meta name="description" content="玩转AI进化网的最新推文更新，短内容展示与筛选。">
   <meta name="robots" content="index, follow">
-  <link rel="canonical" href="https://aigo.homes/tweets.html">
+  <link rel="canonical" href="https://example.com/tweets.html">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="alternate" hreflang="zh" href="https://aigo.homes/tweets.html">
-  <link rel="alternate" hreflang="en" href="https://aigo.homes/en/tweets.html">
-  <link rel="alternate" hreflang="x-default" href="https://aigo.homes/tweets.html">
-  <style>
-    .load-more { text-align: center; padding: 2rem; }
-    .load-more button { background: var(--accent-2); color: #fff; border: none; padding: 0.75rem 1.5rem; border-radius: 0.5rem; cursor: pointer; font-size: 1rem; }
-    .load-more button:hover { background: var(--accent-1); }
-    .load-more button:disabled { opacity: 0.5; cursor: not-allowed; }
-    .month-label { text-align: center; color: var(--accent-2); font-size: 0.9rem; margin: 2rem 0 1rem; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; }
-    .loading { text-align: center; padding: 2rem; color: var(--text-muted); }
-    .empty { text-align: center; padding: 3rem; color: var(--text-muted); }
-    .lang-badge { display: inline-block; padding: 0.2rem 0.5rem; border-radius: 0.25rem; background: var(--accent-2); color: #fff; font-size: 0.75rem; margin-left: 0.5rem; cursor: pointer; }
-  </style>
+  <link rel="alternate" hreflang="zh" href="https://example.com/tweets.html">
+  <link rel="alternate" hreflang="en" href="https://example.com/en/tweets.html">
+  <link rel="alternate" hreflang="x-default" href="https://example.com/tweets.html">
 </head>
 <body>
   <nav class="navbar" role="navigation" aria-label="Main">
@@ -29,7 +19,6 @@
       <div class="nav-links" id="nav-links">
         <a href="index.html" data-i18n="nav.home">首页</a>
         <a href="tweets.html" class="active" data-i18n="nav.tweets">推文</a>
-        <a href="explore.html" data-i18n="nav.explore">探索</a>
         <a href="submit.html" data-i18n="nav.submit">提交需求</a>
         <a href="requests.html" data-i18n="nav.requests">需求广场</a>
         <a href="faq.html" data-i18n="nav.faq">常见问题</a>
@@ -40,137 +29,75 @@
 
   <section class="features" aria-label="Tweets">
     <h2 class="section-title" data-i18n="tweets.title">最新推文</h2>
-    <p class="section-subtitle">AI 每日从 RSS 源筛选、总结、推送的科技短内容。中英双语。</p>
+    <p class="section-subtitle">AI 自动生成的短内容更新。按时间排序。</p>
+
     <div class="filter-tabs">
       <button class="filter-tab active" data-filter="all">全部</button>
       <button class="filter-tab" data-filter="short">短内容</button>
       <button class="filter-tab" data-filter="long">长内容</button>
-      <button class="filter-tab" data-filter="zh">中文</button>
-      <button class="filter-tab" data-filter="en">English</button>
     </div>
-    <div id="tweets-list"><div class="loading">正在加载推文...</div></div>
-    <div class="load-more" id="load-more-container"><button id="load-more-btn" onclick="loadMore()">加载更多</button></div>
+
+    <div id="tweets-list">
+      <div class="card" data-type="short">
+        <div class="card-header">
+          <span class="card-title">🚀 网站已支持自动多语言切换</span>
+          <span class="card-meta">2026-06-15</span>
+        </div>
+        <div class="card-body">现在网站会根据你的浏览器语言自动切换中文或英文，也可以手动切换。后续会支持更多语言。</div>
+      </div>
+      <div class="card" data-type="short">
+        <div class="card-header">
+          <span class="card-title">🎨 新的需求提交页面已上线</span>
+          <span class="card-meta">2026-06-14</span>
+        </div>
+        <div class="card-body">新版需求提交页面支持验证码、参考链接和引导提示。不知道怎么写需求？访问 aibibi.vip 获取模板。</div>
+      </div>
+      <div class="card" data-type="long">
+        <div class="card-header">
+          <span class="card-title">📖 AI 建站完整指南：从需求到部署</span>
+          <span class="card-meta">2026-06-13</span>
+        </div>
+        <div class="card-body">详细介绍如何使用纯前端技术搭建一个可部署、SEO友好、可自动进化的网站。包含技术选型、部署方案、SEO优化和变现路径。</div>
+      </div>
+      <div class="card" data-type="short">
+        <div class="card-header">
+          <span class="card-title">🔒 验证码功能已上线</span>
+          <span class="card-meta">2026-06-12</span>
+        </div>
+        <div class="card-body">为了防止飞书多维表格被刷爆，需求提交现在需要验证码。不会影响正常用户体验。</div>
+      </div>
+      <div class="card" data-type="long">
+        <div class="card-header">
+          <span class="card-title">💡 为什么 AI 网站需要"进化"而不是"重构"</span>
+          <span class="card-meta">2026-06-10</span>
+        </div>
+        <div class="card-body">传统网站开发是瀑布式，AI 进化式开发是增量式。每一次需求提交都是一次小的进化，积累起来就是质变。这种模式更适合快速试错和持续迭代。</div>
+      </div>
+    </div>
   </section>
 
   <div class="ad-slot" aria-label="Advertisement">广告位预留 - Google AdSense</div>
 
   <footer class="footer" role="contentinfo">
     <p data-i18n="footer.slogan">AI进化网站，你进化想法。</p>
+    <p data-i18n="footer.contact">联系邮箱：ctguxby@proton.me</p>
     <p><a href="privacy.html">隐私政策</a> · <a href="about.html">关于我们</a> · <a href="faq.html">常见问题</a></p>
     <p style="font-size:0.8rem; margin-top:1rem; color:var(--text-muted);" data-i18n="disclaimer">本网站仅供演示和参考，不构成医疗、法律或财务建议。</p>
   </footer>
 
   <script src="js/i18n-data.js"></script>
   <script src="js/i18n.js"></script>
-  <script src="js/mobile-nav.js"></script>
   <script>
-    let currentLang = localStorage.getItem('siteLang') || 'zh';
-    let allTweets = [];
-    let displayedCount = 0;
-    const PAGE_SIZE = 10;
-    let currentFilter = 'all';
-    let monthIndex = 0;
-    let availableMonths = [];
-
-    function getDisplayLang(tweet) {
-      if (currentLang === 'zh' && tweet.zh) return 'zh';
-      if (currentLang === 'en' && tweet.en) return 'en';
-      if (tweet.zh) return 'zh';
-      if (tweet.en) return 'en';
-      return 'zh';
-    }
-    function renderTweet(tweet) {
-      const lang = getDisplayLang(tweet);
-      const content = tweet[lang];
-      const date = tweet.date || (tweet.created && tweet.created.split('T')[0]) || '';
-      const source = tweet.source ? ' · ' + tweet.source : '';
-      const tag = content?.category || '';
-      const type = tweet.type || 'short';
-      const hasTrans = tweet.zh && tweet.en;
-      let transBtn = '';
-      if (hasTrans) {
-        const lbl = lang === 'zh' ? 'EN' : '中';
-        transBtn = '<span class="lang-badge" onclick="toggleLang(\'' + tweet.id + '\', event)">' + lbl + '</span>';
-      }
-      return '<div class="card" data-type="' + type + '" data-id="' + tweet.id + '" data-lang="' + lang + '"><div class="card-header"><span class="card-title">' + (content?.title || '无标题') + transBtn + '</span><span class="card-meta">' + date + source + '</span></div><div class="card-body">' + (content?.content || '') + '</div>' + (tweet.link ? '<div class="card-body" style="margin-top:0.5rem;"><a href="' + tweet.link + '" target="_blank" rel="noopener">查看原文 →</a></div>' : '') + (tag ? '<div class="card-body" style="margin-top:0.5rem;"><span style="color:var(--accent-2); font-size:0.85rem;">' + tag + '</span></div>' : '') + '</div>';
-    }
-    function toggleLang(id, e) {
-      e.preventDefault(); e.stopPropagation();
-      const card = document.querySelector('[data-id="' + id + '"]'); if (!card) return;
-      const tweet = allTweets.find(t => t.id === id); if (!tweet) return;
-      const cur = card.getAttribute('data-lang');
-      const next = cur === 'zh' ? 'en' : 'zh';
-      if (!tweet[next]) return;
-      const c = tweet[next]; const nl = next === 'zh' ? 'EN' : '中';
-      card.setAttribute('data-lang', next);
-      card.innerHTML = '<div class="card-header"><span class="card-title">' + (c?.title || '无标题') + '<span class="lang-badge" onclick="toggleLang(\'' + id + '\', event)">' + nl + '</span></span><span class="card-meta">' + tweet.date + ' · ' + tweet.source + '</span></div><div class="card-body">' + (c?.content || '') + '</div>' + (tweet.link ? '<div class="card-body" style="margin-top:0.5rem;"><a href="' + tweet.link + '" target="_blank" rel="noopener">查看原文 →</a></div>' : '') + (c?.category ? '<div class="card-body" style="margin-top:0.5rem;"><span style="color:var(--accent-2); font-size:0.85rem;">' + c.category + '</span></div>' : '');
-    }
-    async function loadMore() {
-      const btn = document.getElementById('load-more-btn'); btn.disabled = true; btn.textContent = '加载中...';
-      let toShow = [];
-      if (displayedCount < allTweets.length) {
-        toShow = allTweets.slice(displayedCount, displayedCount + PAGE_SIZE);
-      } else if (monthIndex < availableMonths.length - 1) {
-        monthIndex++;
-        const m = availableMonths[monthIndex].month;
-        try {
-          const res = await fetch('data/' + m + '.json?t=' + Date.now());
-          const d = await res.json();
-          const mt = d.tweets || d;
-          allTweets = allTweets.concat(mt);
-          toShow = mt.slice(0, PAGE_SIZE);
-          const c = document.getElementById('tweets-list');
-          const l = document.createElement('div'); l.className = 'month-label'; l.textContent = m + ' 归档'; c.appendChild(l);
-        } catch (e) { console.error('加载月份失败:', e); }
-      }
-      if (toShow.length > 0) {
-        const c = document.getElementById('tweets-list');
-        c.insertAdjacentHTML('beforeend', toShow.map(renderTweet).join(''));
-        displayedCount += toShow.length;
-      }
-      const hm = displayedCount < allTweets.length || monthIndex < availableMonths.length - 1;
-      btn.disabled = false; btn.textContent = hm ? '加载更多' : '已加载全部'; if (!hm) btn.disabled = true;
-      applyFilter(currentFilter);
-    }
-    function applyFilter(filter) {
-      document.querySelectorAll('#tweets-list .card').forEach(card => {
-        const type = card.getAttribute('data-type');
-        const lang = card.getAttribute('data-lang');
-        card.style.display = (filter === 'all' || (filter === 'short' || filter === 'long') ? type === filter : lang === filter) ? 'block' : 'none';
-      });
-    }
-    async function init() {
-      try {
-        let tweets = [];
-        try {
-          const idx = await (await fetch('data/index.json?t=' + Date.now())).json();
-          availableMonths = (idx.months || []).filter(m => m.month !== 'tweets');
-          if (availableMonths.length > 0) {
-            const lm = availableMonths[0].month;
-            tweets = (await (await fetch('data/' + lm + '.json?t=' + Date.now())).json()).tweets || [];
-          }
-        } catch (e) {
-          tweets = (await (await fetch('data/tweets.json?t=' + Date.now())).json()).tweets || [];
-        }
-        const c = document.getElementById('tweets-list');
-        if (tweets.length === 0) { c.innerHTML = '<div class="empty">暂无推文，RSS Bot 每天 21:00 自动更新。</div>'; document.getElementById('load-more-btn').style.display = 'none'; return; }
-        allTweets = tweets;
-        const init = tweets.slice(0, PAGE_SIZE);
-        c.innerHTML = init.map(renderTweet).join(''); displayedCount = init.length;
-        const btn = document.getElementById('load-more-btn');
-        const hm = tweets.length > PAGE_SIZE || availableMonths.length > 1;
-        btn.textContent = hm ? '加载更多' : '已加载全部'; if (!hm) btn.disabled = true;
-      } catch (err) { console.error('初始化失败:', err); document.getElementById('tweets-list').innerHTML = '<div class="empty">加载失败</div>'; document.getElementById('load-more-btn').style.display = 'none'; }
-    }
     document.querySelectorAll('.filter-tab').forEach(tab => {
       tab.addEventListener('click', () => {
         document.querySelectorAll('.filter-tab').forEach(t => t.classList.remove('active'));
-        tab.classList.add('active'); currentFilter = tab.getAttribute('data-filter'); applyFilter(currentFilter);
+        tab.classList.add('active');
+        const filter = tab.getAttribute('data-filter');
+        document.querySelectorAll('#tweets-list .card').forEach(card => {
+          card.style.display = (filter === 'all' || card.getAttribute('data-type') === filter) ? 'block' : 'none';
+        });
       });
     });
-    const orig = window.setLang || function(){};
-    window.setLang = function(lang) { currentLang = lang; localStorage.setItem('siteLang', lang); if (orig) orig(lang); location.reload(); };
-    init();
   </script>
 </body>
 </html>
