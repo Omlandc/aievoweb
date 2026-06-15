@@ -39,6 +39,10 @@
     <p data-i18n="hero.subtitle">聚合全平台资讯，不错过全球AI革新的每一个时刻</p>
   </header>
 
+  <div style="max-width:var(--max-width); margin:1rem auto; padding:0 1rem;">
+    <div id="daily-quote"></div>
+  </div>
+
   <main class="timeline" id="timeline-container" aria-label="AI News Timeline">
     <div id="home-tweets-list">
       <div class="loading">正在加载推文...</div>
@@ -201,5 +205,6 @@
     loadHomeTweets();
     loadHomeRequests();
   </script>
+  <script src="js/daily-quote.js"></script>
 </body>
 </html>
