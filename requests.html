@@ -11,6 +11,17 @@
   <link rel="alternate" hreflang="zh" href="https://aigo.homes/requests.html">
   <link rel="alternate" hreflang="en" href="https://aigo.homes/en/requests.html">
   <link rel="alternate" hreflang="x-default" href="https://aigo.homes/requests.html">
+  <style>
+    .requests-list { max-width: 800px; margin: 0 auto; }
+    .status-badge { display: inline-block; padding: 0.2rem 0.6rem; border-radius: 100px; font-size: 0.75rem; font-weight: 600; }
+    .status-pending { background: #fef3c7; color: #d97706; }
+    .status-approved { background: #dcfce7; color: #16a34a; }
+    .status-done { background: #dbeafe; color: #2563eb; }
+    .status-rejected { background: #fee2e2; color: #dc2626; }
+    .empty { text-align: center; padding: 3rem; color: var(--text-muted); }
+    .loading { text-align: center; padding: 3rem; color: var(--text-muted); }
+    .error { text-align: center; padding: 3rem; color: #dc2626; }
+  </style>
 </head>
 <body>
   <nav class="navbar" role="navigation" aria-label="Main">
@@ -19,6 +30,8 @@
       <div class="nav-links" id="nav-links">
         <a href="index.html" data-i18n="nav.home">首页</a>
         <a href="tweets.html" data-i18n="nav.tweets">推文</a>
+        <a href="explore.html" data-i18n="nav.explore">探索</a>
+        <a href="explore.html" data-i18n="nav.explore">探索</a>
         <a href="submit.html" data-i18n="nav.submit">提交需求</a>
         <a href="requests.html" class="active" data-i18n="nav.requests">需求广场</a>
         <a href="faq.html" data-i18n="nav.faq">常见问题</a>
@@ -29,58 +42,17 @@
 
   <section class="features" aria-label="Community Requests">
     <h2 class="section-title" data-i18n="requests.title">网友需求广场</h2>
-    <p class="section-subtitle" data-i18n="requests.subtitle">用户提交的各类需求，经AI自动审核后展示。</p>
+    <p class="section-subtitle" data-i18n="requests.subtitle">用户提交的需求，实时从 GitHub Issues 拉取。</p>
 
     <div class="filter-tabs">
       <button class="filter-tab active" data-filter="all">全部</button>
+      <button class="filter-tab" data-filter="pending-review">审核中</button>
       <button class="filter-tab" data-filter="approved">已通过</button>
-      <button class="filter-tab" data-filter="pending">审核中</button>
       <button class="filter-tab" data-filter="done">已完成</button>
     </div>
 
-    <div id="requests-list">
-      <div class="card" data-status="approved">
-        <div class="card-header">
-          <span class="card-title">💡 添加深色模式 / 主题切换</span>
-          <span class="card-meta" style="color:#22c55e;">✅ 已通过</span>
-        </div>
-        <div class="card-body">希望网站支持深色模式切换，让用户可以自定义主题颜色。参考 GitHub 的 dark mode 设计。</div>
-      </div>
-      <div class="card" data-status="pending">
-        <div class="card-header">
-          <span class="card-title">📊 增加网站流量统计面板</span>
-          <span class="card-meta" style="color:#f59e0b;">⏳ 审核中</span>
-        </div>
-        <div class="card-body">展示网站实时访问量、热门页面和来源分析。参考 Google Analytics 仪表板。</div>
-      </div>
-      <div class="card" data-status="done">
-        <div class="card-header">
-          <span class="card-title">🌐 中英双语切换</span>
-          <span class="card-meta" style="color:#0ea5e9;">✅ 已完成</span>
-        </div>
-        <div class="card-body">网站已支持中文和英文自动切换，后续将支持更多语言。</div>
-      </div>
-      <div class="card" data-status="approved">
-        <div class="card-header">
-          <span class="card-title">🔔 添加 RSS 订阅功能</span>
-          <span class="card-meta" style="color:#22c55e;">✅ 已通过</span>
-        </div>
-        <div class="card-body">希望能通过 RSS 订阅网站的推文更新，方便使用 RSS 阅读器的用户。</div>
-      </div>
-      <div class="card" data-status="pending">
-        <div class="card-header">
-          <span class="card-title">🎮 增加一个 AI 塔罗牌占卜工具</span>
-          <span class="card-meta" style="color:#f59e0b;">⏳ 审核中</span>
-        </div>
-        <div class="card-body">做一个单页塔罗牌抽取工具，结合易经六十四卦做联动解读。自动实现，快速部署。</div>
-      </div>
-      <div class="card" data-status="done">
-        <div class="card-header">
-          <span class="card-title">📝 需求提交表单 + 验证码</span>
-          <span class="card-meta" style="color:#0ea5e9;">✅ 已完成</span>
-        </div>
-        <div class="card-body">新版表单支持邮箱、需求描述、参考链接和验证码验证，防止恶意提交。</div>
-      </div>
+    <div class="requests-list" id="requests-list">
+      <div class="loading">正在加载需求...</div>
     </div>
   </section>
 
@@ -88,14 +60,51 @@
 
   <footer class="footer" role="contentinfo">
     <p data-i18n="footer.slogan">AI进化网站，你进化想法。</p>
-    <p data-i18n="footer.contact"></p>
     <p><a href="privacy.html">隐私政策</a> · <a href="about.html">关于我们</a> · <a href="faq.html">常见问题</a></p>
     <p style="font-size:0.8rem; margin-top:1rem; color:var(--text-muted);" data-i18n="disclaimer">本网站仅供演示和参考，不构成医疗、法律或财务建议。</p>
   </footer>
 
   <script src="js/i18n-data.js"></script>
   <script src="js/i18n.js"></script>
+  <script src="js/mobile-nav.js"></script>
   <script>
+    const GITHUB_API = 'https://api.github.com/repos/Omlandc/aievoweb/issues';
+    let allRequests = [];
+
+    function getStatusInfo(issue) {
+      const labels = (issue.labels || []).map(l => l.name);
+      if (labels.includes('done')) return { status: 'done', text: '已完成', class: 'status-done' };
+      if (labels.includes('approved')) return { status: 'approved', text: '已通过', class: 'status-approved' };
+      if (labels.includes('rejected')) return { status: 'rejected', text: '已拒绝', class: 'status-rejected' };
+      return { status: 'pending-review', text: '审核中', class: 'status-pending' };
+    }
+
+    function renderRequest(issue) {
+      const info = getStatusInfo(issue);
+      const title = issue.title || '无标题';
+      const body = (issue.body || '').replace(/\n/g, ' ').slice(0, 200);
+      const date = issue.created_at ? issue.created_at.split('T')[0] : '';
+      const user = issue.user ? issue.user.login : '匿名';
+      const url = issue.html_url || '#';
+      const labels = (issue.labels || []).map(l => l.name).filter(n => n !== 'user-request').join(', ');
+      return '<div class="card" data-status="' + info.status + '"><div class="card-header"><span class="card-title">' + title + '</span><span class="status-badge ' + info.class + '">' + info.text + '</span></div><div class="card-body">' + body + (body.length >= 200 ? '...' : '') + '</div><div class="card-body" style="margin-top:0.5rem; font-size:0.8rem; color:var(--text-muted);">提交者: ' + user + ' · ' + date + ' · ' + (labels || '暂无标签') + '</div><div style="margin-top:0.75rem;"><a href="' + url + '" target="_blank" rel="noopener" style="font-size:0.85rem; font-weight:500;">查看讨论与进度 →</a></div></div>';
+    }
+
+    async function loadRequests() {
+      const container = document.getElementById('requests-list');
+      try {
+        const response = await fetch(GITHUB_API + '?labels=user-request&state=all&sort=created&direction=desc&per_page=50');
+        if (!response.ok) throw new Error('HTTP ' + response.status);
+        const issues = await response.json();
+        allRequests = issues;
+        if (issues.length === 0) { container.innerHTML = '<div class="empty">暂无需求，<a href="submit.html">提交第一个</a>？</div>'; return; }
+        container.innerHTML = issues.map(renderRequest).join('');
+      } catch (err) {
+        console.error('加载失败:', err);
+        container.innerHTML = '<div class="error">加载失败，请刷新重试。<br>原因：' + err.message + '</div>';
+      }
+    }
+
     document.querySelectorAll('.filter-tab').forEach(tab => {
       tab.addEventListener('click', () => {
         document.querySelectorAll('.filter-tab').forEach(t => t.classList.remove('active'));
@@ -106,6 +115,8 @@
         });
       });
     });
+
+    loadRequests();
   </script>
 </body>
 </html>

@@ -19,6 +19,8 @@
       <div class="nav-links" id="nav-links">
         <a href="index.html" data-i18n="nav.home">首页</a>
         <a href="tweets.html" data-i18n="nav.tweets">推文</a>
+        <a href="explore.html" data-i18n="nav.explore">探索</a>
+        <a href="explore.html" data-i18n="nav.explore">探索</a>
         <a href="submit.html" class="active" data-i18n="nav.submit">提交需求</a>
         <a href="requests.html" data-i18n="nav.requests">需求广场</a>
         <a href="faq.html" data-i18n="nav.faq">常见问题</a>
@@ -31,32 +33,30 @@
     <h2 class="section-title" data-i18n="submit.title">提交你的需求</h2>
     <p class="section-subtitle" data-i18n="submit.desc">你希望看到什么功能或内容？描述一下，AI会评估并自动实现。</p>
 
-    <form class="form" id="request-form" action="https://aigo.homes/api/submit" method="POST">
+    <form class="form" id="request-form">
       <div class="form-group">
         <label for="email" data-i18n="submit.emailLabel">邮箱（必填）</label>
-        <input type="email" id="email" name="email" required data-i18n="submit.emailPlaceholder" placeholder="your@email.com">
+        <input type="email" id="email" name="email" required placeholder="your@email.com">
       </div>
 
       <div class="form-group">
         <label for="request" data-i18n="submit.requestLabel">你的需求</label>
-        <textarea id="request" name="request" required data-i18n="submit.requestPlaceholder" placeholder="例如：添加深色模式切换、做一个计算器工具、翻译成日语页面..."></textarea>
-        <p class="form-hint">不知道怎么写？参考："我想加一个能把现代音律转换为古法音律的工具，类似 440Hz 转 432Hz 那种。"</p>
+        <textarea id="request" name="request" required placeholder="例如：添加深色模式切换、做一个计算器工具、翻译成日语页面..."></textarea>
+        <p class="form-hint">不知道怎么写需求？参考需求广场里已通过的需求示例，越具体越好。</p>
       </div>
 
       <div class="form-group">
         <label for="reference" data-i18n="submit.referenceLabel">参考链接（可选）</label>
-        <input type="url" id="reference" name="reference" data-i18n="submit.referencePlaceholder" placeholder="https://aigo.homes/something-cool">
+        <input type="url" id="reference" name="reference" placeholder="https://aigo.homes/something-cool">
       </div>
 
       <div class="form-group">
         <label for="verify" data-i18n="submit.verifyLabel">验证码</label>
         <div class="verify-row">
-          <input type="text" id="verify" name="verify" required maxlength="6" data-i18n="submit.verifyPlaceholder" placeholder="输入图片中的验证码">
+          <input type="text" id="verify" name="verify" required maxlength="6" placeholder="输入图片中的验证码">
           <div class="verify-img" id="verify-img" onclick="refreshCode()" title="点击刷新">AB12CD</div>
         </div>
       </div>
-
-      <p class="form-hint">💡 <a href="https://需求广场" target="_blank" rel="noopener">参考需求广场里已通过的需求示例</a></p>
 
       <button type="submit" class="btn btn-primary" style="width:100%;" data-i18n="submit.submitBtn">提交需求</button>
     </form>
@@ -64,7 +64,11 @@
     <div id="success-msg" style="display:none; text-align:center; margin-top:2rem; padding:2rem; background:var(--bg-light); border-radius:var(--radius); border:1px solid var(--primary);">
       <div style="font-size:2rem; margin-bottom:0.5rem;">✅</div>
       <p style="font-weight:600;" data-i18n="submit.successMsg">已提交！你的需求已进入AI审核队列。</p>
-      <p style="font-size:0.9rem; color:var(--text-muted); margin-top:0.5rem;">审核通过后，你的需求会展示在"需求广场"页面。</p>
+      <p style="font-size:0.9rem; color:var(--text-muted); margin-top:0.5rem;">审核通过后，你的需求会展示在需求广场页面。</p>
+      <div style="margin-top:1.5rem;">
+        <a href="requests.html" class="btn btn-primary">查看需求广场</a>
+        <a href="submit.html" class="btn btn-secondary" style="margin-left:0.5rem;">再提交一个</a>
+      </div>
     </div>
   </section>
 
@@ -72,14 +76,15 @@
 
   <footer class="footer" role="contentinfo">
     <p data-i18n="footer.slogan">AI进化网站，你进化想法。</p>
-    <p data-i18n="footer.contact"></p>
     <p><a href="privacy.html">隐私政策</a> · <a href="about.html">关于我们</a> · <a href="faq.html">常见问题</a></p>
     <p style="font-size:0.8rem; margin-top:1rem; color:var(--text-muted);" data-i18n="disclaimer">本网站仅供演示和参考，不构成医疗、法律或财务建议。</p>
   </footer>
 
   <script src="js/i18n-data.js"></script>
   <script src="js/i18n.js"></script>
+  <script src="js/mobile-nav.js"></script>
   <script>
+
     function refreshCode() {
       const chars = 'ABCDEFGHJKLMNPQRSTUVWXYZ23456789';
       let code = '';
@@ -88,19 +93,44 @@
     }
     refreshCode();
 
-    document.getElementById('request-form').addEventListener('submit', function(e) {
+    document.getElementById('request-form').addEventListener('submit', async function(e) {
       e.preventDefault();
       const entered = document.getElementById('verify').value.toUpperCase();
       const expected = document.getElementById('verify-img').textContent;
       if (entered !== expected) {
         alert('验证码错误，请重新输入');
         refreshCode();
+        document.getElementById('verify').value = '';
         return;
       }
-      // Here you would normally send to your Feishu Bitable API
-      // For now, show success message
-      document.getElementById('request-form').style.display = 'none';
-      document.getElementById('success-msg').style.display = 'block';
+      const submitBtn = this.querySelector('button[type="submit"]');
+      const originalText = submitBtn.textContent;
+      submitBtn.disabled = true;
+      submitBtn.textContent = '提交中...';
+      try {
+        const response = await fetch(WORKER_URL, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            email: document.getElementById('email').value,
+            request: document.getElementById('request').value,
+            reference: document.getElementById('reference').value
+          })
+        });
+        const result = await response.json();
+        if (result.success) {
+          document.getElementById('request-form').style.display = 'none';
+          document.getElementById('success-msg').style.display = 'block';
+        } else {
+          alert('提交失败：' + (result.error || '未知错误'));
+          submitBtn.disabled = false;
+          submitBtn.textContent = originalText;
+        }
+      } catch (err) {
+        alert('网络错误，请稍后重试。错误：' + err.message);
+        submitBtn.disabled = false;
+        submitBtn.textContent = originalText;
+      }
     });
   </script>
 </body>
