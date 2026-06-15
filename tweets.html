@@ -106,17 +106,28 @@
     }
 
     function renderTweet(tweet) {
-      const lang = getDisplayLang(tweet);
-      const content = tweet[lang];
-      const isZh = lang === 'zh';
+      // 兼容旧格式（单语言）和新格式（双语）
+      let content, isZh, hasTranslation;
+      
+      if (tweet.zh && tweet.zh.title) {
+        // 新格式：双语
+        const lang = getDisplayLang(tweet);
+        content = tweet[lang] || tweet.zh;
+        isZh = lang === 'zh';
+        hasTranslation = !!(tweet.zh && tweet.en);
+      } else {
+        // 旧格式：单语言
+        content = { title: tweet.title || '无标题', content: tweet.content || '' };
+        isZh = tweet.lang !== 'en';
+        hasTranslation = false;
+      }
+      
       const otherLang = isZh ? 'en' : 'zh';
-      const otherContent = tweet[otherLang];
       
       const date = tweet.date || (tweet.created && tweet.created.split('T')[0]) || '';
       const source = tweet.source ? ` · ${tweet.source}` : '';
-      const tag = content?.category || '';
+      const tag = tweet.category || '';
       const type = tweet.type || 'short';
-      const hasTranslation = tweet.zh && tweet.en;
       
       let translationBtn = '';
       if (hasTranslation) {
@@ -125,7 +136,7 @@
       }
       
       return `
-        <div class="card" data-type="${type}" data-id="${tweet.id}" data-lang="${lang}">
+        <div class="card" data-type="${type}" data-id="${tweet.id}" data-lang="${isZh ? 'zh' : 'en'}">
           <div class="card-header">
             <span class="card-title">${content?.title || '无标题'}${translationBtn}</span>
             <span class="card-meta">${date}${source}</span>
