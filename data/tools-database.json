@@ -80,7 +80,7 @@
       "descriptionZh": "提升效率的AI工具，让工作流更智能",
       "pricing": "freemium",
       "pricingZh": "免费增值",
-      "featured": true,
+      "featured": false,
       "dateAdded": "2026-06-16",
       "mentions": 1,
       "sources": [
@@ -149,7 +149,7 @@
       "pricingZh": "免费增值",
       "featured": true,
       "dateAdded": "2026-06-16",
-      "mentions": 3,
+      "mentions": 6,
       "sources": [
         "init",
         "rss"
@@ -549,7 +549,7 @@
       "pricingZh": "免费增值",
       "featured": true,
       "dateAdded": "2026-06-16",
-      "mentions": 9,
+      "mentions": 12,
       "sources": [
         "init",
         "rss"
@@ -995,9 +995,10 @@
       "pricingZh": "免费增值",
       "featured": false,
       "dateAdded": "2026-06-16",
-      "mentions": 1,
+      "mentions": 2,
       "sources": [
-        "init"
+        "init",
+        "rss"
       ]
     },
     {
@@ -1260,7 +1261,7 @@
       "pricingZh": "免费增值",
       "featured": true,
       "dateAdded": "2026-06-16",
-      "mentions": 7,
+      "mentions": 9,
       "sources": [
         "init",
         "rss"
@@ -3496,11 +3497,12 @@
       "descriptionZh": "AI编程助手，提升开发效率",
       "pricing": "freemium",
       "pricingZh": "免费增值",
-      "featured": false,
+      "featured": true,
       "dateAdded": "2026-06-16",
-      "mentions": 1,
+      "mentions": 7,
       "sources": [
-        "init"
+        "init",
+        "rss"
       ]
     },
     {
