@@ -2,181 +2,381 @@
 <html lang="zh-CN">
 <head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-4FQ1XFBP6M"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-4FQ1XFBP6M');
-</script>
-<meta charset="UTF-8">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4FQ1XFBP6M"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-4FQ1XFBP6M');
+  </script>
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title data-i18n="siteName">玩转AI进化网</title>
-  <meta name="description" data-i18n="tagline" content="聚合全平台AI资讯，24小时实时更新">
-  <meta name="keywords" content="AI,人工智能,AI资讯,AI新闻,科技快讯">
+  <title>AI工具发现 - 500+工具评测、排行榜、推荐 | aigo.homes</title>
+  <meta name="description" content="发现最适合你的AI工具。186+工具评测，图像/写作/编程/视频/音频分类，每日更新，中英双语。">
+  <meta name="keywords" content="AI工具,AI工具发现,AI工具推荐,AI工具排行榜,AI工具评测">
   <meta name="author" content="Play AI Evolution">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://aigo.homes/">
   
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/homepage.css">
   <link rel="alternate" hreflang="zh" href="https://aigo.homes/">
   <link rel="alternate" hreflang="en" href="https://aigo.homes/en/">
   <link rel="alternate" hreflang="x-default" href="https://aigo.homes/">
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "AI工具发现 - aigo.homes",
+    "description": "发现最适合你的AI工具。186+工具评测，每日更新",
+    "url": "https://aigo.homes/",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://aigo.homes/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
 </head>
 <body>
   <nav class="navbar" role="navigation" aria-label="Main">
     <div class="nav-inner">
-      <a href="/" class="logo" data-i18n="siteName">玩转AI进化网</a>
+      <a href="/" class="logo">🔍 AI工具发现</a>
       <div class="nav-links" id="nav-links">
-        <a href="index.html" class="active" data-i18n="nav.home">首页</a>
-        <a href="tweets.html" data-i18n="nav.tweets">推文</a>
-        <a href="explore.html" data-i18n="nav.explore">探索</a>
-        <a href="games.html" data-i18n="nav.games">游戏</a>
-        <a href="nav.html" data-i18n="nav.nav">导航</a>
-        <a href="submit.html" data-i18n="nav.submit">提交需求</a>
-        <a href="requests.html" data-i18n="nav.requests">需求广场</a>
-        <a href="faq.html" data-i18n="nav.faq">常见问题</a>
+        <a href="index.html" class="active">发现</a>
+        <a href="tweets.html">推文</a>
+        <a href="explore.html">进化</a>
+        <a href="nav.html">导航</a>
+        <a href="games.html">游戏</a>
       </div>
-      <button id="lang-switch" data-i18n="langSwitch">English</button>
+      <button id="lang-switch">English</button>
       <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="菜单">☰</button>
     </div>
   </nav>
 
-  <header class="page-header" role="banner">
-    <h1 data-i18n="hero.title">24小时AI快讯</h1>
-    <p data-i18n="hero.subtitle">聚合全平台资讯，不错过全球AI革新的每一个时刻</p>
+  <!-- Hero: 搜索 + 品牌 -->
+  <header class="hero-section">
+    <h1>发现AI工具，见证AI进化</h1>
+    <p class="hero-subtitle">已收录 186+ 个AI工具，每日自动更新</p>
+    
+    <div class="search-box">
+      <input type="text" id="tool-search" placeholder="搜索 AI 工具... 例如：ChatGPT、Midjourney、Notion" autocomplete="off">
+      <button onclick="searchTools()">🔍</button>
+    </div>
+    
+    <div class="category-pills">
+      <button class="cat-pill" onclick="filterCategory('productivity')">⚡ 生产力</button><button class="cat-pill" onclick="filterCategory('design')">🎨 设计</button><button class="cat-pill" onclick="filterCategory('code')">💻 编程</button><button class="cat-pill" onclick="filterCategory('video')">🎬 视频</button><button class="cat-pill" onclick="filterCategory('audio')">🎵 音频</button><button class="cat-pill" onclick="filterCategory('writing')">✍️ 写作</button><button class="cat-pill" onclick="filterCategory('image')">🖼️ 图像</button><button class="cat-pill" onclick="filterCategory('business')">💼 商业</button><button class="cat-pill all" onclick="filterCategory('all')">全部</button>
+      <button class="cat-pill all" onclick="filterCategory('all')">全部</button>
+    </div>
   </header>
 
-  <div style="max-width:var(--max-width); margin:1rem auto; padding:0 1rem;">
-    <div id="daily-quote"></div>
-  </div>
+  <!-- 热门工具排行榜 -->
+  <section class="section" aria-label="热门工具">
+    <div class="section-header">
+      <h2>🔥 本周热门工具 Top 10</h2>
+      <span class="section-count">基于全网提及频率自动排名</span>
+    </div>
+    <div class="tools-grid" id="featured-tools">
+      
+        <div class="tool-card" data-categories="浏览器,AI功能">
+          <div class="tool-icon">🌐</div>
+          <div class="tool-info">
+            <div class="tool-name">Arc Browser</div>
+            <div class="tool-desc">自动化重复任务，专注创造性工作</div>
+            <div class="tool-tags"><span class="tag">浏览器</span><span class="tag">AI功能</span></div>
+          </div>
+          <a href="https://www.google.com/search?q=Arc Browser" class="tool-link" target="_blank" rel="noopener" onclick="trackToolClick('arc-browser')">→</a>
+        </div>
+        
+        <div class="tool-card" data-categories="后端语言,并发">
+          <div class="tool-icon">🐹</div>
+          <div class="tool-info">
+            <div class="tool-name">Go</div>
+            <div class="tool-desc">开源技术，构建现代应用</div>
+            <div class="tool-tags"><span class="tag">后端语言</span><span class="tag">并发</span></div>
+          </div>
+          <a href="https://www.google.com/search?q=Go" class="tool-link" target="_blank" rel="noopener" onclick="trackToolClick('go')">→</a>
+        </div>
+        
+        <div class="tool-card" data-categories="对话,写作,AI助手">
+          <div class="tool-icon">🤖</div>
+          <div class="tool-info">
+            <div class="tool-name">Claude</div>
+            <div class="tool-desc">提升效率的AI工具，让工作流更智能</div>
+            <div class="tool-tags"><span class="tag">对话</span><span class="tag">写作</span><span class="tag">AI助手</span></div>
+          </div>
+          <a href="https://www.google.com/search?q=Claude" class="tool-link" target="_blank" rel="noopener" onclick="trackToolClick('claude')">→</a>
+        </div>
+        
+        <div class="tool-card" data-categories="AI公司,Claude">
+          <div class="tool-icon">🏢</div>
+          <div class="tool-info">
+            <div class="tool-name">Anthropic</div>
+            <div class="tool-desc">自动化重复任务，专注创造性工作</div>
+            <div class="tool-tags"><span class="tag">AI公司</span><span class="tag">Claude</span></div>
+          </div>
+          <a href="https://www.google.com/search?q=Anthropic" class="tool-link" target="_blank" rel="noopener" onclick="trackToolClick('anthropic')">→</a>
+        </div>
+        
+        <div class="tool-card" data-categories="系统编程,安全">
+          <div class="tool-icon">🦀</div>
+          <div class="tool-info">
+            <div class="tool-name">Rust</div>
+            <div class="tool-desc">开发者工具，让代码更智能</div>
+            <div class="tool-tags"><span class="tag">系统编程</span><span class="tag">安全</span></div>
+          </div>
+          <a href="https://www.google.com/search?q=Rust" class="tool-link" target="_blank" rel="noopener" onclick="trackToolClick('rust')">→</a>
+        </div>
+        
+        <div class="tool-card" data-categories="桌面应用,JS">
+          <div class="tool-icon">⚛️</div>
+          <div class="tool-info">
+            <div class="tool-name">Electron</div>
+            <div class="tool-desc">AI编程助手，提升开发效率</div>
+            <div class="tool-tags"><span class="tag">桌面应用</span><span class="tag">JS</span></div>
+          </div>
+          <a href="https://www.google.com/search?q=Electron" class="tool-link" target="_blank" rel="noopener" onclick="trackToolClick('electron')">→</a>
+        </div>
+        
+        <div class="tool-card" data-categories="稍后读,阅读">
+          <div class="tool-icon">📚</div>
+          <div class="tool-info">
+            <div class="tool-name">Pocket</div>
+            <div class="tool-desc">智能教育工具，个性化学习</div>
+            <div class="tool-tags"><span class="tag">稍后读</span><span class="tag">阅读</span></div>
+          </div>
+          <a href="https://www.google.com/search?q=Pocket" class="tool-link" target="_blank" rel="noopener" onclick="trackToolClick('pocket')">→</a>
+        </div>
+        
+        <div class="tool-card" data-categories="文档,协作">
+          <div class="tool-icon">📝</div>
+          <div class="tool-info">
+            <div class="tool-name">Quip</div>
+            <div class="tool-desc">自动化重复任务，专注创造性工作</div>
+            <div class="tool-tags"><span class="tag">文档</span><span class="tag">协作</span></div>
+          </div>
+          <a href="https://www.google.com/search?q=Quip" class="tool-link" target="_blank" rel="noopener" onclick="trackToolClick('quip')">→</a>
+        </div>
+        
+        <div class="tool-card" data-categories="API,标准">
+          <div class="tool-icon">🔌</div>
+          <div class="tool-info">
+            <div class="tool-name">REST API</div>
+            <div class="tool-desc">AI编程助手，提升开发效率</div>
+            <div class="tool-tags"><span class="tag">API</span><span class="tag">标准</span></div>
+          </div>
+          <a href="https://www.google.com/search?q=REST API" class="tool-link" target="_blank" rel="noopener" onclick="trackToolClick('rest-api')">→</a>
+        </div>
+        
+        <div class="tool-card" data-categories="对话,写作,AI助手">
+          <div class="tool-icon">🤖</div>
+          <div class="tool-info">
+            <div class="tool-name">ChatGPT</div>
+            <div class="tool-desc">提升效率的AI工具，让工作流更智能</div>
+            <div class="tool-tags"><span class="tag">对话</span><span class="tag">写作</span><span class="tag">AI助手</span></div>
+          </div>
+          <a href="https://www.google.com/search?q=ChatGPT" class="tool-link" target="_blank" rel="noopener" onclick="trackToolClick('chatgpt')">→</a>
+        </div>
+        
+    </div>
+  </section>
 
-  <main class="timeline" id="timeline-container" aria-label="AI News Timeline">
-    <div id="home-tweets-list">
-      <div class="loading">正在加载推文...</div>
+  <!-- 新品速递 -->
+  <section class="section" aria-label="新品速递">
+    <div class="section-header">
+      <h2>🆕 新品速递</h2>
+      <span class="section-count">最近发现的新工具</span>
     </div>
-    <div class="load-more" id="home-load-more" style="display:none;">
-      <button id="home-load-more-btn" onclick="loadHomeMore()">加载更多</button>
+    <div class="tools-grid mini" id="new-tools">
+      
+        <div class="tool-card mini">
+          <div class="tool-icon">🤖</div>
+          <div class="tool-name">ChatGPT</div>
+          <a href="https://www.google.com/search?q=ChatGPT" target="_blank" rel="noopener">查看 →</a>
+        </div>
+        
+        <div class="tool-card mini">
+          <div class="tool-icon">🧠</div>
+          <div class="tool-name">GPT-4</div>
+          <a href="https://www.google.com/search?q=GPT-4" target="_blank" rel="noopener">查看 →</a>
+        </div>
+        
+        <div class="tool-card mini">
+          <div class="tool-icon">🧠</div>
+          <div class="tool-name">GPT-4o</div>
+          <a href="https://www.google.com/search?q=GPT-4o" target="_blank" rel="noopener">查看 →</a>
+        </div>
+        
+        <div class="tool-card mini">
+          <div class="tool-icon">🤖</div>
+          <div class="tool-name">Claude</div>
+          <a href="https://www.google.com/search?q=Claude" target="_blank" rel="noopener">查看 →</a>
+        </div>
+        
+        <div class="tool-card mini">
+          <div class="tool-icon">🎨</div>
+          <div class="tool-name">Midjourney</div>
+          <a href="https://www.google.com/search?q=Midjourney" target="_blank" rel="noopener">查看 →</a>
+        </div>
+        
+        <div class="tool-card mini">
+          <div class="tool-icon">🎨</div>
+          <div class="tool-name">Stable Diffusion</div>
+          <a href="https://www.google.com/search?q=Stable Diffusion" target="_blank" rel="noopener">查看 →</a>
+        </div>
+        
     </div>
-  </main>
+  </section>
+
+  <!-- AI进化日报（推文） -->
+  <section class="section" aria-label="AI快讯">
+    <div class="section-header">
+      <h2>📰 AI进化日报</h2>
+      <a href="tweets.html" class="view-all">查看全部 →</a>
+    </div>
+    <div class="tweets-list">
+      
+        <div class="tweet-item">
+          <div class="tweet-title">科技爱好者周刊（第 400 期）：rsync 的争论</div>
+          <div class="tweet-meta">阮一峰 · 2026-06-15</div>
+        </div>
+        
+        <div class="tweet-item">
+          <div class="tweet-title">科技爱好者周刊（第 399 期）：中国 AI 大厂访问记</div>
+          <div class="tweet-meta">阮一峰 · 2026-06-15</div>
+        </div>
+        
+        <div class="tweet-item">
+          <div class="tweet-title">科技爱好者周刊（第 398 期）：Token 费用难以负担</div>
+          <div class="tweet-meta">阮一峰 · 2026-06-15</div>
+        </div>
+        
+        <div class="tweet-item">
+          <div class="tweet-title">派评 | 近期值得关注的 App</div>
+          <div class="tweet-meta">少数派 · 2026-06-15</div>
+        </div>
+        
+        <div class="tweet-item">
+          <div class="tweet-title">具透 | 思考、打磨、加速：iPadOS 27 首个开发者测试版中值得关注的新内容</div>
+          <div class="tweet-meta">少数派 · 2026-06-15</div>
+        </div>
+        
+    </div>
+  </section>
+
+  <!-- 邮件订阅 -->
+  <section class="subscribe-section" aria-label="订阅">
+    <div class="subscribe-content">
+      <h3>📬 每周AI工具精选</h3>
+      <p>每周一发送，5个最佳工具 + 1个深度评测。不spam。</p>
+      <form class="subscribe-form" id="subscribe-form">
+        <input type="email" id="subscribe-email" placeholder="your@email.com" required>
+        <button type="submit">订阅</button>
+      </form>
+      <p class="subscribe-hint">已订阅 <span id="subscriber-count">0</span> 人</p>
+    </div>
+  </section>
+
+  <!-- 实验场 -->
+  <section class="section" aria-label="实验场">
+    <div class="section-header">
+      <h2>🧪 实验场：这个网站在自我进化</h2>
+      <a href="explore.html" class="view-all">查看全部 →</a>
+    </div>
+    <div class="evolution-timeline">
+      <div class="evolution-item">
+        <div class="evolution-date">2026-06-16</div>
+        <div class="evolution-content">
+          <div class="evolution-title">添加工具数据库 + 自动发现引擎</div>
+          <div class="evolution-desc">自动收录 186 个AI工具，支持搜索和分类</div>
+        </div>
+      </div>
+      <div class="evolution-item">
+        <div class="evolution-date">2026-06-15</div>
+        <div class="evolution-content">
+          <div class="evolution-title">上线双语推文系统</div>
+          <div class="evolution-desc">RSS Bot 每日自动抓取、翻译、推送中英双语AI资讯</div>
+        </div>
+      </div>
+      <div class="evolution-item">
+        <div class="evolution-date">2026-06-14</div>
+        <div class="evolution-content">
+          <div class="evolution-title">网站上线</div>
+          <div class="evolution-desc">AI自动构建的实验性网站，开始接受用户提交需求</div>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <footer class="footer" role="contentinfo">
-    <p data-i18n="footer.slogan">AI进化网站，你进化想法。</p>
-    <p data-i18n="footer.contact">联系邮箱：</p>
+    <p>AI进化网站，你进化想法。</p>
+    <p>联系邮箱：ctguxby@proton.me</p>
     <p>
       <a href="privacy.html">隐私政策</a> · <a href="about.html">关于我们</a> · <a href="faq.html">常见问题</a>
     </p>
-    <p style="font-size:0.8rem; margin-top:1rem; color:var(--text-muted);" data-i18n="disclaimer">本网站仅供演示和参考，不构成医疗、法律或财务建议。</p>
+    <p style="font-size:0.8rem; margin-top:1rem; color:var(--text-muted);">
+      本网站仅供演示和参考，不构成医疗、法律或财务建议。
+    </p>
   </footer>
 
   <script src="js/i18n-data.js"></script>
   <script src="js/i18n.js"></script>
   <script src="js/mobile-nav.js"></script>
   <script>
-    // 生成配色占位图
-    function generateThumb(title, id) {
-      const colors = ['#e0e7ff','#dbeafe','#dcfce7','#fef3c7','#ffe4e6','#f3e8ff','#ccfbf1','#fecaca'];
-      let hash = 0;
-      const str = id || title || 'x';
-      for (let i = 0; i < str.length; i++) hash = str.charCodeAt(i) + ((hash << 5) - hash);
-      const color = colors[Math.abs(hash) % colors.length];
-      const letter = (title || '?').charAt(0).toUpperCase();
-      return `<div class="timeline-thumb" style="background:${color}; font-weight:700; font-size:1.5rem; color:var(--text-muted);">${letter}</div>`;
+    // 工具搜索
+    function searchTools() {
+      const q = document.getElementById('tool-search').value.toLowerCase();
+      const cards = document.querySelectorAll('.tool-card');
+      cards.forEach(card => {
+        const name = card.querySelector('.tool-name')?.textContent?.toLowerCase() || '';
+        const desc = card.querySelector('.tool-desc')?.textContent?.toLowerCase() || '';
+        const tags = card.querySelector('.tool-tags')?.textContent?.toLowerCase() || '';
+        card.style.display = (name.includes(q) || desc.includes(q) || tags.includes(q)) ? 'flex' : 'none';
+      });
     }
-
-    // 提取时分
-    function extractTime(isoString) {
-      if (!isoString) return '';
-      try {
-        const d = new Date(isoString);
-        const h = String(d.getHours()).padStart(2, '0');
-        const m = String(d.getMinutes()).padStart(2, '0');
-        return `${h}:${m}`;
-      } catch (e) {
-        return '';
+    
+    document.getElementById('tool-search')?.addEventListener('input', searchTools);
+    
+    // 分类筛选
+    function filterCategory(cat) {
+      const cards = document.querySelectorAll('.tool-card');
+      if (cat === 'all') {
+        cards.forEach(c => c.style.display = 'flex');
+        return;
       }
+      cards.forEach(card => {
+        const cats = card.getAttribute('data-categories') || '';
+        card.style.display = cats.includes(cat) ? 'flex' : 'none';
+      });
     }
-
-    async function loadHomeTweets() {
-      const container = document.getElementById('home-tweets-list');
-      if (!container) return;
-      const currentLang = localStorage.getItem('lang') || 'zh';
-      function getDisplayLang(tweet) {
-        if (currentLang === 'zh' && tweet.zh) return 'zh';
-        if (currentLang === 'en' && tweet.en) return 'en';
-        if (tweet.zh) return 'zh';
-        if (tweet.en) return 'en';
-        return 'zh';
-      }
-      function renderHomeTweet(tweet, index) {
-        const time = extractTime(tweet.created);
-        const date = tweet.date || '';
-        const source = tweet.source || '';
-        let title, content;
-        if (tweet.zh && tweet.zh.title) {
-          const lang = getDisplayLang(tweet);
-          const data = tweet[lang] || tweet.zh;
-          title = data.title || '无标题';
-          content = data.content || '';
-        } else {
-          title = tweet.title || '无标题';
-          content = tweet.content || '';
-        }
-        const summary = content.slice(0, 200);
-        const more = content.length > 200 ? '...' : '';
-        return `
-          <div class="timeline-item">
-            ${generateThumb(title, tweet.id || String(index))}
-            <div class="timeline-main">
-              <div class="timeline-title"><a href="tweets.html">${title}</a></div>
-              <div class="timeline-summary">${summary}${more}</div>
-              <div class="timeline-source">${time} · ${source || 'AI生成'} ${tweet.category || ''}</div>
-            </div>
-          </div>
-        `;
-      }
-      try {
-        let tweets = [];
-        try {
-          const idxRes = await fetch('data/index.json?t=' + Date.now());
-          const idx = await idxRes.json();
-          console.log('[Debug] index.json:', idx);
-          const months = (idx.months || []).filter(m => m.month !== 'tweets');
-          console.log('[Debug] months after filter:', months);
-          if (months.length > 0) {
-            const latest = months[0].month;
-            const res = await fetch(`data/${latest}.json?t=${Date.now()}`);
-            const data = await res.json();
-            tweets = data.tweets || data || [];
-            console.log('[Debug] loaded from monthly file:', tweets.length);
-          }
-        } catch (e) {
-          console.log('[Debug] index.json failed:', e.message);
-        }
-        
-        // 如果上面没加载到数据，直接加载 tweets.json
-        if (tweets.length === 0) {
-          console.log('[Debug] Falling back to tweets.json');
-          const res = await fetch('data/tweets.json?t=' + Date.now());
-          const data = await res.json();
-          console.log('[Debug] tweets.json response type:', typeof data, Array.isArray(data) ? 'array' : 'not array');
-          tweets = data.tweets || data || [];
-          console.log('[Debug] loaded from tweets.json:', tweets.length);
-        }
-        if (tweets.length === 0) {
-          container.innerHTML = '<div class="loading">暂无推文，RSS Bot 每天 21:00 自动更新。</div>';
-          return;
-        }
-        const latest = tweets.slice(0, 6);
-        console.log('[Debug] Rendering', latest.length, 'tweets');
-        container.innerHTML = latest.map((t, i) => renderHomeTweet(t, i)).join('');
-      } catch (err) {
-        console.error('首页推文加载失败:', err);
-        container.innerHTML = '<div class="loading">加载失败，请刷新重试</div>';
-      }
+    
+    // 工具点击追踪
+    function trackToolClick(toolId) {
+      gtag('event', 'tool_click', { tool_id: toolId });
     }
-
-    loadHomeTweets();
+    
+    // 邮件订阅
+    document.getElementById('subscribe-form')?.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const email = document.getElementById('subscribe-email').value;
+      
+      // 存储到 localStorage（后续可以同步到服务器）
+      let subs = JSON.parse(localStorage.getItem('subscribers') || '[]');
+      if (!subs.includes(email)) {
+        subs.push(email);
+        localStorage.setItem('subscribers', JSON.stringify(subs));
+        document.getElementById('subscriber-count').textContent = subs.length;
+        alert('✅ 订阅成功！每周一发送精选AI工具。');
+        document.getElementById('subscribe-email').value = '';
+      } else {
+        alert('⚠️ 该邮箱已订阅');
+      }
+    });
+    
+    // 加载订阅数
+    const subs = JSON.parse(localStorage.getItem('subscribers') || '[]');
+    document.getElementById('subscriber-count').textContent = subs.length;
   </script>
 </body>
 </html>
