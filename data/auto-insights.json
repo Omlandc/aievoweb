@@ -1,0 +1,77 @@
+{
+  "insights": [
+    {
+      "type": "content_gap",
+      "priority": "medium",
+      "description": "image类别仅有3个工具，建议扩充到10+个",
+      "action": "搜索并添加image类别的AI工具",
+      "auto_executable": false,
+      "discovered_at": "2026-06-16T15:26:43.549479",
+      "status": "pending"
+    },
+    {
+      "type": "content_gap",
+      "priority": "medium",
+      "description": "writing类别仅有3个工具，建议扩充到10+个",
+      "action": "搜索并添加writing类别的AI工具",
+      "auto_executable": false,
+      "discovered_at": "2026-06-16T15:26:43.549494",
+      "status": "pending"
+    },
+    {
+      "type": "content_gap",
+      "priority": "medium",
+      "description": "audio类别仅有3个工具，建议扩充到10+个",
+      "action": "搜索并添加audio类别的AI工具",
+      "auto_executable": false,
+      "discovered_at": "2026-06-16T15:26:43.549498",
+      "status": "pending"
+    },
+    {
+      "type": "status",
+      "priority": "info",
+      "description": "当前共186个工具入库",
+      "action": "继续扩充工具库",
+      "auto_executable": false,
+      "discovered_at": "2026-06-16T15:26:43.549501",
+      "status": "pending"
+    },
+    {
+      "type": "content_gap",
+      "priority": "medium",
+      "description": "image类别仅有3个工具，建议扩充到10+个",
+      "action": "搜索并添加image类别的AI工具",
+      "auto_executable": false,
+      "discovered_at": "2026-06-16T15:26:26.556658",
+      "status": "pending"
+    },
+    {
+      "type": "content_gap",
+      "priority": "medium",
+      "description": "writing类别仅有3个工具，建议扩充到10+个",
+      "action": "搜索并添加writing类别的AI工具",
+      "auto_executable": false,
+      "discovered_at": "2026-06-16T15:26:26.556673",
+      "status": "pending"
+    },
+    {
+      "type": "content_gap",
+      "priority": "medium",
+      "description": "audio类别仅有3个工具，建议扩充到10+个",
+      "action": "搜索并添加audio类别的AI工具",
+      "auto_executable": false,
+      "discovered_at": "2026-06-16T15:26:26.556678",
+      "status": "pending"
+    },
+    {
+      "type": "status",
+      "priority": "info",
+      "description": "当前共186个工具入库",
+      "action": "继续扩充工具库",
+      "auto_executable": false,
+      "discovered_at": "2026-06-16T15:26:26.556681",
+      "status": "pending"
+    }
+  ],
+  "last_update": "2026-06-16T15:26:43.549505"
+}
