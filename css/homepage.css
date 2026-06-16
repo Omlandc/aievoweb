@@ -358,6 +358,9 @@
   font-size: 0.9rem;
 }
 
+/* Language switch hidden */
+.hidden { display: none !important; }
+
 /* Responsive */
 @media (max-width: 640px) {
   .hero-section h1 {
