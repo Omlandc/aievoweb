@@ -140,28 +140,35 @@
         try {
           const idxRes = await fetch('data/index.json?t=' + Date.now());
           const idx = await idxRes.json();
+          console.log('[Debug] index.json:', idx);
           const months = (idx.months || []).filter(m => m.month !== 'tweets');
+          console.log('[Debug] months after filter:', months);
           if (months.length > 0) {
             const latest = months[0].month;
             const res = await fetch(`data/${latest}.json?t=${Date.now()}`);
             const data = await res.json();
             tweets = data.tweets || data || [];
+            console.log('[Debug] loaded from monthly file:', tweets.length);
           }
         } catch (e) {
-          // index.json 不存在或解析失败，使用 tweets.json
+          console.log('[Debug] index.json failed:', e.message);
         }
         
         // 如果上面没加载到数据，直接加载 tweets.json
         if (tweets.length === 0) {
+          console.log('[Debug] Falling back to tweets.json');
           const res = await fetch('data/tweets.json?t=' + Date.now());
           const data = await res.json();
+          console.log('[Debug] tweets.json response type:', typeof data, Array.isArray(data) ? 'array' : 'not array');
           tweets = data.tweets || data || [];
+          console.log('[Debug] loaded from tweets.json:', tweets.length);
         }
         if (tweets.length === 0) {
           container.innerHTML = '<div class="loading">暂无推文，RSS Bot 每天 21:00 自动更新。</div>';
           return;
         }
         const latest = tweets.slice(0, 6);
+        console.log('[Debug] Rendering', latest.length, 'tweets');
         container.innerHTML = latest.map((t, i) => renderHomeTweet(t, i)).join('');
       } catch (err) {
         console.error('首页推文加载失败:', err);
