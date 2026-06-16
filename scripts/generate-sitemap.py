@@ -31,6 +31,14 @@ def generate_sitemap():
     for page in top10_pages:
         urls.append(f'https://aigo.homes/top10/{page}.html')
     
+    # 添加任务聚合页
+    tasks_dir = os.path.join(PROJECT_DIR, 'tasks')
+    if os.path.exists(tasks_dir):
+        for task_file in os.listdir(tasks_dir):
+            if task_file.endswith('.html'):
+                task_name = task_file[:-5]
+                urls.append(f'https://aigo.homes/tasks/{task_name}.html')
+    
     # 添加工具页面
     for tool in tools:
         tool_id = tool.get('id', '').replace('/', '-').replace('\\', '-')

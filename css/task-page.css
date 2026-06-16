@@ -1,0 +1,142 @@
+/* 任务聚合页样式 */
+
+.task-page {
+  max-width: 1100px;
+  margin: 2rem auto;
+  padding: 0 1.5rem;
+}
+
+.task-header {
+  text-align: center;
+  margin-bottom: 2.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 2px solid var(--glass-border);
+}
+
+.task-header h1 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  background: linear-gradient(135deg, var(--accent), var(--accent-hover));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.task-subtitle {
+  color: var(--text-secondary);
+  font-size: 1rem;
+}
+
+/* 工具网格 */
+.task-tools-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.task-tool-card {
+  background: var(--glass);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.task-tool-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.tool-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.tool-header .rank {
+  background: linear-gradient(135deg, var(--accent), var(--accent-hover));
+  color: white;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.85rem;
+}
+
+.tool-header .icon {
+  font-size: 1.5rem;
+}
+
+.tool-header h3 {
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.tool-desc {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.tool-meta {
+  margin-bottom: 1rem;
+}
+
+.tool-meta .tag {
+  background: var(--glass);
+  border: 1px solid var(--glass-border);
+  padding: 0.2rem 0.6rem;
+  border-radius: 20px;
+  font-size: 0.75rem;
+}
+
+.tool-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.tool-actions a {
+  padding: 0.4rem 1rem;
+  border-radius: var(--radius);
+  text-decoration: none;
+  font-size: 0.85rem;
+  transition: all 0.2s;
+}
+
+/* FAQ */
+.faq-section {
+  margin: 3rem 0;
+}
+
+.faq-section h2 {
+  margin-bottom: 1.5rem;
+}
+
+/* 结论 */
+.conclusion {
+  background: linear-gradient(135deg, rgba(99, 102, 241, 0.1), rgba(139, 92, 246, 0.1));
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  margin: 2rem 0;
+}
+
+/* 响应式 */
+@media (max-width: 768px) {
+  .task-tools-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .task-header h1 {
+    font-size: 1.4rem;
+  }
+  
+  .tool-actions {
+    flex-direction: column;
+  }
+}

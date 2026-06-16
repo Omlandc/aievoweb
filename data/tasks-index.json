@@ -1,0 +1,102 @@
+[
+  {
+    "task": "code",
+    "tools": 90,
+    "file": "tasks/code.html"
+  },
+  {
+    "task": "business",
+    "tools": 32,
+    "file": "tasks/business.html"
+  },
+  {
+    "task": "productivity",
+    "tools": 23,
+    "file": "tasks/productivity.html"
+  },
+  {
+    "task": "react",
+    "tools": 14,
+    "file": "tasks/react.html"
+  },
+  {
+    "task": "video",
+    "tools": 10,
+    "file": "tasks/video.html"
+  },
+  {
+    "task": "design",
+    "tools": 10,
+    "file": "tasks/design.html"
+  },
+  {
+    "task": "api",
+    "tools": 10,
+    "file": "tasks/api.html"
+  },
+  {
+    "task": "自动化",
+    "tools": 8,
+    "file": "tasks/自动化.html"
+  },
+  {
+    "task": "research",
+    "tools": 7,
+    "file": "tasks/research.html"
+  },
+  {
+    "task": "javascript",
+    "tools": 7,
+    "file": "tasks/javascript.html"
+  },
+  {
+    "task": "数据库",
+    "tools": 6,
+    "file": "tasks/数据库.html"
+  },
+  {
+    "task": "状态管理",
+    "tools": 6,
+    "file": "tasks/状态管理.html"
+  },
+  {
+    "task": "cms",
+    "tools": 6,
+    "file": "tasks/cms.html"
+  },
+  {
+    "task": "大模型",
+    "tools": 5,
+    "file": "tasks/大模型.html"
+  },
+  {
+    "task": "笔记",
+    "tools": 5,
+    "file": "tasks/笔记.html"
+  },
+  {
+    "task": "可视化",
+    "tools": 5,
+    "file": "tasks/可视化.html"
+  },
+  {
+    "task": "education",
+    "tools": 5,
+    "file": "tasks/education.html"
+  },
+  {
+    "task": "实时通信",
+    "tools": 5,
+    "file": "tasks/实时通信.html"
+  },
+  {
+    "task": "邮件",
+    "tools": 5,
+    "file": "tasks/邮件.html"
+  },
+  {
+    "task": "工作流",
+    "tools": 5,
+    "file": "tasks/工作流.html"
+  }
+]
