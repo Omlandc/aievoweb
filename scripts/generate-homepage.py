@@ -61,7 +61,7 @@ def generate_homepage():
             <div class="tool-desc hidden" data-lang="en">{t.get('description', '')[:60]}</div>
             <div class="tool-tags">{''.join([f'<span class="tag">{tag}</span>' for tag in t.get('tags', [])[:3]])}</div>
           </div>
-          <a href="{t.get('url', '#')}" class="tool-link" target="_blank" rel="noopener" onclick="trackToolClick('{t.get('id', '')}')">→</a>
+          <a href="tools/{t.get('id', '').replace('/', '-').replace('\\', '-')}.html" class="tool-link" onclick="trackToolClick('{t.get('id', '')}')">→</a>
         </div>
         '''
         for t in featured

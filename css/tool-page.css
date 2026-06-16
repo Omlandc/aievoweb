@@ -1,0 +1,169 @@
+/* tool-page.css - GEO优化的工具详情页 */
+
+.tool-detail {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+/* Header */
+.tool-header {
+  text-align: center;
+  padding: 2rem 0;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 2rem;
+}
+
+.tool-icon-large {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.tool-header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.tool-one-liner {
+  color: var(--text-muted);
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.tool-meta {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.cta-btn {
+  display: inline-block;
+  padding: 0.875rem 2rem;
+  background: linear-gradient(135deg, var(--primary), var(--accent-2));
+  color: white;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  font-weight: 600;
+  transition: opacity 0.2s;
+}
+
+.cta-btn:hover {
+  opacity: 0.9;
+}
+
+/* Quick Summary - GEO优化：AI最容易引用的部分 */
+.quick-summary {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.quick-summary h2 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.summary-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.summary-list li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid var(--border-light);
+}
+
+.summary-list li:last-child {
+  border-bottom: none;
+}
+
+.summary-list strong {
+  color: var(--primary);
+}
+
+/* Review Sections */
+.tool-review {
+  margin-bottom: 2rem;
+}
+
+.tool-review h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.review-section {
+  margin-bottom: 1.5rem;
+}
+
+.review-section h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--text);
+}
+
+.review-section p {
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+/* FAQ Section - GEO优化核心 */
+.faq-section {
+  margin-bottom: 2rem;
+}
+
+.faq-section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.faq-item {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.faq-q {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--text);
+}
+
+.faq-a {
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+/* Related Tools */
+.related-tools {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.related-tools a {
+  color: var(--primary);
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+  .tool-header h1 {
+    font-size: 1.5rem;
+  }
+  
+  .tool-icon-large {
+    font-size: 3rem;
+  }
+}
