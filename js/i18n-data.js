@@ -35,7 +35,7 @@ const i18n = {
     faq: { title: "FAQ" },
     privacy: { title: "Privacy Policy" },
     about: { title: "About Us" },
-    footer: { slogan: "AI evolves the web. You evolve the ideas.", contact: "" },
+    footer: { slogan: "AI evolves the web. You evolve the ideas.", contact: "Contact: ctguxby@proton.me" },
     disclaimer: "This site is for demonstration and reference only. Not medical, legal, or financial advice.",
     langSwitch: "中文"
   },
@@ -75,7 +75,7 @@ const i18n = {
     faq: { title: "常见问题" },
     privacy: { title: "隐私政策" },
     about: { title: "关于我们" },
-    footer: { slogan: "AI进化网站，你进化想法。", contact: "" },
+    footer: { slogan: "AI进化网站，你进化想法。", contact: "联系邮箱：ctguxby@proton.me" },
     disclaimer: "本网站仅供演示和参考，不构成医疗、法律或财务建议。",
     langSwitch: "English"
   }
