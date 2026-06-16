@@ -1,79 +1,89 @@
-/* Top 10 榜单页样式 */
+/* Top 10榜单页专用样式 */
 
 .top10-article {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 20px;
+  max-width: 960px;
+  margin: 2rem auto;
+  padding: 0 1.5rem;
 }
 
 .article-header {
   text-align: center;
-  padding: 40px 0;
-  border-bottom: 2px solid #eee;
-  margin-bottom: 30px;
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 2px solid var(--glass-border);
 }
 
 .article-header h1 {
-  font-size: 2.2rem;
-  margin-bottom: 15px;
-  color: #1a1a2e;
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  background: linear-gradient(135deg, var(--accent), var(--accent-hover));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .article-subtitle {
-  font-size: 1.1rem;
-  color: #666;
+  color: var(--text-secondary);
+  font-size: 1rem;
 }
 
-/* 目录 */
+/* 目录导航 */
 .toc {
-  background: #f8f9fa;
-  padding: 20px;
-  border-radius: 10px;
-  margin-bottom: 30px;
+  background: var(--glass);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 .toc h3 {
-  margin-bottom: 15px;
-  color: #1a1a2e;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
 }
 
 .toc ol {
-  columns: 2;
-  column-gap: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 0.5rem;
 }
 
-.toc li {
-  margin-bottom: 8px;
-}
-
-.toc a {
-  color: #4361ee;
+.toc li a {
+  color: var(--accent);
   text-decoration: none;
+  font-size: 0.9rem;
 }
 
-.toc a:hover {
+.toc li a:hover {
   text-decoration: underline;
 }
 
 /* 广告位 */
 .ad-slot {
-  background: #f0f0f0;
-  border: 2px dashed #ccc;
-  padding: 60px 20px;
+  background: var(--glass);
+  border: 2px dashed var(--glass-border);
+  border-radius: var(--radius);
+  padding: 2rem;
+  margin: 2rem 0;
   text-align: center;
-  margin: 30px 0;
-  border-radius: 8px;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .ad-label {
+  color: var(--text-secondary);
   font-size: 0.8rem;
-  color: #999;
-  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 /* 对比表格 */
 .comparison-table-section {
-  margin: 40px 0;
+  margin: 2rem 0;
+}
+
+.comparison-table-section h2 {
+  margin-bottom: 1rem;
 }
 
 .table-wrapper {
@@ -83,184 +93,205 @@
 .comparison-table {
   width: 100%;
   border-collapse: collapse;
-  margin-top: 20px;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
 }
 
 .comparison-table th,
 .comparison-table td {
-  padding: 12px 15px;
+  padding: 0.75rem 1rem;
   text-align: left;
-  border-bottom: 1px solid #e0e0e0;
+  border-bottom: 1px solid var(--glass-border);
 }
 
 .comparison-table th {
-  background: #1a1a2e;
-  color: #fff;
+  background: var(--glass);
   font-weight: 600;
+  position: sticky;
+  top: 0;
 }
 
 .comparison-table tr:hover {
-  background: #f5f5f5;
+  background: rgba(99, 102, 241, 0.05);
 }
 
 .comparison-table td:first-child {
-  font-weight: bold;
-  color: #4361ee;
+  font-weight: 600;
+  color: var(--accent);
+  width: 50px;
 }
 
 /* 详细评测 */
 .detailed-reviews {
-  margin: 40px 0;
+  margin: 2rem 0;
+}
+
+.detailed-reviews h2 {
+  margin-bottom: 1.5rem;
 }
 
 .tool-review-item {
-  background: #fff;
-  border: 1px solid #e0e0e0;
-  border-radius: 12px;
-  padding: 25px;
-  margin-bottom: 25px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  background: var(--glass);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.tool-review-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
 }
 
 .review-header {
   display: flex;
   align-items: center;
-  gap: 12px;
-  margin-bottom: 15px;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
 }
 
 .rank {
-  background: #4361ee;
-  color: #fff;
+  background: linear-gradient(135deg, var(--accent), var(--accent-hover));
+  color: white;
   width: 36px;
   height: 36px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-weight: bold;
-  font-size: 1rem;
+  font-weight: 700;
+  font-size: 0.9rem;
 }
 
 .review-header .icon {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 
 .review-header h3 {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   margin: 0;
 }
 
 .review-desc {
-  color: #444;
+  color: var(--text-secondary);
   line-height: 1.7;
-  margin-bottom: 15px;
+  margin-bottom: 1rem;
 }
 
 .review-meta {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
-  margin-bottom: 15px;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 .review-meta .tag {
-  background: #eef2ff;
-  color: #4361ee;
-  padding: 4px 12px;
+  background: var(--glass);
+  border: 1px solid var(--glass-border);
+  padding: 0.25rem 0.75rem;
   border-radius: 20px;
-  font-size: 0.85rem;
+  font-size: 0.8rem;
 }
 
 .review-actions {
   display: flex;
-  gap: 12px;
+  gap: 0.75rem;
+}
+
+.review-actions a {
+  padding: 0.5rem 1.25rem;
+  border-radius: var(--radius);
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: all 0.2s;
 }
 
 .btn-primary {
-  background: #4361ee;
-  color: #fff;
-  padding: 10px 24px;
-  border-radius: 8px;
-  text-decoration: none;
-  font-weight: 500;
-  transition: background 0.2s;
+  background: linear-gradient(135deg, var(--accent), var(--accent-hover));
+  color: white;
 }
 
 .btn-primary:hover {
-  background: #3651d4;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
 }
 
 .btn-secondary {
-  background: #f0f0f0;
-  color: #333;
-  padding: 10px 24px;
-  border-radius: 8px;
-  text-decoration: none;
-  font-weight: 500;
-  transition: background 0.2s;
+  background: var(--glass);
+  border: 1px solid var(--glass-border);
+  color: var(--text);
 }
 
 .btn-secondary:hover {
-  background: #e0e0e0;
+  background: var(--glass-border);
 }
 
 /* FAQ */
 .faq-section {
-  margin: 40px 0;
+  margin: 2rem 0;
 }
 
 .faq-item {
-  border-bottom: 1px solid #e0e0e0;
-  padding: 20px 0;
+  background: var(--glass);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius);
+  padding: 1.25rem;
+  margin-bottom: 1rem;
 }
 
 .faq-q {
-  font-size: 1.1rem;
-  color: #1a1a2e;
-  margin-bottom: 10px;
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  color: var(--text);
 }
 
 .faq-a {
-  color: #555;
+  color: var(--text-secondary);
   line-height: 1.7;
 }
 
 /* 结论 */
 .conclusion {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: #fff;
-  padding: 30px;
-  border-radius: 12px;
-  margin: 40px 0;
+  background: linear-gradient(135deg, rgba(99, 102, 241, 0.1), rgba(139, 92, 246, 0.1));
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  margin: 2rem 0;
 }
 
 .conclusion h2 {
-  color: #fff;
-  margin-bottom: 15px;
+  margin-bottom: 1rem;
 }
 
 /* 响应式 */
 @media (max-width: 768px) {
+  .top10-article {
+    padding: 0 1rem;
+  }
+  
   .article-header h1 {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
   
   .toc ol {
-    columns: 1;
+    grid-template-columns: 1fr;
   }
   
-  .comparison-table {
-    font-size: 0.85rem;
-  }
-  
-  .comparison-table th,
-  .comparison-table td {
-    padding: 8px 10px;
+  .review-header {
+    flex-wrap: wrap;
   }
   
   .review-actions {
     flex-direction: column;
+  }
+  
+  .comparison-table {
+    font-size: 0.8rem;
+  }
+  
+  .comparison-table th,
+  .comparison-table td {
+    padding: 0.5rem;
   }
 }

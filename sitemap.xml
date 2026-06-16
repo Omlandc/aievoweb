@@ -49,6 +49,36 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://aigo.homes/top10/code.html</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aigo.homes/top10/productivity.html</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aigo.homes/top10/design.html</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aigo.homes/top10/video.html</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aigo.homes/top10/writing.html</loc>
+    <lastmod>2026-06-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://aigo.homes/tools/chatgpt.html</loc>
     <lastmod>2026-06-16</lastmod>
     <changefreq>daily</changefreq>

@@ -26,6 +26,11 @@ def generate_sitemap():
         'https://aigo.homes/privacy.html',
     ]
     
+    # 添加Top 10榜单页
+    top10_pages = ['code', 'productivity', 'design', 'video', 'writing']
+    for page in top10_pages:
+        urls.append(f'https://aigo.homes/top10/{page}.html')
+    
     # 添加工具页面
     for tool in tools:
         tool_id = tool.get('id', '').replace('/', '-').replace('\\', '-')
