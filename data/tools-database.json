@@ -80,7 +80,7 @@
       "descriptionZh": "提升效率的AI工具，让工作流更智能",
       "pricing": "freemium",
       "pricingZh": "免费增值",
-      "featured": true,
+      "featured": false,
       "dateAdded": "2026-06-16",
       "mentions": 4,
       "sources": [
@@ -553,7 +553,7 @@
       "pricingZh": "免费增值",
       "featured": true,
       "dateAdded": "2026-06-16",
-      "mentions": 30,
+      "mentions": 31,
       "sources": [
         "init",
         "rss"
@@ -623,9 +623,10 @@
       "pricingZh": "免费增值",
       "featured": false,
       "dateAdded": "2026-06-16",
-      "mentions": 1,
+      "mentions": 2,
       "sources": [
-        "init"
+        "init",
+        "rss"
       ]
     },
     {
@@ -779,7 +780,7 @@
       "pricingZh": "免费增值",
       "featured": true,
       "dateAdded": "2026-06-16",
-      "mentions": 7,
+      "mentions": 8,
       "sources": [
         "init",
         "rss"
@@ -1068,9 +1069,10 @@
       "pricingZh": "免费增值",
       "featured": false,
       "dateAdded": "2026-06-16",
-      "mentions": 1,
+      "mentions": 2,
       "sources": [
-        "init"
+        "init",
+        "rss"
       ]
     },
     {
@@ -1243,9 +1245,9 @@
       "descriptionZh": "开发者工具，让代码更智能",
       "pricing": "freemium",
       "pricingZh": "免费增值",
-      "featured": false,
+      "featured": true,
       "dateAdded": "2026-06-16",
-      "mentions": 4,
+      "mentions": 5,
       "sources": [
         "init",
         "rss"
@@ -1268,7 +1270,7 @@
       "pricingZh": "免费增值",
       "featured": true,
       "dateAdded": "2026-06-16",
-      "mentions": 33,
+      "mentions": 37,
       "sources": [
         "init",
         "rss"
@@ -2812,7 +2814,7 @@
       "pricingZh": "免费增值",
       "featured": true,
       "dateAdded": "2026-06-16",
-      "mentions": 5,
+      "mentions": 7,
       "sources": [
         "init",
         "rss"
@@ -3511,7 +3513,7 @@
       "pricingZh": "免费增值",
       "featured": true,
       "dateAdded": "2026-06-16",
-      "mentions": 24,
+      "mentions": 29,
       "sources": [
         "init",
         "rss"
@@ -4149,7 +4151,7 @@
       "pricingZh": "免费增值",
       "featured": true,
       "dateAdded": "2026-06-16",
-      "mentions": 6,
+      "mentions": 8,
       "sources": [
         "init",
         "rss"
