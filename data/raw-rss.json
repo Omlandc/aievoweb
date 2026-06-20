@@ -1,5 +1,148 @@
 [
   {
+    "id": "f03a58f7",
+    "title": "Bevy 0.19",
+    "summary": "Comments",
+    "link": "https://bevy.org/news/bevy-0-19/",
+    "source": "Lobsters",
+    "lang": "en",
+    "date": "2026-06-19",
+    "fetched_at": "2026-06-20T06:01:48.131839+00:00",
+    "weight": 1.1
+  },
+  {
+    "id": "eb0816bd",
+    "title": "Burning forest 'waste' to make cement damages the climate. Let's pursue cleaner options",
+    "summary": "The Australian government has agreed to invest almost $53 million in a north Tasmanian company that will upgrade its coal-fired kiln to burn wood \"waste\" and used tires for cement manufacturing.",
+    "link": "https://phys.org/news/2026-06-forest-cement-climate-pursue-cleaner.html",
+    "source": "Phys.org",
+    "lang": "en",
+    "date": "2026-06-20",
+    "fetched_at": "2026-06-20T06:01:46.924179+00:00",
+    "weight": 1.0
+  },
+  {
+    "id": "7ab00527",
+    "title": "Heatwave hits more than one in two people in France",
+    "summary": "More than half of France's population was dealing with scorching temperatures on Friday, according to AFP's calculations, with hundreds of schools adapting their timetables to keep students out of broiling classrooms.",
+    "link": "https://phys.org/news/2026-06-heatwave-people-france.html",
+    "source": "Phys.org",
+    "lang": "en",
+    "date": "2026-06-20",
+    "fetched_at": "2026-06-20T06:01:46.924154+00:00",
+    "weight": 1.0
+  },
+  {
+    "id": "93c7f890",
+    "title": "Nanobubbles for algae cleanup: Q&A with researcher Wen Zhang",
+    "summary": "One of the most powerful environmental cleaning technologies in recent years is too small to see with the naked eye. Nanobubbles—tiny gaseous bubbles with diameters of around 100 nanometers—can clean up a range of harmful pollutants in water, from...",
+    "link": "https://phys.org/news/2026-06-nanobubbles-algae-cleanup-qa-wen.html",
+    "source": "Phys.org",
+    "lang": "en",
+    "date": "2026-06-20",
+    "fetched_at": "2026-06-20T06:01:46.924116+00:00",
+    "weight": 1.0
+  },
+  {
+    "id": "3eab911a",
+    "title": "The Hidden Trap in Backend Tutorials: Why Your Webhooks Are Creating Duplicate Data (And How to F...",
+    "summary": "We've all been there. You're sitting at your desk late at night, watching a backend tutorial, fueled by coffee and determination. The instructor shows you how to integrate a payment gateway or a webhook, and it looks incredibly simple:   Receive t...",
+    "link": "https://dev.to/anubhavg23/the-hidden-trap-in-backend-tutorials-why-your-webhooks-are-creating-duplicate-data-and-how-to-fix-dba",
+    "source": "Dev.to",
+    "lang": "en",
+    "date": "2026-06-20",
+    "fetched_at": "2026-06-20T06:01:08.249503+00:00",
+    "weight": 1.1
+  },
+  {
+    "id": "2b8669cc",
+    "title": "June App Update",
+    "summary": "Total Quietware Collection Update   I just wanted to hop on here and give a huge thank-you for all the support I've received over the past two weeks. I honestly didn't expect so many people to enjoy my apps as much as they do. It brings me immense...",
+    "link": "https://dev.to/quietware/june-app-update-j96",
+    "source": "Dev.to",
+    "lang": "en",
+    "date": "2026-06-20",
+    "fetched_at": "2026-06-20T06:01:08.249393+00:00",
+    "weight": 1.1
+  },
+  {
+    "id": "c69acc94",
+    "title": "Securing a Server in the First 45 Minutes: VPS Hardening Checklist",
+    "summary": "Whenever I set up a new VPS, I always dedicate my first 45 minutes to essential security steps. This period is a critical window to protect the server from the simplest yet most common external attacks. The moment a server goes online, it starts b...",
+    "link": "https://dev.to/merbayerp/securing-a-server-in-the-first-45-minutes-vps-hardening-checklist-51he",
+    "source": "Dev.to",
+    "lang": "en",
+    "date": "2026-06-20",
+    "fetched_at": "2026-06-20T06:01:08.249329+00:00",
+    "weight": 1.1
+  },
+  {
+    "id": "d83a164e",
+    "title": "API to MCP",
+    "summary": "Turn any API into an MCP server for AI agents                                   Discussion             |             Link",
+    "link": "https://www.producthunt.com/products/api-to-mcp",
+    "source": "Product Hunt",
+    "lang": "en",
+    "date": "2026-06-20",
+    "fetched_at": "2026-06-20T06:00:35.999811+00:00",
+    "weight": 1.2
+  },
+  {
+    "id": "da10cd5e",
+    "title": "Firecrawl Research Index",
+    "summary": "An index for agents pushing the frontier of AI/ML research                                   Discussion             |             Link",
+    "link": "https://www.producthunt.com/products/extract-by-firecrawl",
+    "source": "Product Hunt",
+    "lang": "en",
+    "date": "2026-06-20",
+    "fetched_at": "2026-06-20T06:00:35.999788+00:00",
+    "weight": 1.2
+  },
+  {
+    "id": "659da12d",
+    "title": "Getting more from each token: How Copilot improves context handling and model routing",
+    "summary": "How GitHub Copilot is making more of each session go toward useful work, so your credits go further. The post Getting more from each token: How Copilot improves context handling and model routing appeared first on The GitHub Blog.",
+    "link": "https://github.blog/ai-and-ml/github-copilot/getting-more-from-each-token-how-copilot-improves-context-handling-and-model-routing/",
+    "source": "GitHub Blog",
+    "lang": "en",
+    "date": "2026-06-17",
+    "fetched_at": "2026-06-20T06:00:33.801425+00:00",
+    "weight": 1.2
+  },
+  {
+    "id": "709b733b",
+    "title": "From PGP to Mythos: a brief history of export controls that didn’t stop anyone",
+    "summary": "For the last 30 years, stopping the flow of cybersecurity-related software has proven to be ineffective. It's unclear why it would work now with Anthropic’s cybersecurity model Mythos.",
+    "link": "https://techcrunch.com/2026/06/19/encryption-spyware-and-now-mythos-history-shows-why-cyber-export-control-doesnt-work/",
+    "source": "TechCrunch",
+    "lang": "en",
+    "date": "2026-06-19",
+    "fetched_at": "2026-06-20T06:00:32.455496+00:00",
+    "weight": 1.3
+  },
+  {
+    "id": "1660663b",
+    "title": "He made your free video player run smoothly. Now he’s doing that for robots.",
+    "summary": "French serial entrepreneur and open-source legend Jean-Baptiste Kempf has been building Kyber, an infrastructure layer to control remote devices in real time.",
+    "link": "https://techcrunch.com/2026/06/19/he-made-your-free-video-player-run-smoothly-now-hes-doing-that-for-robots/",
+    "source": "TechCrunch",
+    "lang": "en",
+    "date": "2026-06-20",
+    "fetched_at": "2026-06-20T06:00:32.455451+00:00",
+    "weight": 1.3
+  },
+  {
+    "id": "e3975698",
+    "title": "诺奖得主转投Anthropic，谷歌48小时连失两大牛，内部信仰崩塌？",
+    "summary": "大公司在 AI 时代会成为过去式#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+    "link": "https://www.ifanr.com/1669460?utm_source=rss&utm_medium=rss&utm_campaign=",
+    "source": "爱范儿",
+    "lang": "zh",
+    "date": "2026-06-20",
+    "fetched_at": "2026-06-20T06:00:15.879608+00:00",
+    "weight": 1.0
+  },
+  {
     "id": "ff63f0c2",
     "title": "Godot 4.7: Lights, Camera, Action",
     "summary": "Comments",
@@ -2055,148 +2198,5 @@
     "date": "2026-06-17",
     "fetched_at": "2026-06-17T22:00:35.772444+00:00",
     "weight": 1.0
-  },
-  {
-    "id": "01cc81d7",
-    "title": "Operating a Humanoid With Your Body Is a Hot Job in China’s Hardware Capital",
-    "summary": "In Shenzhen, workers at IO-AI Tech control humanoid robots using a VR rig reminiscent of Ready Player One.",
-    "link": "https://www.wired.com/story/humanoid-robot-training-in-chinas-hardware-capital/",
-    "source": "Wired",
-    "lang": "en",
-    "date": "2026-06-17",
-    "fetched_at": "2026-06-17T22:00:35.772396+00:00",
-    "weight": 1.0
-  },
-  {
-    "id": "83692f4b",
-    "title": "Massive breach spills credentials for thousands of sensitive networks",
-    "summary": "The affected include Oracle, Lenovo, FedEx, a NATO contractor, and Fortinet.",
-    "link": "https://arstechnica.com/security/2026/06/massive-breach-spills-credentials-for-thousands-of-sensitive-networks/",
-    "source": "Ars Technica",
-    "lang": "en",
-    "date": "2026-06-17",
-    "fetched_at": "2026-06-17T22:00:34.745979+00:00",
-    "weight": 1.1
-  },
-  {
-    "id": "8298429e",
-    "title": "California says AT&T lied to FCC in attempt to shut off old phone network",
-    "summary": "FCC considers AT&T petitions to preempt state rules and discontinue phone service.",
-    "link": "https://arstechnica.com/tech-policy/2026/06/california-says-att-lied-to-fcc-in-attempt-to-shut-off-old-phone-network/",
-    "source": "Ars Technica",
-    "lang": "en",
-    "date": "2026-06-17",
-    "fetched_at": "2026-06-17T22:00:34.745945+00:00",
-    "weight": 1.1
-  },
-  {
-    "id": "b7eb37cb",
-    "title": "Sooner than expected? Useful quantum error correction promised for 2028.",
-    "summary": "Elsewhere, beyond-classical quantum hardware, plus classical computing fires back.",
-    "link": "https://arstechnica.com/science/2026/06/amazon-quera-promise-useful-quantum-error-correction-by-2028/",
-    "source": "Ars Technica",
-    "lang": "en",
-    "date": "2026-06-17",
-    "fetched_at": "2026-06-17T22:00:34.745889+00:00",
-    "weight": 1.1
-  },
-  {
-    "id": "b3b34731",
-    "title": "Using LLM for Dialogue Management",
-    "summary": "Dialogue management is the process of tracking conversational state and deciding what an agent should say or do next. Classical systems split this into isolated modules: natural language understanding, dialogue state tracking, a policy engine, and...",
-    "link": "https://dev.to/shashank_ms_6a35baa4be138/using-llm-for-dialogue-management-1lgk",
-    "source": "Dev.to",
-    "lang": "en",
-    "date": "2026-06-17",
-    "fetched_at": "2026-06-17T22:00:32.244996+00:00",
-    "weight": 1.1
-  },
-  {
-    "id": "f3af4538",
-    "title": "Stop Picking Dashboard Icons by Keyword",
-    "summary": "Most dashboard icon problems do not come from bad icons.  They come from good icons used with the wrong meaning.  You search for users, pick a clean SVG icon, place it in the sidebar, and move on.  Then later you need another icon for:   Customers...",
-    "link": "https://dev.to/svgicons/stop-picking-dashboard-icons-by-keyword-ij2",
-    "source": "Dev.to",
-    "lang": "en",
-    "date": "2026-06-17",
-    "fetched_at": "2026-06-17T22:00:32.244933+00:00",
-    "weight": 1.1
-  },
-  {
-    "id": "64ded2f9",
-    "title": "Event Loop - Entendendo uma das bases do Node",
-    "summary": "O Event Loop é o mecanismo responsável por decidir quando callbacks e continuidades de operações assíncronas devem ser executados. Ele não executa operações de I/O diretamente, mas organiza a ordem em que elas retornam para o JavaScript. Essa arqu...",
-    "link": "https://dev.to/joaovictor6/event-loop-entendendo-uma-das-bases-do-node-41a",
-    "source": "Dev.to",
-    "lang": "en",
-    "date": "2026-06-17",
-    "fetched_at": "2026-06-17T22:00:32.244663+00:00",
-    "weight": 1.1
-  },
-  {
-    "id": "fb0710a9",
-    "title": "Epic wants to let you bring your Fortnite skins to other games",
-    "summary": "Epic Games has been touting the potential of an interoperable metaverse for years, though that vision hasn't yet become a reality. But with Unreal Engine 6, the next major version of its game development engine, Epic plans to take a big step towar...",
-    "link": "https://www.theverge.com/games/951785/epic-games-fortnite-unreal-fest-2026-unreal-engine-6-ai-metaverse",
-    "source": "The Verge",
-    "lang": "en",
-    "date": "2026-06-17",
-    "fetched_at": "2026-06-17T22:00:27.897161+00:00",
-    "weight": 1.2
-  },
-  {
-    "id": "b1fcbb91",
-    "title": "VSCO launches Studio Pro mobile photo editing app and plans $500 per year subscription",
-    "summary": "VSCO is taking on Adobe with a new Studio Pro editing app rolling out today on iOS and coming to macOS later this year, as Bloomberg reports. At launch, the app offers tools for batch editing, style matching from a reference image, and sharing ima...",
-    "link": "https://www.theverge.com/tech/951863/vsco-studio-pro-vsco-one-subscription",
-    "source": "The Verge",
-    "lang": "en",
-    "date": "2026-06-17",
-    "fetched_at": "2026-06-17T22:00:27.897133+00:00",
-    "weight": 1.2
-  },
-  {
-    "id": "9c26b31c",
-    "title": "Tim Cook says RAM expenses are ‘unsustainable’ and Apple is going to raise prices",
-    "summary": "Apple is planning to raise prices in response to the ongoing memory shortage. In an interview with The Wall Street Journal, Apple CEO Tim Cook says \"price increases are unavoidable:\" We're doing our best to mitigate the huge increases that are bei...",
-    "link": "https://www.theverge.com/tech/951948/apple-tim-cook-price-increases-ram",
-    "source": "The Verge",
-    "lang": "en",
-    "date": "2026-06-17",
-    "fetched_at": "2026-06-17T22:00:27.897098+00:00",
-    "weight": 1.2
-  },
-  {
-    "id": "5f875a71",
-    "title": "The Siren Song of  ariaNotify()",
-    "summary": "There's a brand new ariaNotify() method — defined by the WAI-ARIA 1.3 Specification — that provides a means of programmatically triggering narration in a screen reader.  The Siren Song of  ariaNotify() originally handwritten and published with lov...",
-    "link": "https://css-tricks.com/the-siren-song-of-arianotify/",
-    "source": "CSS-Tricks",
-    "lang": "en",
-    "date": "2026-06-17",
-    "fetched_at": "2026-06-17T22:00:26.913193+00:00",
-    "weight": 1.0
-  },
-  {
-    "id": "931060eb",
-    "title": "Snapchat SPECS",
-    "summary": "Powerful computer built into lightweight see-through glasses                                   Discussion             |             Link",
-    "link": "https://www.producthunt.com/products/snapchat",
-    "source": "Product Hunt",
-    "lang": "en",
-    "date": "2026-06-17",
-    "fetched_at": "2026-06-17T22:00:24.113697+00:00",
-    "weight": 1.2
-  },
-  {
-    "id": "59d0600c",
-    "title": "StickerWords",
-    "summary": "Learn new words from the world around you                                   Discussion             |             Link",
-    "link": "https://www.producthunt.com/products/stickerwords",
-    "source": "Product Hunt",
-    "lang": "en",
-    "date": "2026-06-17",
-    "fetched_at": "2026-06-17T22:00:24.113673+00:00",
-    "weight": 1.2
   }
 ]
