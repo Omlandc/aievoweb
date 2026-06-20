@@ -554,7 +554,7 @@
       "pricingZh": "免费增值",
       "featured": true,
       "dateAdded": "2026-06-16",
-      "mentions": 37,
+      "mentions": 40,
       "sources": [
         "init",
         "rss"
@@ -1272,7 +1272,7 @@
       "pricingZh": "免费增值",
       "featured": true,
       "dateAdded": "2026-06-16",
-      "mentions": 45,
+      "mentions": 48,
       "sources": [
         "init",
         "rss"
@@ -1765,9 +1765,10 @@
       "pricingZh": "免费增值",
       "featured": false,
       "dateAdded": "2026-06-16",
-      "mentions": 1,
+      "mentions": 2,
       "sources": [
-        "init"
+        "init",
+        "rss"
       ]
     },
     {
@@ -1920,7 +1921,7 @@
       "pricingZh": "免费增值",
       "featured": false,
       "dateAdded": "2026-06-16",
-      "mentions": 3,
+      "mentions": 4,
       "sources": [
         "init",
         "rss"
@@ -2816,7 +2817,7 @@
       "pricingZh": "免费增值",
       "featured": true,
       "dateAdded": "2026-06-16",
-      "mentions": 10,
+      "mentions": 11,
       "sources": [
         "init",
         "rss"
@@ -4154,7 +4155,7 @@
       "pricingZh": "免费增值",
       "featured": true,
       "dateAdded": "2026-06-16",
-      "mentions": 9,
+      "mentions": 10,
       "sources": [
         "init",
         "rss"
