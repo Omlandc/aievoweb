@@ -1,5 +1,104 @@
 [
   {
+    "id": "74c4949d",
+    "title": "The Wholesale Plagiarism of Obscure Sorrows",
+    "summary": "Comments",
+    "link": "https://waxy.org/2026/06/the-wholesale-plagiarism-of-obscure-sorrows/",
+    "source": "Lobsters",
+    "lang": "en",
+    "date": "2026-06-20",
+    "fetched_at": "2026-06-21T06:01:16.048526+00:00",
+    "weight": 1.1
+  },
+  {
+    "id": "f2dba5c0",
+    "title": "Bat rays employ a chemical cue to warn others of danger",
+    "summary": "Frightened bat rays produce a chemical cue to warn other rays of danger, a well-known anti-predator strategy for bony fish that has not been documented in cartilaginous fish until now. Oregon State University researchers found the behavior of bat ...",
+    "link": "https://phys.org/news/2026-06-rays-employ-chemical-cue-danger.html",
+    "source": "Phys.org",
+    "lang": "en",
+    "date": "2026-06-21",
+    "fetched_at": "2026-06-21T06:01:14.095225+00:00",
+    "weight": 1.0
+  },
+  {
+    "id": "b4d7cd85",
+    "title": "Climate change boosts soybean production but worsens bean quality",
+    "summary": "A study published by Food Research International analyzed the triple effect of climate change on soybean quality—increased carbon dioxide (CO₂), high temperatures and drought. Using predictive modeling powered by artificial intelligence (AI) and b...",
+    "link": "https://phys.org/news/2026-06-climate-boosts-soybean-production-worsens.html",
+    "source": "Phys.org",
+    "lang": "en",
+    "date": "2026-06-21",
+    "fetched_at": "2026-06-21T06:01:14.095190+00:00",
+    "weight": 1.0
+  },
+  {
+    "id": "94461b9a",
+    "title": "How AI engines actually decide what to cite (ChatGPT, Perplexity, Gemini, AI Overviews)",
+    "summary": "Everyone keeps asking \"is SEO dead.\" Wrong question.  AI search doesn't show ten blue links. It generates one answer and names a few brands. If you're not in that answer, you don't exist for that query. So the real question is: how do these engine...",
+    "link": "https://dev.to/nitishyadav/how-ai-engines-actually-decide-what-to-cite-chatgpt-perplexity-gemini-ai-overviews-6bh",
+    "source": "Dev.to",
+    "lang": "en",
+    "date": "2026-06-21",
+    "fetched_at": "2026-06-21T06:00:34.431096+00:00",
+    "weight": 1.1
+  },
+  {
+    "id": "aef3752c",
+    "title": "What Is an Agent Loop? How AI Agents Reason, Act, and Iterate",
+    "summary": "People keep talking about agent loops because they make an AI agent actually do useful work instead of just sounding smart.  Without a loop, a model answers a question and stops. With a loop, it can keep going: analyze the task, take action, inspe...",
+    "link": "https://dev.to/rish_poddar/what-is-an-agent-loop-how-ai-agents-reason-act-and-iterate-1675",
+    "source": "Dev.to",
+    "lang": "en",
+    "date": "2026-06-21",
+    "fetched_at": "2026-06-21T06:00:34.431042+00:00",
+    "weight": 1.1
+  },
+  {
+    "id": "3106c3e9",
+    "title": "💻 The Forward-Deployed Engineer 🤖 Playbook 📖",
+    "summary": "A practical, straight-to-the-point field manual for the role The New Stack calls \"AI's hottest job\" and a16z calls \"the hottest job in tech.\"              📑 Table of Contents    ⚡ TL;DR 🧭 Part 1 — What an FDE Actually Is 📈 Part 2 — Why the Role Ex...",
+    "link": "https://dev.to/truongpx396/the-forward-deployed-engineer-playbook-23d9",
+    "source": "Dev.to",
+    "lang": "en",
+    "date": "2026-06-21",
+    "fetched_at": "2026-06-21T06:00:34.430931+00:00",
+    "weight": 1.1
+  },
+  {
+    "id": "e85914ad",
+    "title": "The Benefits Of Cognitive Inclusion In UX Research",
+    "summary": "Findings from an exploratory user research study highlighting the unique insights and practical UX recommendations shared by participants with cognitive disabilities.",
+    "link": "https://smashingmagazine.com/2026/06/benefits-cognitive-inclusion-ux-research/",
+    "source": "Smashing",
+    "lang": "en",
+    "date": "2026-06-21",
+    "fetched_at": "2026-06-21T06:00:32.291180+00:00",
+    "weight": 1.0
+  },
+  {
+    "id": "e71af34c",
+    "title": "The Impact Of Humanoid Robots On Humanity",
+    "summary": "We have officially moved past the era of humanoid robots as mere public relations stunts. As they become increasingly lifelike, society may soon face profound social, psychological, and ethical challenges. What happens when the boundary between hu...",
+    "link": "https://smashingmagazine.com/2026/06/impact-humanoid-robots-humanity/",
+    "source": "Smashing",
+    "lang": "en",
+    "date": "2026-06-21",
+    "fetched_at": "2026-06-21T06:00:32.291156+00:00",
+    "weight": 1.0
+  },
+  {
+    "id": "10b3ba38",
+    "title": "AI 工作流实践：100% Vibe Coding 完成 Game Jam 游戏开发",
+    "summary": "Agent 和人一样离不开闭环。查看全文",
+    "link": "https://sspai.com/post/110972",
+    "source": "少数派",
+    "lang": "zh",
+    "date": "2026-06-21",
+    "fetched_at": "2026-06-21T06:00:03.254753+00:00",
+    "weight": 1.0
+  },
+  {
     "id": "1c72188c",
     "title": "OCaml 5.5.0 released",
     "summary": "Comments",
@@ -2099,104 +2198,5 @@
     "date": "2026-06-18",
     "fetched_at": "2026-06-18T13:00:36.684053+00:00",
     "weight": 1.3
-  },
-  {
-    "id": "dea0d323",
-    "title": "Adobe adds its AI assistant to Premiere, Illustrator and InDesign",
-    "summary": "Adobe is updating its Firefly AI assistant with new chops, and adding it to Premiere, Illustrator, InDesign and Frame.io.",
-    "link": "https://techcrunch.com/2026/06/18/adobe-adds-its-ai-assistant-to-premiere-illustrator-and-indesign/",
-    "source": "TechCrunch",
-    "lang": "en",
-    "date": "2026-06-18",
-    "fetched_at": "2026-06-18T13:00:36.684008+00:00",
-    "weight": 1.3
-  },
-  {
-    "id": "69bb6bca",
-    "title": "零跑三车上市！全新 C 系列 12.48 万元起，要做新时代的「经典车」",
-    "summary": "零跑不想「随风飘摇」。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
-    "link": "https://www.ifanr.com/1669217?utm_source=rss&utm_medium=rss&utm_campaign=",
-    "source": "爱范儿",
-    "lang": "zh",
-    "date": "2026-06-18",
-    "fetched_at": "2026-06-18T13:00:19.950974+00:00",
-    "weight": 1.0
-  },
-  {
-    "id": "eb4d9b26",
-    "title": "Nothing Phone 杂谈：活下去再谈未来，然后呢？",
-    "summary": "我依然相信他们能给已成红海的手机市场带来变数与惊喜，正如标志性的透明后盖与微弱闪烁的灯光，每一次触碰都仿佛钟表倒转，回到光芒与图案代表个性的千禧年代。查看全文",
-    "link": "https://sspai.com/post/110442",
-    "source": "少数派",
-    "lang": "zh",
-    "date": "2026-06-18",
-    "fetched_at": "2026-06-18T13:00:03.403270+00:00",
-    "weight": 1.0
-  },
-  {
-    "id": "d332e131",
-    "title": "新玩意 244｜少数派的编辑们最近买了啥？",
-    "summary": "编注：我们希望通过「编辑部的新玩意」介绍编辑部成员们最近在用的新奇产品，让他们自己来谈谈这些新玩意的使用体验究竟如何。内容声明：《新玩意》栏目如含有商务内容，将会在对应条目标注「广告」；若有标注「厂商 ...查看全文",
-    "link": "https://sspai.com/post/111211",
-    "source": "少数派",
-    "lang": "zh",
-    "date": "2026-06-18",
-    "fetched_at": "2026-06-18T13:00:03.403209+00:00",
-    "weight": 1.0
-  },
-  {
-    "id": "a3cf86ee",
-    "title": "New study maps the peanut genome in its entirety",
-    "summary": "Peanuts are an important staple crop for many people around the world. As well as being delicious as smooth or crunchy peanut butter, their seeds are high in healthy fats and protein and can be pressed into oil.",
-    "link": "https://phys.org/news/2026-06-peanut-genome-entirety.html",
-    "source": "Phys.org",
-    "lang": "en",
-    "date": "2026-06-18",
-    "fetched_at": "2026-06-18T06:01:00.130437+00:00",
-    "weight": 1.0
-  },
-  {
-    "id": "538a548a",
-    "title": "Study analyzes buyers' assumptions about carpal chips in Thoroughbred yearlings",
-    "summary": "See the vet reports during any yearling sale and you'll hear it—a ripple of concern when a veterinarian flags a bone chip on a radiograph of the horse's leg. Buyers often step away. Prices drop. The horse, in the minds of many, is already compromi...",
-    "link": "https://phys.org/news/2026-06-buyers-assumptions-carpal-chips-thoroughbred.html",
-    "source": "Phys.org",
-    "lang": "en",
-    "date": "2026-06-18",
-    "fetched_at": "2026-06-18T06:01:00.130413+00:00",
-    "weight": 1.0
-  },
-  {
-    "id": "73732acc",
-    "title": "Tourism firms face complex path to sustainability",
-    "summary": "Tourism businesses across Aotearoa New Zealand are working to become more sustainable, but a new study shows the process is complex and rarely straightforward. The research, based on in-depth interviews, data analysis and site visits with establis...",
-    "link": "https://phys.org/news/2026-06-tourism-firms-complex-path-sustainability.html",
-    "source": "Phys.org",
-    "lang": "en",
-    "date": "2026-06-18",
-    "fetched_at": "2026-06-18T06:01:00.130376+00:00",
-    "weight": 1.0
-  },
-  {
-    "id": "ca9b0472",
-    "title": "Tim Cook says Apple price increases are 'unavoidable' due to memory crunch",
-    "summary": "RAMaggedon claims another one.",
-    "link": "https://www.engadget.com/2196902/tim-cook-says-apple-price-increases-are-unavoidable-due-to-memory-crunch/",
-    "source": "Engadget",
-    "lang": "en",
-    "date": "2026-06-17",
-    "fetched_at": "2026-06-18T06:00:41.190290+00:00",
-    "weight": 1.0
-  },
-  {
-    "id": "fff014b2",
-    "title": "Chewy Promo Codes: $20 Off June 2026",
-    "summary": "Explore Chewy coupon codes for $30 off, $20 off your first order $49, 50% off pet food, and more June 2026 discounts.",
-    "link": "https://www.wired.com/story/chewy-promo-code/",
-    "source": "Wired",
-    "lang": "en",
-    "date": "2026-06-18",
-    "fetched_at": "2026-06-18T06:00:40.387503+00:00",
-    "weight": 1.0
   }
 ]
