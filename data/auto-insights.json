@@ -6,6 +6,42 @@
       "description": "image类别仅有3个工具，建议扩充到10+个",
       "action": "搜索并添加image类别的AI工具",
       "auto_executable": false,
+      "discovered_at": "2026-06-23T06:05:01.086968",
+      "status": "pending"
+    },
+    {
+      "type": "content_gap",
+      "priority": "medium",
+      "description": "writing类别仅有3个工具，建议扩充到10+个",
+      "action": "搜索并添加writing类别的AI工具",
+      "auto_executable": false,
+      "discovered_at": "2026-06-23T06:05:01.086994",
+      "status": "pending"
+    },
+    {
+      "type": "content_gap",
+      "priority": "medium",
+      "description": "audio类别仅有3个工具，建议扩充到10+个",
+      "action": "搜索并添加audio类别的AI工具",
+      "auto_executable": false,
+      "discovered_at": "2026-06-23T06:05:01.086999",
+      "status": "pending"
+    },
+    {
+      "type": "status",
+      "priority": "info",
+      "description": "当前共186个工具入库",
+      "action": "继续扩充工具库",
+      "auto_executable": false,
+      "discovered_at": "2026-06-23T06:05:01.087002",
+      "status": "pending"
+    },
+    {
+      "type": "content_gap",
+      "priority": "medium",
+      "description": "image类别仅有3个工具，建议扩充到10+个",
+      "action": "搜索并添加image类别的AI工具",
+      "auto_executable": false,
       "discovered_at": "2026-06-22T21:05:01.665990",
       "status": "pending"
     },
@@ -757,5 +793,5 @@
       "status": "pending"
     }
   ],
-  "last_update": "2026-06-22T21:05:01.666022"
+  "last_update": "2026-06-23T06:05:01.087010"
 }
