@@ -77,7 +77,7 @@
         "AI助手"
       ],
       "description": "AI驱动的生产力工具，节省时间",
-      "descriptionZh": "提升效率的AI工具，让工作流更智能",
+      "descriptionZh": "ChatGPT是一款productivity领域的AI工具。支持对话, 写作, AI助手。它帮助用户提升工作效率，自动化处理复杂任务。适合需要productivity解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": true,
@@ -86,7 +86,8 @@
       "sources": [
         "init",
         "rss"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "gpt-4",
@@ -100,7 +101,7 @@
         "AI助手"
       ],
       "description": "AI驱动的生产力工具，节省时间",
-      "descriptionZh": "提升效率的AI工具，让工作流更智能",
+      "descriptionZh": "GPT-4是一款productivity领域的AI工具。支持大模型, AI助手。它帮助用户提升工作效率，自动化处理复杂任务。适合需要productivity解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -108,7 +109,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "gpt-4o",
@@ -122,7 +124,7 @@
         "大模型"
       ],
       "description": "自动化重复任务，专注创造性工作",
-      "descriptionZh": "AI驱动的生产力工具，节省时间",
+      "descriptionZh": "GPT-4o是一款productivity领域的AI工具。支持多模态, 大模型。它帮助用户提升工作效率，自动化处理复杂任务。适合需要productivity解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -130,7 +132,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "claude",
@@ -145,7 +148,7 @@
         "AI助手"
       ],
       "description": "AI驱动的生产力工具，节省时间",
-      "descriptionZh": "提升效率的AI工具，让工作流更智能",
+      "descriptionZh": "Claude是一款productivity领域的AI工具。支持对话, 写作, AI助手。它帮助用户提升工作效率，自动化处理复杂任务。适合需要productivity解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": true,
@@ -154,7 +157,8 @@
       "sources": [
         "init",
         "rss"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "midjourney",
@@ -168,7 +172,7 @@
         "AI绘画"
       ],
       "description": "智能图像创作，从文字到画面",
-      "descriptionZh": "智能图像创作，从文字到画面",
+      "descriptionZh": "Midjourney是一款image领域的AI工具。支持图像生成, AI绘画。它帮助用户提升工作效率，自动化处理复杂任务。适合需要image解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -177,7 +181,8 @@
       "sources": [
         "init",
         "rss"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "stable-diffusion",
@@ -191,7 +196,7 @@
         "开源"
       ],
       "description": "AI图像生成工具，让创意可视化",
-      "descriptionZh": "AI驱动的视觉设计",
+      "descriptionZh": "Stable Diffusion是一款image领域的AI工具。支持图像生成, 开源。它帮助用户提升工作效率，自动化处理复杂任务。适合需要image解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -199,7 +204,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "dall-e",
@@ -213,7 +219,7 @@
         "AI绘画"
       ],
       "description": "AI图像生成工具，让创意可视化",
-      "descriptionZh": "智能图像创作，从文字到画面",
+      "descriptionZh": "DALL-E是一款image领域的AI工具。支持图像生成, AI绘画。它帮助用户提升工作效率，自动化处理复杂任务。适合需要image解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -222,7 +228,8 @@
       "sources": [
         "init",
         "rss"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "runway",
@@ -236,7 +243,7 @@
         "AI视频"
       ],
       "description": "AI驱动的视频生成工具",
-      "descriptionZh": "智能视频编辑，快速出片",
+      "descriptionZh": "Runway是一款video领域的AI工具。支持视频生成, AI视频。它帮助用户提升工作效率，自动化处理复杂任务。适合需要video解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -244,7 +251,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "sora",
@@ -258,7 +266,7 @@
         "OpenAI"
       ],
       "description": "AI视频创作工具，让视频制作更简单",
-      "descriptionZh": "AI驱动的视频生成工具",
+      "descriptionZh": "Sora是一款video领域的AI工具。支持视频生成, OpenAI。它帮助用户提升工作效率，自动化处理复杂任务。适合需要video解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -266,7 +274,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "notion",
@@ -281,7 +290,7 @@
         "知识管理"
       ],
       "description": "提升效率的AI工具，让工作流更智能",
-      "descriptionZh": "AI驱动的生产力工具，节省时间",
+      "descriptionZh": "Notion是一款productivity领域的AI工具。支持笔记, 协作, 知识管理。它帮助用户提升工作效率，自动化处理复杂任务。适合需要productivity解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -289,7 +298,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "cursor",
@@ -303,7 +313,7 @@
         "代码编辑器"
       ],
       "description": "开源技术，构建现代应用",
-      "descriptionZh": "开发者工具，让代码更智能",
+      "descriptionZh": "Cursor是一款code领域的AI工具。支持AI编程, 代码编辑器。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -312,7 +322,8 @@
       "sources": [
         "init",
         "rss"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "github-copilot",
@@ -326,7 +337,7 @@
         "代码补全"
       ],
       "description": "AI编程助手，提升开发效率",
-      "descriptionZh": "开源技术，构建现代应用",
+      "descriptionZh": "GitHub Copilot是一款code领域的AI工具。支持AI编程, 代码补全。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -335,7 +346,8 @@
       "sources": [
         "init",
         "rss"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "figma",
@@ -350,7 +362,7 @@
         "协作"
       ],
       "description": "智能设计助手，从概念到成品",
-      "descriptionZh": "智能设计助手，从概念到成品",
+      "descriptionZh": "Figma是一款design领域的AI工具。支持设计, UI/UX, 协作。它帮助用户提升工作效率，自动化处理复杂任务。适合需要design解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -358,7 +370,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "canva",
@@ -373,7 +386,7 @@
         "易用"
       ],
       "description": "AI驱动的创意工具，设计更简单",
-      "descriptionZh": "AI驱动的创意工具，设计更简单",
+      "descriptionZh": "Canva是一款design领域的AI工具。支持设计, 模板, 易用。它帮助用户提升工作效率，自动化处理复杂任务。适合需要design解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -381,7 +394,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "jasper",
@@ -395,7 +409,7 @@
         "营销文案"
       ],
       "description": "智能写作工具，提升文字质量",
-      "descriptionZh": "智能写作工具，提升文字质量",
+      "descriptionZh": "Jasper是一款writing领域的AI工具。支持AI写作, 营销文案。它帮助用户提升工作效率，自动化处理复杂任务。适合需要writing解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -403,7 +417,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "copyai",
@@ -417,7 +432,7 @@
         "营销文案"
       ],
       "description": "AI写作助手，让内容创作更轻松",
-      "descriptionZh": "AI写作助手，让内容创作更轻松",
+      "descriptionZh": "Copy.ai是一款writing领域的AI工具。支持AI写作, 营销文案。它帮助用户提升工作效率，自动化处理复杂任务。适合需要writing解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -425,7 +440,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "grammarly",
@@ -439,7 +455,7 @@
         "写作辅助"
       ],
       "description": "AI写作助手，让内容创作更轻松",
-      "descriptionZh": "AI驱动的内容生成",
+      "descriptionZh": "Grammarly是一款writing领域的AI工具。支持语法检查, 写作辅助。它帮助用户提升工作效率，自动化处理复杂任务。适合需要writing解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -447,7 +463,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "elevenlabs",
@@ -461,7 +478,7 @@
         "AI配音"
       ],
       "description": "语音合成与音频处理",
-      "descriptionZh": "语音合成与音频处理",
+      "descriptionZh": "ElevenLabs是一款audio领域的AI工具。支持语音合成, AI配音。它帮助用户提升工作效率，自动化处理复杂任务。适合需要audio解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -469,7 +486,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "murf",
@@ -483,7 +501,7 @@
         "AI配音"
       ],
       "description": "语音合成与音频处理",
-      "descriptionZh": "AI驱动的音频创作",
+      "descriptionZh": "Murf是一款audio领域的AI工具。支持语音合成, AI配音。它帮助用户提升工作效率，自动化处理复杂任务。适合需要audio解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -491,7 +509,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "descript",
@@ -505,7 +524,7 @@
         "播客"
       ],
       "description": "AI驱动的音频创作",
-      "descriptionZh": "语音合成与音频处理",
+      "descriptionZh": "Descript是一款audio领域的AI工具。支持音频编辑, 播客。它帮助用户提升工作效率，自动化处理复杂任务。适合需要audio解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -514,7 +533,8 @@
       "sources": [
         "init",
         "rss"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "perplexity",
@@ -528,7 +548,7 @@
         "问答"
       ],
       "description": "AI驱动的学术搜索",
-      "descriptionZh": "AI驱动的学术搜索",
+      "descriptionZh": "Perplexity是一款research领域的AI工具。支持AI搜索, 问答。它帮助用户提升工作效率，自动化处理复杂任务。适合需要research解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -537,7 +557,8 @@
       "sources": [
         "init",
         "rss"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "arc-browser",
@@ -551,7 +572,7 @@
         "AI功能"
       ],
       "description": "提升效率的AI工具，让工作流更智能",
-      "descriptionZh": "自动化重复任务，专注创造性工作",
+      "descriptionZh": "Arc Browser是一款productivity领域的AI工具。支持浏览器, AI功能。它帮助用户提升工作效率，自动化处理复杂任务。适合需要productivity解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": true,
@@ -560,7 +581,8 @@
       "sources": [
         "init",
         "rss"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "replit",
@@ -574,7 +596,7 @@
         "AI编程"
       ],
       "description": "开源技术，构建现代应用",
-      "descriptionZh": "AI编程助手，提升开发效率",
+      "descriptionZh": "Replit是一款code领域的AI工具。支持在线编程, AI编程。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -582,7 +604,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "vercel",
@@ -597,7 +620,7 @@
         "AI功能"
       ],
       "description": "开发者工具，让代码更智能",
-      "descriptionZh": "开源技术，构建现代应用",
+      "descriptionZh": "Vercel是一款code领域的AI工具。支持部署, 前端, AI功能。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -606,7 +629,8 @@
       "sources": [
         "init",
         "rss"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "supabase",
@@ -621,7 +645,7 @@
         "开源"
       ],
       "description": "AI编程助手，提升开发效率",
-      "descriptionZh": "AI编程助手，提升开发效率",
+      "descriptionZh": "Supabase是一款code领域的AI工具。支持数据库, 后端, 开源。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -630,7 +654,8 @@
       "sources": [
         "init",
         "rss"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "hugging-face",
@@ -645,7 +670,7 @@
         "社区"
       ],
       "description": "AI编程助手，提升开发效率",
-      "descriptionZh": "开源技术，构建现代应用",
+      "descriptionZh": "Hugging Face是一款code领域的AI工具。支持AI模型, 开源, 社区。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -653,7 +678,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "langchain",
@@ -667,7 +693,7 @@
         "开发工具"
       ],
       "description": "AI编程助手，提升开发效率",
-      "descriptionZh": "AI编程助手，提升开发效率",
+      "descriptionZh": "LangChain是一款code领域的AI工具。支持AI框架, 开发工具。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -676,7 +702,8 @@
       "sources": [
         "init",
         "rss"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "llamaindex",
@@ -690,7 +717,7 @@
         "RAG"
       ],
       "description": "开源技术，构建现代应用",
-      "descriptionZh": "开源技术，构建现代应用",
+      "descriptionZh": "LlamaIndex是一款code领域的AI工具。支持AI框架, RAG。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -698,7 +725,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "pinecone",
@@ -712,7 +740,7 @@
         "AI基础设施"
       ],
       "description": "开发者工具，让代码更智能",
-      "descriptionZh": "AI编程助手，提升开发效率",
+      "descriptionZh": "Pinecone是一款code领域的AI工具。支持向量数据库, AI基础设施。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -720,7 +748,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "weaviate",
@@ -734,7 +763,7 @@
         "AI搜索"
       ],
       "description": "开源技术，构建现代应用",
-      "descriptionZh": "开源技术，构建现代应用",
+      "descriptionZh": "Weaviate是一款code领域的AI工具。支持向量数据库, AI搜索。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -742,7 +771,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "anthropic",
@@ -756,7 +786,7 @@
         "Claude"
       ],
       "description": "提升效率的AI工具，让工作流更智能",
-      "descriptionZh": "自动化重复任务，专注创造性工作",
+      "descriptionZh": "Anthropic是一款productivity领域的AI工具。支持AI公司, Claude。它帮助用户提升工作效率，自动化处理复杂任务。适合需要productivity解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": true,
@@ -765,7 +795,8 @@
       "sources": [
         "init",
         "rss"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "openai",
@@ -779,7 +810,7 @@
         "GPT"
       ],
       "description": "自动化重复任务，专注创造性工作",
-      "descriptionZh": "提升效率的AI工具，让工作流更智能",
+      "descriptionZh": "OpenAI是一款productivity领域的AI工具。支持AI公司, GPT。它帮助用户提升工作效率，自动化处理复杂任务。适合需要productivity解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": true,
@@ -788,7 +819,8 @@
       "sources": [
         "init",
         "rss"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "google-bard",
@@ -802,7 +834,7 @@
         "对话"
       ],
       "description": "自动化重复任务，专注创造性工作",
-      "descriptionZh": "提升效率的AI工具，让工作流更智能",
+      "descriptionZh": "Google Bard是一款productivity领域的AI工具。支持AI搜索, 对话。它帮助用户提升工作效率，自动化处理复杂任务。适合需要productivity解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -810,7 +842,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "gemini",
@@ -824,7 +857,7 @@
         "大模型"
       ],
       "description": "自动化重复任务，专注创造性工作",
-      "descriptionZh": "自动化重复任务，专注创造性工作",
+      "descriptionZh": "Gemini是一款productivity领域的AI工具。支持多模态, 大模型。它帮助用户提升工作效率，自动化处理复杂任务。适合需要productivity解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -833,7 +866,8 @@
       "sources": [
         "init",
         "rss"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "meta-ai",
@@ -847,7 +881,7 @@
         "社交AI"
       ],
       "description": "自动化重复任务，专注创造性工作",
-      "descriptionZh": "自动化重复任务，专注创造性工作",
+      "descriptionZh": "Meta AI是一款productivity领域的AI工具。支持大模型, 社交AI。它帮助用户提升工作效率，自动化处理复杂任务。适合需要productivity解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -855,7 +889,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "llama",
@@ -869,7 +904,7 @@
         "大模型"
       ],
       "description": "AI编程助手，提升开发效率",
-      "descriptionZh": "开发者工具，让代码更智能",
+      "descriptionZh": "LLaMA是一款code领域的AI工具。支持开源模型, 大模型。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -877,7 +912,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "stablelm",
@@ -891,7 +927,7 @@
         "Stability"
       ],
       "description": "AI编程助手，提升开发效率",
-      "descriptionZh": "开发者工具，让代码更智能",
+      "descriptionZh": "StableLM是一款code领域的AI工具。支持开源模型, Stability。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -899,7 +935,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "nvidia",
@@ -913,7 +950,7 @@
         "AI芯片"
       ],
       "description": "AI编程助手，提升开发效率",
-      "descriptionZh": "开源技术，构建现代应用",
+      "descriptionZh": "NVIDIA是一款code领域的AI工具。支持GPU, AI芯片。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -921,7 +958,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "cloudflare",
@@ -936,7 +974,7 @@
         "AI Workers"
       ],
       "description": "AI编程助手，提升开发效率",
-      "descriptionZh": "开发者工具，让代码更智能",
+      "descriptionZh": "Cloudflare是一款code领域的AI工具。支持CDN, 部署, AI Workers。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -944,7 +982,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "fastapi",
@@ -958,7 +997,7 @@
         "Python"
       ],
       "description": "开发者工具，让代码更智能",
-      "descriptionZh": "开源技术，构建现代应用",
+      "descriptionZh": "FastAPI是一款code领域的AI工具。支持后端框架, Python。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -966,7 +1005,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "docker",
@@ -980,7 +1020,7 @@
         "部署"
       ],
       "description": "开发者工具，让代码更智能",
-      "descriptionZh": "AI编程助手，提升开发效率",
+      "descriptionZh": "Docker是一款code领域的AI工具。支持容器, 部署。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -989,7 +1029,8 @@
       "sources": [
         "init",
         "rss"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "kubernetes",
@@ -1003,7 +1044,7 @@
         "DevOps"
       ],
       "description": "AI编程助手，提升开发效率",
-      "descriptionZh": "开源技术，构建现代应用",
+      "descriptionZh": "Kubernetes是一款code领域的AI工具。支持容器编排, DevOps。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -1012,7 +1053,8 @@
       "sources": [
         "init",
         "rss"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "tailwind-css",
@@ -1026,7 +1068,7 @@
         "前端"
       ],
       "description": "AI编程助手，提升开发效率",
-      "descriptionZh": "AI编程助手，提升开发效率",
+      "descriptionZh": "Tailwind CSS是一款code领域的AI工具。支持CSS框架, 前端。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -1034,7 +1076,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "shadcn/ui",
@@ -1048,7 +1091,7 @@
         "React"
       ],
       "description": "开源技术，构建现代应用",
-      "descriptionZh": "AI编程助手，提升开发效率",
+      "descriptionZh": "shadcn/ui是一款code领域的AI工具。支持UI组件, React。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -1056,7 +1099,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "nextjs",
@@ -1070,7 +1114,7 @@
         "全栈"
       ],
       "description": "AI编程助手，提升开发效率",
-      "descriptionZh": "AI编程助手，提升开发效率",
+      "descriptionZh": "Next.js是一款code领域的AI工具。支持React框架, 全栈。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -1079,7 +1123,8 @@
       "sources": [
         "init",
         "rss"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "astro",
@@ -1093,7 +1138,7 @@
         "前端"
       ],
       "description": "AI编程助手，提升开发效率",
-      "descriptionZh": "开源技术，构建现代应用",
+      "descriptionZh": "Astro是一款code领域的AI工具。支持静态站点, 前端。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -1101,7 +1146,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "svelte",
@@ -1115,7 +1161,7 @@
         "编译型"
       ],
       "description": "开发者工具，让代码更智能",
-      "descriptionZh": "开发者工具，让代码更智能",
+      "descriptionZh": "Svelte是一款code领域的AI工具。支持前端框架, 编译型。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -1123,7 +1169,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "vuejs",
@@ -1137,7 +1184,7 @@
         "渐进式"
       ],
       "description": "AI编程助手，提升开发效率",
-      "descriptionZh": "开源技术，构建现代应用",
+      "descriptionZh": "Vue.js是一款code领域的AI工具。支持前端框架, 渐进式。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -1145,7 +1192,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "react",
@@ -1159,7 +1207,7 @@
         "组件化"
       ],
       "description": "开发者工具，让代码更智能",
-      "descriptionZh": "开源技术，构建现代应用",
+      "descriptionZh": "React是一款code领域的AI工具。支持前端框架, 组件化。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -1168,7 +1216,8 @@
       "sources": [
         "init",
         "rss"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "typescript",
@@ -1182,7 +1231,7 @@
         "JavaScript"
       ],
       "description": "开发者工具，让代码更智能",
-      "descriptionZh": "开发者工具，让代码更智能",
+      "descriptionZh": "TypeScript是一款code领域的AI工具。支持类型系统, JavaScript。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -1190,7 +1239,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "bun",
@@ -1204,7 +1254,7 @@
         "快速"
       ],
       "description": "开发者工具，让代码更智能",
-      "descriptionZh": "AI编程助手，提升开发效率",
+      "descriptionZh": "Bun是一款code领域的AI工具。支持JS运行时, 快速。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -1213,7 +1263,8 @@
       "sources": [
         "init",
         "rss"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "deno",
@@ -1227,7 +1278,7 @@
         "安全"
       ],
       "description": "AI编程助手，提升开发效率",
-      "descriptionZh": "开发者工具，让代码更智能",
+      "descriptionZh": "Deno是一款code领域的AI工具。支持JS运行时, 安全。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -1236,7 +1287,8 @@
       "sources": [
         "init",
         "rss"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "rust",
@@ -1250,7 +1302,7 @@
         "安全"
       ],
       "description": "AI编程助手，提升开发效率",
-      "descriptionZh": "开发者工具，让代码更智能",
+      "descriptionZh": "Rust是一款code领域的AI工具。支持系统编程, 安全。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -1259,7 +1311,8 @@
       "sources": [
         "init",
         "rss"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "go",
@@ -1273,7 +1326,7 @@
         "并发"
       ],
       "description": "开发者工具，让代码更智能",
-      "descriptionZh": "开源技术，构建现代应用",
+      "descriptionZh": "Go是一款code领域的AI工具。支持后端语言, 并发。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": true,
@@ -1282,7 +1335,8 @@
       "sources": [
         "init",
         "rss"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "zig",
@@ -1296,7 +1350,7 @@
         "现代C"
       ],
       "description": "AI编程助手，提升开发效率",
-      "descriptionZh": "开发者工具，让代码更智能",
+      "descriptionZh": "Zig是一款code领域的AI工具。支持系统编程, 现代C。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -1304,7 +1358,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "tauri",
@@ -1318,7 +1373,7 @@
         "Rust"
       ],
       "description": "开发者工具，让代码更智能",
-      "descriptionZh": "开源技术，构建现代应用",
+      "descriptionZh": "Tauri是一款code领域的AI工具。支持桌面应用, Rust。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -1326,7 +1381,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "flutter",
@@ -1340,7 +1396,7 @@
         "移动开发"
       ],
       "description": "开发者工具，让代码更智能",
-      "descriptionZh": "开发者工具，让代码更智能",
+      "descriptionZh": "Flutter是一款code领域的AI工具。支持跨平台, 移动开发。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -1349,7 +1405,8 @@
       "sources": [
         "init",
         "rss"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "electron",
@@ -1363,7 +1420,7 @@
         "JS"
       ],
       "description": "AI编程助手，提升开发效率",
-      "descriptionZh": "AI编程助手，提升开发效率",
+      "descriptionZh": "Electron是一款code领域的AI工具。支持桌面应用, JS。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": true,
@@ -1372,7 +1429,8 @@
       "sources": [
         "init",
         "rss"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "raycast",
@@ -1386,7 +1444,7 @@
         "Mac工具"
       ],
       "description": "自动化重复任务，专注创造性工作",
-      "descriptionZh": "提升效率的AI工具，让工作流更智能",
+      "descriptionZh": "Raycast是一款productivity领域的AI工具。支持启动器, Mac工具。它帮助用户提升工作效率，自动化处理复杂任务。适合需要productivity解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -1394,7 +1452,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "alfred",
@@ -1408,7 +1467,7 @@
         "Mac工具"
       ],
       "description": "AI驱动的生产力工具，节省时间",
-      "descriptionZh": "自动化重复任务，专注创造性工作",
+      "descriptionZh": "Alfred是一款productivity领域的AI工具。支持启动器, Mac工具。它帮助用户提升工作效率，自动化处理复杂任务。适合需要productivity解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -1416,7 +1475,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "obsidian",
@@ -1431,7 +1491,7 @@
         "Markdown"
       ],
       "description": "AI驱动的生产力工具，节省时间",
-      "descriptionZh": "AI驱动的生产力工具，节省时间",
+      "descriptionZh": "Obsidian是一款productivity领域的AI工具。支持笔记, 知识管理, Markdown。它帮助用户提升工作效率，自动化处理复杂任务。适合需要productivity解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -1439,7 +1499,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 4.2
     },
     {
       "id": "logseq",
@@ -1454,7 +1515,7 @@
         "开源"
       ],
       "description": "提升效率的AI工具，让工作流更智能",
-      "descriptionZh": "提升效率的AI工具，让工作流更智能",
+      "descriptionZh": "Logseq是一款productivity领域的AI工具。支持笔记, 大纲, 开源。它帮助用户提升工作效率，自动化处理复杂任务。适合需要productivity解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -1462,7 +1523,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "heptabase",
@@ -1477,7 +1539,7 @@
         "可视化"
       ],
       "description": "AI驱动的生产力工具，节省时间",
-      "descriptionZh": "提升效率的AI工具，让工作流更智能",
+      "descriptionZh": "Heptabase是一款productivity领域的AI工具。支持笔记, 白板, 可视化。它帮助用户提升工作效率，自动化处理复杂任务。适合需要productivity解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -1485,7 +1547,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "readwise",
@@ -1500,7 +1563,7 @@
         "高亮"
       ],
       "description": "AI学习工具，让知识获取更高效",
-      "descriptionZh": "AI驱动的知识管理",
+      "descriptionZh": "Readwise是一款education领域的AI工具。支持阅读, 笔记, 高亮。它帮助用户提升工作效率，自动化处理复杂任务。适合需要education解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -1508,7 +1571,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "omnivore",
@@ -1523,7 +1587,7 @@
         "开源"
       ],
       "description": "AI学习工具，让知识获取更高效",
-      "descriptionZh": "AI驱动的知识管理",
+      "descriptionZh": "Omnivore是一款education领域的AI工具。支持阅读, 稍后读, 开源。它帮助用户提升工作效率，自动化处理复杂任务。适合需要education解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -1531,7 +1595,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "pocket",
@@ -1545,7 +1610,7 @@
         "阅读"
       ],
       "description": "智能教育工具，个性化学习",
-      "descriptionZh": "智能教育工具，个性化学习",
+      "descriptionZh": "Pocket是一款education领域的AI工具。支持稍后读, 阅读。它帮助用户提升工作效率，自动化处理复杂任务。适合需要education解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -1554,7 +1619,8 @@
       "sources": [
         "init",
         "rss"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "instapaper",
@@ -1568,7 +1634,7 @@
         "阅读"
       ],
       "description": "智能教育工具，个性化学习",
-      "descriptionZh": "智能教育工具，个性化学习",
+      "descriptionZh": "Instapaper是一款education领域的AI工具。支持稍后读, 阅读。它帮助用户提升工作效率，自动化处理复杂任务。适合需要education解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -1576,7 +1642,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "zotero",
@@ -1590,7 +1657,7 @@
         "学术"
       ],
       "description": "智能文献分析，提升研究效率",
-      "descriptionZh": "AI驱动的学术搜索",
+      "descriptionZh": "Zotero是一款research领域的AI工具。支持文献管理, 学术。它帮助用户提升工作效率，自动化处理复杂任务。适合需要research解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -1598,7 +1665,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "mendeley",
@@ -1612,7 +1680,7 @@
         "学术"
       ],
       "description": "AI研究工具，加速学术发现",
-      "descriptionZh": "AI驱动的学术搜索",
+      "descriptionZh": "Mendeley是一款research领域的AI工具。支持文献管理, 学术。它帮助用户提升工作效率，自动化处理复杂任务。适合需要research解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -1620,7 +1688,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "connected-papers",
@@ -1634,7 +1703,7 @@
         "学术"
       ],
       "description": "AI驱动的学术搜索",
-      "descriptionZh": "AI研究工具，加速学术发现",
+      "descriptionZh": "Connected Papers是一款research领域的AI工具。支持文献图谱, 学术。它帮助用户提升工作效率，自动化处理复杂任务。适合需要research解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -1642,7 +1711,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "elicit",
@@ -1656,7 +1726,7 @@
         "文献分析"
       ],
       "description": "AI研究工具，加速学术发现",
-      "descriptionZh": "AI驱动的学术搜索",
+      "descriptionZh": "Elicit是一款research领域的AI工具。支持AI研究, 文献分析。它帮助用户提升工作效率，自动化处理复杂任务。适合需要research解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -1664,7 +1734,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "semantic-scholar",
@@ -1678,7 +1749,7 @@
         "AI"
       ],
       "description": "AI驱动的学术搜索",
-      "descriptionZh": "AI研究工具，加速学术发现",
+      "descriptionZh": "Semantic Scholar是一款research领域的AI工具。支持学术搜索, AI。它帮助用户提升工作效率，自动化处理复杂任务。适合需要research解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -1686,7 +1757,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "google-scholar",
@@ -1700,7 +1772,7 @@
         "论文"
       ],
       "description": "AI研究工具，加速学术发现",
-      "descriptionZh": "AI研究工具，加速学术发现",
+      "descriptionZh": "Google Scholar是一款research领域的AI工具。支持学术搜索, 论文。它帮助用户提升工作效率，自动化处理复杂任务。适合需要research解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -1708,7 +1780,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "overleaf",
@@ -1722,7 +1795,7 @@
         "协作写作"
       ],
       "description": "AI驱动的知识管理",
-      "descriptionZh": "AI驱动的知识管理",
+      "descriptionZh": "Overleaf是一款education领域的AI工具。支持LaTeX, 协作写作。它帮助用户提升工作效率，自动化处理复杂任务。适合需要education解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -1730,7 +1803,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "quip",
@@ -1744,7 +1818,7 @@
         "协作"
       ],
       "description": "自动化重复任务，专注创造性工作",
-      "descriptionZh": "自动化重复任务，专注创造性工作",
+      "descriptionZh": "Quip是一款productivity领域的AI工具。支持文档, 协作。它帮助用户提升工作效率，自动化处理复杂任务。适合需要productivity解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -1753,7 +1827,8 @@
       "sources": [
         "init",
         "rss"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "slack",
@@ -1767,7 +1842,7 @@
         "通讯"
       ],
       "description": "提升效率的AI工具，让工作流更智能",
-      "descriptionZh": "AI驱动的生产力工具，节省时间",
+      "descriptionZh": "Slack是一款productivity领域的AI工具。支持协作, 通讯。它帮助用户提升工作效率，自动化处理复杂任务。适合需要productivity解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -1776,7 +1851,8 @@
       "sources": [
         "init",
         "rss"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "discord",
@@ -1790,7 +1866,7 @@
         "通讯"
       ],
       "description": "自动化重复任务，专注创造性工作",
-      "descriptionZh": "AI驱动的生产力工具，节省时间",
+      "descriptionZh": "Discord是一款productivity领域的AI工具。支持社区, 通讯。它帮助用户提升工作效率，自动化处理复杂任务。适合需要productivity解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -1798,7 +1874,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "linear",
@@ -1812,7 +1889,7 @@
         "Issue追踪"
       ],
       "description": "AI驱动的生产力工具，节省时间",
-      "descriptionZh": "自动化重复任务，专注创造性工作",
+      "descriptionZh": "Linear是一款productivity领域的AI工具。支持项目管理, Issue追踪。它帮助用户提升工作效率，自动化处理复杂任务。适合需要productivity解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -1820,7 +1897,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "notion-calendar",
@@ -1834,7 +1912,7 @@
         "时间管理"
       ],
       "description": "自动化重复任务，专注创造性工作",
-      "descriptionZh": "提升效率的AI工具，让工作流更智能",
+      "descriptionZh": "Notion Calendar是一款productivity领域的AI工具。支持日历, 时间管理。它帮助用户提升工作效率，自动化处理复杂任务。适合需要productivity解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -1842,7 +1920,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "cron",
@@ -1856,7 +1935,7 @@
         "时间管理"
       ],
       "description": "AI驱动的生产力工具，节省时间",
-      "descriptionZh": "AI驱动的生产力工具，节省时间",
+      "descriptionZh": "Cron是一款productivity领域的AI工具。支持日历, 时间管理。它帮助用户提升工作效率，自动化处理复杂任务。适合需要productivity解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -1865,7 +1944,8 @@
       "sources": [
         "init",
         "rss"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "amie",
@@ -1879,7 +1959,7 @@
         "生产力"
       ],
       "description": "提升效率的AI工具，让工作流更智能",
-      "descriptionZh": "自动化重复任务，专注创造性工作",
+      "descriptionZh": "Amie是一款productivity领域的AI工具。支持日历, 生产力。它帮助用户提升工作效率，自动化处理复杂任务。适合需要productivity解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -1887,7 +1967,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "calendly",
@@ -1901,7 +1982,7 @@
         "日程"
       ],
       "description": "数据驱动的产品增长工具",
-      "descriptionZh": "数据驱动的产品增长工具",
+      "descriptionZh": "Calendly是一款business领域的AI工具。支持预约, 日程。它帮助用户提升工作效率，自动化处理复杂任务。适合需要business解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -1909,7 +1990,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "loom",
@@ -1923,7 +2005,7 @@
         "视频消息"
       ],
       "description": "AI驱动的视频生成工具",
-      "descriptionZh": "智能视频编辑，快速出片",
+      "descriptionZh": "Loom是一款video领域的AI工具。支持录屏, 视频消息。它帮助用户提升工作效率，自动化处理复杂任务。适合需要video解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -1932,7 +2014,8 @@
       "sources": [
         "init",
         "rss"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "screen-studio",
@@ -1946,7 +2029,7 @@
         "Mac"
       ],
       "description": "智能视频编辑，快速出片",
-      "descriptionZh": "AI驱动的视频生成工具",
+      "descriptionZh": "Screen Studio是一款video领域的AI工具。支持录屏, Mac。它帮助用户提升工作效率，自动化处理复杂任务。适合需要video解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -1954,7 +2037,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "clipchamp",
@@ -1968,7 +2052,7 @@
         "微软"
       ],
       "description": "智能视频编辑，快速出片",
-      "descriptionZh": "智能视频编辑，快速出片",
+      "descriptionZh": "Clipchamp是一款video领域的AI工具。支持视频编辑, 微软。它帮助用户提升工作效率，自动化处理复杂任务。适合需要video解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -1976,7 +2060,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "capcut",
@@ -1990,7 +2075,7 @@
         "移动端"
       ],
       "description": "智能视频编辑，快速出片",
-      "descriptionZh": "AI驱动的视频生成工具",
+      "descriptionZh": "CapCut是一款video领域的AI工具。支持视频编辑, 移动端。它帮助用户提升工作效率，自动化处理复杂任务。适合需要video解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -1998,7 +2083,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "adobe-premiere",
@@ -2012,7 +2098,7 @@
         "剪辑"
       ],
       "description": "AI驱动的视频生成工具",
-      "descriptionZh": "AI驱动的视频生成工具",
+      "descriptionZh": "Adobe Premiere是一款video领域的AI工具。支持专业视频, 剪辑。它帮助用户提升工作效率，自动化处理复杂任务。适合需要video解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -2021,7 +2107,8 @@
       "sources": [
         "init",
         "rss"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "davinci-resolve",
@@ -2036,7 +2123,7 @@
         "免费"
       ],
       "description": "智能视频编辑，快速出片",
-      "descriptionZh": "AI驱动的视频生成工具",
+      "descriptionZh": "DaVinci Resolve是一款video领域的AI工具。支持专业视频, 调色, 免费。它帮助用户提升工作效率，自动化处理复杂任务。适合需要video解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -2044,7 +2131,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "final-cut-pro",
@@ -2058,7 +2146,7 @@
         "Mac"
       ],
       "description": "AI驱动的视频生成工具",
-      "descriptionZh": "AI视频创作工具，让视频制作更简单",
+      "descriptionZh": "Final Cut Pro是一款video领域的AI工具。支持专业视频, Mac。它帮助用户提升工作效率，自动化处理复杂任务。适合需要video解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -2066,7 +2154,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "imovie",
@@ -2081,7 +2170,7 @@
         "免费"
       ],
       "description": "AI视频创作工具，让视频制作更简单",
-      "descriptionZh": "智能视频编辑，快速出片",
+      "descriptionZh": "iMovie是一款video领域的AI工具。支持视频编辑, Mac, 免费。它帮助用户提升工作效率，自动化处理复杂任务。适合需要video解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -2089,7 +2178,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "blender",
@@ -2104,7 +2194,7 @@
         "开源"
       ],
       "description": "智能设计助手，从概念到成品",
-      "descriptionZh": "AI驱动的创意工具，设计更简单",
+      "descriptionZh": "Blender是一款design领域的AI工具。支持3D建模, 动画, 开源。它帮助用户提升工作效率，自动化处理复杂任务。适合需要design解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -2112,7 +2202,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "sketch",
@@ -2126,7 +2217,7 @@
         "Mac"
       ],
       "description": "AI驱动的创意工具，设计更简单",
-      "descriptionZh": "AI辅助设计工具，让创意更快落地",
+      "descriptionZh": "Sketch是一款design领域的AI工具。支持UI设计, Mac。它帮助用户提升工作效率，自动化处理复杂任务。适合需要design解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -2134,7 +2225,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "adobe-xd",
@@ -2148,7 +2240,7 @@
         "原型"
       ],
       "description": "智能设计助手，从概念到成品",
-      "descriptionZh": "AI驱动的创意工具，设计更简单",
+      "descriptionZh": "Adobe XD是一款design领域的AI工具。支持UI设计, 原型。它帮助用户提升工作效率，自动化处理复杂任务。适合需要design解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -2156,7 +2248,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "invision",
@@ -2170,7 +2263,7 @@
         "协作设计"
       ],
       "description": "智能设计助手，从概念到成品",
-      "descriptionZh": "智能设计助手，从概念到成品",
+      "descriptionZh": "InVision是一款design领域的AI工具。支持原型, 协作设计。它帮助用户提升工作效率，自动化处理复杂任务。适合需要design解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -2178,7 +2271,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "framer",
@@ -2193,7 +2287,7 @@
         "AI"
       ],
       "description": "AI驱动的创意工具，设计更简单",
-      "descriptionZh": "AI驱动的创意工具，设计更简单",
+      "descriptionZh": "Framer是一款design领域的AI工具。支持原型, 网站构建, AI。它帮助用户提升工作效率，自动化处理复杂任务。适合需要design解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -2202,7 +2296,8 @@
       "sources": [
         "init",
         "rss"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "webflow",
@@ -2216,7 +2311,7 @@
         "网站构建"
       ],
       "description": "AI驱动的创意工具，设计更简单",
-      "descriptionZh": "AI辅助设计工具，让创意更快落地",
+      "descriptionZh": "Webflow是一款design领域的AI工具。支持无代码, 网站构建。它帮助用户提升工作效率，自动化处理复杂任务。适合需要design解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -2224,7 +2319,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "wix",
@@ -2238,7 +2334,7 @@
         "网站构建"
       ],
       "description": "智能设计助手，从概念到成品",
-      "descriptionZh": "AI驱动的创意工具，设计更简单",
+      "descriptionZh": "Wix是一款design领域的AI工具。支持无代码, 网站构建。它帮助用户提升工作效率，自动化处理复杂任务。适合需要design解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -2246,7 +2342,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "squarespace",
@@ -2260,7 +2357,7 @@
         "网站构建"
       ],
       "description": "AI辅助设计工具，让创意更快落地",
-      "descriptionZh": "AI驱动的创意工具，设计更简单",
+      "descriptionZh": "Squarespace是一款design领域的AI工具。支持无代码, 网站构建。它帮助用户提升工作效率，自动化处理复杂任务。适合需要design解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -2268,7 +2365,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "shopify",
@@ -2282,7 +2380,7 @@
         "建站"
       ],
       "description": "数据驱动的产品增长工具",
-      "descriptionZh": "数据驱动的产品增长工具",
+      "descriptionZh": "Shopify是一款business领域的AI工具。支持电商, 建站。它帮助用户提升工作效率，自动化处理复杂任务。适合需要business解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -2290,7 +2388,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "stripe",
@@ -2304,7 +2403,7 @@
         "SaaS"
       ],
       "description": "AI驱动的商业解决方案",
-      "descriptionZh": "AI商业工具，让决策更智能",
+      "descriptionZh": "Stripe是一款business领域的AI工具。支持支付, SaaS。它帮助用户提升工作效率，自动化处理复杂任务。适合需要business解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -2312,7 +2411,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "paddle",
@@ -2326,7 +2426,7 @@
         "SaaS"
       ],
       "description": "AI商业工具，让决策更智能",
-      "descriptionZh": "AI驱动的商业解决方案",
+      "descriptionZh": "Paddle是一款business领域的AI工具。支持支付, SaaS。它帮助用户提升工作效率，自动化处理复杂任务。适合需要business解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -2334,7 +2434,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "lemon-squeezy",
@@ -2348,7 +2449,7 @@
         "SaaS"
       ],
       "description": "AI商业工具，让决策更智能",
-      "descriptionZh": "AI驱动的商业解决方案",
+      "descriptionZh": "Lemon Squeezy是一款business领域的AI工具。支持支付, SaaS。它帮助用户提升工作效率，自动化处理复杂任务。适合需要business解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -2356,7 +2457,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "posthog",
@@ -2371,7 +2473,7 @@
         "开源"
       ],
       "description": "AI商业工具，让决策更智能",
-      "descriptionZh": "AI驱动的商业解决方案",
+      "descriptionZh": "PostHog是一款business领域的AI工具。支持分析, 产品分析, 开源。它帮助用户提升工作效率，自动化处理复杂任务。适合需要business解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -2379,7 +2481,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "plausible",
@@ -2394,7 +2497,7 @@
         "开源"
       ],
       "description": "数据驱动的产品增长工具",
-      "descriptionZh": "AI驱动的商业解决方案",
+      "descriptionZh": "Plausible是一款business领域的AI工具。支持分析, 隐私友好, 开源。它帮助用户提升工作效率，自动化处理复杂任务。适合需要business解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -2402,7 +2505,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "mixpanel",
@@ -2416,7 +2520,7 @@
         "用户行为"
       ],
       "description": "AI商业工具，让决策更智能",
-      "descriptionZh": "数据驱动的产品增长工具",
+      "descriptionZh": "Mixpanel是一款business领域的AI工具。支持分析, 用户行为。它帮助用户提升工作效率，自动化处理复杂任务。适合需要business解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -2424,7 +2528,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "amplitude",
@@ -2438,7 +2543,7 @@
         "产品分析"
       ],
       "description": "数据驱动的产品增长工具",
-      "descriptionZh": "AI驱动的商业解决方案",
+      "descriptionZh": "Amplitude是一款business领域的AI工具。支持分析, 产品分析。它帮助用户提升工作效率，自动化处理复杂任务。适合需要business解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -2446,7 +2551,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "segment",
@@ -2460,7 +2566,7 @@
         "CDP"
       ],
       "description": "AI驱动的商业解决方案",
-      "descriptionZh": "AI驱动的商业解决方案",
+      "descriptionZh": "Segment是一款business领域的AI工具。支持数据平台, CDP。它帮助用户提升工作效率，自动化处理复杂任务。适合需要business解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -2468,7 +2574,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "airbyte",
@@ -2483,7 +2590,7 @@
         "开源"
       ],
       "description": "数据驱动的产品增长工具",
-      "descriptionZh": "AI商业工具，让决策更智能",
+      "descriptionZh": "Airbyte是一款business领域的AI工具。支持数据集成, ETL, 开源。它帮助用户提升工作效率，自动化处理复杂任务。适合需要business解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -2491,7 +2598,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "fivetran",
@@ -2505,7 +2613,7 @@
         "ETL"
       ],
       "description": "AI驱动的商业解决方案",
-      "descriptionZh": "数据驱动的产品增长工具",
+      "descriptionZh": "Fivetran是一款business领域的AI工具。支持数据集成, ETL。它帮助用户提升工作效率，自动化处理复杂任务。适合需要business解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -2513,7 +2621,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "dbt",
@@ -2527,7 +2636,7 @@
         "分析工程"
       ],
       "description": "AI商业工具，让决策更智能",
-      "descriptionZh": "数据驱动的产品增长工具",
+      "descriptionZh": "dbt是一款business领域的AI工具。支持数据转换, 分析工程。它帮助用户提升工作效率，自动化处理复杂任务。适合需要business解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -2535,7 +2644,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "snowflake",
@@ -2549,7 +2659,7 @@
         "云原生"
       ],
       "description": "AI驱动的商业解决方案",
-      "descriptionZh": "AI商业工具，让决策更智能",
+      "descriptionZh": "Snowflake是一款business领域的AI工具。支持数据仓库, 云原生。它帮助用户提升工作效率，自动化处理复杂任务。适合需要business解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -2557,7 +2667,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "bigquery",
@@ -2571,7 +2682,7 @@
         "Google"
       ],
       "description": "AI商业工具，让决策更智能",
-      "descriptionZh": "AI驱动的商业解决方案",
+      "descriptionZh": "BigQuery是一款business领域的AI工具。支持数据仓库, Google。它帮助用户提升工作效率，自动化处理复杂任务。适合需要business解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -2579,7 +2690,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "clickhouse",
@@ -2594,7 +2706,7 @@
         "开源"
       ],
       "description": "AI驱动的商业解决方案",
-      "descriptionZh": "AI商业工具，让决策更智能",
+      "descriptionZh": "ClickHouse是一款business领域的AI工具。支持分析数据库, OLAP, 开源。它帮助用户提升工作效率，自动化处理复杂任务。适合需要business解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -2602,7 +2714,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "apache-kafka",
@@ -2616,7 +2729,7 @@
         "流处理"
       ],
       "description": "开源技术，构建现代应用",
-      "descriptionZh": "AI编程助手，提升开发效率",
+      "descriptionZh": "Apache Kafka是一款code领域的AI工具。支持消息队列, 流处理。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -2624,7 +2737,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "redis",
@@ -2639,7 +2753,7 @@
         "内存"
       ],
       "description": "开发者工具，让代码更智能",
-      "descriptionZh": "AI编程助手，提升开发效率",
+      "descriptionZh": "Redis是一款code领域的AI工具。支持缓存, 数据库, 内存。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -2647,7 +2761,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "postgresql",
@@ -2662,7 +2777,7 @@
         "开源"
       ],
       "description": "开源技术，构建现代应用",
-      "descriptionZh": "AI编程助手，提升开发效率",
+      "descriptionZh": "PostgreSQL是一款code领域的AI工具。支持数据库, 关系型, 开源。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -2671,7 +2786,8 @@
       "sources": [
         "init",
         "rss"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "mysql",
@@ -2685,7 +2801,7 @@
         "关系型"
       ],
       "description": "开发者工具，让代码更智能",
-      "descriptionZh": "AI编程助手，提升开发效率",
+      "descriptionZh": "MySQL是一款code领域的AI工具。支持数据库, 关系型。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -2693,7 +2809,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "mongodb",
@@ -2708,7 +2825,7 @@
         "文档"
       ],
       "description": "开发者工具，让代码更智能",
-      "descriptionZh": "开发者工具，让代码更智能",
+      "descriptionZh": "MongoDB是一款code领域的AI工具。支持数据库, NoSQL, 文档。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -2716,7 +2833,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "prisma",
@@ -2730,7 +2848,7 @@
         "数据库"
       ],
       "description": "AI编程助手，提升开发效率",
-      "descriptionZh": "AI编程助手，提升开发效率",
+      "descriptionZh": "Prisma是一款code领域的AI工具。支持ORM, 数据库。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -2738,7 +2856,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "drizzle",
@@ -2752,7 +2871,7 @@
         "TypeScript"
       ],
       "description": "开发者工具，让代码更智能",
-      "descriptionZh": "开发者工具，让代码更智能",
+      "descriptionZh": "Drizzle是一款code领域的AI工具。支持ORM, TypeScript。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -2760,7 +2879,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "trpc",
@@ -2775,7 +2895,7 @@
         "端到端类型"
       ],
       "description": "AI编程助手，提升开发效率",
-      "descriptionZh": "AI编程助手，提升开发效率",
+      "descriptionZh": "tRPC是一款code领域的AI工具。支持API, TypeScript, 端到端类型。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -2783,7 +2903,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "graphql",
@@ -2797,7 +2918,7 @@
         "查询语言"
       ],
       "description": "开发者工具，让代码更智能",
-      "descriptionZh": "开发者工具，让代码更智能",
+      "descriptionZh": "GraphQL是一款code领域的AI工具。支持API, 查询语言。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -2805,7 +2926,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "rest-api",
@@ -2819,7 +2941,7 @@
         "标准"
       ],
       "description": "开源技术，构建现代应用",
-      "descriptionZh": "AI编程助手，提升开发效率",
+      "descriptionZh": "REST API是一款code领域的AI工具。支持API, 标准。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": true,
@@ -2828,7 +2950,8 @@
       "sources": [
         "init",
         "rss"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "openapi",
@@ -2843,7 +2966,7 @@
         "标准"
       ],
       "description": "开源技术，构建现代应用",
-      "descriptionZh": "开发者工具，让代码更智能",
+      "descriptionZh": "OpenAPI是一款code领域的AI工具。支持API, 文档, 标准。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -2851,7 +2974,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "swagger",
@@ -2865,7 +2989,7 @@
         "工具"
       ],
       "description": "开源技术，构建现代应用",
-      "descriptionZh": "开源技术，构建现代应用",
+      "descriptionZh": "Swagger是一款code领域的AI工具。支持API文档, 工具。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -2873,7 +2997,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "storybook",
@@ -2887,7 +3012,7 @@
         "组件"
       ],
       "description": "开发者工具，让代码更智能",
-      "descriptionZh": "开发者工具，让代码更智能",
+      "descriptionZh": "Storybook是一款code领域的AI工具。支持UI开发, 组件。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -2895,7 +3020,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "chromatic",
@@ -2909,7 +3035,7 @@
         "视觉回归"
       ],
       "description": "AI编程助手，提升开发效率",
-      "descriptionZh": "AI编程助手，提升开发效率",
+      "descriptionZh": "Chromatic是一款code领域的AI工具。支持UI测试, 视觉回归。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -2917,7 +3043,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "playwright",
@@ -2932,7 +3059,7 @@
         "微软"
       ],
       "description": "开发者工具，让代码更智能",
-      "descriptionZh": "开发者工具，让代码更智能",
+      "descriptionZh": "Playwright是一款code领域的AI工具。支持浏览器测试, 自动化, 微软。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -2940,7 +3067,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "cypress",
@@ -2954,7 +3082,7 @@
         "E2E"
       ],
       "description": "AI编程助手，提升开发效率",
-      "descriptionZh": "开源技术，构建现代应用",
+      "descriptionZh": "Cypress是一款code领域的AI工具。支持前端测试, E2E。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -2962,7 +3090,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "jest",
@@ -2977,7 +3106,7 @@
         "React"
       ],
       "description": "AI编程助手，提升开发效率",
-      "descriptionZh": "开发者工具，让代码更智能",
+      "descriptionZh": "Jest是一款code领域的AI工具。支持测试, JavaScript, React。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -2985,7 +3114,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "vitest",
@@ -3000,7 +3130,7 @@
         "快速"
       ],
       "description": "开源技术，构建现代应用",
-      "descriptionZh": "开发者工具，让代码更智能",
+      "descriptionZh": "Vitest是一款code领域的AI工具。支持测试, Vite, 快速。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -3008,7 +3138,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "msw",
@@ -3023,7 +3154,7 @@
         "测试"
       ],
       "description": "AI编程助手，提升开发效率",
-      "descriptionZh": "开源技术，构建现代应用",
+      "descriptionZh": "MSW是一款code领域的AI工具。支持Mock, API, 测试。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -3031,7 +3162,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "zod",
@@ -3046,7 +3178,7 @@
         "Schema"
       ],
       "description": "开源技术，构建现代应用",
-      "descriptionZh": "开源技术，构建现代应用",
+      "descriptionZh": "Zod是一款code领域的AI工具。支持验证, TypeScript, Schema。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -3054,7 +3186,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "yup",
@@ -3068,7 +3201,7 @@
         "Schema"
       ],
       "description": "开发者工具，让代码更智能",
-      "descriptionZh": "开源技术，构建现代应用",
+      "descriptionZh": "Yup是一款code领域的AI工具。支持验证, Schema。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -3076,7 +3209,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "react-hook-form",
@@ -3091,7 +3225,7 @@
         "性能"
       ],
       "description": "AI编程助手，提升开发效率",
-      "descriptionZh": "开发者工具，让代码更智能",
+      "descriptionZh": "React Hook Form是一款code领域的AI工具。支持表单, React, 性能。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -3099,7 +3233,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "formik",
@@ -3113,7 +3248,7 @@
         "React"
       ],
       "description": "开发者工具，让代码更智能",
-      "descriptionZh": "AI编程助手，提升开发效率",
+      "descriptionZh": "Formik是一款code领域的AI工具。支持表单, React。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -3121,7 +3256,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "tanstack-query",
@@ -3136,7 +3272,7 @@
         "React"
       ],
       "description": "开发者工具，让代码更智能",
-      "descriptionZh": "AI编程助手，提升开发效率",
+      "descriptionZh": "TanStack Query是一款code领域的AI工具。支持数据获取, 缓存, React。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -3144,7 +3280,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "swr",
@@ -3159,7 +3296,7 @@
         "Vercel"
       ],
       "description": "开源技术，构建现代应用",
-      "descriptionZh": "开源技术，构建现代应用",
+      "descriptionZh": "SWR是一款code领域的AI工具。支持数据获取, 缓存, Vercel。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -3167,7 +3304,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "zustand",
@@ -3182,7 +3320,7 @@
         "轻量"
       ],
       "description": "开发者工具，让代码更智能",
-      "descriptionZh": "AI编程助手，提升开发效率",
+      "descriptionZh": "Zustand是一款code领域的AI工具。支持状态管理, React, 轻量。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -3190,7 +3328,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "redux",
@@ -3204,7 +3343,7 @@
         "React"
       ],
       "description": "开源技术，构建现代应用",
-      "descriptionZh": "开发者工具，让代码更智能",
+      "descriptionZh": "Redux是一款code领域的AI工具。支持状态管理, React。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -3212,7 +3351,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "mobx",
@@ -3227,7 +3367,7 @@
         "响应式"
       ],
       "description": "开发者工具，让代码更智能",
-      "descriptionZh": "AI编程助手，提升开发效率",
+      "descriptionZh": "MobX是一款code领域的AI工具。支持状态管理, React, 响应式。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -3235,7 +3375,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "recoil",
@@ -3250,7 +3391,7 @@
         "原子化"
       ],
       "description": "开发者工具，让代码更智能",
-      "descriptionZh": "开发者工具，让代码更智能",
+      "descriptionZh": "Recoil是一款code领域的AI工具。支持状态管理, React, 原子化。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -3258,7 +3399,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "jotai",
@@ -3273,7 +3415,7 @@
         "原子化"
       ],
       "description": "开源技术，构建现代应用",
-      "descriptionZh": "开源技术，构建现代应用",
+      "descriptionZh": "Jotai是一款code领域的AI工具。支持状态管理, React, 原子化。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -3281,7 +3423,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "valtio",
@@ -3296,7 +3439,7 @@
         "代理"
       ],
       "description": "开源技术，构建现代应用",
-      "descriptionZh": "开发者工具，让代码更智能",
+      "descriptionZh": "Valtio是一款code领域的AI工具。支持状态管理, React, 代理。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -3304,7 +3447,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "xstate",
@@ -3319,7 +3463,7 @@
         "可视化"
       ],
       "description": "开发者工具，让代码更智能",
-      "descriptionZh": "AI编程助手，提升开发效率",
+      "descriptionZh": "XState是一款code领域的AI工具。支持状态机, 逻辑, 可视化。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -3327,7 +3471,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "immer",
@@ -3341,7 +3486,7 @@
         "React"
       ],
       "description": "AI编程助手，提升开发效率",
-      "descriptionZh": "开源技术，构建现代应用",
+      "descriptionZh": "Immer是一款code领域的AI工具。支持不可变数据, React。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -3349,7 +3494,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "lodash",
@@ -3363,7 +3509,7 @@
         "JavaScript"
       ],
       "description": "开发者工具，让代码更智能",
-      "descriptionZh": "开源技术，构建现代应用",
+      "descriptionZh": "Lodash是一款code领域的AI工具。支持工具库, JavaScript。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -3371,7 +3517,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "ramda",
@@ -3385,7 +3532,7 @@
         "JavaScript"
       ],
       "description": "开发者工具，让代码更智能",
-      "descriptionZh": "AI编程助手，提升开发效率",
+      "descriptionZh": "Ramda是一款code领域的AI工具。支持函数式, JavaScript。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -3393,7 +3540,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "date-fns",
@@ -3407,7 +3555,7 @@
         "JavaScript"
       ],
       "description": "AI编程助手，提升开发效率",
-      "descriptionZh": "开源技术，构建现代应用",
+      "descriptionZh": "date-fns是一款code领域的AI工具。支持日期处理, JavaScript。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -3415,7 +3563,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "dayjs",
@@ -3430,7 +3579,7 @@
         "Moment替代"
       ],
       "description": "开发者工具，让代码更智能",
-      "descriptionZh": "开源技术，构建现代应用",
+      "descriptionZh": "Day.js是一款code领域的AI工具。支持日期处理, 轻量, Moment替代。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -3438,7 +3587,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "momentjs",
@@ -3452,7 +3602,7 @@
         "JavaScript"
       ],
       "description": "AI编程助手，提升开发效率",
-      "descriptionZh": "开源技术，构建现代应用",
+      "descriptionZh": "Moment.js是一款code领域的AI工具。支持日期处理, JavaScript。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -3461,7 +3611,8 @@
       "sources": [
         "init",
         "rss"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "axios",
@@ -3475,7 +3626,7 @@
         "JavaScript"
       ],
       "description": "开发者工具，让代码更智能",
-      "descriptionZh": "AI编程助手，提升开发效率",
+      "descriptionZh": "Axios是一款code领域的AI工具。支持HTTP请求, JavaScript。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -3483,7 +3634,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "fetch-api",
@@ -3497,7 +3649,7 @@
         "原生"
       ],
       "description": "AI编程助手，提升开发效率",
-      "descriptionZh": "开发者工具，让代码更智能",
+      "descriptionZh": "Fetch API是一款code领域的AI工具。支持HTTP请求, 原生。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -3505,7 +3657,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "websocket",
@@ -3519,7 +3672,7 @@
         "协议"
       ],
       "description": "开源技术，构建现代应用",
-      "descriptionZh": "AI编程助手，提升开发效率",
+      "descriptionZh": "WebSocket是一款code领域的AI工具。支持实时通信, 协议。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": true,
@@ -3528,7 +3681,8 @@
       "sources": [
         "init",
         "rss"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "socketio",
@@ -3542,7 +3696,7 @@
         "WebSocket"
       ],
       "description": "AI编程助手，提升开发效率",
-      "descriptionZh": "AI编程助手，提升开发效率",
+      "descriptionZh": "Socket.io是一款code领域的AI工具。支持实时通信, WebSocket。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -3551,7 +3705,8 @@
       "sources": [
         "init",
         "rss"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "pusher",
@@ -3565,7 +3720,7 @@
         "SaaS"
       ],
       "description": "开源技术，构建现代应用",
-      "descriptionZh": "开发者工具，让代码更智能",
+      "descriptionZh": "Pusher是一款code领域的AI工具。支持实时通信, SaaS。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -3573,7 +3728,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "ably",
@@ -3587,7 +3743,7 @@
         "SaaS"
       ],
       "description": "开发者工具，让代码更智能",
-      "descriptionZh": "开源技术，构建现代应用",
+      "descriptionZh": "Ably是一款code领域的AI工具。支持实时通信, SaaS。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -3596,7 +3752,8 @@
       "sources": [
         "init",
         "rss"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "pubnub",
@@ -3610,7 +3767,7 @@
         "SaaS"
       ],
       "description": "AI编程助手，提升开发效率",
-      "descriptionZh": "开发者工具，让代码更智能",
+      "descriptionZh": "PubNub是一款code领域的AI工具。支持实时通信, SaaS。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -3618,7 +3775,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "twilio",
@@ -3633,7 +3791,7 @@
         "API"
       ],
       "description": "AI编程助手，提升开发效率",
-      "descriptionZh": "AI编程助手，提升开发效率",
+      "descriptionZh": "Twilio是一款code领域的AI工具。支持通信, SMS, API。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -3641,7 +3799,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "sendgrid",
@@ -3656,7 +3815,7 @@
         "Twilio"
       ],
       "description": "AI编程助手，提升开发效率",
-      "descriptionZh": "AI编程助手，提升开发效率",
+      "descriptionZh": "SendGrid是一款code领域的AI工具。支持邮件, API, Twilio。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -3664,7 +3823,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "resend",
@@ -3679,7 +3839,7 @@
         "开发者友好"
       ],
       "description": "AI编程助手，提升开发效率",
-      "descriptionZh": "AI编程助手，提升开发效率",
+      "descriptionZh": "Resend是一款code领域的AI工具。支持邮件, API, 开发者友好。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -3687,7 +3847,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "mailgun",
@@ -3701,7 +3862,7 @@
         "API"
       ],
       "description": "开发者工具，让代码更智能",
-      "descriptionZh": "AI编程助手，提升开发效率",
+      "descriptionZh": "Mailgun是一款code领域的AI工具。支持邮件, API。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -3709,7 +3870,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "postmark",
@@ -3724,7 +3886,7 @@
         "高送达率"
       ],
       "description": "开源技术，构建现代应用",
-      "descriptionZh": "开源技术，构建现代应用",
+      "descriptionZh": "Postmark是一款code领域的AI工具。支持邮件, API, 高送达率。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -3733,7 +3895,8 @@
       "sources": [
         "init",
         "rss"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "loops",
@@ -3747,7 +3910,7 @@
         "SaaS"
       ],
       "description": "AI编程助手，提升开发效率",
-      "descriptionZh": "开源技术，构建现代应用",
+      "descriptionZh": "Loops是一款code领域的AI工具。支持邮件营销, SaaS。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -3756,7 +3919,8 @@
       "sources": [
         "init",
         "rss"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "beehiiv",
@@ -3770,7 +3934,7 @@
         "新闻通讯"
       ],
       "description": "AI商业工具，让决策更智能",
-      "descriptionZh": "数据驱动的产品增长工具",
+      "descriptionZh": "beehiiv是一款business领域的AI工具。支持邮件营销, 新闻通讯。它帮助用户提升工作效率，自动化处理复杂任务。适合需要business解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -3778,7 +3942,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "substack",
@@ -3792,7 +3957,7 @@
         "创作者"
       ],
       "description": "AI商业工具，让决策更智能",
-      "descriptionZh": "数据驱动的产品增长工具",
+      "descriptionZh": "Substack是一款business领域的AI工具。支持付费邮件, 创作者。它帮助用户提升工作效率，自动化处理复杂任务。适合需要business解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -3800,7 +3965,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "convertkit",
@@ -3814,7 +3980,7 @@
         "创作者"
       ],
       "description": "AI商业工具，让决策更智能",
-      "descriptionZh": "AI驱动的商业解决方案",
+      "descriptionZh": "ConvertKit是一款business领域的AI工具。支持邮件营销, 创作者。它帮助用户提升工作效率，自动化处理复杂任务。适合需要business解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -3822,7 +3988,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "ghost",
@@ -3837,7 +4004,7 @@
         "开源"
       ],
       "description": "AI驱动的商业解决方案",
-      "descriptionZh": "AI商业工具，让决策更智能",
+      "descriptionZh": "Ghost是一款business领域的AI工具。支持博客, 邮件, 开源。它帮助用户提升工作效率，自动化处理复杂任务。适合需要business解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -3846,7 +4013,8 @@
       "sources": [
         "init",
         "rss"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "wordpress",
@@ -3861,7 +4029,7 @@
         "建站"
       ],
       "description": "数据驱动的产品增长工具",
-      "descriptionZh": "AI商业工具，让决策更智能",
+      "descriptionZh": "WordPress是一款business领域的AI工具。支持CMS, 博客, 建站。它帮助用户提升工作效率，自动化处理复杂任务。适合需要business解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -3870,7 +4038,8 @@
       "sources": [
         "init",
         "rss"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "strapi",
@@ -3885,7 +4054,7 @@
         "开源"
       ],
       "description": "AI编程助手，提升开发效率",
-      "descriptionZh": "开源技术，构建现代应用",
+      "descriptionZh": "Strapi是一款code领域的AI工具。支持CMS, 无头, 开源。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -3893,7 +4062,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "directus",
@@ -3908,7 +4078,7 @@
         "开源"
       ],
       "description": "开发者工具，让代码更智能",
-      "descriptionZh": "AI编程助手，提升开发效率",
+      "descriptionZh": "Directus是一款code领域的AI工具。支持CMS, 无头, 开源。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -3916,7 +4086,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "sanity",
@@ -3931,7 +4102,7 @@
         "结构化内容"
       ],
       "description": "开源技术，构建现代应用",
-      "descriptionZh": "开源技术，构建现代应用",
+      "descriptionZh": "Sanity是一款code领域的AI工具。支持CMS, 无头, 结构化内容。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -3939,7 +4110,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "contentful",
@@ -3954,7 +4126,7 @@
         "SaaS"
       ],
       "description": "开发者工具，让代码更智能",
-      "descriptionZh": "开发者工具，让代码更智能",
+      "descriptionZh": "Contentful是一款code领域的AI工具。支持CMS, 无头, SaaS。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -3962,7 +4134,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "builderio",
@@ -3977,7 +4150,7 @@
         "React"
       ],
       "description": "开源技术，构建现代应用",
-      "descriptionZh": "开发者工具，让代码更智能",
+      "descriptionZh": "Builder.io是一款code领域的AI工具。支持可视化, CMS, React。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -3985,7 +4158,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "plasmic",
@@ -4000,7 +4174,7 @@
         "React"
       ],
       "description": "开发者工具，让代码更智能",
-      "descriptionZh": "开发者工具，让代码更智能",
+      "descriptionZh": "Plasmic是一款code领域的AI工具。支持可视化, 设计到代码, React。它帮助用户提升工作效率，自动化处理复杂任务。适合需要code解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -4008,7 +4182,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "retool",
@@ -4022,7 +4197,7 @@
         "低代码"
       ],
       "description": "AI驱动的商业解决方案",
-      "descriptionZh": "AI驱动的商业解决方案",
+      "descriptionZh": "Retool是一款business领域的AI工具。支持内部工具, 低代码。它帮助用户提升工作效率，自动化处理复杂任务。适合需要business解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -4030,7 +4205,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "appsmith",
@@ -4045,7 +4221,7 @@
         "开源"
       ],
       "description": "数据驱动的产品增长工具",
-      "descriptionZh": "数据驱动的产品增长工具",
+      "descriptionZh": "Appsmith是一款business领域的AI工具。支持内部工具, 低代码, 开源。它帮助用户提升工作效率，自动化处理复杂任务。适合需要business解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -4053,7 +4229,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "tooljet",
@@ -4068,7 +4245,7 @@
         "开源"
       ],
       "description": "AI驱动的商业解决方案",
-      "descriptionZh": "数据驱动的产品增长工具",
+      "descriptionZh": "ToolJet是一款business领域的AI工具。支持内部工具, 低代码, 开源。它帮助用户提升工作效率，自动化处理复杂任务。适合需要business解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -4076,7 +4253,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "budibase",
@@ -4091,7 +4269,7 @@
         "开源"
       ],
       "description": "AI驱动的商业解决方案",
-      "descriptionZh": "AI商业工具，让决策更智能",
+      "descriptionZh": "Budibase是一款business领域的AI工具。支持内部工具, 低代码, 开源。它帮助用户提升工作效率，自动化处理复杂任务。适合需要business解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -4099,7 +4277,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "n8n",
@@ -4114,7 +4293,7 @@
         "开源"
       ],
       "description": "AI驱动的商业解决方案",
-      "descriptionZh": "AI商业工具，让决策更智能",
+      "descriptionZh": "n8n是一款business领域的AI工具。支持工作流, 自动化, 开源。它帮助用户提升工作效率，自动化处理复杂任务。适合需要business解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -4122,7 +4301,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "zapier",
@@ -4137,7 +4317,7 @@
         "SaaS"
       ],
       "description": "AI商业工具，让决策更智能",
-      "descriptionZh": "AI驱动的商业解决方案",
+      "descriptionZh": "Zapier是一款business领域的AI工具。支持工作流, 自动化, SaaS。它帮助用户提升工作效率，自动化处理复杂任务。适合需要business解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -4145,7 +4325,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "make",
@@ -4160,7 +4341,7 @@
         "可视化"
       ],
       "description": "数据驱动的产品增长工具",
-      "descriptionZh": "AI商业工具，让决策更智能",
+      "descriptionZh": "Make是一款business领域的AI工具。支持工作流, 自动化, 可视化。它帮助用户提升工作效率，自动化处理复杂任务。适合需要business解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": true,
@@ -4169,7 +4350,8 @@
       "sources": [
         "init",
         "rss"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "ifttt",
@@ -4184,7 +4366,7 @@
         "消费者"
       ],
       "description": "AI商业工具，让决策更智能",
-      "descriptionZh": "AI驱动的商业解决方案",
+      "descriptionZh": "IFTTT是一款business领域的AI工具。支持自动化, 简单, 消费者。它帮助用户提升工作效率，自动化处理复杂任务。适合需要business解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -4192,7 +4374,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "huginn",
@@ -4207,7 +4390,7 @@
         "自托管"
       ],
       "description": "AI商业工具，让决策更智能",
-      "descriptionZh": "AI商业工具，让决策更智能",
+      "descriptionZh": "Huginn是一款business领域的AI工具。支持自动化, 开源, 自托管。它帮助用户提升工作效率，自动化处理复杂任务。适合需要business解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -4215,7 +4398,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "activepieces",
@@ -4230,7 +4414,7 @@
         "开源"
       ],
       "description": "AI驱动的商业解决方案",
-      "descriptionZh": "数据驱动的产品增长工具",
+      "descriptionZh": "Activepieces是一款business领域的AI工具。支持工作流, 自动化, 开源。它帮助用户提升工作效率，自动化处理复杂任务。适合需要business解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -4238,7 +4422,8 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "windmill",
@@ -4253,7 +4438,7 @@
         "开源"
       ],
       "description": "数据驱动的产品增长工具",
-      "descriptionZh": "AI驱动的商业解决方案",
+      "descriptionZh": "Windmill是一款business领域的AI工具。支持工作流, 自动化, 开源。它帮助用户提升工作效率，自动化处理复杂任务。适合需要business解决方案的个人和企业用户。",
       "pricing": "freemium",
       "pricingZh": "免费增值",
       "featured": false,
@@ -4261,14 +4446,15 @@
       "mentions": 1,
       "sources": [
         "init"
-      ]
+      ],
+      "rating": 3.7
     },
     {
       "id": "leonardo-ai",
       "name": "Leonardo AI",
       "nameZh": "Leonardo AI",
       "description": "AI-powered image generation platform with fine-tuned models for game assets, concept art, and photorealistic images",
-      "descriptionZh": "AI图像生成平台，专为游戏资产、概念艺术和写实图像优化的模型",
+      "descriptionZh": "Leonardo AI是一款image领域的AI工具。支持image generation, game assets, concept art。它帮助用户提升工作效率，自动化处理复杂任务。适合需要image解决方案的个人和企业用户。",
       "url": "https://leonardo.ai",
       "icon": "🎨",
       "category": "image",
@@ -4279,14 +4465,15 @@
       ],
       "pricing": "Freemium",
       "pricingZh": "免费增值",
-      "featured": false
+      "featured": false,
+      "rating": 4.2
     },
     {
       "id": "ideogram",
       "name": "Ideogram",
       "nameZh": "Ideogram",
       "description": "AI image generator specializing in text-in-image accuracy and typography",
-      "descriptionZh": "专注于图像内文字准确性和排版设计的AI图像生成器",
+      "descriptionZh": "Ideogram是一款image领域的AI工具。支持image generation, text-in-image, typography。它帮助用户提升工作效率，自动化处理复杂任务。适合需要image解决方案的个人和企业用户。",
       "url": "https://ideogram.ai",
       "icon": "✏️",
       "category": "image",
@@ -4297,14 +4484,15 @@
       ],
       "pricing": "Freemium",
       "pricingZh": "免费增值",
-      "featured": false
+      "featured": false,
+      "rating": 4.2
     },
     {
       "id": "playground-ai",
       "name": "Playground AI",
       "nameZh": "Playground AI",
       "description": "Free AI image generator with mixed image editing and creative tools",
-      "descriptionZh": "免费AI图像生成器，支持混合图像编辑和创意工具",
+      "descriptionZh": "Playground AI是一款image领域的AI工具。支持image generation, image editing, mixed image editing。它帮助用户提升工作效率，自动化处理复杂任务。适合需要image解决方案的个人和企业用户。",
       "url": "https://playgroundai.com",
       "icon": "🖼️",
       "category": "image",
@@ -4315,14 +4503,15 @@
       ],
       "pricing": "Free",
       "pricingZh": "免费",
-      "featured": false
+      "featured": false,
+      "rating": 4.2
     },
     {
       "id": "krea-ai",
       "name": "Krea AI",
       "nameZh": "Krea AI",
       "description": "Real-time AI image generation and upscaling tool for designers",
-      "descriptionZh": "面向设计师的实时AI图像生成和放大工具",
+      "descriptionZh": "Krea AI是一款image领域的AI工具。支持image generation, real-time, upscaling。它帮助用户提升工作效率，自动化处理复杂任务。适合需要image解决方案的个人和企业用户。",
       "url": "https://krea.ai",
       "icon": "🎭",
       "category": "image",
@@ -4333,14 +4522,15 @@
       ],
       "pricing": "Freemium",
       "pricingZh": "免费增值",
-      "featured": false
+      "featured": false,
+      "rating": 4.2
     },
     {
       "id": "recraft",
       "name": "Recraft",
       "nameZh": "Recraft",
       "description": "AI-powered vector image generator for professional design workflows",
-      "descriptionZh": "面向专业设计工作流的AI矢量图像生成器",
+      "descriptionZh": "Recraft是一款image领域的AI工具。支持vector generation, design, illustration。它帮助用户提升工作效率，自动化处理复杂任务。适合需要image解决方案的个人和企业用户。",
       "url": "https://recraft.ai",
       "icon": "🔷",
       "category": "image",
@@ -4351,14 +4541,15 @@
       ],
       "pricing": "Freemium",
       "pricingZh": "免费增值",
-      "featured": false
+      "featured": false,
+      "rating": 4.2
     },
     {
       "id": "adobe-firefly",
       "name": "Adobe Firefly",
       "nameZh": "Adobe Firefly",
       "description": "Adobe's generative AI tool for creating images, vectors, and designs integrated with Creative Cloud",
-      "descriptionZh": "Adobe的生成式AI工具，与Creative Cloud集成，可创建图像、矢量图和设计",
+      "descriptionZh": "Adobe Firefly是一款image领域的AI工具。支持image generation, vector, design。它帮助用户提升工作效率，自动化处理复杂任务。适合需要image解决方案的个人和企业用户。",
       "url": "https://firefly.adobe.com",
       "icon": "🔥",
       "category": "image",
@@ -4370,14 +4561,15 @@
       ],
       "pricing": "Freemium",
       "pricingZh": "免费增值",
-      "featured": true
+      "featured": true,
+      "rating": 4.2
     },
     {
       "id": "flux",
       "name": "Flux",
       "nameZh": "Flux",
       "description": "Open-source AI image generation model by Black Forest Labs, offering high-quality text-to-image generation",
-      "descriptionZh": "Black Forest Labs开源的AI图像生成模型，提供高质量文本到图像生成",
+      "descriptionZh": "Flux是一款image领域的AI工具。支持image generation, open-source, text-to-image。它帮助用户提升工作效率，自动化处理复杂任务。适合需要image解决方案的个人和企业用户。",
       "url": "https://blackforestlabs.ai",
       "icon": "⚡",
       "category": "image",
@@ -4388,14 +4580,15 @@
       ],
       "pricing": "Open Source",
       "pricingZh": "开源免费",
-      "featured": false
+      "featured": false,
+      "rating": 4.2
     },
     {
       "id": "suno",
       "name": "Suno",
       "nameZh": "Suno",
       "description": "AI music generation tool that creates songs with lyrics and vocals from text prompts",
-      "descriptionZh": "AI音乐生成工具，可根据文本提示创作带歌词和人声的歌曲",
+      "descriptionZh": "Suno是一款audio领域的AI工具。支持music generation, AI vocals, song creation。它帮助用户提升工作效率，自动化处理复杂任务。适合需要audio解决方案的个人和企业用户。",
       "url": "https://suno.ai",
       "icon": "🎵",
       "category": "audio",
@@ -4406,14 +4599,15 @@
       ],
       "pricing": "Freemium",
       "pricingZh": "免费增值",
-      "featured": true
+      "featured": true,
+      "rating": 4.2
     },
     {
       "id": "udio",
       "name": "Udio",
       "nameZh": "Udio",
       "description": "AI music creation platform for generating high-quality songs with vocals and instrumentals",
-      "descriptionZh": "AI音乐创作平台，可生成带人声和伴奏的高质量歌曲",
+      "descriptionZh": "Udio是一款audio领域的AI工具。支持music generation, vocals, instrumentals。它帮助用户提升工作效率，自动化处理复杂任务。适合需要audio解决方案的个人和企业用户。",
       "url": "https://udio.com",
       "icon": "🎶",
       "category": "audio",
@@ -4424,14 +4618,15 @@
       ],
       "pricing": "Freemium",
       "pricingZh": "免费增值",
-      "featured": false
+      "featured": false,
+      "rating": 4.2
     },
     {
       "id": "resemble-ai",
       "name": "Resemble AI",
       "nameZh": "Resemble AI",
       "description": "AI voice cloning and text-to-speech platform for creating realistic voice content",
-      "descriptionZh": "AI语音克隆和文本转语音平台，可创建逼真语音内容",
+      "descriptionZh": "Resemble AI是一款audio领域的AI工具。支持voice cloning, text-to-speech, voice AI。它帮助用户提升工作效率，自动化处理复杂任务。适合需要audio解决方案的个人和企业用户。",
       "url": "https://resemble.ai",
       "icon": "🗣️",
       "category": "audio",
@@ -4442,14 +4637,15 @@
       ],
       "pricing": "Paid",
       "pricingZh": "付费",
-      "featured": false
+      "featured": false,
+      "rating": 4.2
     },
     {
       "id": "playht",
       "name": "PlayHT",
       "nameZh": "PlayHT",
       "description": "AI text-to-speech platform with ultra-realistic voices and voice cloning capabilities",
-      "descriptionZh": "AI文本转语音平台，提供超逼真语音和语音克隆功能",
+      "descriptionZh": "PlayHT是一款audio领域的AI工具。支持text-to-speech, voice cloning, AI voice。它帮助用户提升工作效率，自动化处理复杂任务。适合需要audio解决方案的个人和企业用户。",
       "url": "https://play.ht",
       "icon": "📢",
       "category": "audio",
@@ -4460,14 +4656,15 @@
       ],
       "pricing": "Freemium",
       "pricingZh": "免费增值",
-      "featured": false
+      "featured": false,
+      "rating": 4.2
     },
     {
       "id": "lmnt",
       "name": "LMNT",
       "nameZh": "LMNT",
       "description": "Real-time AI voice synthesis and voice changer for developers and creators",
-      "descriptionZh": "面向开发者和创作者的实时AI语音合成和变声器",
+      "descriptionZh": "LMNT是一款audio领域的AI工具。支持voice synthesis, voice changer, real-time。它帮助用户提升工作效率，自动化处理复杂任务。适合需要audio解决方案的个人和企业用户。",
       "url": "https://lmnt.com",
       "icon": "🔊",
       "category": "audio",
@@ -4478,14 +4675,15 @@
       ],
       "pricing": "Freemium",
       "pricingZh": "免费增值",
-      "featured": false
+      "featured": false,
+      "rating": 4.2
     },
     {
       "id": "voicemod",
       "name": "Voicemod",
       "nameZh": "Voicemod",
       "description": "Real-time voice changer and soundboard for gaming and streaming",
-      "descriptionZh": "面向游戏和直播的实时语音变声和音效板",
+      "descriptionZh": "Voicemod是一款audio领域的AI工具。支持voice changer, soundboard, gaming。它帮助用户提升工作效率，自动化处理复杂任务。适合需要audio解决方案的个人和企业用户。",
       "url": "https://voicemod.net",
       "icon": "🎤",
       "category": "audio",
@@ -4496,14 +4694,15 @@
       ],
       "pricing": "Freemium",
       "pricingZh": "免费增值",
-      "featured": false
+      "featured": false,
+      "rating": 4.2
     },
     {
       "id": "kits-ai",
       "name": "Kits AI",
       "nameZh": "Kits AI",
       "description": "AI voice platform for musicians to create vocal covers and experiment with AI voices",
-      "descriptionZh": "面向音乐人的AI语音平台，可创建人声翻唱和AI语音实验",
+      "descriptionZh": "Kits AI是一款audio领域的AI工具。支持AI voice, vocal covers, music。它帮助用户提升工作效率，自动化处理复杂任务。适合需要audio解决方案的个人和企业用户。",
       "url": "https://kits.ai",
       "icon": "🎧",
       "category": "audio",
@@ -4514,14 +4713,15 @@
       ],
       "pricing": "Freemium",
       "pricingZh": "免费增值",
-      "featured": false
+      "featured": false,
+      "rating": 3.7
     },
     {
       "id": "rytr",
       "name": "Rytr",
       "nameZh": "Rytr",
       "description": "AI writing assistant for creating marketing copy, emails, and blog posts in multiple tones",
-      "descriptionZh": "AI写作助手，支持多种语气创建营销文案、邮件和博客文章",
+      "descriptionZh": "Rytr是一款writing领域的AI工具。支持writing, marketing copy, blog posts。它帮助用户提升工作效率，自动化处理复杂任务。适合需要writing解决方案的个人和企业用户。",
       "url": "https://rytr.me",
       "icon": "✍️",
       "category": "writing",
@@ -4532,14 +4732,15 @@
       ],
       "pricing": "Freemium",
       "pricingZh": "免费增值",
-      "featured": false
+      "featured": false,
+      "rating": 4.2
     },
     {
       "id": "writesonic",
       "name": "Writesonic",
       "nameZh": "Writesonic",
       "description": "AI content creation platform for SEO-optimized articles, ads, and product descriptions",
-      "descriptionZh": "AI内容创作平台，用于SEO优化的文章、广告和产品描述",
+      "descriptionZh": "Writesonic是一款writing领域的AI工具。支持writing, SEO, content creation。它帮助用户提升工作效率，自动化处理复杂任务。适合需要writing解决方案的个人和企业用户。",
       "url": "https://writesonic.com",
       "icon": "📝",
       "category": "writing",
@@ -4550,14 +4751,15 @@
       ],
       "pricing": "Freemium",
       "pricingZh": "免费增值",
-      "featured": false
+      "featured": false,
+      "rating": 4.2
     },
     {
       "id": "wordtune",
       "name": "Wordtune",
       "nameZh": "Wordtune",
       "description": "AI writing companion that helps rewrite and improve sentences for clarity and tone",
-      "descriptionZh": "AI写作伴侣，帮助重写和改进句子，提升清晰度和语气",
+      "descriptionZh": "Wordtune是一款writing领域的AI工具。支持writing, rewriting, tone adjustment。它帮助用户提升工作效率，自动化处理复杂任务。适合需要writing解决方案的个人和企业用户。",
       "url": "https://wordtune.com",
       "icon": "🔧",
       "category": "writing",
@@ -4568,14 +4770,15 @@
       ],
       "pricing": "Freemium",
       "pricingZh": "免费增值",
-      "featured": false
+      "featured": false,
+      "rating": 4.2
     },
     {
       "id": "quillbot",
       "name": "QuillBot",
       "nameZh": "QuillBot",
       "description": "AI paraphrasing and grammar checking tool for academic and professional writing",
-      "descriptionZh": "AI改写和语法检查工具，面向学术和专业写作",
+      "descriptionZh": "QuillBot是一款writing领域的AI工具。支持paraphrasing, grammar, academic writing。它帮助用户提升工作效率，自动化处理复杂任务。适合需要writing解决方案的个人和企业用户。",
       "url": "https://quillbot.com",
       "icon": "🦜",
       "category": "writing",
@@ -4586,14 +4789,15 @@
       ],
       "pricing": "Freemium",
       "pricingZh": "免费增值",
-      "featured": false
+      "featured": false,
+      "rating": 4.2
     },
     {
       "id": "notion-ai",
       "name": "Notion AI",
       "nameZh": "Notion AI",
       "description": "AI writing assistant integrated into Notion for drafting, summarizing, and editing documents",
-      "descriptionZh": "集成在Notion中的AI写作助手，用于起草、总结和编辑文档",
+      "descriptionZh": "Notion AI是一款writing领域的AI工具。支持writing, summarization, document editing。它帮助用户提升工作效率，自动化处理复杂任务。适合需要writing解决方案的个人和企业用户。",
       "url": "https://notion.so/product/ai",
       "icon": "📓",
       "category": "writing",
@@ -4604,14 +4808,15 @@
       ],
       "pricing": "Paid",
       "pricingZh": "付费",
-      "featured": false
+      "featured": false,
+      "rating": 4.2
     },
     {
       "id": "hyperwrite",
       "name": "HyperWrite",
       "nameZh": "HyperWrite",
       "description": "AI writing assistant with autocomplete and content generation for faster writing",
-      "descriptionZh": "AI写作助手，支持自动补全和内容生成，加速写作过程",
+      "descriptionZh": "HyperWrite是一款writing领域的AI工具。支持writing, autocomplete, content generation。它帮助用户提升工作效率，自动化处理复杂任务。适合需要writing解决方案的个人和企业用户。",
       "url": "https://hyperwriteai.com",
       "icon": "⚡",
       "category": "writing",
@@ -4622,14 +4827,15 @@
       ],
       "pricing": "Freemium",
       "pricingZh": "免费增值",
-      "featured": false
+      "featured": false,
+      "rating": 4.2
     },
     {
       "id": "textcortex",
       "name": "TextCortex",
       "nameZh": "TextCortex",
       "description": "AI writing assistant focused on multilingual content creation and rewriting",
-      "descriptionZh": "专注于多语言内容创作和重写的AI写作助手",
+      "descriptionZh": "TextCortex是一款writing领域的AI工具。支持writing, multilingual, rewriting。它帮助用户提升工作效率，自动化处理复杂任务。适合需要writing解决方案的个人和企业用户。",
       "url": "https://textcortex.com",
       "icon": "🧠",
       "category": "writing",
@@ -4640,7 +4846,8 @@
       ],
       "pricing": "Freemium",
       "pricingZh": "免费增值",
-      "featured": false
+      "featured": false,
+      "rating": 4.2
     }
   ]
 }

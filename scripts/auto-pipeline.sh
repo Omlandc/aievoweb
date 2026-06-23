@@ -26,6 +26,15 @@ else
     echo "⚠️ auto-insights.py 不存在，跳过"
 fi
 
+# ─── 步骤0.5: 运行智能优化引擎（诊断+自动修复竞品差距） ───
+echo ""
+echo "🔮 步骤0.5: 运行智能优化引擎（诊断+自动修复）"
+if [ -f "scripts/smart-optimizer.py" ]; then
+    python3 scripts/smart-optimizer.py || echo "⚠️ 优化引擎失败，继续执行"
+else
+    echo "⚠️ smart-optimizer.py 不存在，跳过"
+fi
+
 # ─── 步骤1: 检查Git状态 ───
 echo ""
 echo "📋 步骤1: 检查Git状态"
@@ -99,10 +108,15 @@ else
     
     # 生成提交信息
     NEW_TOOLS_COUNT=$(git diff --cached --name-only | grep -c "^tools/" || true)
+    COMPARE_COUNT=$(git diff --cached --name-only | grep -c "^compare/" || true)
     COMMIT_MSG="auto: daily update $(date +%Y-%m-%d)"
     
     if [ "$NEW_TOOLS_COUNT" -gt 0 ] 2>/dev/null; then
         COMMIT_MSG="auto: +$NEW_TOOLS_COUNT new tools + updates ($(date +%Y-%m-%d))"
+    fi
+    
+    if [ "$COMPARE_COUNT" -gt 0 ] 2>/dev/null; then
+        COMMIT_MSG="auto: +$COMPARE_COUNT comparison pages + optimizations ($(date +%Y-%m-%d))"
     fi
     
     git add -A

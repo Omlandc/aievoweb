@@ -1,0 +1,6194 @@
+{
+  "generated_at": "2026-06-23T04:52:29.945062+00:00",
+  "summary": {
+    "gaps_found": 8,
+    "issues_found": 338,
+    "auto_fixed": 216,
+    "needs_manual": 122,
+    "competitor_gaps": 3
+  },
+  "competitor_gaps": [
+    {
+      "dimension": "内容深度",
+      "gap": "任务聚合页太少",
+      "competitor": "TAAFT (14000+)",
+      "ours": "24个",
+      "target": "100+个",
+      "priority": "high",
+      "action": "从现有标签中提取高频任务，批量生成任务页"
+    },
+    {
+      "dimension": "内容结构",
+      "gap": "排行榜太少",
+      "competitor": "Futurepedia (50+)",
+      "ours": "5个",
+      "target": "15+个",
+      "priority": "high",
+      "action": "为每个大分类生成Top 10排行榜"
+    },
+    {
+      "dimension": "用户互动",
+      "gap": "无评分系统",
+      "competitor": "AITools.com, G2",
+      "ours": "无",
+      "target": "AI评分 + 用户评分",
+      "priority": "medium",
+      "action": "为每个工具添加AI评分（基于功能/口碑/价格）"
+    },
+    {
+      "dimension": "用户互动",
+      "gap": "无对比工具",
+      "competitor": "AITools.com, G2",
+      "ours": "无",
+      "target": "同类工具对比页",
+      "priority": "medium",
+      "action": "生成热门工具对比页（如ChatGPT vs Claude vs Gemini）"
+    },
+    {
+      "dimension": "内容时效",
+      "gap": "无每日新品板块",
+      "competitor": "ProductHunt, AIHive",
+      "ours": "无",
+      "target": "Today's New AI Tools",
+      "priority": "high",
+      "action": "从RSS/搜索中自动识别新工具，生成每日新品页"
+    },
+    {
+      "dimension": "内容时效",
+      "gap": "无AI日报/周报",
+      "competitor": "AIHive",
+      "ours": "tweets.html 但无AI生成文章",
+      "target": "每日AI日报（文章形式）",
+      "priority": "medium",
+      "action": "基于RSS数据自动生成AI日报文章"
+    },
+    {
+      "dimension": "实用功能",
+      "gap": "无价格对比",
+      "competitor": "Futurepedia, AITools.com",
+      "ours": "无",
+      "target": "同类工具价格对比表",
+      "priority": "medium",
+      "action": "从工具数据中提取价格信息，生成价格对比页"
+    },
+    {
+      "dimension": "内容深度",
+      "gap": "无使用教程",
+      "competitor": "多数竞品",
+      "ours": "无",
+      "target": "热门工具使用指南",
+      "priority": "low",
+      "action": "为热门工具生成快速上手指南"
+    }
+  ],
+  "site_issues": [
+    {
+      "category": "SEO",
+      "severity": "high",
+      "issue": "首页标题过短或缺失",
+      "current": "无",
+      "recommendation": "标题应包含核心关键词，50-60字符",
+      "auto_fixable": true
+    },
+    {
+      "category": "SEO",
+      "severity": "high",
+      "issue": "首页meta description过短或缺失",
+      "current": "发现最适合你的AI工具。207+工具评测，图像/写作/编程/视频/音频分类，每日更新，中英双语。",
+      "recommendation": "描述150-160字符，包含核心关键词",
+      "auto_fixable": true
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "ChatGPT 描述过短",
+      "current": "17字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "chatgpt"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "GPT-4 描述过短",
+      "current": "17字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "gpt-4"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "GPT-4 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "gpt-4"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "GPT-4o 描述过短",
+      "current": "15字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "gpt-4o"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "GPT-4o 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "gpt-4o"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Claude 描述过短",
+      "current": "17字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "claude"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Midjourney 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "midjourney"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Midjourney 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "midjourney"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Stable Diffusion 描述过短",
+      "current": "9字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "stable-diffusion"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Stable Diffusion 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "stable-diffusion"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "DALL-E 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "dall-e"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "DALL-E 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "dall-e"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Runway 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "runway"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Runway 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "runway"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Sora 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "sora"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Sora 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "sora"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Notion 描述过短",
+      "current": "15字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "notion"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Cursor 描述过短",
+      "current": "12字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "cursor"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Cursor 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "cursor"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "GitHub Copilot 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "github-copilot"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "GitHub Copilot 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "github-copilot"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Figma 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "figma"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Canva 描述过短",
+      "current": "15字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "canva"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Jasper 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "jasper"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Jasper 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "jasper"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Copy.ai 描述过短",
+      "current": "15字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "copyai"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Copy.ai 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "copyai"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Grammarly 描述过短",
+      "current": "9字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "grammarly"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Grammarly 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "grammarly"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "ElevenLabs 描述过短",
+      "current": "9字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "elevenlabs"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "ElevenLabs 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "elevenlabs"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Murf 描述过短",
+      "current": "9字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "murf"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Murf 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "murf"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Descript 描述过短",
+      "current": "9字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "descript"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Descript 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "descript"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Perplexity 描述过短",
+      "current": "9字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "perplexity"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Perplexity 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "perplexity"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Arc Browser 描述过短",
+      "current": "15字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "arc-browser"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Arc Browser 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "arc-browser"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Replit 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "replit"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Replit 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "replit"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Vercel 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "vercel"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Supabase 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "supabase"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Hugging Face 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "hugging-face"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "LangChain 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "langchain"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "LangChain 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "langchain"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "LlamaIndex 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "llamaindex"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "LlamaIndex 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "llamaindex"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Pinecone 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "pinecone"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Pinecone 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "pinecone"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Weaviate 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "weaviate"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Weaviate 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "weaviate"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Anthropic 描述过短",
+      "current": "15字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "anthropic"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Anthropic 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "anthropic"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "OpenAI 描述过短",
+      "current": "17字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "openai"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "OpenAI 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "openai"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Google Bard 描述过短",
+      "current": "17字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "google-bard"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Google Bard 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "google-bard"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Gemini 描述过短",
+      "current": "15字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "gemini"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Gemini 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "gemini"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Meta AI 描述过短",
+      "current": "15字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "meta-ai"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Meta AI 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "meta-ai"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "LLaMA 描述过短",
+      "current": "12字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "llama"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "LLaMA 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "llama"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "StableLM 描述过短",
+      "current": "12字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "stablelm"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "StableLM 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "stablelm"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "NVIDIA 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "nvidia"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "NVIDIA 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "nvidia"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Cloudflare 描述过短",
+      "current": "12字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "cloudflare"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "FastAPI 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "fastapi"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "FastAPI 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "fastapi"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Docker 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "docker"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Docker 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "docker"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Kubernetes 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "kubernetes"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Kubernetes 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "kubernetes"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Tailwind CSS 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "tailwind-css"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Tailwind CSS 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "tailwind-css"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "shadcn/ui 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "shadcn/ui"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "shadcn/ui 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "shadcn/ui"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Next.js 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "nextjs"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Next.js 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "nextjs"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Astro 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "astro"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Astro 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "astro"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Svelte 描述过短",
+      "current": "12字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "svelte"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Svelte 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "svelte"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Vue.js 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "vuejs"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Vue.js 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "vuejs"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "React 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "react"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "React 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "react"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "TypeScript 描述过短",
+      "current": "12字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "typescript"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "TypeScript 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "typescript"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Bun 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "bun"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Bun 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "bun"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Deno 描述过短",
+      "current": "12字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "deno"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Deno 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "deno"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Rust 描述过短",
+      "current": "12字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "rust"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Rust 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "rust"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Go 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "go"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Go 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "go"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Zig 描述过短",
+      "current": "12字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "zig"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Zig 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "zig"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Tauri 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "tauri"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Tauri 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "tauri"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Flutter 描述过短",
+      "current": "12字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "flutter"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Flutter 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "flutter"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Electron 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "electron"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Electron 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "electron"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Raycast 描述过短",
+      "current": "17字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "raycast"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Raycast 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "raycast"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Alfred 描述过短",
+      "current": "15字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "alfred"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Alfred 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "alfred"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Obsidian 描述过短",
+      "current": "15字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "obsidian"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Logseq 描述过短",
+      "current": "17字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "logseq"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Heptabase 描述过短",
+      "current": "17字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "heptabase"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Readwise 描述过短",
+      "current": "9字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "readwise"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Omnivore 描述过短",
+      "current": "9字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "omnivore"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Pocket 描述过短",
+      "current": "12字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "pocket"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Pocket 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "pocket"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Instapaper 描述过短",
+      "current": "12字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "instapaper"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Instapaper 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "instapaper"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Zotero 描述过短",
+      "current": "9字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "zotero"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Zotero 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "zotero"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Mendeley 描述过短",
+      "current": "9字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "mendeley"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Mendeley 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "mendeley"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Connected Papers 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "connected-papers"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Connected Papers 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "connected-papers"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Elicit 描述过短",
+      "current": "9字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "elicit"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Elicit 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "elicit"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Semantic Scholar 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "semantic-scholar"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Semantic Scholar 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "semantic-scholar"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Google Scholar 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "google-scholar"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Google Scholar 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "google-scholar"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Overleaf 描述过短",
+      "current": "9字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "overleaf"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Overleaf 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "overleaf"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Quip 描述过短",
+      "current": "15字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "quip"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Quip 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "quip"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Slack 描述过短",
+      "current": "15字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "slack"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Slack 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "slack"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Discord 描述过短",
+      "current": "15字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "discord"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Discord 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "discord"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Linear 描述过短",
+      "current": "15字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "linear"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Linear 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "linear"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Notion Calendar 描述过短",
+      "current": "17字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "notion-calendar"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Notion Calendar 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "notion-calendar"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Cron 描述过短",
+      "current": "15字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "cron"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Cron 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "cron"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Amie 描述过短",
+      "current": "15字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "amie"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Amie 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "amie"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Calendly 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "calendly"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Calendly 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "calendly"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Loom 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "loom"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Loom 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "loom"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Screen Studio 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "screen-studio"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Screen Studio 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "screen-studio"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Clipchamp 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "clipchamp"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Clipchamp 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "clipchamp"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "CapCut 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "capcut"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "CapCut 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "capcut"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Adobe Premiere 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "adobe-premiere"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Adobe Premiere 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "adobe-premiere"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "DaVinci Resolve 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "davinci-resolve"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Final Cut Pro 描述过短",
+      "current": "17字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "final-cut-pro"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Final Cut Pro 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "final-cut-pro"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "iMovie 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "imovie"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Blender 描述过短",
+      "current": "15字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "blender"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Sketch 描述过短",
+      "current": "16字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "sketch"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Sketch 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "sketch"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Adobe XD 描述过短",
+      "current": "15字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "adobe-xd"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Adobe XD 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "adobe-xd"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "InVision 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "invision"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "InVision 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "invision"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Framer 描述过短",
+      "current": "15字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "framer"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Webflow 描述过短",
+      "current": "16字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "webflow"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Webflow 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "webflow"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Wix 描述过短",
+      "current": "15字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "wix"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Wix 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "wix"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Squarespace 描述过短",
+      "current": "15字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "squarespace"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Squarespace 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "squarespace"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Shopify 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "shopify"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Shopify 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "shopify"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Stripe 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "stripe"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Stripe 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "stripe"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Paddle 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "paddle"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Paddle 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "paddle"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Lemon Squeezy 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "lemon-squeezy"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Lemon Squeezy 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "lemon-squeezy"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "PostHog 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "posthog"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Plausible 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "plausible"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Mixpanel 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "mixpanel"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Mixpanel 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "mixpanel"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Amplitude 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "amplitude"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Amplitude 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "amplitude"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Segment 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "segment"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Segment 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "segment"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Airbyte 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "airbyte"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Fivetran 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "fivetran"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Fivetran 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "fivetran"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "dbt 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "dbt"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "dbt 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "dbt"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Snowflake 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "snowflake"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Snowflake 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "snowflake"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "BigQuery 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "bigquery"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "BigQuery 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "bigquery"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "ClickHouse 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "clickhouse"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Apache Kafka 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "apache-kafka"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Apache Kafka 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "apache-kafka"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Redis 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "redis"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "PostgreSQL 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "postgresql"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "MySQL 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "mysql"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "MySQL 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "mysql"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "MongoDB 描述过短",
+      "current": "12字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "mongodb"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Prisma 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "prisma"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Prisma 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "prisma"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Drizzle 描述过短",
+      "current": "12字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "drizzle"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Drizzle 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "drizzle"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "tRPC 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "trpc"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "GraphQL 描述过短",
+      "current": "12字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "graphql"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "GraphQL 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "graphql"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "REST API 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "rest-api"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "REST API 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "rest-api"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "OpenAPI 描述过短",
+      "current": "12字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "openapi"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Swagger 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "swagger"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Swagger 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "swagger"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Storybook 描述过短",
+      "current": "12字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "storybook"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Storybook 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "storybook"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Chromatic 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "chromatic"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Chromatic 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "chromatic"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Playwright 描述过短",
+      "current": "12字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "playwright"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Cypress 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "cypress"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Cypress 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "cypress"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Jest 描述过短",
+      "current": "12字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "jest"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Vitest 描述过短",
+      "current": "12字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "vitest"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "MSW 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "msw"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Zod 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "zod"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Yup 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "yup"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Yup 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "yup"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "React Hook Form 描述过短",
+      "current": "12字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "react-hook-form"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Formik 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "formik"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Formik 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "formik"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "TanStack Query 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "tanstack-query"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "SWR 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "swr"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Zustand 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "zustand"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Redux 描述过短",
+      "current": "12字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "redux"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Redux 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "redux"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "MobX 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "mobx"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Recoil 描述过短",
+      "current": "12字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "recoil"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Jotai 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "jotai"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Valtio 描述过短",
+      "current": "12字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "valtio"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "XState 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "xstate"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Immer 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "immer"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Immer 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "immer"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Lodash 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "lodash"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Lodash 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "lodash"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Ramda 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "ramda"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Ramda 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "ramda"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "date-fns 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "date-fns"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "date-fns 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "date-fns"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Day.js 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "dayjs"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Moment.js 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "momentjs"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Moment.js 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "momentjs"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Axios 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "axios"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Axios 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "axios"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Fetch API 描述过短",
+      "current": "12字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "fetch-api"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Fetch API 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "fetch-api"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "WebSocket 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "websocket"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "WebSocket 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "websocket"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Socket.io 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "socketio"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Socket.io 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "socketio"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Pusher 描述过短",
+      "current": "12字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "pusher"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Pusher 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "pusher"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Ably 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "ably"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Ably 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "ably"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "PubNub 描述过短",
+      "current": "12字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "pubnub"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "PubNub 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "pubnub"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Twilio 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "twilio"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "SendGrid 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "sendgrid"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Resend 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "resend"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Mailgun 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "mailgun"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Mailgun 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "mailgun"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Postmark 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "postmark"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Loops 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "loops"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Loops 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "loops"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "beehiiv 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "beehiiv"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "beehiiv 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "beehiiv"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Substack 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "substack"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Substack 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "substack"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "ConvertKit 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "convertkit"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "ConvertKit 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "convertkit"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Ghost 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "ghost"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "WordPress 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "wordpress"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Strapi 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "strapi"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Directus 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "directus"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Sanity 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "sanity"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Contentful 描述过短",
+      "current": "12字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "contentful"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Builder.io 描述过短",
+      "current": "12字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "builderio"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Plasmic 描述过短",
+      "current": "12字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "plasmic"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Retool 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "retool"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Retool 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "retool"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Appsmith 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "appsmith"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "ToolJet 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "tooljet"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Budibase 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "budibase"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "n8n 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "n8n"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Zapier 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "zapier"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Make 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "make"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "IFTTT 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "ifttt"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Huginn 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "huginn"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Activepieces 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "activepieces"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Windmill 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "windmill"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Leonardo AI 描述过短",
+      "current": "30字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "leonardo-ai"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Ideogram 描述过短",
+      "current": "24字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "ideogram"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Playground AI 描述过短",
+      "current": "23字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "playground-ai"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Krea AI 描述过短",
+      "current": "19字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "krea-ai"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Recraft 描述过短",
+      "current": "19字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "recraft"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Adobe Firefly 描述过短",
+      "current": "44字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "adobe-firefly"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Flux 描述过短",
+      "current": "41字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "flux"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Suno 描述过短",
+      "current": "27字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "suno"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Udio 描述过短",
+      "current": "24字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "udio"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Resemble AI 描述过短",
+      "current": "24字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "resemble-ai"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "PlayHT 描述过短",
+      "current": "24字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "playht"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "LMNT 描述过短",
+      "current": "22字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "lmnt"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Voicemod 描述过短",
+      "current": "18字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "voicemod"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Kits AI 描述过短",
+      "current": "27字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "kits-ai"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Rytr 描述过短",
+      "current": "27字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "rytr"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Writesonic 描述过短",
+      "current": "27字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "writesonic"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Wordtune 描述过短",
+      "current": "25字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "wordtune"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "QuillBot 描述过短",
+      "current": "21字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "quillbot"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Notion AI 描述过短",
+      "current": "30字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "notion-ai"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "HyperWrite 描述过短",
+      "current": "25字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "hyperwrite"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "TextCortex 描述过短",
+      "current": "20字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "textcortex"
+    },
+    {
+      "category": "结构",
+      "severity": "medium",
+      "issue": "nextjs.html 内链太少",
+      "current": "0个",
+      "recommendation": "每页至少5个相关内链，提升SEO权重",
+      "auto_fixable": true
+    },
+    {
+      "category": "结构",
+      "severity": "medium",
+      "issue": "slack.html 内链太少",
+      "current": "0个",
+      "recommendation": "每页至少5个相关内链，提升SEO权重",
+      "auto_fixable": true
+    },
+    {
+      "category": "结构",
+      "severity": "medium",
+      "issue": "chromatic.html 内链太少",
+      "current": "0个",
+      "recommendation": "每页至少5个相关内链，提升SEO权重",
+      "auto_fixable": true
+    },
+    {
+      "category": "结构",
+      "severity": "medium",
+      "issue": "valtio.html 内链太少",
+      "current": "0个",
+      "recommendation": "每页至少5个相关内链，提升SEO权重",
+      "auto_fixable": true
+    },
+    {
+      "category": "结构",
+      "severity": "medium",
+      "issue": "cypress.html 内链太少",
+      "current": "0个",
+      "recommendation": "每页至少5个相关内链，提升SEO权重",
+      "auto_fixable": true
+    },
+    {
+      "category": "互动",
+      "severity": "medium",
+      "issue": "所有工具缺少评分",
+      "current": "无",
+      "recommendation": "添加AI评分（1-5星）或用户评分系统",
+      "auto_fixable": true
+    },
+    {
+      "category": "互动",
+      "severity": "low",
+      "issue": "缺少工具对比页",
+      "current": "无",
+      "recommendation": "生成热门工具对比页（如ChatGPT vs Claude）",
+      "auto_fixable": true
+    }
+  ],
+  "auto_fixed": [
+    {
+      "category": "SEO",
+      "severity": "high",
+      "issue": "首页标题过短或缺失",
+      "current": "无",
+      "recommendation": "标题应包含核心关键词，50-60字符",
+      "auto_fixable": true
+    },
+    {
+      "category": "SEO",
+      "severity": "high",
+      "issue": "首页meta description过短或缺失",
+      "current": "发现最适合你的AI工具。207+工具评测，图像/写作/编程/视频/音频分类，每日更新，中英双语。",
+      "recommendation": "描述150-160字符，包含核心关键词",
+      "auto_fixable": true
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "ChatGPT 描述过短",
+      "current": "17字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "chatgpt"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "GPT-4 描述过短",
+      "current": "17字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "gpt-4"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "GPT-4o 描述过短",
+      "current": "15字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "gpt-4o"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Claude 描述过短",
+      "current": "17字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "claude"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Midjourney 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "midjourney"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Stable Diffusion 描述过短",
+      "current": "9字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "stable-diffusion"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "DALL-E 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "dall-e"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Runway 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "runway"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Sora 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "sora"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Notion 描述过短",
+      "current": "15字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "notion"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Cursor 描述过短",
+      "current": "12字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "cursor"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "GitHub Copilot 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "github-copilot"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Figma 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "figma"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Canva 描述过短",
+      "current": "15字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "canva"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Jasper 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "jasper"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Copy.ai 描述过短",
+      "current": "15字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "copyai"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Grammarly 描述过短",
+      "current": "9字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "grammarly"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "ElevenLabs 描述过短",
+      "current": "9字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "elevenlabs"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Murf 描述过短",
+      "current": "9字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "murf"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Descript 描述过短",
+      "current": "9字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "descript"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Perplexity 描述过短",
+      "current": "9字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "perplexity"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Arc Browser 描述过短",
+      "current": "15字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "arc-browser"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Replit 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "replit"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Vercel 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "vercel"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Supabase 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "supabase"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Hugging Face 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "hugging-face"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "LangChain 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "langchain"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "LlamaIndex 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "llamaindex"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Pinecone 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "pinecone"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Weaviate 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "weaviate"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Anthropic 描述过短",
+      "current": "15字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "anthropic"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "OpenAI 描述过短",
+      "current": "17字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "openai"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Google Bard 描述过短",
+      "current": "17字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "google-bard"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Gemini 描述过短",
+      "current": "15字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "gemini"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Meta AI 描述过短",
+      "current": "15字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "meta-ai"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "LLaMA 描述过短",
+      "current": "12字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "llama"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "StableLM 描述过短",
+      "current": "12字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "stablelm"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "NVIDIA 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "nvidia"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Cloudflare 描述过短",
+      "current": "12字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "cloudflare"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "FastAPI 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "fastapi"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Docker 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "docker"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Kubernetes 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "kubernetes"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Tailwind CSS 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "tailwind-css"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "shadcn/ui 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "shadcn/ui"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Next.js 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "nextjs"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Astro 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "astro"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Svelte 描述过短",
+      "current": "12字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "svelte"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Vue.js 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "vuejs"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "React 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "react"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "TypeScript 描述过短",
+      "current": "12字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "typescript"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Bun 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "bun"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Deno 描述过短",
+      "current": "12字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "deno"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Rust 描述过短",
+      "current": "12字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "rust"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Go 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "go"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Zig 描述过短",
+      "current": "12字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "zig"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Tauri 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "tauri"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Flutter 描述过短",
+      "current": "12字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "flutter"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Electron 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "electron"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Raycast 描述过短",
+      "current": "17字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "raycast"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Alfred 描述过短",
+      "current": "15字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "alfred"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Obsidian 描述过短",
+      "current": "15字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "obsidian"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Logseq 描述过短",
+      "current": "17字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "logseq"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Heptabase 描述过短",
+      "current": "17字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "heptabase"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Readwise 描述过短",
+      "current": "9字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "readwise"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Omnivore 描述过短",
+      "current": "9字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "omnivore"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Pocket 描述过短",
+      "current": "12字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "pocket"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Instapaper 描述过短",
+      "current": "12字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "instapaper"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Zotero 描述过短",
+      "current": "9字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "zotero"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Mendeley 描述过短",
+      "current": "9字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "mendeley"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Connected Papers 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "connected-papers"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Elicit 描述过短",
+      "current": "9字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "elicit"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Semantic Scholar 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "semantic-scholar"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Google Scholar 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "google-scholar"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Overleaf 描述过短",
+      "current": "9字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "overleaf"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Quip 描述过短",
+      "current": "15字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "quip"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Slack 描述过短",
+      "current": "15字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "slack"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Discord 描述过短",
+      "current": "15字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "discord"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Linear 描述过短",
+      "current": "15字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "linear"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Notion Calendar 描述过短",
+      "current": "17字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "notion-calendar"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Cron 描述过短",
+      "current": "15字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "cron"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Amie 描述过短",
+      "current": "15字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "amie"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Calendly 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "calendly"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Loom 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "loom"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Screen Studio 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "screen-studio"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Clipchamp 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "clipchamp"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "CapCut 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "capcut"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Adobe Premiere 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "adobe-premiere"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "DaVinci Resolve 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "davinci-resolve"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Final Cut Pro 描述过短",
+      "current": "17字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "final-cut-pro"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "iMovie 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "imovie"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Blender 描述过短",
+      "current": "15字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "blender"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Sketch 描述过短",
+      "current": "16字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "sketch"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Adobe XD 描述过短",
+      "current": "15字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "adobe-xd"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "InVision 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "invision"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Framer 描述过短",
+      "current": "15字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "framer"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Webflow 描述过短",
+      "current": "16字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "webflow"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Wix 描述过短",
+      "current": "15字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "wix"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Squarespace 描述过短",
+      "current": "15字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "squarespace"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Shopify 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "shopify"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Stripe 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "stripe"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Paddle 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "paddle"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Lemon Squeezy 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "lemon-squeezy"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "PostHog 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "posthog"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Plausible 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "plausible"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Mixpanel 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "mixpanel"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Amplitude 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "amplitude"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Segment 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "segment"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Airbyte 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "airbyte"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Fivetran 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "fivetran"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "dbt 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "dbt"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Snowflake 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "snowflake"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "BigQuery 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "bigquery"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "ClickHouse 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "clickhouse"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Apache Kafka 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "apache-kafka"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Redis 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "redis"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "PostgreSQL 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "postgresql"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "MySQL 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "mysql"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "MongoDB 描述过短",
+      "current": "12字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "mongodb"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Prisma 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "prisma"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Drizzle 描述过短",
+      "current": "12字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "drizzle"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "tRPC 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "trpc"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "GraphQL 描述过短",
+      "current": "12字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "graphql"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "REST API 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "rest-api"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "OpenAPI 描述过短",
+      "current": "12字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "openapi"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Swagger 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "swagger"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Storybook 描述过短",
+      "current": "12字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "storybook"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Chromatic 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "chromatic"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Playwright 描述过短",
+      "current": "12字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "playwright"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Cypress 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "cypress"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Jest 描述过短",
+      "current": "12字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "jest"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Vitest 描述过短",
+      "current": "12字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "vitest"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "MSW 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "msw"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Zod 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "zod"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Yup 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "yup"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "React Hook Form 描述过短",
+      "current": "12字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "react-hook-form"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Formik 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "formik"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "TanStack Query 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "tanstack-query"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "SWR 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "swr"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Zustand 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "zustand"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Redux 描述过短",
+      "current": "12字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "redux"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "MobX 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "mobx"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Recoil 描述过短",
+      "current": "12字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "recoil"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Jotai 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "jotai"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Valtio 描述过短",
+      "current": "12字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "valtio"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "XState 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "xstate"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Immer 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "immer"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Lodash 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "lodash"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Ramda 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "ramda"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "date-fns 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "date-fns"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Day.js 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "dayjs"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Moment.js 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "momentjs"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Axios 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "axios"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Fetch API 描述过短",
+      "current": "12字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "fetch-api"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "WebSocket 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "websocket"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Socket.io 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "socketio"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Pusher 描述过短",
+      "current": "12字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "pusher"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Ably 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "ably"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "PubNub 描述过短",
+      "current": "12字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "pubnub"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Twilio 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "twilio"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "SendGrid 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "sendgrid"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Resend 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "resend"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Mailgun 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "mailgun"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Postmark 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "postmark"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Loops 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "loops"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "beehiiv 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "beehiiv"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Substack 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "substack"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "ConvertKit 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "convertkit"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Ghost 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "ghost"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "WordPress 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "wordpress"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Strapi 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "strapi"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Directus 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "directus"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Sanity 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "sanity"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Contentful 描述过短",
+      "current": "12字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "contentful"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Builder.io 描述过短",
+      "current": "12字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "builderio"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Plasmic 描述过短",
+      "current": "12字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "plasmic"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Retool 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "retool"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Appsmith 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "appsmith"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "ToolJet 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "tooljet"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Budibase 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "budibase"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "n8n 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "n8n"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Zapier 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "zapier"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Make 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "make"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "IFTTT 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "ifttt"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Huginn 描述过短",
+      "current": "13字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "huginn"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Activepieces 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "activepieces"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Windmill 描述过短",
+      "current": "11字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "windmill"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Leonardo AI 描述过短",
+      "current": "30字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "leonardo-ai"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Ideogram 描述过短",
+      "current": "24字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "ideogram"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Playground AI 描述过短",
+      "current": "23字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "playground-ai"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Krea AI 描述过短",
+      "current": "19字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "krea-ai"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Recraft 描述过短",
+      "current": "19字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "recraft"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Adobe Firefly 描述过短",
+      "current": "44字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "adobe-firefly"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Flux 描述过短",
+      "current": "41字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "flux"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Suno 描述过短",
+      "current": "27字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "suno"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Udio 描述过短",
+      "current": "24字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "udio"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Resemble AI 描述过短",
+      "current": "24字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "resemble-ai"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "PlayHT 描述过短",
+      "current": "24字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "playht"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "LMNT 描述过短",
+      "current": "22字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "lmnt"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Voicemod 描述过短",
+      "current": "18字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "voicemod"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Kits AI 描述过短",
+      "current": "27字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "kits-ai"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Rytr 描述过短",
+      "current": "27字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "rytr"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Writesonic 描述过短",
+      "current": "27字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "writesonic"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Wordtune 描述过短",
+      "current": "25字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "wordtune"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "QuillBot 描述过短",
+      "current": "21字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "quillbot"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "Notion AI 描述过短",
+      "current": "30字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "notion-ai"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "HyperWrite 描述过短",
+      "current": "25字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "hyperwrite"
+    },
+    {
+      "category": "内容",
+      "severity": "medium",
+      "issue": "TextCortex 描述过短",
+      "current": "20字",
+      "recommendation": "描述至少100字，包含使用场景",
+      "auto_fixable": true,
+      "tool_id": "textcortex"
+    },
+    {
+      "category": "结构",
+      "severity": "medium",
+      "issue": "nextjs.html 内链太少",
+      "current": "0个",
+      "recommendation": "每页至少5个相关内链，提升SEO权重",
+      "auto_fixable": true
+    },
+    {
+      "category": "结构",
+      "severity": "medium",
+      "issue": "slack.html 内链太少",
+      "current": "0个",
+      "recommendation": "每页至少5个相关内链，提升SEO权重",
+      "auto_fixable": true
+    },
+    {
+      "category": "结构",
+      "severity": "medium",
+      "issue": "chromatic.html 内链太少",
+      "current": "0个",
+      "recommendation": "每页至少5个相关内链，提升SEO权重",
+      "auto_fixable": true
+    },
+    {
+      "category": "结构",
+      "severity": "medium",
+      "issue": "valtio.html 内链太少",
+      "current": "0个",
+      "recommendation": "每页至少5个相关内链，提升SEO权重",
+      "auto_fixable": true
+    },
+    {
+      "category": "结构",
+      "severity": "medium",
+      "issue": "cypress.html 内链太少",
+      "current": "0个",
+      "recommendation": "每页至少5个相关内链，提升SEO权重",
+      "auto_fixable": true
+    },
+    {
+      "category": "互动",
+      "severity": "medium",
+      "issue": "所有工具缺少评分",
+      "current": "无",
+      "recommendation": "添加AI评分（1-5星）或用户评分系统",
+      "auto_fixable": true
+    },
+    {
+      "category": "互动",
+      "severity": "low",
+      "issue": "缺少工具对比页",
+      "current": "无",
+      "recommendation": "生成热门工具对比页（如ChatGPT vs Claude）",
+      "auto_fixable": true
+    }
+  ],
+  "manual_tasks": [
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "GPT-4 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "gpt-4"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "GPT-4o 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "gpt-4o"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Midjourney 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "midjourney"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Stable Diffusion 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "stable-diffusion"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "DALL-E 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "dall-e"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Runway 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "runway"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Sora 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "sora"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Cursor 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "cursor"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "GitHub Copilot 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "github-copilot"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Jasper 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "jasper"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Copy.ai 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "copyai"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Grammarly 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "grammarly"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "ElevenLabs 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "elevenlabs"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Murf 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "murf"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Descript 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "descript"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Perplexity 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "perplexity"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Arc Browser 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "arc-browser"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Replit 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "replit"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "LangChain 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "langchain"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "LlamaIndex 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "llamaindex"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Pinecone 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "pinecone"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Weaviate 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "weaviate"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Anthropic 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "anthropic"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "OpenAI 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "openai"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Google Bard 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "google-bard"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Gemini 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "gemini"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Meta AI 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "meta-ai"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "LLaMA 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "llama"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "StableLM 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "stablelm"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "NVIDIA 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "nvidia"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "FastAPI 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "fastapi"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Docker 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "docker"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Kubernetes 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "kubernetes"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Tailwind CSS 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "tailwind-css"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "shadcn/ui 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "shadcn/ui"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Next.js 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "nextjs"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Astro 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "astro"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Svelte 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "svelte"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Vue.js 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "vuejs"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "React 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "react"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "TypeScript 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "typescript"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Bun 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "bun"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Deno 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "deno"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Rust 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "rust"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Go 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "go"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Zig 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "zig"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Tauri 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "tauri"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Flutter 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "flutter"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Electron 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "electron"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Raycast 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "raycast"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Alfred 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "alfred"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Pocket 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "pocket"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Instapaper 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "instapaper"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Zotero 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "zotero"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Mendeley 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "mendeley"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Connected Papers 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "connected-papers"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Elicit 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "elicit"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Semantic Scholar 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "semantic-scholar"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Google Scholar 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "google-scholar"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Overleaf 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "overleaf"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Quip 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "quip"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Slack 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "slack"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Discord 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "discord"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Linear 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "linear"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Notion Calendar 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "notion-calendar"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Cron 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "cron"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Amie 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "amie"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Calendly 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "calendly"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Loom 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "loom"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Screen Studio 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "screen-studio"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Clipchamp 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "clipchamp"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "CapCut 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "capcut"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Adobe Premiere 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "adobe-premiere"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Final Cut Pro 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "final-cut-pro"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Sketch 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "sketch"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Adobe XD 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "adobe-xd"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "InVision 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "invision"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Webflow 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "webflow"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Wix 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "wix"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Squarespace 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "squarespace"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Shopify 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "shopify"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Stripe 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "stripe"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Paddle 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "paddle"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Lemon Squeezy 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "lemon-squeezy"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Mixpanel 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "mixpanel"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Amplitude 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "amplitude"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Segment 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "segment"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Fivetran 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "fivetran"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "dbt 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "dbt"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Snowflake 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "snowflake"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "BigQuery 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "bigquery"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Apache Kafka 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "apache-kafka"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "MySQL 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "mysql"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Prisma 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "prisma"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Drizzle 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "drizzle"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "GraphQL 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "graphql"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "REST API 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "rest-api"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Swagger 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "swagger"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Storybook 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "storybook"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Chromatic 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "chromatic"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Cypress 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "cypress"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Yup 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "yup"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Formik 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "formik"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Redux 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "redux"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Immer 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "immer"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Lodash 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "lodash"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Ramda 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "ramda"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "date-fns 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "date-fns"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Moment.js 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "momentjs"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Axios 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "axios"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Fetch API 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "fetch-api"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "WebSocket 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "websocket"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Socket.io 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "socketio"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Pusher 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "pusher"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Ably 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "ably"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "PubNub 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "pubnub"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Mailgun 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "mailgun"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Loops 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "loops"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "beehiiv 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "beehiiv"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Substack 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "substack"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "ConvertKit 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "convertkit"
+    },
+    {
+      "category": "内容",
+      "severity": "low",
+      "issue": "Retool 标签太少",
+      "current": "2个",
+      "recommendation": "至少5个相关标签，覆盖功能/场景/技术",
+      "auto_fixable": true,
+      "tool_id": "retool"
+    }
+  ],
+  "next_actions": [
+    {
+      "priority": "high",
+      "action": "从现有标签中提取高频任务，批量生成任务页",
+      "expected_impact": "流量提升20-30%",
+      "effort": "2-4小时"
+    },
+    {
+      "priority": "high",
+      "action": "为每个大分类生成Top 10排行榜",
+      "expected_impact": "流量提升20-30%",
+      "effort": "2-4小时"
+    },
+    {
+      "priority": "high",
+      "action": "从RSS/搜索中自动识别新工具，生成每日新品页",
+      "expected_impact": "流量提升20-30%",
+      "effort": "2-4小时"
+    },
+    {
+      "priority": "medium",
+      "action": "描述至少100字，包含使用场景",
+      "expected_impact": "SEO提升10-15%",
+      "effort": "1-2小时"
+    },
+    {
+      "priority": "medium",
+      "action": "描述至少100字，包含使用场景",
+      "expected_impact": "SEO提升10-15%",
+      "effort": "1-2小时"
+    },
+    {
+      "priority": "medium",
+      "action": "描述至少100字，包含使用场景",
+      "expected_impact": "SEO提升10-15%",
+      "effort": "1-2小时"
+    }
+  ]
+}
