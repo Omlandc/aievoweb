@@ -1,315 +1,219 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-4FQ1XFBP6M"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-4FQ1XFBP6M');
-</script>
-<meta charset="UTF-8">
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>最新推文 - 玩转AI进化网</title>
-  <meta name="description" content="AI自动筛选的科技、产品、设计短内容，中英双语支持。">
-  <meta name="robots" content="index, follow">
-  <link rel="canonical" href="https://aigo.homes/tweets.html">
+  <title>AI推文流 | AI工具发现</title>
+  <meta name="description" content="AI领域最新动态、产品发布、技术新闻聚合">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="alternate" hreflang="zh" href="https://aigo.homes/tweets.html">
-  <link rel="alternate" hreflang="en" href="https://aigo.homes/en/tweets.html">
-  <link rel="alternate" hreflang="x-default" href="https://aigo.homes/tweets.html">
   <style>
-    .load-more { text-align: center; padding: 2rem; }
-    .load-more button { 
-      background: var(--accent-2); color: #fff; border: none; 
-      padding: 0.75rem 1.5rem; border-radius: 0.5rem; 
-      cursor: pointer; font-size: 1rem; 
-    }
-    .load-more button:hover { background: var(--accent-1); }
-    .load-more button:disabled { opacity: 0.5; cursor: not-allowed; }
-    .month-label { 
-      text-align: center; color: var(--accent-2); 
-      font-size: 0.9rem; margin: 2rem 0 1rem; 
-      border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; 
-    }
-    .loading { text-align: center; padding: 2rem; color: var(--text-muted); }
-    .empty { text-align: center; padding: 3rem; color: var(--text-muted); }
-    .lang-badge { 
-      display: inline-block; padding: 0.2rem 0.5rem; 
-      border-radius: 0.25rem; background: var(--accent-2); 
-      color: #fff; font-size: 0.75rem; margin-left: 0.5rem; 
-      cursor: pointer;
-    }
+    .tweet-container { max-width: 800px; margin: 2rem auto; padding: 0 1rem; }
+    .tweet-card { background: var(--glass); border: 1px solid var(--glass-border); border-radius: var(--radius); padding: 1.5rem; margin-bottom: 1rem; transition: transform 0.2s; }
+    .tweet-card:hover { transform: translateY(-2px); }
+    .tweet-meta { display: flex; gap: 0.5rem; margin-bottom: 0.5rem; flex-wrap: wrap; }
+    .tweet-source { color: var(--accent); font-weight: 600; }
+    .tweet-category { background: var(--glass); padding: 0.1rem 0.5rem; border-radius: 20px; font-size: 0.75rem; }
+    .tweet-date { color: var(--text-secondary); font-size: 0.8rem; }
+    .tweet-content { line-height: 1.6; margin: 0.5rem 0; }
+    .tweet-link { color: var(--accent); text-decoration: none; }
+    .tweet-link:hover { text-decoration: underline; }
   </style>
 </head>
 <body>
-  <nav class="navbar" role="navigation" aria-label="Main">
-    <div class="nav-inner">
-      <a href="index.html" class="logo" data-i18n="siteName">玩转AI进化网</a>
-      <div class="nav-links" id="nav-links">
-        <a href="index.html" data-i18n="nav.home">首页</a>
-        <a href="tweets.html" class="active" data-i18n="nav.tweets">推文</a>
-        <a href="games.html" data-i18n="nav.games">游戏</a>
-        <a href="nav.html" data-i18n="nav.nav">导航</a>
-        <a href="submit.html" data-i18n="nav.submit">提交需求</a>
-        <a href="requests.html" data-i18n="nav.requests">需求广场</a>
-        <a href="explore.html" data-i18n="nav.explore">探索</a>
-        <a href="faq.html" data-i18n="nav.faq">常见问题</a>
+  <nav class="navbar"><div class="nav-inner">
+    <a href="/" class="logo">🔍 AI工具发现</a>
+    <div class="nav-links">
+      <a href="index.html">发现</a>
+      <a href="top10/code.html">🏆 排行榜</a>
+      <a href="tweets.html" class="active">推文</a>
+    </div>
+  </div></nav>
+
+  <div class="tweet-container">
+    <h1>📰 AI推文流</h1>
+    <p class="subtitle">来自全球科技媒体的最新AI动态</p>
+    <div class="tweet-card">
+      <div class="tweet-meta">
+        <span class="tweet-source">搜索聚合</span>
+        <span class="tweet-category">#AI研究</span>
+        <span class="tweet-date">2026-06-23</span>
       </div>
-      <button id="lang-switch" data-i18n="langSwitch">English</button>
-      <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="菜单">☰</button>
+      <div class="tweet-content">【AI搜索总结】今日AI领域多条重要动态。具体内容包括大模型更新、新产品发布、研究论文等。点击查看完整摘要。#AI研究</div>
+      <a href="https://aigo.homes" class="tweet-link" target="_blank">阅读原文 →</a>
     </div>
-  </nav>
-
-  <section class="features" aria-label="Tweets">
-    <h2 class="section-title" data-i18n="tweets.title">最新推文</h2>
-    <p class="section-subtitle">AI 每日从 RSS 源筛选、总结、推送的科技短内容。中英双语。</p>
-
-    <div class="filter-tabs">
-      <button class="filter-tab active" data-filter="all">全部</button>
-      <button class="filter-tab" data-filter="short">短内容</button>
-      <button class="filter-tab" data-filter="long">长内容</button>
-      <button class="filter-tab" data-filter="zh">中文</button>
-      <button class="filter-tab" data-filter="en">English</button>
+<div class="tweet-card">
+      <div class="tweet-meta">
+        <span class="tweet-source">少数派</span>
+        <span class="tweet-category">科技</span>
+        <span class="tweet-date">2026-06-22</span>
+      </div>
+      <div class="tweet-content">【sspai | 科技】具透｜Android 17 正式版：大屏体验，先看 Google？<br>越来越不新鲜了呐我的山景城朋友！查看全文</div>
+      <a href="https://sspai.com/post/108899" class="tweet-link" target="_blank">阅读原文 →</a>
     </div>
-
-    <div id="tweets-list">
-      <div class="loading">正在加载推文...</div>
+<div class="tweet-card">
+      <div class="tweet-meta">
+        <span class="tweet-source">少数派</span>
+        <span class="tweet-category">科技</span>
+        <span class="tweet-date">2026-06-22</span>
+      </div>
+      <div class="tweet-content">【sspai | 科技】线索若隐若现：深入 Tim Cook 和 Nike 的商业连接<br>一直以来，Apple 和 Nike 之间的商业关系在公众视野里简单明了。但在两者中间，Apple 的前任 CEO Tim Cook 一直扮演着连接者的角色，他和 Nike 之间的关系也因此而显得十分微妙。在本期节目中，我们就来一起深入 Apple、Nike 和 Tim Cook 之间的商业三角...</div>
+      <a href="https://sspai.com/post/111081" class="tweet-link" target="_blank">阅读原文 →</a>
     </div>
-
-    <div class="load-more" id="load-more-container">
-      <button id="load-more-btn" onclick="loadMore()">加载更多</button>
+<div class="tweet-card">
+      <div class="tweet-meta">
+        <span class="tweet-source">爱范儿</span>
+        <span class="tweet-category">AI</span>
+        <span class="tweet-date">2026-06-22</span>
+      </div>
+      <div class="tweet-content">【ifanr | AI】华为和 Google 都在抢！手机小组件，为什么是 AI 必争之地？｜AI 器物志<br>手机操作系统第一次真正「千人千面」#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</div>
+      <a href="https://www.ifanr.com/1669508?utm_source=rss&utm_medium=rss&utm_campaign=" class="tweet-link" target="_blank">阅读原文 →</a>
     </div>
-  </section>
+<div class="tweet-card">
+      <div class="tweet-meta">
+        <span class="tweet-source">爱范儿</span>
+        <span class="tweet-category">科技</span>
+        <span class="tweet-date">2026-06-22</span>
+      </div>
+      <div class="tweet-content">【ifanr | 科技】奇瑞生活馆首店在汕头开业 ，这是汽车品牌把门店和生活结合起来的新尝试<br>奇瑞想在买车之前就做很多事情。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。</div>
+      <a href="https://www.ifanr.com/1669565?utm_source=rss&utm_medium=rss&utm_campaign=" class="tweet-link" target="_blank">阅读原文 →</a>
+    </div>
+<div class="tweet-card">
+      <div class="tweet-meta">
+        <span class="tweet-source">CSS-Tricks</span>
+        <span class="tweet-category">AI</span>
+        <span class="tweet-date">2026-06-17</span>
+      </div>
+      <div class="tweet-content">【CSS-Tricks | AI】The Siren Song of ariaNotify()<br>There's a brand new ariaNotify() method — defined by the WAI-ARIA 1.3 Specification — that provides a means of programmatically triggering narratio...</div>
+      <a href="https://css-tricks.com/the-siren-song-of-arianotify/" class="tweet-link" target="_blank">阅读原文 →</a>
+    </div>
+<div class="tweet-card">
+      <div class="tweet-meta">
+        <span class="tweet-source">CSS-Tricks</span>
+        <span class="tweet-category">编程</span>
+        <span class="tweet-date">2026-06-22</span>
+      </div>
+      <div class="tweet-content">【CSS-Tricks | 编程】Using Scroll-Driven Animations for Opposing Scroll Directions<br>Sometimes designers have silly ideas that eventually grow on you. That happened to me with this concept where I had to build columns of items movin...</div>
+      <a href="https://css-tricks.com/scroll-driven-animations-opposing-scroll-directions/" class="tweet-link" target="_blank">阅读原文 →</a>
+    </div>
+<div class="tweet-card">
+      <div class="tweet-meta">
+        <span class="tweet-source">Smashing</span>
+        <span class="tweet-category">AI</span>
+        <span class="tweet-date">2026-06-22</span>
+      </div>
+      <div class="tweet-content">【Smashing | AI】Designing With Uncertainty: How AI Supercharges Probabilistic Thinking<br>In a world where AI is informing more design choices, it’s easy to mistake predictions for certainties. This article introduces Probabilistic Desig...</div>
+      <a href="https://smashingmagazine.com/2026/06/designing-uncertainty-how-ai-supercharges-probabilistic-thinking/" class="tweet-link" target="_blank">阅读原文 →</a>
+    </div>
+<div class="tweet-card">
+      <div class="tweet-meta">
+        <span class="tweet-source">36氪</span>
+        <span class="tweet-category">科技</span>
+        <span class="tweet-date">2026-06-22</span>
+      </div>
+      <div class="tweet-content">【36kr | 科技】圆桌论坛：在没人相信之前，乘风破浪的创er | 36氪WAVES2026新浪潮<br>每一个创业者，都有一段“没人相信”的日子。但正是那段日子，把他们推向了浪尖。创业是鲜活的，接下来这一场，我们听一听那些在质疑声中长大的创业者，怎么把“不可能”变成“不，可能”。 以下为圆桌对话内容，经36氪整理编辑: 许嘉婧｜36氪后浪研究所 主理人（主持人） 徐子悦 ｜PhotonPay 光...</div>
+      <a href="https://36kr.com/p/3864054145209602?f=rss" class="tweet-link" target="_blank">阅读原文 →</a>
+    </div>
+<div class="tweet-card">
+      <div class="tweet-meta">
+        <span class="tweet-source">36氪</span>
+        <span class="tweet-category">AI</span>
+        <span class="tweet-date">2026-06-22</span>
+      </div>
+      <div class="tweet-content">【36kr | AI】氪星晚报｜赢创计划全球裁员3200人；台积电28nm较年初减产25%；三星电子向韩国所有员工开放ChatGPT��Codex<br>大公司： 赢创计划全球裁员3200人 赢创近日宣布，将延长“赢创定制”增效计划，涉及赢创全球所有业务及职能部门，拟裁减约3200个岗位，其中德国本土约占2150个。相关措施计划于2027年启动，持续至2029年底。6月22日，赢创确认，德国以外地区将削减1050个职位，中国区包含在内，但具体裁...</div>
+      <a href="https://36kr.com/p/3864065855706120?f=rss" class="tweet-link" target="_blank">阅读原文 →</a>
+    </div>
+<div class="tweet-card">
+      <div class="tweet-meta">
+        <span class="tweet-source">TechCrunch</span>
+        <span class="tweet-category">产品</span>
+        <span class="tweet-date">2026-06-22</span>
+      </div>
+      <div class="tweet-content">【TC报道 | 产品】Microsoft and Chevron plan one of the largest gas-powered data center projects in US<br>Microsoft inked a 20-year power purchase agreement with Chevron, locking in decades of carbon emissions from a new natural gas power plant.</div>
+      <a href="https://techcrunch.com/2026/06/22/microsoft-and-chevron-plan-one-of-the-largest-gas-powered-data-center-projects-in-us/" class="tweet-link" target="_blank">阅读原文 →</a>
+    </div>
+<div class="tweet-card">
+      <div class="tweet-meta">
+        <span class="tweet-source">TechCrunch</span>
+        <span class="tweet-category">AI</span>
+        <span class="tweet-date">2026-06-22</span>
+      </div>
+      <div class="tweet-content">【TC报道 | AI】AI chipmaker Groq confirms $650M raise, re-staffs after Nvidia’s $20B not-acqui-hire deal<br>What does an AI company do after one of those not-acqui-hire deals? Groq raised money, is leaning into its neocloud business, and is hiring new execs.</div>
+      <a href="https://techcrunch.com/2026/06/22/ai-chipmaker-groq-confirms-650m-raise-re-staffs-after-nvidias-20b-not-acqui-hire-deal/" class="tweet-link" target="_blank">阅读原文 →</a>
+    </div>
+<div class="tweet-card">
+      <div class="tweet-meta">
+        <span class="tweet-source">GitHub Blog</span>
+        <span class="tweet-category">编程</span>
+        <span class="tweet-date">2026-06-18</span>
+      </div>
+      <div class="tweet-content">【GitHub Blog | 编程】How pull request limits are cutting down the noise<br>Learn how pull request limits can help manage contribution volume in your repositories, and see what’s next on the roadmap. The post How pull reque...</div>
+      <a href="https://github.blog/open-source/maintainers/how-pull-request-limits-are-cutting-down-the-noise/" class="tweet-link" target="_blank">阅读原文 →</a>
+    </div>
+<div class="tweet-card">
+      <div class="tweet-meta">
+        <span class="tweet-source">GitHub Blog</span>
+        <span class="tweet-category">编程</span>
+        <span class="tweet-date">2026-06-22</span>
+      </div>
+      <div class="tweet-content">【GitHub Blog | 编程】From pledge to practice: Building a more inclusive open source ecosystem<br>Learn about the progress we’ve made toward our accessibility goals and how you can help make open source more inclusive. The post From pledge to pr...</div>
+      <a href="https://github.blog/open-source/from-pledge-to-practice-building-a-more-inclusive-open-source-ecosystem/" class="tweet-link" target="_blank">阅读原文 →</a>
+    </div>
+<div class="tweet-card">
+      <div class="tweet-meta">
+        <span class="tweet-source">Product Hunt</span>
+        <span class="tweet-category">AI</span>
+        <span class="tweet-date">2026-06-22</span>
+      </div>
+      <div class="tweet-content">【PH今日新品 | AI】uwait<br>Get paid while AI thinks Discussion | Link</div>
+      <a href="https://www.producthunt.com/products/uwait" class="tweet-link" target="_blank">阅读原文 →</a>
+    </div>
+<div class="tweet-card">
+      <div class="tweet-meta">
+        <span class="tweet-source">Product Hunt</span>
+        <span class="tweet-category">AI</span>
+        <span class="tweet-date">2026-06-22</span>
+      </div>
+      <div class="tweet-content">【PH今日新品 | AI】AirJelly<br>Your Proactive, Self-Organizing Second Brain Discussion | Link</div>
+      <a href="https://www.producthunt.com/products/airjelly" class="tweet-link" target="_blank">阅读原文 →</a>
+    </div>
+<div class="tweet-card">
+      <div class="tweet-meta">
+        <span class="tweet-source">The Verge</span>
+        <span class="tweet-category">AI</span>
+        <span class="tweet-date">2026-06-22</span>
+      </div>
+      <div class="tweet-content">【The Verge | AI】AI is cursing renters with the promise of impossible homes<br>Joyce, a native New Yorker, didn't think finding her first solo apartment in the city would be easy. But she also didn't think it'd be "hell." Afte...</div>
+      <a href="https://www.theverge.com/report/953888/ai-virtual-staging-real-estate-apartment-listings" class="tweet-link" target="_blank">阅读原文 →</a>
+    </div>
+<div class="tweet-card">
+      <div class="tweet-meta">
+        <span class="tweet-source">The Verge</span>
+        <span class="tweet-category">科技</span>
+        <span class="tweet-date">2026-06-22</span>
+      </div>
+      <div class="tweet-content">【The Verge | 科技】The Apple Watch SE 3 is just $199 for Prime Day<br>The Apple Watch SE 3 is at an all-time low of $199, making the sleeper hit of last year’s Apple Watches an even better value. While the Series 11 a...</div>
+      <a href="https://www.theverge.com/gadgets/953458/apple-watch-se-3-prime-day-deal-sale" class="tweet-link" target="_blank">阅读原文 →</a>
+    </div>
+<div class="tweet-card">
+      <div class="tweet-meta">
+        <span class="tweet-source">Dev.to</span>
+        <span class="tweet-category">AI</span>
+        <span class="tweet-date">2026-06-22</span>
+      </div>
+      <div class="tweet-content">【Dev.to | AI】I built a fully local AI assistant at 16 — no cloud, no API keys, runs on your GPU<br>I'm 16, from Pune, India. For the past couple of years I've been building O-AI — a fully local AI desktop assistant. No cloud. No API keys. No data...</div>
+      <a href="https://dev.to/shriisoot/i-built-a-fully-local-ai-assistant-at-16-no-cloud-no-api-keys-runs-on-your-gpu-am4" class="tweet-link" target="_blank">阅读原文 →</a>
+    </div>
+<div class="tweet-card">
+      <div class="tweet-meta">
+        <span class="tweet-source">Dev.to</span>
+        <span class="tweet-category">AI</span>
+        <span class="tweet-date">2026-06-22</span>
+      </div>
+      <div class="tweet-content">【Dev.to | AI】Securing AI: Codex Operational Bugs, Claude Output Integrity, Copilot Context<br>Securing AI: Codex Operational Bugs, Claude Output Integrity, Copilot Context Today's Highlights This week's top security news highlights critical ...</div>
+      <a href="https://dev.to/soytuber/securing-ai-codex-operational-bugs-claude-output-integrity-copilot-context-3g08" class="tweet-link" target="_blank">阅读原文 →</a>
+    </div>
+  </div>
 
-  <div class="ad-slot" aria-label="Advertisement">广告位预留 - Google AdSense</div>
-
-  <footer class="footer" role="contentinfo">
-    <p data-i18n="footer.slogan">AI进化网站，你进化想法。</p>
-    <p data-i18n="footer.contact">联系邮箱：</p>
-    <p><a href="privacy.html">隐私政策</a> · <a href="about.html">关于我们</a> · <a href="faq.html">常见问题</a></p>
-    <p style="font-size:0.8rem; margin-top:1rem; color:var(--text-muted);" data-i18n="disclaimer">本网站仅供演示和参考，不构成医疗、法律或财务建议。</p>
-  </footer>
-
-  <script src="js/i18n-data.js"></script>
-  <script src="js/i18n.js"></script>
-  <script src="js/mobile-nav.js"></script>
-  <script>
-    // 全局状态
-    let currentLang = localStorage.getItem('lang') || 'zh';
-    let allTweets = [];
-    let displayedCount = 0;
-    const PAGE_SIZE = 10;
-    let currentFilter = 'all';
-    let monthIndex = 0;
-    let availableMonths = [];
-
-    function getDisplayLang(tweet) {
-      if (currentLang === 'zh' && tweet.zh) return 'zh';
-      if (currentLang === 'en' && tweet.en) return 'en';
-      if (tweet.zh) return 'zh';
-      if (tweet.en) return 'en';
-      return 'zh';
-    }
-
-    function renderTweet(tweet) {
-      // 兼容旧格式（单语言）和新格式（双语）
-      let content, isZh, hasTranslation;
-      
-      if (tweet.zh && tweet.zh.title) {
-        // 新格式：双语结构
-        const lang = getDisplayLang(tweet);
-        content = tweet[lang] || tweet.zh;
-        isZh = lang === 'zh';
-        hasTranslation = !!(tweet.zh && tweet.en);
-      } else {
-        // 旧格式：单语言（直接字段）
-        content = { title: tweet.title || '无标题', content: tweet.content || '' };
-        isZh = tweet.lang !== 'en';
-        hasTranslation = false;
-      }
-      
-      const otherLang = isZh ? 'en' : 'zh';
-      
-      const date = tweet.date || (tweet.created && tweet.created.split('T')[0]) || '';
-      const source = tweet.source ? ` · ${tweet.source}` : '';
-      const tag = tweet.category || '';
-      const type = tweet.type || 'short';
-      
-      let translationBtn = '';
-      if (hasTranslation) {
-        const otherLangLabel = isZh ? 'EN' : '中';
-        translationBtn = `<span class="lang-badge" onclick="toggleTweetLang('${tweet.id}', event)">${otherLangLabel}</span>`;
-      }
-      
-      return `
-        <div class="card" data-type="${type}" data-id="${tweet.id}" data-lang="${isZh ? 'zh' : 'en'}">
-          <div class="card-header">
-            <span class="card-title">${content?.title || '无标题'}${translationBtn}</span>
-            <span class="card-meta">${date}${source}</span>
-          </div>
-          <div class="card-body">${content?.content || ''}</div>
-          ${tweet.link ? `<div class="card-body" style="margin-top:0.5rem;"><a href="${tweet.link}" target="_blank" rel="noopener">查看原文 →</a></div>` : ''}
-          ${tag ? `<div class="card-body" style="margin-top:0.5rem;"><span style="color:var(--accent-2); font-size:0.85rem;">${tag}</span></div>` : ''}
-        </div>
-      `;
-    }
-
-    function toggleTweetLang(tweetId, event) {
-      event.preventDefault();
-      event.stopPropagation();
-      
-      const card = document.querySelector(`[data-id="${tweetId}"]`);
-      if (!card) return;
-      
-      const tweet = allTweets.find(t => t.id === tweetId);
-      if (!tweet) return;
-      
-      const currentCardLang = card.getAttribute('data-lang');
-      const newLang = currentCardLang === 'zh' ? 'en' : 'zh';
-      
-      if (!tweet[newLang]) return;
-      
-      const content = tweet[newLang];
-      const isZh = newLang === 'zh';
-      const otherLangLabel = isZh ? 'EN' : '中';
-      
-      card.setAttribute('data-lang', newLang);
-      card.innerHTML = `
-        <div class="card-header">
-          <span class="card-title">${content?.title || '无标题'}<span class="lang-badge" onclick="toggleTweetLang('${tweetId}', event)">${otherLangLabel}</span></span>
-          <span class="card-meta">${tweet.date || ''} · ${tweet.source || ''}</span>
-        </div>
-        <div class="card-body">${content?.content || ''}</div>
-        ${tweet.link ? `<div class="card-body" style="margin-top:0.5rem;"><a href="${tweet.link}" target="_blank" rel="noopener">查看原文 →</a></div>` : ''}
-        ${content?.category ? `<div class="card-body" style="margin-top:0.5rem;"><span style="color:var(--accent-2); font-size:0.85rem;">${content.category}</span></div>` : ''}
-      `;
-    }
-
-    async function loadMore() {
-      const btn = document.getElementById('load-more-btn');
-      btn.disabled = true;
-      btn.textContent = '加载中...';
-      
-      let tweetsToShow = [];
-      
-      if (displayedCount < allTweets.length) {
-        tweetsToShow = allTweets.slice(displayedCount, displayedCount + PAGE_SIZE);
-      } else if (monthIndex < availableMonths.length - 1) {
-        monthIndex++;
-        const monthFile = availableMonths[monthIndex].month;
-        try {
-          const response = await fetch(`data/${monthFile}.json?t=${Date.now()}`);
-          const data = await response.json();
-          const monthTweets = data.tweets || data;
-          allTweets = allTweets.concat(monthTweets);
-          tweetsToShow = monthTweets.slice(0, PAGE_SIZE);
-          
-          const container = document.getElementById('tweets-list');
-          const monthLabel = document.createElement('div');
-          monthLabel.className = 'month-label';
-          monthLabel.textContent = `${monthFile} 归档`;
-          container.appendChild(monthLabel);
-        } catch (e) {
-          console.error('加载月份失败:', e);
-        }
-      }
-      
-      if (tweetsToShow.length > 0) {
-        const container = document.getElementById('tweets-list');
-        const html = tweetsToShow.map(renderTweet).join('');
-        container.insertAdjacentHTML('beforeend', html);
-        displayedCount += tweetsToShow.length;
-      }
-      
-      const hasMore = displayedCount < allTweets.length || monthIndex < availableMonths.length - 1;
-      btn.disabled = false;
-      btn.textContent = hasMore ? '加载更多' : '已加载全部';
-      if (!hasMore) btn.disabled = true;
-      
-      applyFilter(currentFilter);
-    }
-
-    function applyFilter(filter) {
-      const cards = document.querySelectorAll('#tweets-list .card');
-      cards.forEach(card => {
-        const type = card.getAttribute('data-type');
-        const lang = card.getAttribute('data-lang');
-        
-        let visible = false;
-        if (filter === 'all') {
-          visible = true;
-        } else if (filter === 'short' || filter === 'long') {
-          visible = type === filter;
-        } else if (filter === 'zh' || filter === 'en') {
-          visible = lang === filter;
-        }
-        
-        card.style.display = visible ? 'block' : 'none';
-      });
-    }
-
-    async function init() {
-      try {
-        const indexResponse = await fetch('data/index.json?t=' + Date.now());
-        const index = await indexResponse.json();
-        availableMonths = (index.months || []).filter(m => m.month !== 'tweets');
-        
-        if (availableMonths.length === 0) {
-          // 回退：直接加载 tweets.json
-          const response = await fetch('data/tweets.json?t=' + Date.now());
-          const data = await response.json();
-          allTweets = data.tweets || data || [];
-        } else {
-          const latestMonth = availableMonths[0].month;
-          const response = await fetch(`data/${latestMonth}.json?t=${Date.now()}`);
-          const data = await response.json();
-          allTweets = data.tweets || data || [];
-        }
-        
-        const container = document.getElementById('tweets-list');
-        
-        if (allTweets.length === 0) {
-          container.innerHTML = '<div class="empty">暂无推文，RSS Bot 会在每天 21:00 自动更新。</div>';
-          document.getElementById('load-more-btn').style.display = 'none';
-          return;
-        }
-        
-        const initialTweets = allTweets.slice(0, PAGE_SIZE);
-        container.innerHTML = initialTweets.map(renderTweet).join('');
-        displayedCount = initialTweets.length;
-        
-        const btn = document.getElementById('load-more-btn');
-        const hasMore = allTweets.length > PAGE_SIZE || availableMonths.length > 1;
-        btn.textContent = hasMore ? '加载更多' : '已加载全部';
-        if (!hasMore) btn.disabled = true;
-        
-      } catch (err) {
-        console.error('初始化失败:', err);
-        document.getElementById('tweets-list').innerHTML = '<div class="empty">加载失败，请刷新重试</div>';
-        document.getElementById('load-more-btn').style.display = 'none';
-      }
-    }
-
-    document.querySelectorAll('.filter-tab').forEach(tab => {
-      tab.addEventListener('click', () => {
-        document.querySelectorAll('.filter-tab').forEach(t => t.classList.remove('active'));
-        tab.classList.add('active');
-        currentFilter = tab.getAttribute('data-filter');
-        applyFilter(currentFilter);
-      });
-    });
-
-    const originalSetLang = window.setLang || function() {};
-    window.setLang = function(lang) {
-      currentLang = lang;
-      localStorage.setItem('lang', lang);
-      if (originalSetLang) originalSetLang(lang);
-      location.reload();
-    };
-
-    init();
-  </script>
+  <footer class="footer"><p>AI进化网站，你进化想法。</p></footer>
 </body>
 </html>
