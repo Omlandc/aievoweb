@@ -13,6 +13,383 @@
     "weight": 1.5
   },
   {
+    "id": "659da12d",
+    "title": "Getting more from each token: How Copilot improves context handling and model routing",
+    "content": "【GitHub Blog | 编程】Getting more from each token: How Copilot improves context handling and model routing\nHow GitHub Copilot is making more of each session go toward useful work, so your credits go further. The post Getting more from each token: How Cop...",
+    "link": "https://github.blog/ai-and-ml/github-copilot/getting-more-from-each-token-how-copilot-improves-context-handling-and-model-routing/",
+    "source": "GitHub Blog",
+    "category": "编程",
+    "lang": "en",
+    "type": "long",
+    "date": "2026-06-17",
+    "created": "2026-06-23T06:00:01.787428+00:00",
+    "published": false
+  },
+  {
+    "id": "6ee9e470",
+    "title": "苹果计划涨价：欲购 iPhone，必承其贵",
+    "content": "【ifanr | 科技】苹果计划涨价：欲购 iPhone，必承其贵\n这是最好的一代，这是最贵的一代#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+    "link": "https://www.ifanr.com/1669568?utm_source=rss&utm_medium=rss&utm_campaign=",
+    "source": "爱范儿",
+    "category": "科技",
+    "lang": "zh",
+    "type": "short",
+    "date": "2026-06-22",
+    "created": "2026-06-23T06:00:01.787395+00:00",
+    "published": false
+  },
+  {
+    "id": "eb3643d3",
+    "title": "摩托罗拉 Razr Fold 体验：去，把三星的桌子掀了",
+    "content": "【ifanr | 科技】摩托罗拉 Razr Fold 体验：去，把三星的桌子掀了\n┬─┬﻿ ノ( ゜-゜ノ)#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+    "link": "https://www.ifanr.com/1669537?utm_source=rss&utm_medium=rss&utm_campaign=",
+    "source": "爱范儿",
+    "category": "科技",
+    "lang": "zh",
+    "type": "short",
+    "date": "2026-06-22",
+    "created": "2026-06-23T06:00:01.787374+00:00",
+    "published": false
+  },
+  {
+    "id": "778701be",
+    "title": "派早报：英特尔将为苹果代工芯片",
+    "content": "【sspai | AI】派早报：英特尔将为苹果代工芯片\n英特尔将为苹果代工芯片库克称 iPhone 涨价不可避免美国科技公司政策转向，限制员工 AI 成本Modos 推出开源 13.3 寸彩色墨水屏Manus 原投资人计划将其原价购回CMF 已取消今年发布计划看看就行的简讯少数派的近期动态你可能错过的好文章查看全文",
+    "link": "https://sspai.com/post/111343",
+    "source": "少数派",
+    "category": "AI",
+    "lang": "zh",
+    "type": "long",
+    "date": "2026-06-22",
+    "created": "2026-06-23T06:00:01.787350+00:00",
+    "published": false
+  },
+  {
+    "id": "645940e5",
+    "title": "派评 | 近期值得关注的 App",
+    "content": "【sspai | 科技】派评 | 近期值得关注的 App\n>下载少数派2.0客户端、关注少数派公众号，解锁全新阅读体验📰>实用、好用的正版软件，少数派为你呈现🚀查看全文",
+    "link": "https://sspai.com/post/111360",
+    "source": "少数派",
+    "category": "科技",
+    "lang": "zh",
+    "type": "short",
+    "date": "2026-06-22",
+    "created": "2026-06-23T06:00:01.787316+00:00",
+    "published": false
+  },
+  {
+    "id": "0a06d473",
+    "title": "映界科技：一支00后团队的空间智能“赌注” | 水下项目",
+    "content": "【36kr | AI】映界科技：一支00后团队的空间智能“赌注” | 水下项目\n当人形机器人在春晚上扭秧歌，在马拉松赛场上健步如飞，一个尴尬的现实浮出水面：机器人会动、很灵活，但不能干活——前者考验运动控制能力，后者还需要机器人真正理解物理环境，记住物体位置、推理空间关系。 感知瓶颈是今天几乎所有具身智能从业者都无法回避的现实。成立不到三个月的「映界科技」（MirrorS...",
+    "link": "https://36kr.com/p/3864071269569540?f=rss",
+    "source": "36氪",
+    "category": "AI",
+    "lang": "zh",
+    "type": "long",
+    "date": "2026-06-22",
+    "created": "2026-06-23T06:00:01.787284+00:00",
+    "published": false
+  },
+  {
+    "id": "a125908b",
+    "title": "氪星晚报｜赢创计划全球裁员3200人；台积电28nm较年初减产25%；三星电子向韩国所有员工开放ChatGPT和Codex",
+    "content": "【36kr | AI】氪星晚报｜赢创计划全球裁员3200人；台积电28nm较年初减产25%；三星电子向韩国所有员工开放ChatGPT和Codex\n大公司： 赢创计划全球裁员3200人 赢创近日宣布，将延长“赢创定制”增效计划，涉及赢创全球所有业务及职能部门，拟裁减约3200个岗位，其中德国本土约占2150个。相关措施计划于2027年启动，持续至2029年底。6月22日，赢创确认，德国以外地区将削减1050个职位，中国区包含在内，但具体裁...",
+    "link": "https://36kr.com/p/3864065855706120?f=rss",
+    "source": "36氪",
+    "category": "AI",
+    "lang": "zh",
+    "type": "long",
+    "date": "2026-06-22",
+    "created": "2026-06-23T06:00:01.787250+00:00",
+    "published": false
+  },
+  {
+    "id": "c0eb75ba",
+    "title": "Photoroom API",
+    "content": "【PH今日新品 | 编程】Photoroom API\nTransform product images at scale with one image editing API Discussion | Link",
+    "link": "https://www.producthunt.com/products/bg-app",
+    "source": "Product Hunt",
+    "category": "编程",
+    "lang": "en",
+    "type": "short",
+    "date": "2026-06-22",
+    "created": "2026-06-23T06:00:01.787215+00:00",
+    "published": false
+  },
+  {
+    "id": "6be72009",
+    "title": "Selector Forge",
+    "content": "【PH今日新品 | AI】Selector Forge\nBrowser extension for AI-generated resilient selectors Discussion | Link",
+    "link": "https://www.producthunt.com/products/selector-forge",
+    "source": "Product Hunt",
+    "category": "AI",
+    "lang": "en",
+    "type": "short",
+    "date": "2026-06-22",
+    "created": "2026-06-23T06:00:01.787195+00:00",
+    "published": false
+  },
+  {
+    "id": "20110af8",
+    "title": "help i accidentally a wigglegram",
+    "content": "【Lobsters | 科技】help i accidentally a wigglegram\nComments",
+    "link": "https://lmao.center/blog/wiggle-accidents/",
+    "source": "Lobsters",
+    "category": "科技",
+    "lang": "en",
+    "type": "short",
+    "date": "2026-06-22",
+    "created": "2026-06-23T06:00:01.787176+00:00",
+    "published": false
+  },
+  {
+    "id": "0a2c09d1",
+    "title": "Deno Desktop apps",
+    "content": "【Lobsters | 科技】Deno Desktop apps\nComments",
+    "link": "https://docs.deno.com/runtime/desktop/",
+    "source": "Lobsters",
+    "category": "科技",
+    "lang": "en",
+    "type": "short",
+    "date": "2026-06-22",
+    "created": "2026-06-23T06:00:01.787162+00:00",
+    "published": false
+  },
+  {
+    "id": "0b55c962",
+    "title": "Ethan Thornton is trying to do everything all at once",
+    "content": "【TC报道 | 科技】Ethan Thornton is trying to do everything all at once\nMach's approach differs sharply from some of its peers.",
+    "link": "https://techcrunch.com/2026/06/21/ethan-thornton-is-trying-to-do-everything-all-at-once/",
+    "source": "TechCrunch",
+    "category": "科技",
+    "lang": "en",
+    "type": "short",
+    "date": "2026-06-22",
+    "created": "2026-06-23T06:00:01.787148+00:00",
+    "published": false
+  },
+  {
+    "id": "84ac125f",
+    "title": "The AI world is getting ‘loopy’",
+    "content": "【TC报道 | AI】The AI world is getting ‘loopy’\nThe loop takes agentic AI a step further by authorizing a swarm of agents to work continuously in the background, endlessly.",
+    "link": "https://techcrunch.com/2026/06/22/the-ai-world-is-getting-loopy/",
+    "source": "TechCrunch",
+    "category": "AI",
+    "lang": "en",
+    "type": "long",
+    "date": "2026-06-22",
+    "created": "2026-06-23T06:00:01.787130+00:00",
+    "published": false
+  },
+  {
+    "id": "d2f23f06",
+    "title": "Read this before you vibe-code another app",
+    "content": "【The Verge | 编程】Read this before you vibe-code another app\nBob Starr was delighted with his vibe-coded website. \"Boomberg\" showed how much US tax money is going to tech companies, and Starr launched it onli...",
+    "link": "https://www.theverge.com/ai-artificial-intelligence/950844/vibe-coding-security-risks-apps",
+    "source": "The Verge",
+    "category": "编程",
+    "lang": "en",
+    "type": "long",
+    "date": "2026-06-22",
+    "created": "2026-06-23T06:00:01.787103+00:00",
+    "published": false
+  },
+  {
+    "id": "8a547316",
+    "title": "Valve describes just how brutal RAM negotiations are in 2026",
+    "content": "【The Verge | 科技】Valve describes just how brutal RAM negotiations are in 2026\nValve's Steam Machine finally has a price: a whopping $1,049 for the 512GB configuration or $1,349 for the 2TB version. And those are without bundl...",
+    "link": "https://www.theverge.com/games/953945/valve-steam-machine-memory-component-crisis",
+    "source": "The Verge",
+    "category": "科技",
+    "lang": "en",
+    "type": "long",
+    "date": "2026-06-22",
+    "created": "2026-06-23T06:00:01.787072+00:00",
+    "published": false
+  },
+  {
+    "id": "bff85ad6",
+    "title": "AWS EC2 vs ECS for Spring Boot Deployment — When Should You Use Which?",
+    "content": "【Dev.to | 科技】AWS EC2 vs ECS for Spring Boot Deployment — When Should You Use Which?\nBuilding a Spring Boot application is only half the journey. At some point, every backend project reaches the next question: Where should this appl...",
+    "link": "https://dev.to/yadrs/ec2-vs-ecs-for-spring-boot-deployment-when-should-you-use-which-30ld",
+    "source": "Dev.to",
+    "category": "科技",
+    "lang": "en",
+    "type": "long",
+    "date": "2026-06-22",
+    "created": "2026-06-23T06:00:01.787041+00:00",
+    "published": false
+  },
+  {
+    "id": "3dac8d67",
+    "title": "CVE & CVSS Scores: Strategic Integration in Vulnerability Management",
+    "content": "【Dev.to | 科技】CVE & CVSS Scores: Strategic Integration in Vulnerability Management\nRisk-Based Prioritization: The Context Factor Most companies only look at the standard (Base) score of a CVE. However, a real risk model should con...",
+    "link": "https://dev.to/nara_naghi/cve-cvss-scores-strategic-integration-in-vulnerability-management-45eo",
+    "source": "Dev.to",
+    "category": "科技",
+    "lang": "en",
+    "type": "long",
+    "date": "2026-06-22",
+    "created": "2026-06-23T06:00:01.787000+00:00",
+    "published": false
+  },
+  {
+    "id": "d75bd4cd",
+    "title": "How to Handle Errors the Right Way in Flutter: A Practical Guide to Sealed Classes, Records, and ...",
+    "content": "【freeCodeCamp | 科技】How to Handle Errors the Right Way in Flutter: A Practical Guide to Sealed Classes, Records, and ...\nI used to think I was handling errors well in my Flutter apps. I had try/catch blocks everywhere. I was catching exceptions, logging them, and show...",
+    "link": "https://www.freecodecamp.org/news/how-to-handle-errors-the-right-way-in-flutter-a-practical-guide-to-sealed-classes-records-and-result-types/",
+    "source": "freeCodeCamp",
+    "category": "科技",
+    "lang": "en",
+    "type": "long",
+    "date": "2026-06-20",
+    "created": "2026-06-23T06:00:01.786959+00:00",
+    "published": false
+  },
+  {
+    "id": "ee59ee45",
+    "title": "How to Build a Scalable Design System in a Monorepo",
+    "content": "【freeCodeCamp | 科技】How to Build a Scalable Design System in a Monorepo\nWhen you hear \"Scalable Design System with a Monorepo Ecosystem\" it might sound like a bunch of jargon glued together. Let's simplify: Design syste...",
+    "link": "https://www.freecodecamp.org/news/how-to-build-a-scalable-design-system-in-a-monorepo/",
+    "source": "freeCodeCamp",
+    "category": "科技",
+    "lang": "en",
+    "type": "long",
+    "date": "2026-06-22",
+    "created": "2026-06-23T06:00:01.786925+00:00",
+    "published": false
+  },
+  {
+    "id": "4e4abbff",
+    "title": "Trump admin’s coal investments assist plants with repeated violations",
+    "content": "【Ars Technica | 科技】Trump admin’s coal investments assist plants with repeated violations\nAt least three coal plants have been repeatedly cited for violating environmental regulations.",
+    "link": "https://arstechnica.com/science/2026/06/trump-admins-coal-investments-assist-plants-with-repeated-violations/",
+    "source": "Ars Technica",
+    "category": "科技",
+    "lang": "en",
+    "type": "long",
+    "date": "2026-06-21",
+    "created": "2026-06-23T06:00:01.786896+00:00",
+    "published": false
+  },
+  {
+    "id": "b87a4378",
+    "title": "Polymarket's viral videos showed people winning big, but the bets were fake",
+    "content": "【Ars Technica | 科技】Polymarket's viral videos showed people winning big, but the bets were fake\n\"Winning\" bets were made on cloned website and would have lost money, WSJ finds.",
+    "link": "https://arstechnica.com/tech-policy/2026/06/polymarkets-viral-videos-showed-people-winning-big-but-the-bets-were-fake/",
+    "source": "Ars Technica",
+    "category": "科技",
+    "lang": "en",
+    "type": "long",
+    "date": "2026-06-22",
+    "created": "2026-06-23T06:00:01.786869+00:00",
+    "published": false
+  },
+  {
+    "id": "f32c9a02",
+    "title": "Some Electricians Think Building Data Centers Is for Sellouts",
+    "content": "【Wired | 科技】Some Electricians Think Building Data Centers Is for Sellouts\nBig Tech is throwing big money into data center buildouts. As national opposition to the facilities grows, some workers are beginning to question w...",
+    "link": "https://www.wired.com/story/data-center-buildout-electricians-selling-out/",
+    "source": "Wired",
+    "category": "科技",
+    "lang": "en",
+    "type": "long",
+    "date": "2026-06-22",
+    "created": "2026-06-23T06:00:01.786848+00:00",
+    "published": false
+  },
+  {
+    "id": "9802926f",
+    "title": "Meta Pauses Employee-Tracking Program Following Internal Data Leak",
+    "content": "【Wired | 科技】Meta Pauses Employee-Tracking Program Following Internal Data Leak\nThe move comes after the company left potentially sensitive data from the initiative exposed internally.",
+    "link": "https://www.wired.com/story/meta-pauses-employee-tracking-program-following-internal-security-breach/",
+    "source": "Wired",
+    "category": "科技",
+    "lang": "en",
+    "type": "long",
+    "date": "2026-06-22",
+    "created": "2026-06-23T06:00:01.786813+00:00",
+    "published": false
+  },
+  {
+    "id": "5bda8634",
+    "title": "Chinese-style EV battery swap stations are coming to Europe",
+    "content": "【Engadget | 科技】Chinese-style EV battery swap stations are coming to Europe\nOctopus and CATL are pledging to roll out a network of battery swap stations for heavy trucks across Europe.",
+    "link": "https://www.engadget.com/2198629/chinese-style-ev-battery-swap-stations-are-coming-to-europe/",
+    "source": "Engadget",
+    "category": "科技",
+    "lang": "en",
+    "type": "long",
+    "date": "2026-06-22",
+    "created": "2026-06-23T06:00:01.786791+00:00",
+    "published": false
+  },
+  {
+    "id": "c2c16290",
+    "title": "iOS 27 beta 2 is out now, here's what's new",
+    "content": "【Engadget | 产品】iOS 27 beta 2 is out now, here's what's new\nSpoiler: It's more Siri stuff.",
+    "link": "https://www.engadget.com/2199312/ios-27-beta-2-is-out-now-here-s-what-s-new/",
+    "source": "Engadget",
+    "category": "产品",
+    "lang": "en",
+    "type": "short",
+    "date": "2026-06-22",
+    "created": "2026-06-23T06:00:01.786768+00:00",
+    "published": false
+  },
+  {
+    "id": "6bf32440",
+    "title": "Improving health intelligence in ChatGPT",
+    "content": "【OpenAI官方 | AI】Improving health intelligence in ChatGPT\nLearn how GPT-5.5 Instant improves ChatGPT’s health and wellness responses with stronger reasoning, better context, clearer communication, and phys...",
+    "link": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
+    "source": "OpenAI Blog",
+    "category": "AI",
+    "lang": "en",
+    "type": "long",
+    "date": "2026-06-22",
+    "created": "2026-06-23T06:00:01.786746+00:00",
+    "published": false
+  },
+  {
+    "id": "b3af1d8e",
+    "title": "Daybreak: Tools for securing every organization in the world",
+    "content": "【OpenAI官方 | AI】Daybreak: Tools for securing every organization in the world\nOpenAI introduces new Daybreak tools, including Codex Security and GPT-5.5-Cyber, to help organizations find, validate, and patch vulnerabilities a...",
+    "link": "https://openai.com/index/daybreak-securing-the-world",
+    "source": "OpenAI Blog",
+    "category": "AI",
+    "lang": "en",
+    "type": "long",
+    "date": "2026-06-22",
+    "created": "2026-06-23T06:00:01.786709+00:00",
+    "published": false
+  },
+  {
+    "id": "783aaac9",
+    "title": "Electron-Ion Collider's radiofrequency controls system passes first real-world test",
+    "content": "【Phys.org | 科技】Electron-Ion Collider's radiofrequency controls system passes first real-world test\nThe U.S. Department of Energy's (DOE) Brookhaven National Laboratory has reached a key early milestone in developing radiofrequency control systems...",
+    "link": "https://phys.org/news/2026-06-electron-ion-collider-radiofrequency-real.html",
+    "source": "Phys.org",
+    "category": "科技",
+    "lang": "en",
+    "type": "long",
+    "date": "2026-06-22",
+    "created": "2026-06-23T06:00:01.786675+00:00",
+    "published": false
+  },
+  {
+    "id": "360167b6",
+    "title": "Protein-tagging technology maps a hidden communication network between organs",
+    "content": "【Phys.org | 科技】Protein-tagging technology maps a hidden communication network between organs\nThe body's organs are in constant communication. Fat tissue tells the liver when to store or release energy, the immune system signals localized in...",
+    "link": "https://phys.org/news/2026-06-protein-tagging-technology-hidden-communication.html",
+    "source": "Phys.org",
+    "category": "科技",
+    "lang": "en",
+    "type": "long",
+    "date": "2026-06-22",
+    "created": "2026-06-23T06:00:01.786609+00:00",
+    "published": false
+  },
+  {
     "id": "3e7ea743",
     "title": "具透｜Android 17 正式版：大屏体验，先看 Google？",
     "content": "【sspai | 科技】具透｜Android 17 正式版：大屏体验，先看 Google？\n越来越不新鲜了呐我的山景城朋友！查看全文",
@@ -1071,527 +1448,5 @@
     "link": "https://dev.to/toxy4ny/red-team-ai-benchmark-v190-why-we-added-an-ethical-use-policy-to-an-open-source-tool-1gkf",
     "type": "long",
     "created": "2026-06-16T01:08:27.857156+00:00"
-  },
-  {
-    "id": "56f6dd71",
-    "zh": {
-      "title": "Building a Website in 2026: What Matters More Than Your Tech Stack",
-      "content": "【freeCodeCamp】For years, developers have debated which technology stack was best for building websites. Some preferred React. Others chose Vue, Angular, Svelte, or server-side frameworks such as Laravel and Django.\n\n原文：https://www.freecodecamp.org/news/building-a-website-what-matters-more-than-your-tech-stack/\n\n#科技新闻",
-      "category": "#科技新闻"
-    },
-    "en": {
-      "title": "Building a Website in 2026: What Matters More Than Your Tech Stack",
-      "content": "[freeCodeCamp] For years, developers have debated which technology stack was best for building websites. Some preferred React. Others chose Vue, Angular, Svelte, or server-side frameworks such as Laravel and Django.\n\nOriginal: https://www.freecodecamp.org/news/building-a-website-what-matters-more-than-your-tech-stack/\n\n#Tech News",
-      "category": "#Tech News"
-    },
-    "source": "freeCodeCamp",
-    "date": "2026-06-14",
-    "link": "https://www.freecodecamp.org/news/building-a-website-what-matters-more-than-your-tech-stack/",
-    "type": "long",
-    "created": "2026-06-16T01:08:27.857142+00:00"
-  },
-  {
-    "id": "a54968de",
-    "zh": {
-      "title": "How to Run Private Text-to-Speech on Your Own Hardware Using QVAC",
-      "content": "【freeCodeCamp】When I was putting the final touches on QuizRope, an educational mobile app I built that uses LLMs for real-time tutoring and homework assistance, I knew the next logical step was voice. Reading text\n\n原文：https://www.freecodecamp.org/news/how-to-run-private-text-to-speech-on-your-own-hardware-using-qvac/\n\n#科技新闻",
-      "category": "#科技新闻"
-    },
-    "en": {
-      "title": "How to Run Private Text-to-Speech on Your Own Hardware Using QVAC",
-      "content": "[freeCodeCamp] When I was putting the final touches on QuizRope, an educational mobile app I built that uses LLMs for real-time tutoring and homework assistance, I knew the next logical step was voice. Reading text\n\nOriginal: https://www.freecodecamp.org/news/how-to-run-private-text-to-speech-on-your-own-hardware-using-qvac/\n\n#Tech News",
-      "category": "#Tech News"
-    },
-    "source": "freeCodeCamp",
-    "date": "2026-06-14",
-    "link": "https://www.freecodecamp.org/news/how-to-run-private-text-to-speech-on-your-own-hardware-using-qvac/",
-    "type": "long",
-    "created": "2026-06-16T01:08:27.857125+00:00"
-  },
-  {
-    "id": "73100323",
-    "zh": {
-      "title": "Mastra vs LangChain: Building an AI Agent Pipeline and Analyzing the Data",
-      "content": "【freeCodeCamp】A week ago, I saw this tweet: I had just shipped SupportMesh, a multi-tenant AI support platform built on Mastra, so I had opinions from production. I liked the .dowhile() loop, the typed step schem\n\n原文：https://www.freecodecamp.org/news/mastra-vs-langchain-building-an-ai-agent-pipeline-and-analyzing-the-data/\n\n#科技新闻",
-      "category": "#科技新闻"
-    },
-    "en": {
-      "title": "Mastra vs LangChain: Building an AI Agent Pipeline and Analyzing the Data",
-      "content": "[freeCodeCamp] A week ago, I saw this tweet: I had just shipped SupportMesh, a multi-tenant AI support platform built on Mastra, so I had opinions from production. I liked the .dowhile() loop, the typed step schem\n\nOriginal: https://www.freecodecamp.org/news/mastra-vs-langchain-building-an-ai-agent-pipeline-and-analyzing-the-data/\n\n#Tech News",
-      "category": "#Tech News"
-    },
-    "source": "freeCodeCamp",
-    "date": "2026-06-13",
-    "link": "https://www.freecodecamp.org/news/mastra-vs-langchain-building-an-ai-agent-pipeline-and-analyzing-the-data/",
-    "type": "long",
-    "created": "2026-06-16T01:08:27.857107+00:00"
-  },
-  {
-    "id": "fcec6528",
-    "zh": {
-      "title": "Did a medieval flying monk spot Halley's comet, twice? It's complicated",
-      "content": "【Ars Technica】University of Leicester historian thinks Eilmer of Malmesbury saw two different comets: in 1018 and 1066\n\n原文：https://arstechnica.com/science/2026/06/did-a-medieval-flying-monk-spot-halleys-comet-twice-its-complicated/\n\n#科技新闻",
-      "category": "#科技新闻"
-    },
-    "en": {
-      "title": "Did a medieval flying monk spot Halley's comet, twice? It's complicated",
-      "content": "[Ars Technica] University of Leicester historian thinks Eilmer of Malmesbury saw two different comets: in 1018 and 1066\n\nOriginal: https://arstechnica.com/science/2026/06/did-a-medieval-flying-monk-spot-halleys-comet-twice-its-complicated/\n\n#Tech News",
-      "category": "#Tech News"
-    },
-    "source": "Ars Technica",
-    "date": "2026-06-14",
-    "link": "https://arstechnica.com/science/2026/06/did-a-medieval-flying-monk-spot-halleys-comet-twice-its-complicated/",
-    "type": "short",
-    "created": "2026-06-16T01:08:27.857087+00:00"
-  },
-  {
-    "id": "36dbee67",
-    "zh": {
-      "title": "Review: Disclosure Day is big on action, light on ideas",
-      "content": "【Ars Technica】There's nothing new or surprising, but it's still an entertaining film from one of our greatest directors.\n\n原文：https://arstechnica.com/culture/2026/06/review-disclosure-day-is-big-on-action-light-on-ideas/\n\n#科技新闻",
-      "category": "#科技新闻"
-    },
-    "en": {
-      "title": "Review: Disclosure Day is big on action, light on ideas",
-      "content": "[Ars Technica] There's nothing new or surprising, but it's still an entertaining film from one of our greatest directors.\n\nOriginal: https://arstechnica.com/culture/2026/06/review-disclosure-day-is-big-on-action-light-on-ideas/\n\n#Tech News",
-      "category": "#Tech News"
-    },
-    "source": "Ars Technica",
-    "date": "2026-06-13",
-    "link": "https://arstechnica.com/culture/2026/06/review-disclosure-day-is-big-on-action-light-on-ideas/",
-    "type": "short",
-    "created": "2026-06-16T01:08:27.857070+00:00"
-  },
-  {
-    "id": "1eb6783c",
-    "zh": {
-      "title": "Threads of underground fungal networks are long enough to reach beyond the Solar System",
-      "content": "【Ars Technica】Researchers have quantified the length and mass of arbuscular mycorrhizal fungal networks globally.\n\n原文：https://arstechnica.com/science/2026/06/threads-of-underground-fungal-networks-are-long-enough-to-reach-beyond-the-solar-system/\n\n#科技新闻",
-      "category": "#科技新闻"
-    },
-    "en": {
-      "title": "Threads of underground fungal networks are long enough to reach beyond the Solar System",
-      "content": "[Ars Technica] Researchers have quantified the length and mass of arbuscular mycorrhizal fungal networks globally.\n\nOriginal: https://arstechnica.com/science/2026/06/threads-of-underground-fungal-networks-are-long-enough-to-reach-beyond-the-solar-system/\n\n#Tech News",
-      "category": "#Tech News"
-    },
-    "source": "Ars Technica",
-    "date": "2026-06-13",
-    "link": "https://arstechnica.com/science/2026/06/threads-of-underground-fungal-networks-are-long-enough-to-reach-beyond-the-solar-system/",
-    "type": "short",
-    "created": "2026-06-16T01:08:27.857052+00:00"
-  },
-  {
-    "id": "6a3122f8",
-    "zh": {
-      "title": "How Apple Is Making Your Older iPhone Run Faster and Stay Alive Longer",
-      "content": "【Wired】Even the aging iPhone 11 will feel a little more responsive soon, thanks to improvements in an unsung iOS feature.\n\n原文：https://www.wired.com/story/how-apple-is-making-your-older-iphone-run-faster-and-stay-alive-longer/\n\n#科技新闻",
-      "category": "#科技新闻"
-    },
-    "en": {
-      "title": "How Apple Is Making Your Older iPhone Run Faster and Stay Alive Longer",
-      "content": "[Wired] Even the aging iPhone 11 will feel a little more responsive soon, thanks to improvements in an unsung iOS feature.\n\nOriginal: https://www.wired.com/story/how-apple-is-making-your-older-iphone-run-faster-and-stay-alive-longer/\n\n#Tech News",
-      "category": "#Tech News"
-    },
-    "source": "Wired",
-    "date": "2026-06-15",
-    "link": "https://www.wired.com/story/how-apple-is-making-your-older-iphone-run-faster-and-stay-alive-longer/",
-    "type": "short",
-    "created": "2026-06-16T01:08:27.857034+00:00"
-  },
-  {
-    "id": "1afa3dc9",
-    "zh": {
-      "title": "1 in 4 World Cup Matches Could Be Played in Dangerous Temperatures",
-      "content": "【Wired】A new report warns that Miami, Kansas City, Philadelphia, Dallas, and Houston could be particularly hot places to play during the 2026 World Cup.\n\n原文：https://www.wired.com/story/2026-fifa-world-cup-dangerous-temperatures-heat/\n\n#科技新闻",
-      "category": "#科技新闻"
-    },
-    "en": {
-      "title": "1 in 4 World Cup Matches Could Be Played in Dangerous Temperatures",
-      "content": "[Wired] A new report warns that Miami, Kansas City, Philadelphia, Dallas, and Houston could be particularly hot places to play during the 2026 World Cup.\n\nOriginal: https://www.wired.com/story/2026-fifa-world-cup-dangerous-temperatures-heat/\n\n#Tech News",
-      "category": "#Tech News"
-    },
-    "source": "Wired",
-    "date": "2026-06-15",
-    "link": "https://www.wired.com/story/2026-fifa-world-cup-dangerous-temperatures-heat/",
-    "type": "short",
-    "created": "2026-06-16T01:08:27.857017+00:00"
-  },
-  {
-    "id": "500cdfae",
-    "zh": {
-      "title": "A Crypto Scam Targeted a Gay OnlyFans Star. Then His X Feed Was Flooded With ‘MAGA Propaganda’",
-      "content": "【Wired】In recent months hackers have attempted to extort money from porn stars with big followings, in some cases filling their feeds with pro-MAGA and crypto content.\n\n原文：https://www.wired.com/story/a-gay-onlyfans-star-got-hacked-then-his-x-account-started-spewing-maga-propaganda/\n\n#科技新闻",
-      "category": "#科技新闻"
-    },
-    "en": {
-      "title": "A Crypto Scam Targeted a Gay OnlyFans Star. Then His X Feed Was Flooded With ‘MAGA Propaganda’",
-      "content": "[Wired] In recent months hackers have attempted to extort money from porn stars with big followings, in some cases filling their feeds with pro-MAGA and crypto content.\n\nOriginal: https://www.wired.com/story/a-gay-onlyfans-star-got-hacked-then-his-x-account-started-spewing-maga-propaganda/\n\n#Tech News",
-      "category": "#Tech News"
-    },
-    "source": "Wired",
-    "date": "2026-06-15",
-    "link": "https://www.wired.com/story/a-gay-onlyfans-star-got-hacked-then-his-x-account-started-spewing-maga-propaganda/",
-    "type": "long",
-    "created": "2026-06-16T01:08:27.857000+00:00"
-  },
-  {
-    "id": "200e3f72",
-    "zh": {
-      "title": "UK will ban social media for children under 16",
-      "content": "【Engadget】The UK is following Australia by banning young people under 16 from TikTok, Instagram and other social media platforms.\n\n原文：https://www.engadget.com/2194005/uk-will-ban-social-media-for-children-under-16/\n\n#科技新闻",
-      "category": "#科技新闻"
-    },
-    "en": {
-      "title": "UK will ban social media for children under 16",
-      "content": "[Engadget] The UK is following Australia by banning young people under 16 from TikTok, Instagram and other social media platforms.\n\nOriginal: https://www.engadget.com/2194005/uk-will-ban-social-media-for-children-under-16/\n\n#Tech News",
-      "category": "#Tech News"
-    },
-    "source": "Engadget",
-    "date": "2026-06-15",
-    "link": "https://www.engadget.com/2194005/uk-will-ban-social-media-for-children-under-16/",
-    "type": "short",
-    "created": "2026-06-16T01:08:27.856951+00:00"
-  },
-  {
-    "id": "de1683a9",
-    "zh": {
-      "title": "OpenAI推出合作伙伴网络",
-      "content": "【OpenAI Blog】OpenAI launches the Partner Network, investing $150M to help global partners accelerate enterprise AI adoption, deployment, and transformation.\n\n原文：https://openai.com/index/introducing-openai-partner-network\n\n#科技新闻",
-      "category": "#科技新闻"
-    },
-    "en": {
-      "title": "Introducing the OpenAI Partner Network",
-      "content": "[OpenAI Blog] OpenAI launches the Partner Network, investing $150M to help global partners accelerate enterprise AI adoption, deployment, and transformation.\n\nOriginal: https://openai.com/index/introducing-openai-partner-network\n\n#Tech News",
-      "category": "#Tech News"
-    },
-    "source": "OpenAI Blog",
-    "date": "2026-06-15",
-    "link": "https://openai.com/index/introducing-openai-partner-network",
-    "type": "short",
-    "created": "2026-06-16T01:08:27.856935+00:00"
-  },
-  {
-    "id": "f6b3c579",
-    "zh": {
-      "title": "8点1氪｜山姆总部因食品安全问题被约谈；智谱股价暴涨，创上市以来单日成交新高；美伊确认达成协议，国际油价显著下跌",
-      "content": "【36氪】今日热点导览       国内品牌金饰价格普涨    小红书公布世界杯开赛数据    阿里巴巴达摩院退出旗下科技公司    罗马仕接连变更法定代表人    遇见小面创始人向“渝见小面”致歉      TOP3大新闻   针对多发食品安全问题，市场监管总局约谈山姆总部   记者15日了解到，针对一段时期以来监管发现和媒体曝光的山姆线下门店及线上网店多发的食品安全问题，近日，市场监管总局依法对沃尔玛（中国）投资有限公司（即山姆总部）负责人进行了责任约谈，要求其严格按照《中华人民共和国食品安全法...\n\n原文：https://36kr.com/p/3855082873476102?f=rss\n\n#科技新闻",
-      "category": "#科技新闻"
-    },
-    "en": {
-      "title": "8点1氪｜山姆总部因食品安全问题被约谈；智谱股价暴涨，创上市以来单日成交新高；美伊确认达成协议，国际油价显著下跌",
-      "content": "[36氪] 今日热点导览       国内品牌金饰价格普涨    小红书公布世界杯开赛数据    阿里巴巴达摩院退出旗下科技公司    罗马仕接连变更法定代表人    遇见小面创始人向“渝见小面”致歉      TOP3大新闻   针对多发食品安全问题，市场监管总局约谈山姆总部   记者15日了解到，针对一段时期以来监管发现和媒体曝光的山姆线下门店及线上网店多发的食品安全问题，近日，市场监管总局依法对沃尔玛（中国）投资有限公司（即山姆总部）负责人进行了责任约谈，要求其严格按照《中华人民共和国食品安全法...\n\nOriginal: https://36kr.com/p/3855082873476102?f=rss\n\n#Tech News",
-      "category": "#Tech News"
-    },
-    "source": "36氪",
-    "date": "2026-06-16",
-    "link": "https://36kr.com/p/3855082873476102?f=rss",
-    "type": "long",
-    "created": "2026-06-16T01:08:27.856918+00:00"
-  },
-  {
-    "id": "0170cfab",
-    "zh": {
-      "title": "Pocket 4P双摄来了：手机影像之外，大疆正在重做一台“口袋电影机”",
-      "content": "【36氪】在手机影像能力不断逼近专业设备的今天，一个问题变得越来越尖锐：独立影像设备，还有存在的必要吗？   6月15日，大疆正式发布 Osmo Pocket 4P，将这台口袋云台相机推向更专业的创作场景。作为 Pocket 系列的新一代旗舰产品，Pocket 4P 定位为“装进口袋里的电影机”，搭载双摄系统、17级动态范围与 D-Log 2 专业色彩曲线，试图在口袋级设备中进一步容纳专业影像能力。   Pocket 4P 以 3799元起售，多平台预订量持续走高。   对于一个原本被视为“手机影像...\n\n原文：https://36kr.com/p/3854510160549124?f=rss\n\n#科技新闻",
-      "category": "#科技新闻"
-    },
-    "en": {
-      "title": "Pocket 4P双摄来了：手机影像之外，大疆正在重做一台“口袋电影机”",
-      "content": "[36氪] 在手机影像能力不断逼近专业设备的今天，一个问题变得越来越尖锐：独立影像设备，还有存在的必要吗？   6月15日，大疆正式发布 Osmo Pocket 4P，将这台口袋云台相机推向更专业的创作场景。作为 Pocket 系列的新一代旗舰产品，Pocket 4P 定位为“装进口袋里的电影机”，搭载双摄系统、17级动态范围与 D-Log 2 专业色彩曲线，试图在口袋级设备中进一步容纳专业影像能力。   Pocket 4P 以 3799元起售，多平台预订量持续走高。   对于一个原本被视为“手机影像...\n\nOriginal: https://36kr.com/p/3854510160549124?f=rss\n\n#Tech News",
-      "category": "#Tech News"
-    },
-    "source": "36氪",
-    "date": "2026-06-16",
-    "link": "https://36kr.com/p/3854510160549124?f=rss",
-    "type": "long",
-    "created": "2026-06-16T01:08:27.856881+00:00"
-  },
-  {
-    "id": "224f57e2",
-    "zh": {
-      "title": "氪星晚报 ｜我国成功发射吉星高分07C04星等8颗卫星；小红书或已准备好本月在香港提交IPO申请；智谱：公司已推出最新一代旗舰模型GLM-5.2",
-      "content": "【36氪】大公司：   支付宝：政务AI助手“晓政”服务突破1亿次   36氪获悉，支付宝宣布，旗下政务AI助手“晓政”累计服务次数突破1亿次。截至目前，“晓政”服务已覆盖16000项服务事项，成功落地助力70余家部委及省级政务机构，业务场景全面覆盖公积金、人社、公安、不动产等民生领域。   小雨智造与地瓜机器人正式宣布达成战略合作   36氪获悉，6月12日，小雨智造与地瓜机器人正式宣布达成战略合作，双方将围绕“工业具身大脑+端侧大算力”展开深度协同，推动具身智能技术从实验室走向工业产线，共同打造...\n\n原文：https://36kr.com/p/3854486447510535?f=rss\n\n#科技新闻",
-      "category": "#科技新闻"
-    },
-    "en": {
-      "title": "氪星晚报 ｜我国成功发射吉星高分07C04星等8颗卫星；小红书或已准备好本月在香港提交IPO申请；智谱：公司已推出最新一代旗舰模型GLM-5.2",
-      "content": "[36氪] 大公司：   支付宝：政务AI助手“晓政”服务突破1亿次   36氪获悉，支付宝宣布，旗下政务AI助手“晓政”累计服务次数突破1亿次。截至目前，“晓政”服务已覆盖16000项服务事项，成功落地助力70余家部委及省级政务机构，业务场景全面覆盖公积金、人社、公安、不动产等民生领域。   小雨智造与地瓜机器人正式宣布达成战略合作   36氪获悉，6月12日，小雨智造与地瓜机器人正式宣布达成战略合作，双方将围绕“工业具身大脑+端侧大算力”展开深度协同，推动具身智能技术从实验室走向工业产线，共同打造...\n\nOriginal: https://36kr.com/p/3854486447510535?f=rss\n\n#Tech News",
-      "category": "#Tech News"
-    },
-    "source": "36氪",
-    "date": "2026-06-16",
-    "link": "https://36kr.com/p/3854486447510535?f=rss",
-    "type": "long",
-    "created": "2026-06-16T01:08:27.856853+00:00"
-  },
-  {
-    "id": "c040216a",
-    "zh": {
-      "title": "实测鸿蒙 7 开发者 Beta：AI 很强大，小艺很能干",
-      "content": "【爱范儿】手机开始自己干活了？我们在 HDC 2026 现场实测了全新小艺。 只需一句话，小艺就能跨设备取文件、做全能旅游搭子。 戳视频，看小艺自己干活。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。\n\n原文：https://www.ifanr.com/1668998?utm_source=rss&utm_medium=rss&utm_campaign=\n\n#科技新闻",
-      "category": "#科技新闻"
-    },
-    "en": {
-      "title": "实测鸿蒙 7 开发者 Beta：AI 很强大，小艺很能干",
-      "content": "[爱范儿] 手机开始自己干活了？我们在 HDC 2026 现场实测了全新小艺。 只需一句话，小艺就能跨设备取文件、做全能旅游搭子。 戳视频，看小艺自己干活。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。\n\nOriginal: https://www.ifanr.com/1668998?utm_source=rss&utm_medium=rss&utm_campaign=\n\n#Tech News",
-      "category": "#Tech News"
-    },
-    "source": "爱范儿",
-    "date": "2026-06-15",
-    "link": "https://www.ifanr.com/1668998?utm_source=rss&utm_medium=rss&utm_campaign=",
-    "type": "short",
-    "created": "2026-06-16T01:08:27.856812+00:00"
-  },
-  {
-    "id": "d2df2e0e",
-    "zh": {
-      "title": "Sundar Pichai faces boos, walkout at Stanford graduation ceremony over Google’s Israel, ICE ties",
-      "content": "【TechCrunch】AI is once again at the heart of a college graduation protest — this time for the technology's use in Google's defense contracts.\n\n原文：https://techcrunch.com/2026/06/15/sundar-pichai-faces-boos-walkout-at-stanford-graduation-ceremony-over-googles-israel-ice-ties/\n\n#科技新闻",
-      "category": "#科技新闻"
-    },
-    "en": {
-      "title": "Sundar Pichai faces boos, walkout at Stanford graduation ceremony over Google’s Israel, ICE ties",
-      "content": "[TechCrunch] AI is once again at the heart of a college graduation protest — this time for the technology's use in Google's defense contracts.\n\nOriginal: https://techcrunch.com/2026/06/15/sundar-pichai-faces-boos-walkout-at-stanford-graduation-ceremony-over-googles-israel-ice-ties/\n\n#Tech News",
-      "category": "#Tech News"
-    },
-    "source": "TechCrunch",
-    "date": "2026-06-15",
-    "link": "https://techcrunch.com/2026/06/15/sundar-pichai-faces-boos-walkout-at-stanford-graduation-ceremony-over-googles-israel-ice-ties/",
-    "type": "short",
-    "created": "2026-06-16T01:08:27.856787+00:00"
-  },
-  {
-    "id": "a95c1844",
-    "zh": {
-      "title": "The US government’s Anthropic models ban was never about an AI jailbreak",
-      "content": "【TechCrunch】The Trump administration's decision that forced Anthropic to pull its latest cybersecurity models could be reactionary, retaliatory, or both, but the message is clear: The AI industry isn't immune from U.S. government interference.\n\n原文：https://techcrunch.com/2026/06/15/the-us-governments-anthropic-models-ban-was-never-about-an-ai-jailbreak/\n\n#科技新闻",
-      "category": "#科技新闻"
-    },
-    "en": {
-      "title": "The US government’s Anthropic models ban was never about an AI jailbreak",
-      "content": "[TechCrunch] The Trump administration's decision that forced Anthropic to pull its latest cybersecurity models could be reactionary, retaliatory, or both, but the message is clear: The AI industry isn't immune from U.S. government interference.\n\nOriginal: https://techcrunch.com/2026/06/15/the-us-governments-anthropic-models-ban-was-never-about-an-ai-jailbreak/\n\n#Tech News",
-      "category": "#Tech News"
-    },
-    "source": "TechCrunch",
-    "date": "2026-06-15",
-    "link": "https://techcrunch.com/2026/06/15/the-us-governments-anthropic-models-ban-was-never-about-an-ai-jailbreak/",
-    "type": "long",
-    "created": "2026-06-16T01:08:27.856739+00:00"
-  },
-  {
-    "id": "27b8a40c",
-    "zh": {
-      "title": "Meta’s new ‘AI Mode’ on Facebook pulls from public info across its platforms",
-      "content": "【TechCrunch】Meta announced Monday that it's rolling out a wave of new AI features on Facebook, the latest sign of the company's effort to catch up in the AI race and keep users more engaged on the platform.\n\n原文：https://techcrunch.com/2026/06/15/metas-new-ai-mode-on-facebook-pulls-from-public-info-across-its-platforms/\n\n#科技新闻",
-      "category": "#科技新闻"
-    },
-    "en": {
-      "title": "Meta’s new ‘AI Mode’ on Facebook pulls from public info across its platforms",
-      "content": "[TechCrunch] Meta announced Monday that it's rolling out a wave of new AI features on Facebook, the latest sign of the company's effort to catch up in the AI race and keep users more engaged on the platform.\n\nOriginal: https://techcrunch.com/2026/06/15/metas-new-ai-mode-on-facebook-pulls-from-public-info-across-its-platforms/\n\n#Tech News",
-      "category": "#Tech News"
-    },
-    "source": "TechCrunch",
-    "date": "2026-06-15",
-    "link": "https://techcrunch.com/2026/06/15/metas-new-ai-mode-on-facebook-pulls-from-public-info-across-its-platforms/",
-    "type": "long",
-    "created": "2026-06-16T01:08:27.856699+00:00"
-  },
-  {
-    "id": "ff76acc3",
-    "zh": {
-      "title": "GitHub Copilot CLI for Beginners: Overview of common slash commands",
-      "content": "【GitHub Blog】GitHub Copilot CLI for Beginners: Learn how to use slash commands to control your terminal AI agent. The post GitHub Copilot CLI for Beginners: Overview of common slash commands appeared first on The GitHub Blog.\n\n原文：https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-overview-of-common-slash-commands/\n\n#科技新闻",
-      "category": "#科技新闻"
-    },
-    "en": {
-      "title": "GitHub Copilot CLI for Beginners: Overview of common slash commands",
-      "content": "[GitHub Blog] GitHub Copilot CLI for Beginners: Learn how to use slash commands to control your terminal AI agent. The post GitHub Copilot CLI for Beginners: Overview of common slash commands appeared first on The GitHub Blog.\n\nOriginal: https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-overview-of-common-slash-commands/\n\n#Tech News",
-      "category": "#Tech News"
-    },
-    "source": "GitHub Blog",
-    "date": "2026-06-15",
-    "link": "https://github.blog/ai-and-ml/github-copilot/github-copilot-cli-for-beginners-overview-of-common-slash-commands/",
-    "type": "long",
-    "created": "2026-06-16T01:08:27.856658+00:00"
-  },
-  {
-    "id": "70febc2f",
-    "zh": {
-      "title": "Accelerating researchers and developers building multilingual AI with a new open dataset",
-      "content": "【GitHub Blog】A new repository-level dataset, published on GitHub under CC0-1.0, helps researchers and developers discover multilingual developer content across READMEs, issues, and pull requests. The post Accelerating researchers and developers building multil...\n\n原文：https://github.blog/ai-and-ml/llms/accelerating-researchers-and-developers-building-multilingual-ai-with-a-new-open-dataset/\n\n#科技新闻",
-      "category": "#科技新闻"
-    },
-    "en": {
-      "title": "Accelerating researchers and developers building multilingual AI with a new open dataset",
-      "content": "[GitHub Blog] A new repository-level dataset, published on GitHub under CC0-1.0, helps researchers and developers discover multilingual developer content across READMEs, issues, and pull requests. The post Accelerating researchers and developers building multil...\n\nOriginal: https://github.blog/ai-and-ml/llms/accelerating-researchers-and-developers-building-multilingual-ai-with-a-new-open-dataset/\n\n#Tech News",
-      "category": "#Tech News"
-    },
-    "source": "GitHub Blog",
-    "date": "2026-06-15",
-    "link": "https://github.blog/ai-and-ml/llms/accelerating-researchers-and-developers-building-multilingual-ai-with-a-new-open-dataset/",
-    "type": "long",
-    "created": "2026-06-16T01:08:27.856640+00:00"
-  },
-  {
-    "id": "c04adf0a",
-    "zh": {
-      "title": "AutoEdit",
-      "content": "【Product Hunt】Your Claude AI Video Editor for Premiere Pro                                   Discussion             |             Link\n\n原文：https://www.producthunt.com/products/autoedit\n\n#科技新闻",
-      "category": "#科技新闻"
-    },
-    "en": {
-      "title": "AutoEdit",
-      "content": "[Product Hunt] Your Claude AI Video Editor for Premiere Pro                                   Discussion             |             Link\n\nOriginal: https://www.producthunt.com/products/autoedit\n\n#Tech News",
-      "category": "#Tech News"
-    },
-    "source": "Product Hunt",
-    "date": "2026-06-16",
-    "link": "https://www.producthunt.com/products/autoedit",
-    "type": "short",
-    "created": "2026-06-16T01:08:27.856622+00:00"
-  },
-  {
-    "id": "ad21d3ab",
-    "zh": {
-      "title": "Reignat",
-      "content": "【Product Hunt】Privacy-friendly web analytics platform built for makers                                   Discussion             |             Link\n\n原文：https://www.producthunt.com/products/reignat\n\n#科技新闻",
-      "category": "#科技新闻"
-    },
-    "en": {
-      "title": "Reignat",
-      "content": "[Product Hunt] Privacy-friendly web analytics platform built for makers                                   Discussion             |             Link\n\nOriginal: https://www.producthunt.com/products/reignat\n\n#Tech News",
-      "category": "#Tech News"
-    },
-    "source": "Product Hunt",
-    "date": "2026-06-16",
-    "link": "https://www.producthunt.com/products/reignat",
-    "type": "short",
-    "created": "2026-06-16T01:08:27.856606+00:00"
-  },
-  {
-    "id": "4146e130",
-    "zh": {
-      "title": "Kickbacks.ai",
-      "content": "【Product Hunt】Get paid to wait for Claude Code to finish                                   Discussion             |             Link\n\n原文：https://www.producthunt.com/products/kickbacks-ai\n\n#科技新闻",
-      "category": "#科技新闻"
-    },
-    "en": {
-      "title": "Kickbacks.ai",
-      "content": "[Product Hunt] Get paid to wait for Claude Code to finish                                   Discussion             |             Link\n\nOriginal: https://www.producthunt.com/products/kickbacks-ai\n\n#Tech News",
-      "category": "#Tech News"
-    },
-    "source": "Product Hunt",
-    "date": "2026-06-16",
-    "link": "https://www.producthunt.com/products/kickbacks-ai",
-    "type": "short",
-    "created": "2026-06-16T01:08:27.856576+00:00"
-  },
-  {
-    "id": "47ad55d2",
-    "zh": {
-      "title": "What’s !important #13: @function, alpha(), CSS Wordle, and More",
-      "content": "【CSS-Tricks】CSS functions, the alpha() function, Grid Lanes, some things about Dialog that you might not know, CSS Wordle, and more — this is What’s !important right now.  What’s !important #13: @function, alpha(), CSS Wordle, and More originally handwritten ...\n\n原文：https://css-tricks.com/whats-important-13/\n\n#科技新闻",
-      "category": "#科技新闻"
-    },
-    "en": {
-      "title": "What’s !important #13: @function, alpha(), CSS Wordle, and More",
-      "content": "[CSS-Tricks] CSS functions, the alpha() function, Grid Lanes, some things about Dialog that you might not know, CSS Wordle, and more — this is What’s !important right now.  What’s !important #13: @function, alpha(), CSS Wordle, and More originally handwritten ...\n\nOriginal: https://css-tricks.com/whats-important-13/\n\n#Tech News",
-      "category": "#Tech News"
-    },
-    "source": "CSS-Tricks",
-    "date": "2026-06-15",
-    "link": "https://css-tricks.com/whats-important-13/",
-    "type": "long",
-    "created": "2026-06-16T01:08:27.856559+00:00"
-  },
-  {
-    "id": "081d9c42",
-    "zh": {
-      "title": "Facebook’s new AI Mode search gets its info from public posts",
-      "content": "【The Verge】Your public Facebook posts could help inform AI-generated results in Meta's new AI Mode. When you search on Facebook, the \"AI Mode\" option will appear alongside the usual search modes like \"People\" and \"Marketplace.\" It's one of several new AI fea...\n\n原文：https://www.theverge.com/tech/950264/meta-ai-mode-search-facebook\n\n#科技新闻",
-      "category": "#科技新闻"
-    },
-    "en": {
-      "title": "Facebook’s new AI Mode search gets its info from public posts",
-      "content": "[The Verge] Your public Facebook posts could help inform AI-generated results in Meta's new AI Mode. When you search on Facebook, the \"AI Mode\" option will appear alongside the usual search modes like \"People\" and \"Marketplace.\" It's one of several new AI fea...\n\nOriginal: https://www.theverge.com/tech/950264/meta-ai-mode-search-facebook\n\n#Tech News",
-      "category": "#Tech News"
-    },
-    "source": "The Verge",
-    "date": "2026-06-16",
-    "link": "https://www.theverge.com/tech/950264/meta-ai-mode-search-facebook",
-    "type": "long",
-    "created": "2026-06-16T01:08:27.856522+00:00"
-  },
-  {
-    "id": "81c6a9f5",
-    "zh": {
-      "title": "Xbox is closing down Hellblade creator Ninja Theory",
-      "content": "【The Verge】Xbox is closing down Ninja Theory, the studio behind the Hellblade series, a source tells The Verge. Staffers were told on a call on Monday about the closure, but they are hoping the studio will find a buyer. The closure comes as \"several\" Xbox st...\n\n原文：https://www.theverge.com/games/950204/xbox-ninja-theory-shutdown-hellblade-senua\n\n#科技新闻",
-      "category": "#科技新闻"
-    },
-    "en": {
-      "title": "Xbox is closing down Hellblade creator Ninja Theory",
-      "content": "[The Verge] Xbox is closing down Ninja Theory, the studio behind the Hellblade series, a source tells The Verge. Staffers were told on a call on Monday about the closure, but they are hoping the studio will find a buyer. The closure comes as \"several\" Xbox st...\n\nOriginal: https://www.theverge.com/games/950204/xbox-ninja-theory-shutdown-hellblade-senua\n\n#Tech News",
-      "category": "#Tech News"
-    },
-    "source": "The Verge",
-    "date": "2026-06-16",
-    "link": "https://www.theverge.com/games/950204/xbox-ninja-theory-shutdown-hellblade-senua",
-    "type": "long",
-    "created": "2026-06-16T01:08:27.856486+00:00"
-  },
-  {
-    "id": "947dc878",
-    "zh": {
-      "title": "Fox wants to take over your TV — and the tech inside it",
-      "content": "【The Verge】Fox is about to take over the TVs in more than 100 million homes worldwide. On Monday, Fox announced that it's acquiring Roku, the streaming middleman that serves as a portal for viewers to hop into services like Netflix, Disney Plus, Hulu, and mo...\n\n原文：https://www.theverge.com/streaming/950116/fox-roku-takeover\n\n#科技新闻",
-      "category": "#科技新闻"
-    },
-    "en": {
-      "title": "Fox wants to take over your TV — and the tech inside it",
-      "content": "[The Verge] Fox is about to take over the TVs in more than 100 million homes worldwide. On Monday, Fox announced that it's acquiring Roku, the streaming middleman that serves as a portal for viewers to hop into services like Netflix, Disney Plus, Hulu, and mo...\n\nOriginal: https://www.theverge.com/streaming/950116/fox-roku-takeover\n\n#Tech News",
-      "category": "#Tech News"
-    },
-    "source": "The Verge",
-    "date": "2026-06-16",
-    "link": "https://www.theverge.com/streaming/950116/fox-roku-takeover",
-    "type": "long",
-    "created": "2026-06-16T01:08:27.856469+00:00"
-  },
-  {
-    "id": "600225f7",
-    "zh": {
-      "title": "Class, Record and Struct in C#",
-      "content": "【Dev.to】Class, Record, and Struct serve as blueprints for creating new objects.           Classes   Classes are the foundational building blocks of Object-Oriented Programming (OOP).           Blueprint and instance                // blueprint           p...\n\n原文：https://dev.to/mirzaleka/class-record-and-struct-in-c-3lo4\n\n#科技新闻",
-      "category": "#科技新闻"
-    },
-    "en": {
-      "title": "Class, Record and Struct in C#",
-      "content": "[Dev.to] Class, Record, and Struct serve as blueprints for creating new objects.           Classes   Classes are the foundational building blocks of Object-Oriented Programming (OOP).           Blueprint and instance                // blueprint           p...\n\nOriginal: https://dev.to/mirzaleka/class-record-and-struct-in-c-3lo4\n\n#Tech News",
-      "category": "#Tech News"
-    },
-    "source": "Dev.to",
-    "date": "2026-06-16",
-    "link": "https://dev.to/mirzaleka/class-record-and-struct-in-c-3lo4",
-    "type": "long",
-    "created": "2026-06-16T01:08:27.856436+00:00"
-  },
-  {
-    "id": "e3f81409",
-    "zh": {
-      "title": "Runtime Backends: A Deep Dive into qwrap vs Container Isolation Modes",
-      "content": "【Dev.to】In sandbox runtimes, \"isolation\" is the core requirement. qwrap (based on bwrap user namespace) and Container (podman/docker) are two mainstream backends. They solve the same problem — running code in a restricted environment — but take completely...\n\n原文：https://dev.to/eyanpen/runtime-backends-a-deep-dive-into-qwrap-vs-container-isolation-modes-ib4\n\n#科技新闻",
-      "category": "#科技新闻"
-    },
-    "en": {
-      "title": "Runtime Backends: A Deep Dive into qwrap vs Container Isolation Modes",
-      "content": "[Dev.to] In sandbox runtimes, \"isolation\" is the core requirement. qwrap (based on bwrap user namespace) and Container (podman/docker) are two mainstream backends. They solve the same problem — running code in a restricted environment — but take completely...\n\nOriginal: https://dev.to/eyanpen/runtime-backends-a-deep-dive-into-qwrap-vs-container-isolation-modes-ib4\n\n#Tech News",
-      "category": "#Tech News"
-    },
-    "source": "Dev.to",
-    "date": "2026-06-16",
-    "link": "https://dev.to/eyanpen/runtime-backends-a-deep-dive-into-qwrap-vs-container-isolation-modes-ib4",
-    "type": "long",
-    "created": "2026-06-16T01:08:27.856419+00:00"
   }
 ]
