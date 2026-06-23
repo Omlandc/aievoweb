@@ -15,9 +15,24 @@
     "file": "tasks/productivity.html"
   },
   {
+    "task": "writing",
+    "tools": 16,
+    "file": "tasks/writing.html"
+  },
+  {
     "task": "react",
     "tools": 14,
     "file": "tasks/react.html"
+  },
+  {
+    "task": "design",
+    "tools": 12,
+    "file": "tasks/design.html"
+  },
+  {
+    "task": "image",
+    "tools": 10,
+    "file": "tasks/image.html"
   },
   {
     "task": "video",
@@ -25,9 +40,9 @@
     "file": "tasks/video.html"
   },
   {
-    "task": "design",
+    "task": "audio",
     "tools": 10,
-    "file": "tasks/design.html"
+    "file": "tasks/audio.html"
   },
   {
     "task": "api",
@@ -65,6 +80,11 @@
     "file": "tasks/cms.html"
   },
   {
+    "task": "image generation",
+    "tools": 6,
+    "file": "tasks/image-generation.html"
+  },
+  {
     "task": "大模型",
     "tools": 5,
     "file": "tasks/大模型.html"
@@ -78,25 +98,5 @@
     "task": "可视化",
     "tools": 5,
     "file": "tasks/可视化.html"
-  },
-  {
-    "task": "education",
-    "tools": 5,
-    "file": "tasks/education.html"
-  },
-  {
-    "task": "实时通信",
-    "tools": 5,
-    "file": "tasks/实时通信.html"
-  },
-  {
-    "task": "邮件",
-    "tools": 5,
-    "file": "tasks/邮件.html"
-  },
-  {
-    "task": "工作流",
-    "tools": 5,
-    "file": "tasks/工作流.html"
   }
 ]
